@@ -1,0 +1,217 @@
+{
+  "project": "ArCode-Core",
+  "standard": "ArCode-Standard",
+  "version": "1.0",
+  "language": "Arabic-English Hybrid Scientific Dictionary",
+  "description": "Core terminology database for ArCode system",
+
+  "terms": [
+    {
+      "ACS_ID": "ACS-GEN-0001",
+      "AR_TERM": "نظام",
+      "EN_TERM": "System",
+      "DOMAIN": "General",
+      "DEFINITION_AR": "مجموعة عناصر مترابطة تعمل معًا لتحقيق هدف معين.",
+      "DEFINITION_EN": "A set of interacting components forming a whole.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-CS-0001",
+      "AR_TERM": "خوارزمية",
+      "EN_TERM": "Algorithm",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "سلسلة خطوات منظمة لحل مشكلة.",
+      "DEFINITION_EN": "A step-by-step procedure to solve a problem.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-CS-0002",
+      "AR_TERM": "بيانات",
+      "EN_TERM": "Data",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "معلومات خام غير معالجة.",
+      "DEFINITION_EN": "Raw unprocessed facts.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-CS-0003",
+      "AR_TERM": "معلومات",
+      "EN_TERM": "Information",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بيانات تمت معالجتها لتصبح ذات معنى.",
+      "DEFINITION_EN": "Processed data with meaning.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-CS-0004",
+      "AR_TERM": "قاعدة بيانات",
+      "EN_TERM": "Database",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "نظام منظم لتخزين البيانات.",
+      "DEFINITION_EN": "An organized data storage system.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-CS-0005",
+      "AR_TERM": "نظام تشغيل",
+      "EN_TERM": "Operating System",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "برنامج يدير موارد الجهاز.",
+      "DEFINITION_EN": "Software managing hardware resources.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-CS-0006",
+      "AR_TERM": "ذاكرة",
+      "EN_TERM": "Memory",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "مكون لتخزين البيانات مؤقتًا أو دائمًا.",
+      "DEFINITION_EN": "Component for temporary or permanent data storage.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-CS-0007",
+      "AR_TERM": "معالج",
+      "EN_TERM": "Processor",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "وحدة تنفيذ الأوامر في الحاسوب.",
+      "DEFINITION_EN": "Unit that executes instructions.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-AI-0001",
+      "AR_TERM": "ذكاء اصطناعي",
+      "EN_TERM": "Artificial Intelligence",
+      "DOMAIN": "AI",
+      "DEFINITION_AR": "أنظمة تحاكي الذكاء البشري.",
+      "DEFINITION_EN": "Systems simulating human intelligence.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-AI-0002",
+      "AR_TERM": "تعلم آلي",
+      "EN_TERM": "Machine Learning",
+      "DOMAIN": "AI",
+      "DEFINITION_AR": "تعلم الأنظمة من البيانات.",
+      "DEFINITION_EN": "Systems learning from data.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-AI-0003",
+      "AR_TERM": "شبكة عصبية",
+      "EN_TERM": "Neural Network",
+      "DOMAIN": "AI",
+      "DEFINITION_AR": "نموذج مستوحى من الدماغ لمعالجة البيانات.",
+      "DEFINITION_EN": "Brain-inspired computational model.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-NET-0001",
+      "AR_TERM": "شبكة",
+      "EN_TERM": "Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "أجهزة مترابطة لتبادل البيانات.",
+      "DEFINITION_EN": "Interconnected devices for data exchange.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-NET-0002",
+      "AR_TERM": "بروتوكول",
+      "EN_TERM": "Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "قواعد التواصل بين الأنظمة.",
+      "DEFINITION_EN": "Rules for communication between systems.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-NET-0003",
+      "AR_TERM": "عنوان IP",
+      "EN_TERM": "IP Address",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "عنوان فريد لكل جهاز على الشبكة.",
+      "DEFINITION_EN": "Unique address identifying a device on a network.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0001",
+      "AR_TERM": "تشفير",
+      "EN_TERM": "Encryption",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "حماية البيانات عبر تحويلها لصيغة غير مفهومة.",
+      "DEFINITION_EN": "Protecting data by converting it into unreadable form.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0002",
+      "AR_TERM": "اختراق",
+      "EN_TERM": "Hacking",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "الوصول غير المصرح به للأنظمة.",
+      "DEFINITION_EN": "Unauthorized access to systems.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0003",
+      "AR_TERM": "جدار ناري",
+      "EN_TERM": "Firewall",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "نظام يحمي الشبكة من الهجمات.",
+      "DEFINITION_EN": "System that protects networks from attacks.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0001",
+      "AR_TERM": "متغير",
+      "EN_TERM": "Variable",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "رمز يمثل قيمة قابلة للتغيير.",
+      "DEFINITION_EN": "Symbol representing a changing value.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0002",
+      "AR_TERM": "معادلة",
+      "EN_TERM": "Equation",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "مساواة بين تعبيرين رياضيين.",
+      "DEFINITION_EN": "A mathematical equality.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0001",
+      "AR_TERM": "طاقة",
+      "EN_TERM": "Energy",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "القدرة على القيام بشغل.",
+      "DEFINITION_EN": "Ability to perform work.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0002",
+      "AR_TERM": "قوة",
+      "EN_TERM": "Force",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "تأثير يغير حركة الجسم.",
+      "DEFINITION_EN": "Influence that changes motion.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0001",
+      "AR_TERM": "جين",
+      "EN_TERM": "Gene",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "وحدة وراثية تحمل المعلومات.",
+      "DEFINITION_EN": "Unit of heredity carrying information.",
+      "STATUS": "Approved"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0002",
+      "AR_TERM": "DNA",
+      "EN_TERM": "DNA",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "المادة الوراثية للكائنات الحية.",
+      "DEFINITION_EN": "Genetic material of living organisms.",
+      "STATUS": "Approved"
+    }
+  ]
+}
