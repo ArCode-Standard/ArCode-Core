@@ -1,0 +1,28 @@
+{
+  "standard_name": "ArCode-Standard",
+  "version": "1.0",
+  "status": "Foundation Stage",
+
+  "core_principles": [
+    "كل مصطلح يجب أن يكون ثنائي اللغة (AR + EN)",
+    "كل مصطلح يجب أن ينتمي إلى Domain واحد فقط",
+    "كل مصطلح يجب أن يحمل تعريف واضح وغير غامض",
+    "كل ID يجب أن يكون فريد وغير قابل للتكرار",
+    "المعيار يجب أن يبقى مستقلاً عن أي لغة برمجة"
+  ],
+
+  "term_required_fields": [
+    "ACS_ID",
+    "AR_TERM",
+    "EN_TERM",
+    "DOMAIN",
+    "DEFINITION_AR",
+    "DEFINITION_EN"
+  ],
+
+  "allowed_status_values": [
+    "Draft",
+    "Approved",
+    "Deprecated"
+  ]
+}
