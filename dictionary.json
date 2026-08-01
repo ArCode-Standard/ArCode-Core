@@ -1,7 +1,7 @@
 {
   "project": "ArCode-Core",
   "standard": "ArCode-Standard",
-  "version": "1.5",
+  "version": "1.6",
   "language": "Arabic-English Hybrid Scientific Dictionary",
   "description": "Core terminology database for ArCode system",
   "terms": [
@@ -4754,6 +4754,1306 @@
       "DEFINITION_EN": "A unique identifier embedded in a network interface card.",
       "STATUS": "Draft",
       "SOURCE": "IEEE 802.1"
+    },
+    {
+      "ACS_ID": "ACS-NET-0021",
+      "AR_TERM": "بروتوكول الإنترنت",
+      "EN_TERM": "Internet Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول يحدد عنونة وتوجيه الحزم في الشبكة.",
+      "DEFINITION_EN": "A protocol defining addressing and routing of packets in a network.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0022",
+      "AR_TERM": "بروتوكول التحكم بالنقل",
+      "EN_TERM": "Transmission Control Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول نقل موثوق يضمن تسليم البيانات بالترتيب.",
+      "DEFINITION_EN": "A reliable transport protocol ensuring ordered data delivery.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 793"
+    },
+    {
+      "ACS_ID": "ACS-NET-0023",
+      "AR_TERM": "بروتوكول بيانات المستخدم",
+      "EN_TERM": "User Datagram Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول نقل غير موثوق وسريع دون جلسة.",
+      "DEFINITION_EN": "A fast, connectionless, unreliable transport protocol.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 768"
+    },
+    {
+      "ACS_ID": "ACS-NET-0024",
+      "AR_TERM": "بروتوكول نقل النص الفائق",
+      "EN_TERM": "Hypertext Transfer Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول تبادل صفحات الويب بين الخادم والعميل.",
+      "DEFINITION_EN": "A protocol for exchanging web pages between server and client.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 9110"
+    },
+    {
+      "ACS_ID": "ACS-NET-0025",
+      "AR_TERM": "بروتوكول نقل النص الفائق الآمن",
+      "EN_TERM": "Hypertext Transfer Protocol Secure",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "نسخة مشفرة من بروتوكول نقل النص الفائق.",
+      "DEFINITION_EN": "An encrypted version of the Hypertext Transfer Protocol.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 2818"
+    },
+    {
+      "ACS_ID": "ACS-NET-0026",
+      "AR_TERM": "بروتوكول نقل الملفات",
+      "EN_TERM": "File Transfer Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول لنقل الملفات بين الأجهزة.",
+      "DEFINITION_EN": "A protocol for transferring files between devices.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 959"
+    },
+    {
+      "ACS_ID": "ACS-NET-0027",
+      "AR_TERM": "بروتوكول إرسال البريد البسيط",
+      "EN_TERM": "Simple Mail Transfer Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول لإرسال رسائل البريد الإلكتروني.",
+      "DEFINITION_EN": "A protocol for sending email messages.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 5321"
+    },
+    {
+      "ACS_ID": "ACS-NET-0028",
+      "AR_TERM": "بروتوكول مكتب البريد",
+      "EN_TERM": "Post Office Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول لاستلام البريد من الخادم.",
+      "DEFINITION_EN": "A protocol for retrieving mail from a server.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1939"
+    },
+    {
+      "ACS_ID": "ACS-NET-0029",
+      "AR_TERM": "بروتوكول الوصول إلى رسائل الإنترنت",
+      "EN_TERM": "Internet Message Access Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول لإدارة البريد مباشرة على الخادم.",
+      "DEFINITION_EN": "A protocol for managing mail directly on the server.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 9051"
+    },
+    {
+      "ACS_ID": "ACS-NET-0030",
+      "AR_TERM": "بروتوكول الإعداد الديناميكي للمضيف",
+      "EN_TERM": "Dynamic Host Configuration Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول يوزع العناوين تلقائيًا على الأجهزة.",
+      "DEFINITION_EN": "A protocol that automatically assigns addresses to devices.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 2131"
+    },
+    {
+      "ACS_ID": "ACS-NET-0031",
+      "AR_TERM": "بروتوكول تحليل العناوين",
+      "EN_TERM": "Address Resolution Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول يربط العناوين الشبكية بالعناوين الفيزيائية.",
+      "DEFINITION_EN": "A protocol mapping network addresses to physical addresses.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 826"
+    },
+    {
+      "ACS_ID": "ACS-NET-0032",
+      "AR_TERM": "بروتوكول رسائل التحكم في الإنترنت",
+      "EN_TERM": "Internet Control Message Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول للإبلاغ عن الأخطاء وفحص الاتصال.",
+      "DEFINITION_EN": "A protocol for error reporting and connectivity testing.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 792"
+    },
+    {
+      "ACS_ID": "ACS-NET-0033",
+      "AR_TERM": "بروتوكول الإنترنت الإصدار السادس",
+      "EN_TERM": "Internet Protocol version 6",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الجيل الجديد من بروتوكول الإنترنت بعناوين أوسع.",
+      "DEFINITION_EN": "The newer Internet Protocol generation with larger addresses.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 8200"
+    },
+    {
+      "ACS_ID": "ACS-NET-0034",
+      "AR_TERM": "شبكة فرعية",
+      "EN_TERM": "Subnet",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تقسيم منطقي لشبكة أكبر لأغراض الإدارة.",
+      "DEFINITION_EN": "A logical subdivision of a larger network for management.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0035",
+      "AR_TERM": "قناع الشبكة الفرعية",
+      "EN_TERM": "Subnet Mask",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "قيمة تحدد الجزء الشبكي من العنوان.",
+      "DEFINITION_EN": "A value identifying the network portion of an address.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0036",
+      "AR_TERM": "توجيه بين النطاقات بدون فئات",
+      "EN_TERM": "Classless Inter-Domain Routing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "طريقة مرنة لتقسيم العناوين والتوجيه.",
+      "DEFINITION_EN": "A flexible addressing and routing method.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4632"
+    },
+    {
+      "ACS_ID": "ACS-NET-0037",
+      "AR_TERM": "بوابة",
+      "EN_TERM": "Gateway",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يربط شبكتين ببروتوكولات مختلفة.",
+      "DEFINITION_EN": "A device connecting two networks with different protocols.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0038",
+      "AR_TERM": "جدار حماية",
+      "EN_TERM": "Firewall",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "نظام يتحكم في حركة المرور بين الشبكات.",
+      "DEFINITION_EN": "A system controlling traffic between networks.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0039",
+      "AR_TERM": "نفق",
+      "EN_TERM": "Tunnel",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مسار مغلف ينقل البيانات عبر شبكة أخرى.",
+      "DEFINITION_EN": "An encapsulated path carrying data across another network.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0040",
+      "AR_TERM": "شبكة خاصة افتراضية",
+      "EN_TERM": "Virtual Private Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "اتصال آمن عبر شبكة عامة.",
+      "DEFINITION_EN": "A secure connection over a public network.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0041",
+      "AR_TERM": "تشفير",
+      "EN_TERM": "Encryption",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تحويل البيانات إلى شكل غير مقروء.",
+      "DEFINITION_EN": "Converting data into an unreadable form.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-NET-0042",
+      "AR_TERM": "مفتاح",
+      "EN_TERM": "Key",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "قيمة تستخدم لتشفير وفك تشفير البيانات.",
+      "DEFINITION_EN": "A value used to encrypt and decrypt data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-NET-0043",
+      "AR_TERM": "شهادة",
+      "EN_TERM": "Certificate",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "وثيقة رقمية تتحقق من هوية الطرف.",
+      "DEFINITION_EN": "A digital document verifying an entity's identity.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 5280"
+    },
+    {
+      "ACS_ID": "ACS-NET-0044",
+      "AR_TERM": "مصافحة",
+      "EN_TERM": "Handshake",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تبادل أولي للإشارات لبدء الاتصال.",
+      "DEFINITION_EN": "An initial exchange of signals to start a connection.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0045",
+      "AR_TERM": "طبقة النقل",
+      "EN_TERM": "Transport Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الطبقة المسؤولة عن نقل البيانات بين المضيفين.",
+      "DEFINITION_EN": "The layer responsible for data transport between hosts.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0046",
+      "AR_TERM": "طبقة الشبكة",
+      "EN_TERM": "Network Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الطبقة المسؤولة عن التوجيه والعنونة.",
+      "DEFINITION_EN": "The layer responsible for routing and addressing.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0047",
+      "AR_TERM": "طبقة ارتباط البيانات",
+      "EN_TERM": "Data Link Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الطبقة المسؤولة عن نقل الإطارات بين العقد المجاورة.",
+      "DEFINITION_EN": "The layer responsible for frame transfer between adjacent nodes.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0048",
+      "AR_TERM": "طبقة التطبيق",
+      "EN_TERM": "Application Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الطبقة الأعلى التي تخدم التطبيقات.",
+      "DEFINITION_EN": "The topmost layer serving applications.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0049",
+      "AR_TERM": "الطبقة المادية",
+      "EN_TERM": "Physical Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الطبقة المسؤولة عن نقل البتات عبر الوسط.",
+      "DEFINITION_EN": "The layer responsible for transmitting bits over the medium.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0050",
+      "AR_TERM": "طبقة الجلسة",
+      "EN_TERM": "Session Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الطبقة المسؤولة عن إدارة الجلسات.",
+      "DEFINITION_EN": "The layer responsible for managing sessions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0051",
+      "AR_TERM": "طبقة العرض",
+      "EN_TERM": "Presentation Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الطبقة المسؤولة عن تمثيل البيانات.",
+      "DEFINITION_EN": "The layer responsible for data representation.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0052",
+      "AR_TERM": "إطار",
+      "EN_TERM": "Frame",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "وحدة بيانات مغلفة على طبقة الارتباط.",
+      "DEFINITION_EN": "An encapsulated data unit at the link layer.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0053",
+      "AR_TERM": "حمولة",
+      "EN_TERM": "Payload",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "البيانات الفعلية داخل حزمة أو إطار.",
+      "DEFINITION_EN": "The actual data carried inside a packet or frame.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0054",
+      "AR_TERM": "ترويسة",
+      "EN_TERM": "Header",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جزء يسبق الحمولة ويحمل معلومات التحكم.",
+      "DEFINITION_EN": "The part preceding the payload carrying control information.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0055",
+      "AR_TERM": "إرسال أحادي",
+      "EN_TERM": "Unicast",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "إرسال البيانات إلى وجهة واحدة.",
+      "DEFINITION_EN": "Sending data to a single destination.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0056",
+      "AR_TERM": "إرسال متعدد",
+      "EN_TERM": "Multicast",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "إرسال البيانات إلى مجموعة من الوجهات.",
+      "DEFINITION_EN": "Sending data to a group of destinations.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0057",
+      "AR_TERM": "إرسال شامل",
+      "EN_TERM": "Broadcast",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "إرسال البيانات إلى جميع الأجهزة في الشبكة.",
+      "DEFINITION_EN": "Sending data to all devices on a network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0058",
+      "AR_TERM": "عنوان الاسترجاع",
+      "EN_TERM": "Loopback Address",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "عنوان يوجه الحزم إلى الجهاز نفسه.",
+      "DEFINITION_EN": "An address that directs packets back to the device itself.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1122"
+    },
+    {
+      "ACS_ID": "ACS-NET-0059",
+      "AR_TERM": "بطاقة واجهة الشبكة",
+      "EN_TERM": "Network Interface Card",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مكوّن يربط الجهاز بالشبكة.",
+      "DEFINITION_EN": "A component connecting a device to a network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0060",
+      "AR_TERM": "محور",
+      "EN_TERM": "Hub",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يكرر الإشارة إلى جميع المنافذ.",
+      "DEFINITION_EN": "A device repeating the signal to all ports.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0061",
+      "AR_TERM": "مكرر",
+      "EN_TERM": "Repeater",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يعيد توليد الإشارة لتقوية الإرسال.",
+      "DEFINITION_EN": "A device regenerating a signal to boost transmission.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0062",
+      "AR_TERM": "مودم",
+      "EN_TERM": "Modem",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يحول الإشارات بين التناظري والرقمي.",
+      "DEFINITION_EN": "A device converting between analog and digital signals.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0063",
+      "AR_TERM": "خادم",
+      "EN_TERM": "Server",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز أو برنامج يقدم خدمات للعملاء.",
+      "DEFINITION_EN": "A device or program providing services to clients.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0064",
+      "AR_TERM": "عميل",
+      "EN_TERM": "Client",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز أو برنامج يطلب خدمات من الخادم.",
+      "DEFINITION_EN": "A device or program requesting services from a server.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0065",
+      "AR_TERM": "خادم وكيل",
+      "EN_TERM": "Proxy Server",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "خادم وسيط ينقل الطلبات بين العميل والخادم.",
+      "DEFINITION_EN": "An intermediary server relaying requests between client and server.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 9110"
+    },
+    {
+      "ACS_ID": "ACS-NET-0066",
+      "AR_TERM": "موازن الأحمال",
+      "EN_TERM": "Load Balancer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يوزع الطلبات على خوادم متعددة.",
+      "DEFINITION_EN": "A device distributing requests across multiple servers.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0067",
+      "AR_TERM": "شبكة منطقة العاصمة",
+      "EN_TERM": "Metropolitan Area Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "شبكة تغطي مدينة أو منطقة حضرية.",
+      "DEFINITION_EN": "A network covering a city or metropolitan area.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0068",
+      "AR_TERM": "شبكة شخصية",
+      "EN_TERM": "Personal Area Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "شبكة صغيرة تربط الأجهزة الشخصية القريبة.",
+      "DEFINITION_EN": "A small network connecting nearby personal devices.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0069",
+      "AR_TERM": "شبكة افتراضية محلية",
+      "EN_TERM": "Virtual Local Area Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تقسيم منطقي لشبكة محلية.",
+      "DEFINITION_EN": "A logical partition of a local area network.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.1Q"
+    },
+    {
+      "ACS_ID": "ACS-NET-0070",
+      "AR_TERM": "تقنية الإيثرنت",
+      "EN_TERM": "Ethernet",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تقنية قياسية لشبكات الاتصال المحلية.",
+      "DEFINITION_EN": "A standard technology for local area networks.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.3"
+    },
+    {
+      "ACS_ID": "ACS-NET-0071",
+      "AR_TERM": "بروتوكول الشجرة الممتدة",
+      "EN_TERM": "Spanning Tree Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول يمنع الحلقات في الشبكات المحولة.",
+      "DEFINITION_EN": "A protocol preventing loops in switched networks.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.1D"
+    },
+    {
+      "ACS_ID": "ACS-NET-0072",
+      "AR_TERM": "تجميع الروابط",
+      "EN_TERM": "Link Aggregation",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "دمج عدة روابط لزيادة السعة والتوافر.",
+      "DEFINITION_EN": "Combining multiple links to increase capacity and availability.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.1AX"
+    },
+    {
+      "ACS_ID": "ACS-NET-0073",
+      "AR_TERM": "جودة الخدمة",
+      "EN_TERM": "Quality of Service",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "آليات لضمان مستوى خدمة محدد.",
+      "DEFINITION_EN": "Mechanisms ensuring a specified level of service.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 2474"
+    },
+    {
+      "ACS_ID": "ACS-NET-0074",
+      "AR_TERM": "إنتاجية",
+      "EN_TERM": "Throughput",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "كمية البيانات المنقولة في وحدة الزمن.",
+      "DEFINITION_EN": "The amount of data transferred per unit of time.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0075",
+      "AR_TERM": "تذبذب",
+      "EN_TERM": "Jitter",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "اختلاف زمن الوصول بين الحزم.",
+      "DEFINITION_EN": "Variation in packet arrival time.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0076",
+      "AR_TERM": "فقدان الحزم",
+      "EN_TERM": "Packet Loss",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "فشل وصول بعض الحزم إلى الوجهة.",
+      "DEFINITION_EN": "Failure of some packets to reach their destination.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0077",
+      "AR_TERM": "وحدة الإرسال القصوى",
+      "EN_TERM": "Maximum Transmission Unit",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "أكبر حجم للحزمة يمكن إرسالها.",
+      "DEFINITION_EN": "The largest packet size that can be transmitted.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0078",
+      "AR_TERM": "مدة البقاء",
+      "EN_TERM": "Time to Live",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "قيمة تحد من عدد القفزات للحزمة.",
+      "DEFINITION_EN": "A value limiting the number of hops for a packet.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0079",
+      "AR_TERM": "ازدحام",
+      "EN_TERM": "Congestion",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تراكم الحزم بما يتجاوز قدرة الشبكة.",
+      "DEFINITION_EN": "A buildup of packets exceeding network capacity.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0080",
+      "AR_TERM": "التحكم بالتدفق",
+      "EN_TERM": "Flow Control",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "آليات تنظم معدل إرسال البيانات.",
+      "DEFINITION_EN": "Mechanisms regulating the rate of data transmission.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 793"
+    },
+    {
+      "ACS_ID": "ACS-NET-0081",
+      "AR_TERM": "التحكم بالازدحام",
+      "EN_TERM": "Congestion Control",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "آليات تمنع إغراق الشبكة بالحزم.",
+      "DEFINITION_EN": "Mechanisms preventing overloading the network with packets.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 793"
+    },
+    {
+      "ACS_ID": "ACS-NET-0082",
+      "AR_TERM": "ازدواج كامل",
+      "EN_TERM": "Full Duplex",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "إرسال واستقبال متزامن في الاتجاهين.",
+      "DEFINITION_EN": "Simultaneous transmission and reception in both directions.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.3"
+    },
+    {
+      "ACS_ID": "ACS-NET-0083",
+      "AR_TERM": "ازدواج نصف",
+      "EN_TERM": "Half Duplex",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تبادل الإرسال والاستقبال بالتناوب.",
+      "DEFINITION_EN": "Transmission and reception alternating in time.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.3"
+    },
+    {
+      "ACS_ID": "ACS-NET-0084",
+      "AR_TERM": "توجيه ثابت",
+      "EN_TERM": "Static Routing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "توجيه يتم ضبطه يدويًا.",
+      "DEFINITION_EN": "Routing configured manually.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0085",
+      "AR_TERM": "توجيه ديناميكي",
+      "EN_TERM": "Dynamic Routing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "توجيه يتم تحديثه تلقائيًا بين الموجّهات.",
+      "DEFINITION_EN": "Routing updated automatically between routers.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0086",
+      "AR_TERM": "جدول التوجيه",
+      "EN_TERM": "Routing Table",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جدول يحدد مسارات الحزم.",
+      "DEFINITION_EN": "A table determining packet paths.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0087",
+      "AR_TERM": "بروتوكول التوجيه",
+      "EN_TERM": "Routing Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول يتبادل معلومات المسارات.",
+      "DEFINITION_EN": "A protocol exchanging route information.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0088",
+      "AR_TERM": "قفزة",
+      "EN_TERM": "Hop",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "عبور الحزمة عبر موجه واحد.",
+      "DEFINITION_EN": "A packet passing through one router.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0089",
+      "AR_TERM": "عدد القفزات",
+      "EN_TERM": "Hop Count",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "عدد الموجّهات التي تعبرها الحزمة.",
+      "DEFINITION_EN": "The number of routers a packet traverses.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0090",
+      "AR_TERM": "بروتوكول التوجيه بين البوابات",
+      "EN_TERM": "Border Gateway Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول توجيه بين الأنظمة المستقلة.",
+      "DEFINITION_EN": "A routing protocol between autonomous systems.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4271"
+    },
+    {
+      "ACS_ID": "ACS-NET-0091",
+      "AR_TERM": "فتح أقصر مسار أولاً",
+      "EN_TERM": "Open Shortest Path First",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول توجيه يعتمد حالة الروابط.",
+      "DEFINITION_EN": "A link-state routing protocol.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 2328"
+    },
+    {
+      "ACS_ID": "ACS-NET-0092",
+      "AR_TERM": "نظام مستقل",
+      "EN_TERM": "Autonomous System",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مجموعة شبكات تحت إدارة واحدة.",
+      "DEFINITION_EN": "A group of networks under a single administration.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4271"
+    },
+    {
+      "ACS_ID": "ACS-NET-0093",
+      "AR_TERM": "حالة الرابط",
+      "EN_TERM": "Link State",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "معلومات عن حالة الروابط في الشبكة.",
+      "DEFINITION_EN": "Information about the state of links in a network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0094",
+      "AR_TERM": "متجه المسافة",
+      "EN_TERM": "Distance Vector",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "طريقة توجيه تعتمد المسافة والاتجاه.",
+      "DEFINITION_EN": "A routing method based on distance and direction.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0095",
+      "AR_TERM": "بروتوكول الإنترنت للإصدار الرابع",
+      "EN_TERM": "Internet Protocol version 4",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الإصدار الشائع من بروتوكول الإنترنت.",
+      "DEFINITION_EN": "The common version of the Internet Protocol.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0096",
+      "AR_TERM": "نظام أسماء النطاقات",
+      "EN_TERM": "Domain Name System",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "نظام يحوّل الأسماء إلى عناوين.",
+      "DEFINITION_EN": "A system converting names to addresses.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1035"
+    },
+    {
+      "ACS_ID": "ACS-NET-0097",
+      "AR_TERM": "خادم الأسماء",
+      "EN_TERM": "Name Server",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "خادم يستجيب لاستعلامات الأسماء.",
+      "DEFINITION_EN": "A server responding to name queries.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1035"
+    },
+    {
+      "ACS_ID": "ACS-NET-0098",
+      "AR_TERM": "استعلام النظام",
+      "EN_TERM": "Query",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "طلب بحث يُرسل إلى خادم الأسماء.",
+      "DEFINITION_EN": "A lookup request sent to a name server.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1035"
+    },
+    {
+      "ACS_ID": "ACS-NET-0099",
+      "AR_TERM": "سجل المورد",
+      "EN_TERM": "Resource Record",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "وحدة بيانات في نظام أسماء النطاقات.",
+      "DEFINITION_EN": "A data unit in the Domain Name System.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1035"
+    },
+    {
+      "ACS_ID": "ACS-NET-0100",
+      "AR_TERM": "مضيف",
+      "EN_TERM": "Host",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز على الشبكة له عنوان.",
+      "DEFINITION_EN": "A device on a network with an address.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0101",
+      "AR_TERM": "عقدة",
+      "EN_TERM": "Node",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "نقطة اتصال ضمن الشبكة.",
+      "DEFINITION_EN": "A connection point within a network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0102",
+      "AR_TERM": "طوبولوجيا",
+      "EN_TERM": "Topology",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "ترتيب اتصال العقد في الشبكة.",
+      "DEFINITION_EN": "The arrangement of node connections in a network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0103",
+      "AR_TERM": "طوبولوجيا النجمة",
+      "EN_TERM": "Star Topology",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "ترتيب تتركز فيه الوصلات في نقطة مركزية.",
+      "DEFINITION_EN": "An arrangement centralizing connections at a hub.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0104",
+      "AR_TERM": "طوبولوجيا الحلقة",
+      "EN_TERM": "Ring Topology",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "ترتيب تشكل فيه العقد حلقة مغلقة.",
+      "DEFINITION_EN": "An arrangement forming a closed loop of nodes.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0105",
+      "AR_TERM": "طوبولوجيا الحافلة",
+      "EN_TERM": "Bus Topology",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "ترتيب تتصل فيه جميع العقد بخط واحد.",
+      "DEFINITION_EN": "An arrangement connecting all nodes to a single line.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0106",
+      "AR_TERM": "طوبولوجيا الشبكية",
+      "EN_TERM": "Mesh Topology",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "ترتيب تتصل فيه العقد ببعضها بطرق متعددة.",
+      "DEFINITION_EN": "An arrangement connecting nodes via multiple paths.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0107",
+      "AR_TERM": "طوبولوجيا الشجرة",
+      "EN_TERM": "Tree Topology",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "ترتيب هرمي يجمع بين طوبولوجيات أخرى.",
+      "DEFINITION_EN": "A hierarchical arrangement combining other topologies.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0108",
+      "AR_TERM": "كابل ألياف بصرية",
+      "EN_TERM": "Fiber Optic Cable",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "وسط نقل ينقل البيانات بالضوء.",
+      "DEFINITION_EN": "A transmission medium carrying data by light.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0109",
+      "AR_TERM": "كابل محوري",
+      "EN_TERM": "Coaxial Cable",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "كابل ذو نواة نحاسية وطبقة عزل.",
+      "DEFINITION_EN": "A cable with a copper core and insulating layers.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0110",
+      "AR_TERM": "زوج مجدول",
+      "EN_TERM": "Twisted Pair",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "كابل يتكون من أسلاك ملتوية مزدوجة.",
+      "DEFINITION_EN": "A cable of twisted pairs of wires.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0111",
+      "AR_TERM": "تبديل الحزم",
+      "EN_TERM": "Packet Switching",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "طريقة نقل تقسم البيانات إلى حزم.",
+      "DEFINITION_EN": "A transmission method dividing data into packets.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0112",
+      "AR_TERM": "تبديل الدارات",
+      "EN_TERM": "Circuit Switching",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "طريقة نقل تحجز دارة مخصصة.",
+      "DEFINITION_EN": "A transmission method reserving a dedicated circuit.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0113",
+      "AR_TERM": "تعدد الإرسال",
+      "EN_TERM": "Multiplexing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "دمج عدة إشارات في وسط واحد.",
+      "DEFINITION_EN": "Combining multiple signals over one medium.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0114",
+      "AR_TERM": "إزالة تعدد الإرسال",
+      "EN_TERM": "Demultiplexing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "فصل الإشارات المدمجة عند الاستقبال.",
+      "DEFINITION_EN": "Separating combined signals at the receiver.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0115",
+      "AR_TERM": "نطاق التردد",
+      "EN_TERM": "Frequency Band",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مدى من الترددات المستخدمة للاتصال.",
+      "DEFINITION_EN": "A range of frequencies used for communication.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.11"
+    },
+    {
+      "ACS_ID": "ACS-NET-0116",
+      "AR_TERM": "معرف مجموعة الخدمة",
+      "EN_TERM": "Service Set Identifier",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "اسم يميّز الشبكة اللاسلكية.",
+      "DEFINITION_EN": "A name identifying a wireless network.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.11"
+    },
+    {
+      "ACS_ID": "ACS-NET-0117",
+      "AR_TERM": "بروتوكول الوصول اللاسلكي الآمن",
+      "EN_TERM": "Wi-Fi Protected Access",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول تأمين للشبكات اللاسلكية.",
+      "DEFINITION_EN": "A security protocol for wireless networks.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.11i"
+    },
+    {
+      "ACS_ID": "ACS-NET-0118",
+      "AR_TERM": "تجوال",
+      "EN_TERM": "Roaming",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "انتقال الجهاز بين نقاط وصول بلا انقطاع.",
+      "DEFINITION_EN": "A device moving between access points without interruption.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.11"
+    },
+    {
+      "ACS_ID": "ACS-NET-0119",
+      "AR_TERM": "شبكة خاصة افتراضية عبر النفق",
+      "EN_TERM": "VPN Tunnel",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "نفق مشفر ينقل بيانات الشبكة الخاصة.",
+      "DEFINITION_EN": "An encrypted tunnel carrying private network data.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0120",
+      "AR_TERM": "تحكم الوصول",
+      "EN_TERM": "Access Control",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تنظيم من يمكنه الوصول إلى الموارد.",
+      "DEFINITION_EN": "Regulating who can access resources.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0121",
+      "AR_TERM": "مصادقة",
+      "EN_TERM": "Authentication",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "التحقق من هوية الطرف.",
+      "DEFINITION_EN": "Verifying the identity of an entity.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0122",
+      "AR_TERM": "تفويض",
+      "EN_TERM": "Authorization",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تحديد صلاحيات الطرف الموثق.",
+      "DEFINITION_EN": "Determining the permissions of an authenticated entity.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0123",
+      "AR_TERM": "تجسيد الهوية",
+      "EN_TERM": "Spoofing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "انتحال هوية جهاز أو مستخدم.",
+      "DEFINITION_EN": "Impersonating a device or user.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0124",
+      "AR_TERM": "رفض الخدمة الموزع",
+      "EN_TERM": "Distributed Denial of Service",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "هجوم يشل الخدمة عبر مصادر متعددة.",
+      "DEFINITION_EN": "An attack disabling a service from multiple sources.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0125",
+      "AR_TERM": "تنصت",
+      "EN_TERM": "Packet Sniffing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "اعتراض الحزم لقراءة بياناتها.",
+      "DEFINITION_EN": "Intercepting packets to read their data.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0126",
+      "AR_TERM": "بروتوكول الوقت الشبكي",
+      "EN_TERM": "Network Time Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول لمزامنة الساعات عبر الشبكة.",
+      "DEFINITION_EN": "A protocol for synchronizing clocks over a network.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 5905"
+    },
+    {
+      "ACS_ID": "ACS-NET-0127",
+      "AR_TERM": "بروتوكول الإدارة الشبكية البسيط",
+      "EN_TERM": "Simple Network Management Protocol",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول لمراقبة وإدارة الأجهزة.",
+      "DEFINITION_EN": "A protocol for monitoring and managing devices.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 3411"
+    },
+    {
+      "ACS_ID": "ACS-NET-0128",
+      "AR_TERM": "طبقة النقل الآمنة",
+      "EN_TERM": "Transport Layer Security",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول يؤمّن الاتصال بين التطبيقات.",
+      "DEFINITION_EN": "A protocol securing communication between applications.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 8446"
+    },
+    {
+      "ACS_ID": "ACS-NET-0129",
+      "AR_TERM": "مفتاح عام",
+      "EN_TERM": "Public Key",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مفتاح متاح للعموم للتشفير.",
+      "DEFINITION_EN": "A key available to the public for encryption.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-NET-0130",
+      "AR_TERM": "مفتاح خاص",
+      "EN_TERM": "Private Key",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مفتاح سري لصاحبه فقط.",
+      "DEFINITION_EN": "A secret key known only to its owner.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-NET-0131",
+      "AR_TERM": "توقيع رقمي",
+      "EN_TERM": "Digital Signature",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "وسيلة رقمية للتحقق من الأصل والهوية.",
+      "DEFINITION_EN": "A digital means of verifying origin and identity.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-NET-0132",
+      "AR_TERM": "مزود خدمة الإنترنت",
+      "EN_TERM": "Internet Service Provider",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهة تقدم الاتصال بالإنترنت.",
+      "DEFINITION_EN": "An entity providing internet access.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0133",
+      "AR_TERM": "سحابة خاصة افتراضية",
+      "EN_TERM": "Virtual Private Cloud",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "شبكة سحابية معزولة للعميل.",
+      "DEFINITION_EN": "An isolated cloud network for a client.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 17788"
+    },
+    {
+      "ACS_ID": "ACS-NET-0134",
+      "AR_TERM": "حوسبة سحابية",
+      "EN_TERM": "Cloud Computing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تقديم موارد الحوسبة عبر الإنترنت.",
+      "DEFINITION_EN": "Delivering computing resources over the internet.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 17788"
+    },
+    {
+      "ACS_ID": "ACS-NET-0135",
+      "AR_TERM": "حافة الشبكة",
+      "EN_TERM": "Network Edge",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "حدود الشبكة القريبة من المستخدمين.",
+      "DEFINITION_EN": "The boundary of a network near its users.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0136",
+      "AR_TERM": "بروتوكول التغليف العام للتوجيه",
+      "EN_TERM": "Generic Routing Encapsulation",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "بروتوكول يغلف الحزم عبر شبكات مختلفة.",
+      "DEFINITION_EN": "A protocol encapsulating packets across different networks.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 2784"
+    },
+    {
+      "ACS_ID": "ACS-NET-0137",
+      "AR_TERM": "العمود الفقري للشبكة",
+      "EN_TERM": "Backbone",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الشبكة الأساسية الرابطة بين الشبكات الفرعية.",
+      "DEFINITION_EN": "The core network linking sub-networks.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0138",
+      "AR_TERM": "ربط الشبكات",
+      "EN_TERM": "Internetworking",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "ربط شبكات متعددة لتشكيل شبكة واحدة.",
+      "DEFINITION_EN": "Connecting multiple networks into one.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0139",
+      "AR_TERM": "بروتوكول الأمان عبر الإنترنت",
+      "EN_TERM": "IP Security",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مجموعة بروتوكولات لتأمين حزم الإنترنت.",
+      "DEFINITION_EN": "A suite of protocols securing internet packets.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 6071"
+    },
+    {
+      "ACS_ID": "ACS-NET-0140",
+      "AR_TERM": "تغليف",
+      "EN_TERM": "Encapsulation",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "وضع البيانات داخل طبقات بروتوكولية.",
+      "DEFINITION_EN": "Wrapping data within protocol layers.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0141",
+      "AR_TERM": "فك التغليف",
+      "EN_TERM": "Decapsulation",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "إزالة الطبقات البروتوكولية عند الاستقبال.",
+      "DEFINITION_EN": "Removing protocol layers upon reception.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0142",
+      "AR_TERM": "ارتباط",
+      "EN_TERM": "Link",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "قناة اتصال بين عقدتين.",
+      "DEFINITION_EN": "A communication channel between two nodes.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0143",
+      "AR_TERM": "رقم المنفذ",
+      "EN_TERM": "Port Number",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "معرّف يميز الخدمة على المضيف.",
+      "DEFINITION_EN": "An identifier distinguishing a service on a host.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0144",
+      "AR_TERM": "جلسة",
+      "EN_TERM": "Session",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "فترة اتصال منظمة بين طرفين.",
+      "DEFINITION_EN": "An organized communication period between two parties.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0145",
+      "AR_TERM": "نطاق فرعي",
+      "EN_TERM": "Subdomain",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "نطاق يقع تحت نطاق أعلى.",
+      "DEFINITION_EN": "A domain under a higher-level domain.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1035"
+    },
+    {
+      "ACS_ID": "ACS-NET-0146",
+      "AR_TERM": "شبكة نظير إلى نظير",
+      "EN_TERM": "Peer-to-Peer Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "شبكة تتشارك العقد فيها مباشرة.",
+      "DEFINITION_EN": "A network where nodes share directly with each other.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0147",
+      "AR_TERM": "تشخيص الشبكة",
+      "EN_TERM": "Network Diagnostics",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "أدوات تحديد مشاكل الشبكة.",
+      "DEFINITION_EN": "Tools identifying network problems.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0148",
+      "AR_TERM": "مراقبة الشبكة",
+      "EN_TERM": "Network Monitoring",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "متابعة حالة الشبكة وأدائها.",
+      "DEFINITION_EN": "Tracking network status and performance.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0149",
+      "AR_TERM": "تصفية الحزم",
+      "EN_TERM": "Packet Filtering",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "التحكم بمرور الحزم وفق قواعد.",
+      "DEFINITION_EN": "Controlling packet passage according to rules.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 4949"
+    },
+    {
+      "ACS_ID": "ACS-NET-0150",
+      "AR_TERM": "شبكة زمنية حساسة",
+      "EN_TERM": "Time-Sensitive Networking",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "تقنيات لنقل البيانات في زمن محدود.",
+      "DEFINITION_EN": "Technologies for transmitting data within bounded time.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.1Q"
     },
     {
       "ACS_ID": "ACS-SEC-0001",
