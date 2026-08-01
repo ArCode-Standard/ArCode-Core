@@ -1,7 +1,7 @@
 {
   "project": "ArCode-Core",
   "standard": "ArCode-Standard",
-  "version": "1.4",
+  "version": "1.5",
   "language": "Arabic-English Hybrid Scientific Dictionary",
   "description": "Core terminology database for ArCode system",
   "terms": [
@@ -3252,6 +3252,1306 @@
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "إنتاج نص جديد تلقائيًا بواسطة نموذج لغوي.",
       "DEFINITION_EN": "Producing new text automatically by a language model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0021",
+      "AR_TERM": "تعلم تحت الإشراف",
+      "EN_TERM": "Supervised Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم من بيانات مصحوبة بالتسميات.",
+      "DEFINITION_EN": "Learning from data accompanied by labels.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0022",
+      "AR_TERM": "تعلم غير إشرافي",
+      "EN_TERM": "Unsupervised Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم من بيانات دون تسميات لاستكشاف أنماطها.",
+      "DEFINITION_EN": "Learning from unlabeled data to discover its patterns.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0023",
+      "AR_TERM": "تعلم شبه إشرافي",
+      "EN_TERM": "Semi-Supervised Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم يمزج بيانات موسومة وأخرى غير موسومة.",
+      "DEFINITION_EN": "Learning that combines labeled and unlabeled data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0024",
+      "AR_TERM": "تعلم ذاتي الإشراف",
+      "EN_TERM": "Self-Supervised Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم يولّد تسمياته من البيانات نفسها.",
+      "DEFINITION_EN": "Learning that generates its own labels from the data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0025",
+      "AR_TERM": "بيانات تدريب",
+      "EN_TERM": "Training Data",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "البيانات المستخدمة لتدريب النموذج.",
+      "DEFINITION_EN": "Data used to train a model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0026",
+      "AR_TERM": "بيانات اختبار",
+      "EN_TERM": "Test Data",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "بيانات غير مسبوقة تقيّم أداء النموذج المدرب.",
+      "DEFINITION_EN": "Unseen data evaluating a trained model's performance.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0027",
+      "AR_TERM": "بيانات تحقق",
+      "EN_TERM": "Validation Data",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "بيانات تضبط فرط المعاملات أثناء التدريب.",
+      "DEFINITION_EN": "Data used to tune hyperparameters during training.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0028",
+      "AR_TERM": "تسمية",
+      "EN_TERM": "Label",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "القيمة الصحيحة المرتبطة بمثال في البيانات.",
+      "DEFINITION_EN": "The ground-truth value associated with a data sample.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0029",
+      "AR_TERM": "عينة",
+      "EN_TERM": "Sample",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مثال فردي ضمن مجموعة بيانات.",
+      "DEFINITION_EN": "An individual instance within a dataset.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0030",
+      "AR_TERM": "دفعة",
+      "EN_TERM": "Batch",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مجموعة عينات تُعالج معًا في خطوة تدريب.",
+      "DEFINITION_EN": "A group of samples processed together in one training step.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0031",
+      "AR_TERM": "حقبة",
+      "EN_TERM": "Epoch",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مرور كامل على مجموعة التدريب كلها.",
+      "DEFINITION_EN": "A full pass over the entire training set.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0032",
+      "AR_TERM": "معدل التعلم",
+      "EN_TERM": "Learning Rate",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "حجم خطوة تحديث الأوزان خلال التدريب.",
+      "DEFINITION_EN": "The step size for updating weights during training.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0033",
+      "AR_TERM": "دالة خسارة",
+      "EN_TERM": "Loss Function",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "دالة تقيس خطأ تنبؤات النموذج.",
+      "DEFINITION_EN": "A function measuring the error of a model's predictions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0034",
+      "AR_TERM": "دالة تنشيط",
+      "EN_TERM": "Activation Function",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "دالة تحدد مخرج الخلية العصبية.",
+      "DEFINITION_EN": "A function determining a neuron's output.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0035",
+      "AR_TERM": "دالة هدف",
+      "EN_TERM": "Objective Function",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "الدالة التي يحسّنها التدريب لتحقيق الهدف.",
+      "DEFINITION_EN": "The function that training optimizes to achieve the goal.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0036",
+      "AR_TERM": "نزول التدرج",
+      "EN_TERM": "Gradient Descent",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خوارزمية تحسين تهبط على منحدر دالة الخسارة.",
+      "DEFINITION_EN": "An optimization algorithm descending along the loss surface.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0037",
+      "AR_TERM": "نزول تدرج عشوائي",
+      "EN_TERM": "Stochastic Gradient Descent",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نزول التدرج باستخدام دفعة عشوائية من العينات.",
+      "DEFINITION_EN": "Gradient descent using a random batch of samples.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0038",
+      "AR_TERM": "انتشار خلفي",
+      "EN_TERM": "Backpropagation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خوارزمية تحسب التدرجات عبر الطبقات من الخلف.",
+      "DEFINITION_EN": "An algorithm computing gradients across layers backwards.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0039",
+      "AR_TERM": "فرط معامل",
+      "EN_TERM": "Hyperparameter",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إعداد يضبط قبل التدريب ولا يتعلمه النموذج.",
+      "DEFINITION_EN": "A setting configured before training, not learned by the model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0040",
+      "AR_TERM": "معامل",
+      "EN_TERM": "Parameter",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "قيمة يتعلمها النموذج أثناء التدريب.",
+      "DEFINITION_EN": "A value learned by a model during training.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0041",
+      "AR_TERM": "وزن",
+      "EN_TERM": "Weight",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "معامل يضبط قوة الاتصال بين الخلايا العصبية.",
+      "DEFINITION_EN": "A parameter adjusting connection strength between neurons.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0042",
+      "AR_TERM": "انحياز",
+      "EN_TERM": "Bias",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "معامل يزاح مخرج الخلية العصبية.",
+      "DEFINITION_EN": "A parameter shifting a neuron's output.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0043",
+      "AR_TERM": "تنظيم",
+      "EN_TERM": "Regularization",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقنيات تقلل فرط التخصيص في النموذج.",
+      "DEFINITION_EN": "Techniques that reduce overfitting in a model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0044",
+      "AR_TERM": "تسرب",
+      "EN_TERM": "Dropout",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعطيل خلايا عصبية عشوائيًا أثناء التدريب.",
+      "DEFINITION_EN": "Randomly disabling neurons during training.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0045",
+      "AR_TERM": "محسِّن",
+      "EN_TERM": "Optimizer",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خوارزمية تحدّث المعاملات لخفض الخسارة.",
+      "DEFINITION_EN": "An algorithm updating parameters to reduce loss.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0046",
+      "AR_TERM": "ضبط دقيق",
+      "EN_TERM": "Fine-Tuning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إعادة تدريب نموذج مُدرَّب على مهمة جديدة.",
+      "DEFINITION_EN": "Retraining a pretrained model on a new task.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0047",
+      "AR_TERM": "تعميم",
+      "EN_TERM": "Generalization",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "قدرة النموذج على التعامل مع بيانات غير مسبوقة.",
+      "DEFINITION_EN": "A model's ability to handle unseen data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0048",
+      "AR_TERM": "فرط التخصيص",
+      "EN_TERM": "Overfitting",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "حفظ النموذج للبيانات التدريبية دون تعميم جيد.",
+      "DEFINITION_EN": "A model memorizing training data without generalizing well.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0049",
+      "AR_TERM": "قصور التخصيص",
+      "EN_TERM": "Underfitting",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "عجز النموذج عن التقاط أنماط البيانات.",
+      "DEFINITION_EN": "A model failing to capture patterns in the data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0050",
+      "AR_TERM": "مقياس تقييم",
+      "EN_TERM": "Evaluation Metric",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مقياس كمي يحكم على أداء النموذج.",
+      "DEFINITION_EN": "A quantitative measure judging a model's performance.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0051",
+      "AR_TERM": "دقة",
+      "EN_TERM": "Accuracy",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نسبة التنبؤات الصحيحة إلى إجمالي التنبؤات.",
+      "DEFINITION_EN": "The ratio of correct predictions to total predictions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0052",
+      "AR_TERM": "ضبط",
+      "EN_TERM": "Precision",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نسبة التنبؤات الإيجابية الصحيحة إلى الإيجابية الكلية.",
+      "DEFINITION_EN": "The ratio of correct positive predictions to total predicted positives.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0053",
+      "AR_TERM": "استرجاع",
+      "EN_TERM": "Recall",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نسبة الإيجابيات الحقيقية المكتشفة من كل الإيجابيات.",
+      "DEFINITION_EN": "The ratio of true positives detected out of all positives.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0054",
+      "AR_TERM": "متوسط توافقي",
+      "EN_TERM": "Harmonic Mean",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "متوسط يجمع بين الضبط والاسترجاع في مؤشر واحد.",
+      "DEFINITION_EN": "A mean combining precision and recall into one score.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0055",
+      "AR_TERM": "مصفوفة الالتباس",
+      "EN_TERM": "Confusion Matrix",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "جدول يقارن التنبؤات بالفئات الفعلية.",
+      "DEFINITION_EN": "A table comparing predictions against actual classes.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0056",
+      "AR_TERM": "تحقق متقاطع",
+      "EN_TERM": "Cross-Validation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقسيم البيانات وتدريب النموذج واختباره على أجزاء متناوبة.",
+      "DEFINITION_EN": "Splitting data and alternately training and testing a model on parts.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0057",
+      "AR_TERM": "منحنى خاصية التشغيل",
+      "EN_TERM": "Receiver Operating Characteristic",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "منحنى يقيم أداء المصنف عند عتبات مختلفة.",
+      "DEFINITION_EN": "A curve evaluating classifier performance at different thresholds.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0058",
+      "AR_TERM": "توزيع احتمالي",
+      "EN_TERM": "Probability Distribution",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "وصف احتمالات القيم الممكنة لمتغير.",
+      "DEFINITION_EN": "A description of the probabilities of a variable's possible values.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0059",
+      "AR_TERM": "نموذج احتمالي",
+      "EN_TERM": "Probabilistic Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج يعبر عن الشك باستخدام الاحتمالات.",
+      "DEFINITION_EN": "A model expressing uncertainty using probabilities.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0060",
+      "AR_TERM": "شبكة عصبية اصطناعية",
+      "EN_TERM": "Artificial Neural Network",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج حسابي مستوحى من الدماغ لمعالجة البيانات.",
+      "DEFINITION_EN": "A computational model inspired by the brain for processing data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0061",
+      "AR_TERM": "عصبون",
+      "EN_TERM": "Neuron",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "وحدة حسابية أساسية في الشبكة العصبية.",
+      "DEFINITION_EN": "A basic computational unit in a neural network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0062",
+      "AR_TERM": "طبقة",
+      "EN_TERM": "Layer",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مجموعة عصبونات تعمل معًا في الشبكة.",
+      "DEFINITION_EN": "A group of neurons working together in a network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0063",
+      "AR_TERM": "طبقة إدخال",
+      "EN_TERM": "Input Layer",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "الطبقة التي تستقبل البيانات في الشبكة.",
+      "DEFINITION_EN": "The layer that receives data in a network.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0064",
+      "AR_TERM": "طبقة مخفية",
+      "EN_TERM": "Hidden Layer",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "طبقة وسيطة بين الإدخال والإخراج.",
+      "DEFINITION_EN": "An intermediate layer between input and output.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0065",
+      "AR_TERM": "طبقة إخراج",
+      "EN_TERM": "Output Layer",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "الطبقة التي تنتج النتيجة النهائية.",
+      "DEFINITION_EN": "The layer that produces the final result.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0066",
+      "AR_TERM": "شبكة عصبية عميقة",
+      "EN_TERM": "Deep Neural Network",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "شبكة عصبية ذات طبقات مخفية متعددة.",
+      "DEFINITION_EN": "A neural network with multiple hidden layers.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0067",
+      "AR_TERM": "تعلم عميق",
+      "EN_TERM": "Deep Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم باستخدام شبكات عصبية متعددة الطبقات.",
+      "DEFINITION_EN": "Learning using multi-layered neural networks.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0068",
+      "AR_TERM": "شبكة عصبية التفافية",
+      "EN_TERM": "Convolutional Neural Network",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "شبكة تستخدم الالتفاف لمعالجة الصور.",
+      "DEFINITION_EN": "A network using convolution to process images.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0069",
+      "AR_TERM": "التفاف",
+      "EN_TERM": "Convolution",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "عملية رياضية تستخرج الميزات من البيانات.",
+      "DEFINITION_EN": "A mathematical operation that extracts features from data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0070",
+      "AR_TERM": "نواة",
+      "EN_TERM": "Kernel",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مصفوفة صغيرة تُستخدم في الالتفاف.",
+      "DEFINITION_EN": "A small matrix used in convolution.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0071",
+      "AR_TERM": "تجميع",
+      "EN_TERM": "Pooling",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "اختزال أبعاد خريطة الميزات.",
+      "DEFINITION_EN": "Reducing the dimensions of a feature map.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0072",
+      "AR_TERM": "خريطة ميزات",
+      "EN_TERM": "Feature Map",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "ناتج تطبيق الالتفاف على البيانات.",
+      "DEFINITION_EN": "The output of applying convolution to data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0073",
+      "AR_TERM": "شبكة عصبية متكررة",
+      "EN_TERM": "Recurrent Neural Network",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "شبكة تعالج البيانات التسلسلية باسترجاع المخرجات.",
+      "DEFINITION_EN": "A network that processes sequential data by reusing outputs.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0074",
+      "AR_TERM": "ذاكرة طويلة قصيرة المدى",
+      "EN_TERM": "Long Short-Term Memory",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "بنية متكررة تحافظ على المعلومات عبر فترات طويلة.",
+      "DEFINITION_EN": "A recurrent structure that preserves information over long periods.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0075",
+      "AR_TERM": "وحدة متكررة محكومة",
+      "EN_TERM": "Gated Recurrent Unit",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "وحدة متكررة أخف من ذاكرة LSTM ذات بوابات أقل.",
+      "DEFINITION_EN": "A recurrent unit lighter than LSTM with fewer gates.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0076",
+      "AR_TERM": "تسلسل",
+      "EN_TERM": "Sequence",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "بيانات مرتبة بترتيب زمني أو منطقي.",
+      "DEFINITION_EN": "Data ordered chronologically or logically.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0077",
+      "AR_TERM": "من تسلسل إلى تسلسل",
+      "EN_TERM": "Sequence-to-Sequence",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج يحوّل تسلسلاً إلى تسلسل آخر.",
+      "DEFINITION_EN": "A model that transforms one sequence into another.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0078",
+      "AR_TERM": "محوّل",
+      "EN_TERM": "Transformer",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "معمارية تعتمد الانتباه لمعالجة المتتاليات.",
+      "DEFINITION_EN": "An attention-based architecture for processing sequences.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0079",
+      "AR_TERM": "انتباه",
+      "EN_TERM": "Attention",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "آلية تركّز على الأجزاء الأهم من الإدخال.",
+      "DEFINITION_EN": "A mechanism that focuses on the most relevant input parts.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0080",
+      "AR_TERM": "انتباه ذاتي",
+      "EN_TERM": "Self-Attention",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "انتباه يقيّم العلاقات بين عناصر الإدخال نفسها.",
+      "DEFINITION_EN": "Attention evaluating relationships among input elements themselves.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0081",
+      "AR_TERM": "آلية انتباه",
+      "EN_TERM": "Attention Mechanism",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "أسلوب يعيّن أوزانًا لأجزاء الإدخال حسب أهميتها.",
+      "DEFINITION_EN": "A technique assigning weights to input parts by importance.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0082",
+      "AR_TERM": "رمز",
+      "EN_TERM": "Token",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "وحدة نصية أولية يعالجها النموذج.",
+      "DEFINITION_EN": "A basic text unit processed by a model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0083",
+      "AR_TERM": "ترميز",
+      "EN_TERM": "Tokenization",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقسيم النص إلى وحدات أصغر.",
+      "DEFINITION_EN": "Splitting text into smaller units.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0084",
+      "AR_TERM": "تمثيل",
+      "EN_TERM": "Embedding",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تحويل الرموز إلى متجهات رقمية.",
+      "DEFINITION_EN": "Converting tokens into numeric vectors.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0085",
+      "AR_TERM": "تمثيل الكلمات",
+      "EN_TERM": "Word Embedding",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تمثيل الكلمات بمتجهات رقمية.",
+      "DEFINITION_EN": "Representing words as numeric vectors.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0086",
+      "AR_TERM": "نموذج لغوي",
+      "EN_TERM": "Language Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج يتنبأ بالرموز التالية في النص.",
+      "DEFINITION_EN": "A model that predicts the next tokens in text.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0087",
+      "AR_TERM": "نموذج لغوي كبير",
+      "EN_TERM": "Large Language Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج لغوي ضخم يُدرَّب على بيانات واسعة.",
+      "DEFINITION_EN": "A huge language model trained on vast data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0088",
+      "AR_TERM": "توليد نص",
+      "EN_TERM": "Text Generation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إنتاج نص جديد تلقائيًا بواسطة النموذج.",
+      "DEFINITION_EN": "Automatically producing new text by a model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0089",
+      "AR_TERM": "ترجمة آلية",
+      "EN_TERM": "Machine Translation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "ترجمة النص من لغة إلى أخرى آليًا.",
+      "DEFINITION_EN": "Automatically translating text between languages.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0090",
+      "AR_TERM": "تعرف على الكلام",
+      "EN_TERM": "Speech Recognition",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تحويل الكلام إلى نص آليًا.",
+      "DEFINITION_EN": "Automatically converting speech into text.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0091",
+      "AR_TERM": "معالجة اللغة الطبيعية",
+      "EN_TERM": "Natural Language Processing",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "فرع الذكاء الاصطناعي لمعالجة اللغة البشرية.",
+      "DEFINITION_EN": "The AI branch dealing with human language processing.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0092",
+      "AR_TERM": "فهم اللغة الطبيعية",
+      "EN_TERM": "Natural Language Understanding",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "استخلاص المعنى من النصوص البشرية.",
+      "DEFINITION_EN": "Extracting meaning from human texts.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0093",
+      "AR_TERM": "تحليل المشاعر",
+      "EN_TERM": "Sentiment Analysis",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تحديد الاتجاه العاطفي في النص.",
+      "DEFINITION_EN": "Determining the emotional tone in text.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0094",
+      "AR_TERM": "تعرف على الكيانات المسماة",
+      "EN_TERM": "Named Entity Recognition",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تحديد الأسماء والكيانات في النص.",
+      "DEFINITION_EN": "Identifying names and entities in text.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0095",
+      "AR_TERM": "وسوم أجزاء الكلام",
+      "EN_TERM": "Part-of-Speech Tagging",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تصنيف كل كلمة حسب دورها النحوي.",
+      "DEFINITION_EN": "Classifying each word by its grammatical role.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0096",
+      "AR_TERM": "استيعاب قراءة آلي",
+      "EN_TERM": "Machine Reading Comprehension",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إجابة أسئلة استنادًا إلى نص معين.",
+      "DEFINITION_EN": "Answering questions based on a given text.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0097",
+      "AR_TERM": "استخلاص المعلومات",
+      "EN_TERM": "Information Extraction",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "استخراج البيانات المنظمة من النص.",
+      "DEFINITION_EN": "Extracting structured data from text.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0098",
+      "AR_TERM": "الإجابة عن الأسئلة",
+      "EN_TERM": "Question Answering",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "توليد إجابات عن الأسئلة المطروحة.",
+      "DEFINITION_EN": "Generating answers to posed questions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0099",
+      "AR_TERM": "رؤية حاسوبية",
+      "EN_TERM": "Computer Vision",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "فرع الذكاء الاصطناعي لفهم الصور والفيديو.",
+      "DEFINITION_EN": "The AI branch for understanding images and video.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0100",
+      "AR_TERM": "تصنيف الصور",
+      "EN_TERM": "Image Classification",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إسناد صورة إلى فئة من الفئات.",
+      "DEFINITION_EN": "Assigning an image to one of several classes.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0101",
+      "AR_TERM": "كشف الأجسام",
+      "EN_TERM": "Object Detection",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تحديد مواقع الأجسام في الصورة.",
+      "DEFINITION_EN": "Locating objects within an image.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0102",
+      "AR_TERM": "تقسيم الصور",
+      "EN_TERM": "Image Segmentation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقسيم الصورة إلى مناطق دلالية.",
+      "DEFINITION_EN": "Partitioning an image into semantic regions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0103",
+      "AR_TERM": "تقسيم دلالي",
+      "EN_TERM": "Semantic Segmentation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تصنيف كل بكسل حسب معناه.",
+      "DEFINITION_EN": "Classifying every pixel by its meaning.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0104",
+      "AR_TERM": "تقسيم الحالات",
+      "EN_TERM": "Instance Segmentation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تمييز كل جسم فردي في الصورة.",
+      "DEFINITION_EN": "Distinguishing every individual object in an image.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0105",
+      "AR_TERM": "توليد صور",
+      "EN_TERM": "Image Generation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إنشاء صور جديدة بواسطة النموذج.",
+      "DEFINITION_EN": "Creating new images by a model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0106",
+      "AR_TERM": "التسمية التوضيحية للصور",
+      "EN_TERM": "Image Captioning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "توليد وصف نصي لصورة ما.",
+      "DEFINITION_EN": "Generating a textual description of an image.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0107",
+      "AR_TERM": "تعرف ضوئي على الحروف",
+      "EN_TERM": "Optical Character Recognition",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تحويل الصور النصية إلى نص رقمي.",
+      "DEFINITION_EN": "Converting text images into digital text.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0108",
+      "AR_TERM": "تعرف على الوجوه",
+      "EN_TERM": "Face Recognition",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تحديد هوية الشخص من صورة الوجه.",
+      "DEFINITION_EN": "Identifying a person from a face image.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0109",
+      "AR_TERM": "تقدير الوضعية",
+      "EN_TERM": "Pose Estimation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقدير وضع أعضاء الجسم في الصورة.",
+      "DEFINITION_EN": "Estimating body part positions in an image.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0110",
+      "AR_TERM": "تعلم معزز",
+      "EN_TERM": "Reinforcement Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم باتخاذ إجراءات لتعظيم المكافآت.",
+      "DEFINITION_EN": "Learning by taking actions to maximize rewards.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0111",
+      "AR_TERM": "وكيل",
+      "EN_TERM": "Agent",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "كيان يستقبل الحالات وينفذ إجراءات.",
+      "DEFINITION_EN": "An entity that observes states and takes actions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0112",
+      "AR_TERM": "وكيل ذكي",
+      "EN_TERM": "Intelligent Agent",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "وكيل يتصرف بذكاء لتحقيق أهدافه.",
+      "DEFINITION_EN": "An agent that acts intelligently to achieve its goals.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0113",
+      "AR_TERM": "بيئة",
+      "EN_TERM": "Environment",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "العالم الذي يتفاعل معه الوكيل.",
+      "DEFINITION_EN": "The world with which an agent interacts.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0114",
+      "AR_TERM": "حالة",
+      "EN_TERM": "State",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "وصف الوضع الحالي للبيئة.",
+      "DEFINITION_EN": "A description of the current situation of the environment.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0115",
+      "AR_TERM": "إجراء",
+      "EN_TERM": "Action",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خطوة ينفذها الوكيل في البيئة.",
+      "DEFINITION_EN": "A step taken by an agent in the environment.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0116",
+      "AR_TERM": "مكافأة",
+      "EN_TERM": "Reward",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إشارة رقمية تعكس جودة الإجراء.",
+      "DEFINITION_EN": "A numeric signal reflecting action quality.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0117",
+      "AR_TERM": "سياسة",
+      "EN_TERM": "Policy",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "قاعدة تحدد الإجراء في كل حالة.",
+      "DEFINITION_EN": "A rule mapping each state to an action.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0118",
+      "AR_TERM": "دالة القيمة",
+      "EN_TERM": "Value Function",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "دالة تقدّر العائد المتوقع من حالة.",
+      "DEFINITION_EN": "A function estimating the expected return of a state.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0119",
+      "AR_TERM": "تعلم-كيو",
+      "EN_TERM": "Q-Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خوارزمية تعلم معزز قائمة على القيم.",
+      "DEFINITION_EN": "A reinforcement learning algorithm based on values.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0120",
+      "AR_TERM": "استكشاف",
+      "EN_TERM": "Exploration",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تجربة إجراءات جديدة لاكتشاف البيئة.",
+      "DEFINITION_EN": "Trying new actions to discover the environment.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0121",
+      "AR_TERM": "استغلال",
+      "EN_TERM": "Exploitation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "استخدام المعرفة الحالية لتعظيم المكافأة.",
+      "DEFINITION_EN": "Using current knowledge to maximize reward.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0122",
+      "AR_TERM": "عملية قرار ماركوف",
+      "EN_TERM": "Markov Decision Process",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إطار رياضي لنمذجة التعلم المعزز.",
+      "DEFINITION_EN": "A mathematical framework for modeling reinforcement learning.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0123",
+      "AR_TERM": "نموذج توليدي",
+      "EN_TERM": "Generative Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج يعلّم توزيع البيانات وينشئ عينات.",
+      "DEFINITION_EN": "A model that learns the data distribution and generates samples.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0124",
+      "AR_TERM": "نموذج تمييزي",
+      "EN_TERM": "Discriminative Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج يميّز بين الفئات.",
+      "DEFINITION_EN": "A model that discriminates between classes.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0125",
+      "AR_TERM": "شبكة خصامية توليدية",
+      "EN_TERM": "Generative Adversarial Network",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "شبكة تضم مولّدًا ومميّزًا يتنافسان.",
+      "DEFINITION_EN": "A network with a generator and a discriminator that compete.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0126",
+      "AR_TERM": "مولّد",
+      "EN_TERM": "Generator",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مكوّن ينتج بيانات جديدة صناعية.",
+      "DEFINITION_EN": "A component producing new synthetic data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0127",
+      "AR_TERM": "مميّز",
+      "EN_TERM": "Discriminator",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مكوّن يميّز البيانات الحقيقية عن المولّدة.",
+      "DEFINITION_EN": "A component distinguishing real data from generated data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0128",
+      "AR_TERM": "ترميز ذاتي متغيّري",
+      "EN_TERM": "Variational Autoencoder",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج توليدي يعتمد الترميز الاحتمالي.",
+      "DEFINITION_EN": "A generative model based on probabilistic encoding.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0129",
+      "AR_TERM": "ترميز ذاتي",
+      "EN_TERM": "Autoencoder",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "شبكة تعيد بناء مدخلاتها من تمثيل مضغوط.",
+      "DEFINITION_EN": "A network reconstructing its input from a compressed representation.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0130",
+      "AR_TERM": "مُرمِّز",
+      "EN_TERM": "Encoder",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مكوّن يحوّل البيانات إلى تمثيل مضغوط.",
+      "DEFINITION_EN": "A component converting data into a compact representation.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0131",
+      "AR_TERM": "فكّاك",
+      "EN_TERM": "Decoder",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مكوّن يحوّل التمثيل إلى البيانات الأصلية.",
+      "DEFINITION_EN": "A component converting a representation back into data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0132",
+      "AR_TERM": "نموذج انتشار",
+      "EN_TERM": "Diffusion Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج توليدي يُنشئ بيانات عبر عكس عملية تشويش.",
+      "DEFINITION_EN": "A generative model creating data by reversing a noising process.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0133",
+      "AR_TERM": "نموذج أساس",
+      "EN_TERM": "Foundation Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج كبير قابل للتكيف مع مهام متعددة.",
+      "DEFINITION_EN": "A large model adaptable to many tasks.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0134",
+      "AR_TERM": "تعلم صفر اللقطة",
+      "EN_TERM": "Zero-Shot Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعميم النموذج على فئات لم يدرَّب عليها.",
+      "DEFINITION_EN": "Generalizing a model to classes it was not trained on.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0135",
+      "AR_TERM": "تعلم قليل اللقطة",
+      "EN_TERM": "Few-Shot Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم مهام ببيانات تدريب قليلة جدًا.",
+      "DEFINITION_EN": "Learning tasks with very few training examples.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0136",
+      "AR_TERM": "تعلم النقل",
+      "EN_TERM": "Transfer Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نقل المعرفة من مهمة إلى أخرى ذات صلة.",
+      "DEFINITION_EN": "Transferring knowledge from one task to a related one.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0137",
+      "AR_TERM": "تعلم متعدد المهام",
+      "EN_TERM": "Multi-Task Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تدريب نموذج على مهام متعددة معًا.",
+      "DEFINITION_EN": "Training a model on several tasks simultaneously.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0138",
+      "AR_TERM": "تعلم جماعي",
+      "EN_TERM": "Ensemble Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "دمج عدة نماذج لتحسين الأداء.",
+      "DEFINITION_EN": "Combining several models to improve performance.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0139",
+      "AR_TERM": "تعزيز",
+      "EN_TERM": "Boosting",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "طريقة جماعية تُدرّب النماذج بالتتابع لتصحيح الأخطاء.",
+      "DEFINITION_EN": "An ensemble method training models sequentially to correct errors.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0140",
+      "AR_TERM": "تجميع",
+      "EN_TERM": "Bagging",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "طريقة جماعية تدمج مخرجات نماذج مستقلة.",
+      "DEFINITION_EN": "An ensemble method combining outputs of independent models.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0141",
+      "AR_TERM": "غابة عشوائية",
+      "EN_TERM": "Random Forest",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مجموعة أشجار قرار تُدمج مخرجاتها.",
+      "DEFINITION_EN": "A collection of decision trees whose outputs are combined.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0142",
+      "AR_TERM": "آلة متجهات الدعم",
+      "EN_TERM": "Support Vector Machine",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مصنّف يفصل الفئات بحدود مثلى.",
+      "DEFINITION_EN": "A classifier separating classes with optimal boundaries.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0143",
+      "AR_TERM": "شجرة قرار",
+      "EN_TERM": "Decision Tree",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج قرار يتفرع حسب الخصائص.",
+      "DEFINITION_EN": "A decision model branching according to features.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0144",
+      "AR_TERM": "أقرب الجيران",
+      "EN_TERM": "K-Nearest Neighbors",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مصنّف يستند إلى أقرب الأمثلة.",
+      "DEFINITION_EN": "A classifier based on the nearest examples.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0145",
+      "AR_TERM": "تجميع عنقودي",
+      "EN_TERM": "Clustering",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تجميع البيانات المتشابهة في عناقيد.",
+      "DEFINITION_EN": "Grouping similar data into clusters.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0146",
+      "AR_TERM": "تقليل الأبعاد",
+      "EN_TERM": "Dimensionality Reduction",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "اختزال عدد خصائص البيانات.",
+      "DEFINITION_EN": "Reducing the number of data features.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0147",
+      "AR_TERM": "تحليل المكونات الرئيسية",
+      "EN_TERM": "Principal Component Analysis",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "طريقة لتقليل الأبعاد بحفظ التباين.",
+      "DEFINITION_EN": "A dimensionality reduction method preserving variance.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0148",
+      "AR_TERM": "استخلاص الميزات",
+      "EN_TERM": "Feature Extraction",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "اشتقاق خصائص مفيدة من البيانات الخام.",
+      "DEFINITION_EN": "Deriving useful features from raw data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0149",
+      "AR_TERM": "ذكاء اصطناعي قابل للتفسير",
+      "EN_TERM": "Explainable AI",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مجال يجعل قرارات الذكاء الاصطناعي مفهومة.",
+      "DEFINITION_EN": "A field making AI decisions understandable.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0150",
+      "AR_TERM": "أخلاقيات الذكاء الاصطناعي",
+      "EN_TERM": "AI Ethics",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "المبادئ التي تنظم استخدام الذكاء الاصطناعي.",
+      "DEFINITION_EN": "Principles governing the use of artificial intelligence.",
       "STATUS": "Draft",
       "SOURCE": "ISO/IEC 22989"
     },
