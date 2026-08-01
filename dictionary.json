@@ -10,7 +10,7 @@
       "ACS_ID": "ACS-GEN-0001",
       "AR_TERM": "نظام",
       "EN_TERM": "System",
-      "DOMAIN": "General",
+      "DOMAIN": "General Knowledge",
       "DEFINITION_AR": "مجموعة عناصر مترابطة تعمل معًا لتحقيق هدف معين.",
       "DEFINITION_EN": "A set of interacting components forming a whole.",
       "STATUS": "Approved"
@@ -82,7 +82,7 @@
       "ACS_ID": "ACS-AI-0001",
       "AR_TERM": "ذكاء اصطناعي",
       "EN_TERM": "Artificial Intelligence",
-      "DOMAIN": "AI",
+      "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "أنظمة تحاكي الذكاء البشري.",
       "DEFINITION_EN": "Systems simulating human intelligence.",
       "STATUS": "Approved"
@@ -91,7 +91,7 @@
       "ACS_ID": "ACS-AI-0002",
       "AR_TERM": "تعلم آلي",
       "EN_TERM": "Machine Learning",
-      "DOMAIN": "AI",
+      "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "تعلم الأنظمة من البيانات.",
       "DEFINITION_EN": "Systems learning from data.",
       "STATUS": "Approved"
@@ -100,7 +100,7 @@
       "ACS_ID": "ACS-AI-0003",
       "AR_TERM": "شبكة عصبية",
       "EN_TERM": "Neural Network",
-      "DOMAIN": "AI",
+      "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "نموذج مستوحى من الدماغ لمعالجة البيانات.",
       "DEFINITION_EN": "Brain-inspired computational model.",
       "STATUS": "Approved"
@@ -206,7 +206,7 @@
     },
     {
       "ACS_ID": "ACS-BIO-0002",
-      "AR_TERM": "DNA",
+      "AR_TERM": "حمض نووي",
       "EN_TERM": "DNA",
       "DOMAIN": "Biology",
       "DEFINITION_AR": "المادة الوراثية للكائنات الحية.",

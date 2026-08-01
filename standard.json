@@ -1,6 +1,6 @@
 {
   "standard_name": "ArCode-Standard",
-  "version": "1.0",
+  "version": "1.1",
   "status": "Foundation Stage",
 
   "core_principles": [
@@ -17,12 +17,36 @@
     "EN_TERM",
     "DOMAIN",
     "DEFINITION_AR",
-    "DEFINITION_EN"
+    "DEFINITION_EN",
+    "STATUS"
+  ],
+
+  "term_optional_fields": [
+    "RELATIONS",
+    "VERSION",
+    "SOURCE",
+    "NOTES"
   ],
 
   "allowed_status_values": [
     "Draft",
     "Approved",
     "Deprecated"
-  ]
+  ],
+
+  "domain_codes": {
+    "GEN":  "General Knowledge",
+    "CS":   "Computer Science",
+    "AI":   "Artificial Intelligence",
+    "NET":  "Networking",
+    "SEC":  "Cybersecurity",
+    "MATH": "Mathematics",
+    "PHYS": "Physics",
+    "BIO":  "Biology",
+    "CHEM": "Chemistry",
+    "ENG":  "Engineering",
+    "MED":  "Medicine",
+    "LING": "Linguistics",
+    "ECON": "Economics"
+  }
 }

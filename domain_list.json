@@ -1,16 +1,17 @@
 {
   "domains": [
-    "Computer Science",
-    "Artificial Intelligence",
-    "Cybersecurity",
-    "Mathematics",
-    "Physics",
-    "Biology",
-    "Chemistry",
-    "Engineering",
-    "Medicine",
-    "Linguistics",
-    "Economics",
-    "General Knowledge"
+    { "code": "GEN",  "name": "General Knowledge" },
+    { "code": "CS",   "name": "Computer Science" },
+    { "code": "AI",   "name": "Artificial Intelligence" },
+    { "code": "NET",  "name": "Networking" },
+    { "code": "SEC",  "name": "Cybersecurity" },
+    { "code": "MATH", "name": "Mathematics" },
+    { "code": "PHYS", "name": "Physics" },
+    { "code": "BIO",  "name": "Biology" },
+    { "code": "CHEM", "name": "Chemistry" },
+    { "code": "ENG",  "name": "Engineering" },
+    { "code": "MED",  "name": "Medicine" },
+    { "code": "LING", "name": "Linguistics" },
+    { "code": "ECON", "name": "Economics" }
   ]
 }

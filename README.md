@@ -13,9 +13,11 @@ To build a standardized Arabic scientific terminology system that can be used in
 - Computer Science
 - Artificial Intelligence
 - Networking
-- Cryptography
+- Cybersecurity
 - Mathematics
 - Physics
+- Biology
+- and more
 
 ---
 
@@ -49,6 +51,48 @@ Example structure:
   "DEFINITION_AR": "سلسلة خطوات منظمة لحل مشكلة.",
   "DEFINITION_EN": "A step-by-step procedure to solve a problem.",
   "RELATIONS": ["Data Structure", "Logic"],
-  "STATUS": "Draft",
+  "STATUS": "Approved",
   "VERSION": "1.0"
 }
+```
+
+---
+
+## 🗂️ Repository Structure
+
+```
+ArCode-Core/
+├── README.md           # This overview
+├── naming_rules.md     # Naming rules (Arabic & English)
+├── id_system.md        # ACS_ID format and domain codes
+├── data_structure.md   # Term data structure
+├── standard.json       # Canonical standard configuration
+├── domain_list.json    # Registered domains with their codes
+├── dictionary.json     # The terminology database
+└── validate.js         # Automated validation script
+```
+
+---
+
+## ✅ Validation
+
+Run automated validation to ensure `dictionary.json` stays consistent with the standard:
+
+```bash
+npm install        # not required, no dependencies
+npm run validate
+```
+
+The validator checks:
+
+- Required fields on every term
+- `ACS_ID` format and uniqueness
+- `DOMAIN` matches its registered domain code
+- `STATUS` is one of the allowed values
+- `AR_TERM` is written in Arabic and not identical to `EN_TERM`
+
+---
+
+## 🔗 Related
+
+- [ArCode-Core](https://github.com/ArCode-Standard/ArCode-Core) — this repository

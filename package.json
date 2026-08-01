@@ -1,0 +1,9 @@
+{
+  "name": "arcode-core",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Core structure of ArCode Standard: a scientific Arabic terminology system.",
+  "scripts": {
+    "validate": "node validate.js"
+  }
+}
