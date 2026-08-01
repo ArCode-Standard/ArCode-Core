@@ -1,6 +1,6 @@
 {
   "standard_name": "ArCode-Standard",
-  "version": "1.1",
+  "version": "1.2",
   "status": "Foundation Stage",
 
   "core_principles": [
@@ -8,7 +8,8 @@
     "كل مصطلح يجب أن ينتمي إلى Domain واحد فقط",
     "كل مصطلح يجب أن يحمل تعريف واضح وغير غامض",
     "كل ID يجب أن يكون فريد وغير قابل للتكرار",
-    "المعيار يجب أن يبقى مستقلاً عن أي لغة برمجة"
+    "المعيار يجب أن يبقى مستقلاً عن أي لغة برمجة",
+    "كل مصطلح يجب أن يستند إلى مصدر موثوق (SOURCE)"
   ],
 
   "term_required_fields": [
@@ -18,13 +19,13 @@
     "DOMAIN",
     "DEFINITION_AR",
     "DEFINITION_EN",
-    "STATUS"
+    "STATUS",
+    "SOURCE"
   ],
 
   "term_optional_fields": [
     "RELATIONS",
     "VERSION",
-    "SOURCE",
     "NOTES"
   ],
 

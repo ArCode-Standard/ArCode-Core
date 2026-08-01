@@ -10,7 +10,8 @@
   "DOMAIN": "Scientific Domain",
   "DEFINITION_AR": "تعريف عربي واضح",
   "DEFINITION_EN": "Clear English definition",
-  "STATUS": "Draft | Approved | Deprecated"
+  "STATUS": "Draft | Approved | Deprecated",
+  "SOURCE": "ISO/IEC 2382"
 }
 ```
 
@@ -20,7 +21,6 @@
 {
   "RELATIONS": ["مصطلح مرتبط", "Another Term"],
   "VERSION": "1.0",
-  "SOURCE": "مصدر المصطلح",
   "NOTES": "ملاحظات إضافية"
 }
 ```
@@ -30,4 +30,5 @@
 - لا يمكن حذف مصطلح بعد اعتماده
 - التعديل يتم عبر إصدار جديد
 - كل مصطلح يجب أن يكون قابل للفهم بدون سياق خارجي
+- كل مصطلح يجب أن يستند إلى مصدر موثوق (`SOURCE`) — انظر `terminology_process.md`
 - رموز المجالات محددة في `domain_list.json` و `id_system.md`

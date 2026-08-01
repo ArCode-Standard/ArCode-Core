@@ -1,10 +1,9 @@
 {
   "project": "ArCode-Core",
   "standard": "ArCode-Standard",
-  "version": "1.0",
+  "version": "1.2",
   "language": "Arabic-English Hybrid Scientific Dictionary",
   "description": "Core terminology database for ArCode system",
-
   "terms": [
     {
       "ACS_ID": "ACS-GEN-0001",
@@ -13,7 +12,8 @@
       "DOMAIN": "General Knowledge",
       "DEFINITION_AR": "مجموعة عناصر مترابطة تعمل معًا لتحقيق هدف معين.",
       "DEFINITION_EN": "A set of interacting components forming a whole.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-CS-0001",
@@ -22,7 +22,8 @@
       "DOMAIN": "Computer Science",
       "DEFINITION_AR": "سلسلة خطوات منظمة لحل مشكلة.",
       "DEFINITION_EN": "A step-by-step procedure to solve a problem.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-CS-0002",
@@ -31,7 +32,8 @@
       "DOMAIN": "Computer Science",
       "DEFINITION_AR": "معلومات خام غير معالجة.",
       "DEFINITION_EN": "Raw unprocessed facts.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-CS-0003",
@@ -40,7 +42,8 @@
       "DOMAIN": "Computer Science",
       "DEFINITION_AR": "بيانات تمت معالجتها لتصبح ذات معنى.",
       "DEFINITION_EN": "Processed data with meaning.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-CS-0004",
@@ -49,7 +52,8 @@
       "DOMAIN": "Computer Science",
       "DEFINITION_AR": "نظام منظم لتخزين البيانات.",
       "DEFINITION_EN": "An organized data storage system.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-CS-0005",
@@ -58,7 +62,8 @@
       "DOMAIN": "Computer Science",
       "DEFINITION_AR": "برنامج يدير موارد الجهاز.",
       "DEFINITION_EN": "Software managing hardware resources.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-CS-0006",
@@ -67,7 +72,8 @@
       "DOMAIN": "Computer Science",
       "DEFINITION_AR": "مكون لتخزين البيانات مؤقتًا أو دائمًا.",
       "DEFINITION_EN": "Component for temporary or permanent data storage.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-CS-0007",
@@ -76,7 +82,338 @@
       "DOMAIN": "Computer Science",
       "DEFINITION_AR": "وحدة تنفيذ الأوامر في الحاسوب.",
       "DEFINITION_EN": "Unit that executes instructions.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0008",
+      "AR_TERM": "برمجية",
+      "EN_TERM": "Software",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "مجموعة البرامج والبيانات التي تُشغّل الحاسوب.",
+      "DEFINITION_EN": "Programs and data that operate a computer.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0009",
+      "AR_TERM": "برنامج",
+      "EN_TERM": "Program",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تسلسل تعليمات ينفذه الحاسوب لأداء مهمة.",
+      "DEFINITION_EN": "A sequence of instructions executed by a computer.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0010",
+      "AR_TERM": "لغة برمجة",
+      "EN_TERM": "Programming Language",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "لغة شكلية للتعبير عن الخوارزميات وتنفيذها.",
+      "DEFINITION_EN": "A formal language for expressing and executing algorithms.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0011",
+      "AR_TERM": "مترجم",
+      "EN_TERM": "Compiler",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "برنامج يحوّل البرنامج المصدر إلى لغة الآلة.",
+      "DEFINITION_EN": "A program that translates source code into machine language.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0012",
+      "AR_TERM": "مفسر",
+      "EN_TERM": "Interpreter",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "برنامج ينفذ التعليمات سطرًا بسطر دون ترجمة مسبقة.",
+      "DEFINITION_EN": "A program that executes instructions line by line without prior compilation.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0013",
+      "AR_TERM": "دالة",
+      "EN_TERM": "Function",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "كتلة برمجية قابلة للاستدعاء وتُعيد نتيجة.",
+      "DEFINITION_EN": "A callable block of code that returns a result.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0014",
+      "AR_TERM": "وسيط",
+      "EN_TERM": "Parameter",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "قيمة تُمرر إلى دالة أو إجراء.",
+      "DEFINITION_EN": "A value passed into a function or procedure.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0015",
+      "AR_TERM": "مصفوفة",
+      "EN_TERM": "Array",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية بيانات تخزن عناصر من نوع واحد في ترتيب.",
+      "DEFINITION_EN": "A data structure storing ordered elements of one type.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0016",
+      "AR_TERM": "قائمة مرتبطة",
+      "EN_TERM": "Linked List",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية بيانات خطية ترتبط عناصرها بالمؤشرات.",
+      "DEFINITION_EN": "A linear data structure whose elements are linked by pointers.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0017",
+      "AR_TERM": "مكدس",
+      "EN_TERM": "Stack",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية بيانات تُدار وفق قاعدة آخر ما دخل أول ما يخرج.",
+      "DEFINITION_EN": "A LIFO data structure; insertions and deletions occur at the top.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0018",
+      "AR_TERM": "طابور",
+      "EN_TERM": "Queue",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية بيانات تُدار وفق قاعدة أول ما دخل أول ما يخرج.",
+      "DEFINITION_EN": "A FIFO data structure; elements are added at the back and removed from the front.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0019",
+      "AR_TERM": "شجرة",
+      "EN_TERM": "Tree",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية بيانات هرمية من عقد مترابطة بعلاقات أب وابن.",
+      "DEFINITION_EN": "A hierarchical data structure of nodes linked in parent-child relations.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0020",
+      "AR_TERM": "رسم بياني",
+      "EN_TERM": "Graph",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية بيانات مكوّنة من عقد وأضلاع تربط بينها.",
+      "DEFINITION_EN": "A data structure consisting of nodes and the edges connecting them.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0021",
+      "AR_TERM": "تجزئة",
+      "EN_TERM": "Hashing",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تحويل المفتاح إلى عنوان تخزين عبر دالة تجزئة.",
+      "DEFINITION_EN": "Mapping a key to a storage location by means of a hash function.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0022",
+      "AR_TERM": "بحث ثنائي",
+      "EN_TERM": "Binary Search",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "خوارزمية بحث تجزئ المصفوفة المرتبة إلى نصفين في كل خطوة.",
+      "DEFINITION_EN": "A search algorithm that halves a sorted array with each step.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0023",
+      "AR_TERM": "فرز",
+      "EN_TERM": "Sorting",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "ترتيب عناصر وفق مفتاح تصاعدي أو تنازلي.",
+      "DEFINITION_EN": "Arranging elements by a key in ascending or descending order.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0024",
+      "AR_TERM": "تعقيد حسابي",
+      "EN_TERM": "Computational Complexity",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "قياس الموارد اللازمة لتنفيذ خوارزمية.",
+      "DEFINITION_EN": "A measure of the resources required to run an algorithm.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE Std 610.12"
+    },
+    {
+      "ACS_ID": "ACS-CS-0025",
+      "AR_TERM": "استدعاء متكرر",
+      "EN_TERM": "Recursion",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "استدعاء دالة لنفسها ضمن حل مشكلة ما.",
+      "DEFINITION_EN": "A function calling itself as part of solving a problem.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0026",
+      "AR_TERM": "مؤشر",
+      "EN_TERM": "Pointer",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "متغير يخزن عنوان ذاكرة لقيمة أخرى.",
+      "DEFINITION_EN": "A variable that stores the memory address of another value.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0027",
+      "AR_TERM": "عملية",
+      "EN_TERM": "Process",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "برنامج قيد التنفيذ مع موارده.",
+      "DEFINITION_EN": "A program in execution together with its resources.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0028",
+      "AR_TERM": "خيط",
+      "EN_TERM": "Thread",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "مسار تنفيذ مستقل داخل عملية.",
+      "DEFINITION_EN": "An independent execution path within a process.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0029",
+      "AR_TERM": "مقاطعة",
+      "EN_TERM": "Interrupt",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "إشارة توقف التنفيذ الحالي لمعالجتها.",
+      "DEFINITION_EN": "A signal that suspends current execution to be handled.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0030",
+      "AR_TERM": "ذاكرة مخبئية",
+      "EN_TERM": "Cache",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "ذاكرة سريعة تخزن البيانات الأكثر استخدامًا.",
+      "DEFINITION_EN": "A fast memory that stores frequently used data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0031",
+      "AR_TERM": "بت",
+      "EN_TERM": "Bit",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "أصغر وحدة معلومات؛ قيمتها 0 أو 1.",
+      "DEFINITION_EN": "The smallest unit of information; its value is 0 or 1.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0032",
+      "AR_TERM": "بايت",
+      "EN_TERM": "Byte",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "وحدة معلومات تتكون من ثماني بتات.",
+      "DEFINITION_EN": "A unit of information consisting of eight bits.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0033",
+      "AR_TERM": "نظام ملفات",
+      "EN_TERM": "File System",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية تنظم تخزين الملفات واسترجاعها.",
+      "DEFINITION_EN": "A structure that organizes the storage and retrieval of files.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0034",
+      "AR_TERM": "ملف",
+      "EN_TERM": "File",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "مجموعة مسماة من البيانات المخزنة على وسيط.",
+      "DEFINITION_EN": "A named collection of data stored on a medium.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0035",
+      "AR_TERM": "واجهة",
+      "EN_TERM": "Interface",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "حد فاصل بين مكوّنين يحدد طرق التفاعل بينهما.",
+      "DEFINITION_EN": "A boundary between two components that defines their interaction methods.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0036",
+      "AR_TERM": "ترميز",
+      "EN_TERM": "Encoding",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تحويل البيانات إلى صيغة معيارية للتخزين أو النقل.",
+      "DEFINITION_EN": "Converting data into a standard form for storage or transmission.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0037",
+      "AR_TERM": "موازاة",
+      "EN_TERM": "Parallelism",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تنفيذ عدة مهام في آن واحد.",
+      "DEFINITION_EN": "Executing multiple tasks simultaneously.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE Std 610.12"
+    },
+    {
+      "ACS_ID": "ACS-CS-0038",
+      "AR_TERM": "قابلية التوسع",
+      "EN_TERM": "Scalability",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "قدرة النظام على النمو دون تدهور الأداء.",
+      "DEFINITION_EN": "A system's ability to grow without degrading performance.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE Std 610.12"
+    },
+    {
+      "ACS_ID": "ACS-CS-0039",
+      "AR_TERM": "نظام إدارة قواعد البيانات",
+      "EN_TERM": "Database Management System",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "برنامج يدير إنشاء قواعد البيانات والاستعلام عنها.",
+      "DEFINITION_EN": "Software that manages the creation and querying of databases.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0040",
+      "AR_TERM": "بنية بيانات",
+      "EN_TERM": "Data Structure",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تنظيم معيّن للبيانات يسهّل تخزينها ومعالجتها.",
+      "DEFINITION_EN": "A specific organization of data that eases its storage and processing.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-AI-0001",
@@ -85,7 +422,8 @@
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "أنظمة تحاكي الذكاء البشري.",
       "DEFINITION_EN": "Systems simulating human intelligence.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 22989"
     },
     {
       "ACS_ID": "ACS-AI-0002",
@@ -94,7 +432,8 @@
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "تعلم الأنظمة من البيانات.",
       "DEFINITION_EN": "Systems learning from data.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 22989"
     },
     {
       "ACS_ID": "ACS-AI-0003",
@@ -102,8 +441,9 @@
       "EN_TERM": "Neural Network",
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "نموذج مستوحى من الدماغ لمعالجة البيانات.",
-      "DEFINITION_EN": "Brain-inspired computational model.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "A brain-inspired computational model.",
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 22989"
     },
     {
       "ACS_ID": "ACS-NET-0001",
@@ -112,7 +452,8 @@
       "DOMAIN": "Networking",
       "DEFINITION_AR": "أجهزة مترابطة لتبادل البيانات.",
       "DEFINITION_EN": "Interconnected devices for data exchange.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-NET-0002",
@@ -121,16 +462,18 @@
       "DOMAIN": "Networking",
       "DEFINITION_AR": "قواعد التواصل بين الأنظمة.",
       "DEFINITION_EN": "Rules for communication between systems.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 2382"
     },
     {
       "ACS_ID": "ACS-NET-0003",
-      "AR_TERM": "عنوان IP",
+      "AR_TERM": "عنوان بروتوكول الإنترنت",
       "EN_TERM": "IP Address",
       "DOMAIN": "Networking",
       "DEFINITION_AR": "عنوان فريد لكل جهاز على الشبكة.",
-      "DEFINITION_EN": "Unique address identifying a device on a network.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "A unique address identifying a device on a network.",
+      "STATUS": "Approved",
+      "SOURCE": "RFC 791"
     },
     {
       "ACS_ID": "ACS-SEC-0001",
@@ -138,8 +481,9 @@
       "EN_TERM": "Encryption",
       "DOMAIN": "Cybersecurity",
       "DEFINITION_AR": "حماية البيانات عبر تحويلها لصيغة غير مفهومة.",
-      "DEFINITION_EN": "Protecting data by converting it into unreadable form.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "Protecting data by converting it into an unreadable form.",
+      "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 18033"
     },
     {
       "ACS_ID": "ACS-SEC-0002",
@@ -148,7 +492,8 @@
       "DOMAIN": "Cybersecurity",
       "DEFINITION_AR": "الوصول غير المصرح به للأنظمة.",
       "DEFINITION_EN": "Unauthorized access to systems.",
-      "STATUS": "Approved"
+      "STATUS": "Approved",
+      "SOURCE": "CNSSI 4009"
     },
     {
       "ACS_ID": "ACS-SEC-0003",
@@ -156,8 +501,9 @@
       "EN_TERM": "Firewall",
       "DOMAIN": "Cybersecurity",
       "DEFINITION_AR": "نظام يحمي الشبكة من الهجمات.",
-      "DEFINITION_EN": "System that protects networks from attacks.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "A system that protects networks from attacks.",
+      "STATUS": "Approved",
+      "SOURCE": "RFC 4949"
     },
     {
       "ACS_ID": "ACS-MATH-0001",
@@ -165,8 +511,9 @@
       "EN_TERM": "Variable",
       "DOMAIN": "Mathematics",
       "DEFINITION_AR": "رمز يمثل قيمة قابلة للتغيير.",
-      "DEFINITION_EN": "Symbol representing a changing value.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "A symbol representing a changing value.",
+      "STATUS": "Approved",
+      "SOURCE": "ISO 80000-2"
     },
     {
       "ACS_ID": "ACS-MATH-0002",
@@ -174,8 +521,9 @@
       "EN_TERM": "Equation",
       "DOMAIN": "Mathematics",
       "DEFINITION_AR": "مساواة بين تعبيرين رياضيين.",
-      "DEFINITION_EN": "A mathematical equality.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "A mathematical equality between two expressions.",
+      "STATUS": "Approved",
+      "SOURCE": "ISO 80000-2"
     },
     {
       "ACS_ID": "ACS-PHYS-0001",
@@ -183,8 +531,9 @@
       "EN_TERM": "Energy",
       "DOMAIN": "Physics",
       "DEFINITION_AR": "القدرة على القيام بشغل.",
-      "DEFINITION_EN": "Ability to perform work.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "The ability to perform work.",
+      "STATUS": "Approved",
+      "SOURCE": "ISO 80000-4"
     },
     {
       "ACS_ID": "ACS-PHYS-0002",
@@ -192,8 +541,9 @@
       "EN_TERM": "Force",
       "DOMAIN": "Physics",
       "DEFINITION_AR": "تأثير يغير حركة الجسم.",
-      "DEFINITION_EN": "Influence that changes motion.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "An influence that changes the motion of a body.",
+      "STATUS": "Approved",
+      "SOURCE": "ISO 80000-4"
     },
     {
       "ACS_ID": "ACS-BIO-0001",
@@ -201,8 +551,9 @@
       "EN_TERM": "Gene",
       "DOMAIN": "Biology",
       "DEFINITION_AR": "وحدة وراثية تحمل المعلومات.",
-      "DEFINITION_EN": "Unit of heredity carrying information.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "A unit of heredity carrying information.",
+      "STATUS": "Approved",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
     },
     {
       "ACS_ID": "ACS-BIO-0002",
@@ -210,8 +561,9 @@
       "EN_TERM": "DNA",
       "DOMAIN": "Biology",
       "DEFINITION_AR": "المادة الوراثية للكائنات الحية.",
-      "DEFINITION_EN": "Genetic material of living organisms.",
-      "STATUS": "Approved"
+      "DEFINITION_EN": "The genetic material of living organisms.",
+      "STATUS": "Approved",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
     }
   ]
 }
