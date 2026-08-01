@@ -1,15 +1,24 @@
 ArCode-Core is a dual-licensed project. The license that applies to a given
 file depends on its nature:
 
-| Files                                                       | License      | Reason                                                      |
-| ----------------------------------------------------------- | ------------ | ----------------------------------------------------------- |
-| `dictionary.json`, definitions, documentation (`*.md`)      | CC-BY-SA 4.0 | Protects the standard from fragmentation and keeps improvements open |
-| `validate.js`, scripts, and build tooling                   | Apache 2.0   | Protects the code and allows companies to use the tools freely |
+  (1) dictionary.json, the definitions, and all documentation (*.md)
+      are licensed under the Creative Commons Attribution-ShareAlike
+      4.0 International license (CC-BY-SA 4.0).
+
+      This protects the standard from fragmentation and keeps all
+      improvements to it open.
+
+  (2) validate.js, all scripts, and all build tooling are licensed
+      under the Apache License, Version 2.0.
+
+      This protects the code and allows companies to use the tools
+      freely.
 
 The full texts of both licenses are provided in this repository:
 
-- Apache License 2.0: see `LICENSE-APACHE-2.0`
-- Creative Commons Attribution-ShareAlike 4.0 International: see `LICENSE-CC-BY-SA-4.0`
+  - Apache License 2.0: see LICENSE-APACHE-2.0
+  - Creative Commons Attribution-ShareAlike 4.0 International:
+    see LICENSE-CC-BY-SA-4.0
 
 If you are unsure which license applies to a file, default to the terms
 of the Creative Commons Attribution-ShareAlike 4.0 International license.
