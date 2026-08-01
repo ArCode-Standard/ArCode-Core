@@ -61,22 +61,25 @@ Example structure:
 
 ## 📈 Current Coverage
 
-- **56 terms** in the dictionary (`dictionary.json`)
-- 33 Computer Science terms (ACS-CS-0001 → ACS-CS-0040) — the most in-depth domain
-- 13 registered domains with official codes
+- **217 terms** in the dictionary (`dictionary.json`)
+- 70 Computer Science terms (ACS-CS-0001 → ACS-CS-0070) — the most in-depth domain
+- 13 registered domains with official codes, all now covered
 
 | Domain | Code | Terms |
 |--------|------|-------|
-| Computer Science | CS | 40 |
-| Artificial Intelligence | AI | 3 |
-| Networking | NET | 3 |
-| Cybersecurity | SEC | 3 |
-| Mathematics | MATH | 2 |
-| Physics | PHYS | 2 |
-| Biology | BIO | 2 |
-| General Knowledge | GEN | 1 |
-
-> Chemistry, Engineering, Medicine, Linguistics and Economics are registered but not yet covered.
+| Computer Science | CS | 70 |
+| Artificial Intelligence | AI | 20 |
+| Networking | NET | 20 |
+| Cybersecurity | SEC | 20 |
+| Mathematics | MATH | 15 |
+| Physics | PHYS | 15 |
+| Biology | BIO | 12 |
+| Chemistry | CHEM | 10 |
+| Engineering | ENG | 10 |
+| Medicine | MED | 10 |
+| Linguistics | LING | 5 |
+| Economics | ECON | 5 |
+| General Knowledge | GEN | 5 |
 
 ---
 

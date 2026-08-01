@@ -1,7 +1,7 @@
 {
   "project": "ArCode-Core",
   "standard": "ArCode-Standard",
-  "version": "1.2",
+  "version": "1.3",
   "language": "Arabic-English Hybrid Scientific Dictionary",
   "description": "Core terminology database for ArCode system",
   "terms": [
@@ -14,6 +14,46 @@
       "DEFINITION_EN": "A set of interacting components forming a whole.",
       "STATUS": "Approved",
       "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-GEN-0002",
+      "AR_TERM": "علم",
+      "EN_TERM": "Science",
+      "DOMAIN": "General Knowledge",
+      "DEFINITION_AR": "منهج منظم لاكتساب المعرفة بالتجربة والملاحظة.",
+      "DEFINITION_EN": "A systematic method for acquiring knowledge through observation and experiment.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-GEN-0003",
+      "AR_TERM": "نظرية",
+      "EN_TERM": "Theory",
+      "DOMAIN": "General Knowledge",
+      "DEFINITION_AR": "تفسير منظم لظاهرة يدعمه الدليل والاختبار.",
+      "DEFINITION_EN": "A coherent explanation of a phenomenon supported by evidence and testing.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-GEN-0004",
+      "AR_TERM": "قانون",
+      "EN_TERM": "Law",
+      "DOMAIN": "General Knowledge",
+      "DEFINITION_AR": "قاعدة ثابتة تصف سلوكاً منتظماً في الطبيعة.",
+      "DEFINITION_EN": "A fixed rule describing regular behavior in nature.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-GEN-0005",
+      "AR_TERM": "فرضية",
+      "EN_TERM": "Hypothesis",
+      "DOMAIN": "General Knowledge",
+      "DEFINITION_AR": "افتراض أولي قابل للاختبار لشرح ظاهرة.",
+      "DEFINITION_EN": "A testable tentative assumption proposed to explain a phenomenon.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
     },
     {
       "ACS_ID": "ACS-CS-0001",
@@ -416,6 +456,306 @@
       "SOURCE": "ISO/IEC 2382"
     },
     {
+      "ACS_ID": "ACS-CS-0041",
+      "AR_TERM": "كائن",
+      "EN_TERM": "Object",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "حالة برمجية تجمع بيانات وسلوكيات معًا.",
+      "DEFINITION_EN": "A software entity combining data and behavior.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0042",
+      "AR_TERM": "صنف",
+      "EN_TERM": "Class",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "قالب يُعرّف بنية الكائنات وسلوكها.",
+      "DEFINITION_EN": "A template defining the structure and behavior of objects.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0043",
+      "AR_TERM": "وراثة",
+      "EN_TERM": "Inheritance",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "آلية تتيح لصنف أن يرث خصائص صنف آخر.",
+      "DEFINITION_EN": "A mechanism enabling a class to inherit the properties of another class.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0044",
+      "AR_TERM": "تغليف",
+      "EN_TERM": "Encapsulation",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "إخفاء تفاصيل التنفيذ الداخلية للكائن.",
+      "DEFINITION_EN": "Hiding the internal implementation details of an object.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0045",
+      "AR_TERM": "تعدد الأشكال",
+      "EN_TERM": "Polymorphism",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "قدرة كائنات مختلفة على الاستجابة للاستدعاء نفسه بطرق مختلفة.",
+      "DEFINITION_EN": "The ability of different objects to respond to the same call in different ways.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0046",
+      "AR_TERM": "استثناء",
+      "EN_TERM": "Exception",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "حدث غير اعتيادي يقطع سير البرنامج الطبيعي.",
+      "DEFINITION_EN": "An abnormal event that interrupts the normal flow of a program.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0047",
+      "AR_TERM": "إجراء",
+      "EN_TERM": "Procedure",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "كتلة برمجية قابلة للاستدعاء قد لا تُعيد قيمة.",
+      "DEFINITION_EN": "A callable block of code that may not return a value.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0048",
+      "AR_TERM": "تعبير",
+      "EN_TERM": "Expression",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تركيب برمجي يُقيَّم لينتج قيمة.",
+      "DEFINITION_EN": "A programming construct evaluated to produce a value.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0049",
+      "AR_TERM": "جملة",
+      "EN_TERM": "Statement",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "وحدة برمجية قابلة للتنفيذ ضمن برنامج.",
+      "DEFINITION_EN": "An executable unit within a program.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0050",
+      "AR_TERM": "حلقة",
+      "EN_TERM": "Loop",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "بنية برمجية تُكرر تنفيذ مجموعة جمل حتى شرط.",
+      "DEFINITION_EN": "A construct that repeatedly executes a set of statements until a condition.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0051",
+      "AR_TERM": "شرط",
+      "EN_TERM": "Condition",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "اختبار منطقي يحدد مسار التنفيذ.",
+      "DEFINITION_EN": "A logical test that determines the execution path.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0052",
+      "AR_TERM": "بحث خطي",
+      "EN_TERM": "Linear Search",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "خوارزمية تفحص العناصر واحدًا تلو الآخر بحثًا عن هدف.",
+      "DEFINITION_EN": "An algorithm that checks elements one by one for a target.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0053",
+      "AR_TERM": "فرز فقاعي",
+      "EN_TERM": "Bubble Sort",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "خوارزمية فرز تتبادل العناصر المتجاورة المترتبة بشكل خاطئ.",
+      "DEFINITION_EN": "A sorting algorithm that swaps adjacent elements in the wrong order.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0054",
+      "AR_TERM": "فرز بالدمج",
+      "EN_TERM": "Merge Sort",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "خوارزمية فرز تقسم القائمة ثم تدمج الأجزاء المرتبة.",
+      "DEFINITION_EN": "A sorting algorithm that divides a list then merges sorted parts.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0055",
+      "AR_TERM": "فرز سريع",
+      "EN_TERM": "Quick Sort",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "خوارزمية فرز تعتمد اختيار محور وتقسيم حوله.",
+      "DEFINITION_EN": "A sorting algorithm based on choosing a pivot and partitioning around it.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0056",
+      "AR_TERM": "بحث بالعمق أولًا",
+      "EN_TERM": "Depth-First Search",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "خوارزمية تجتاز الرسم البياني بالتفرع إلى العمق قبل التراجع.",
+      "DEFINITION_EN": "An algorithm that traverses a graph going deep before backtracking.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0057",
+      "AR_TERM": "بحث بالعرض أولًا",
+      "EN_TERM": "Breadth-First Search",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "خوارزمية تجتاز الرسم البياني طبقة بطبقة.",
+      "DEFINITION_EN": "An algorithm that traverses a graph level by level.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0058",
+      "AR_TERM": "مخطط انسيابي",
+      "EN_TERM": "Flowchart",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تمثيل بياني لخطوات خوارزمية أو عملية.",
+      "DEFINITION_EN": "A graphical representation of the steps of an algorithm or process.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0059",
+      "AR_TERM": "شفرة كاذبة",
+      "EN_TERM": "Pseudocode",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "وصف خوارزمية بلغة شبه برمجية غير قابلة للتنفيذ.",
+      "DEFINITION_EN": "An algorithm description in a non-executable informal programming-like language.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0060",
+      "AR_TERM": "محرف",
+      "EN_TERM": "Character",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "رمز منفرد يمثل حرفًا أو رقمًا أو رمزًا مطبوعًا.",
+      "DEFINITION_EN": "A single symbol representing a letter, digit, or printed sign.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0061",
+      "AR_TERM": "سلسلة نصية",
+      "EN_TERM": "String",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تتابع من المحارف يعالج كوحدة واحدة.",
+      "DEFINITION_EN": "A sequence of characters treated as a single unit.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0062",
+      "AR_TERM": "عدد صحيح",
+      "EN_TERM": "Integer",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "نوع بيانات يمثل عددًا دون كسر.",
+      "DEFINITION_EN": "A data type representing a number without a fractional part.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0063",
+      "AR_TERM": "فاصلة عائمة",
+      "EN_TERM": "Floating Point",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "تمثيل عددي للكسور وفق أساس عشري أو ثنائي.",
+      "DEFINITION_EN": "A numeric representation of fractions based on a decimal or binary base.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0064",
+      "AR_TERM": "قيمة منطقية",
+      "EN_TERM": "Boolean",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "نوع بيانات قيمته صواب أو خطأ فقط.",
+      "DEFINITION_EN": "A data type whose value is true or false only.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0065",
+      "AR_TERM": "سجل",
+      "EN_TERM": "Record",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "مجموعة من الحقول المترابطة تصف كيانًا واحدًا.",
+      "DEFINITION_EN": "A set of related fields describing a single entity.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0066",
+      "AR_TERM": "تعليمة",
+      "EN_TERM": "Instruction",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "أمر واحد ينفذه المعالج.",
+      "DEFINITION_EN": "A single command executed by the processor.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0067",
+      "AR_TERM": "برمجة كائنية التوجه",
+      "EN_TERM": "Object-Oriented Programming",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "نمط برمجة ينظم البرنامج حول الكائنات والأصناف.",
+      "DEFINITION_EN": "A programming paradigm organizing programs around objects and classes.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0068",
+      "AR_TERM": "نطاق",
+      "EN_TERM": "Scope",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "المنطقة البرمجية التي يظهر فيها المتغير.",
+      "DEFINITION_EN": "The region of a program where a variable is visible.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0069",
+      "AR_TERM": "استدعاء",
+      "EN_TERM": "Call",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "نقل التنفيذ إلى دالة أو إجراء عند النداء.",
+      "DEFINITION_EN": "Transferring execution to a function or procedure when invoked.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-CS-0070",
+      "AR_TERM": "اختبار برمجيات",
+      "EN_TERM": "Software Testing",
+      "DOMAIN": "Computer Science",
+      "DEFINITION_AR": "عملية التحقق من مطابقة البرمجية للمتطلبات.",
+      "DEFINITION_EN": "The process of verifying that software meets its requirements.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
       "ACS_ID": "ACS-AI-0001",
       "AR_TERM": "ذكاء اصطناعي",
       "EN_TERM": "Artificial Intelligence",
@@ -443,6 +783,176 @@
       "DEFINITION_AR": "نموذج مستوحى من الدماغ لمعالجة البيانات.",
       "DEFINITION_EN": "A brain-inspired computational model.",
       "STATUS": "Approved",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0004",
+      "AR_TERM": "تعلم عميق",
+      "EN_TERM": "Deep Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم آلي يعتمد شبكات عصبية متعددة الطبقات.",
+      "DEFINITION_EN": "Machine learning based on multi-layer neural networks.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0005",
+      "AR_TERM": "معالجة اللغة الطبيعية",
+      "EN_TERM": "Natural Language Processing",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "فرع من الذكاء الاصطناعي يفهم النصوص البشرية ويولّدها.",
+      "DEFINITION_EN": "The branch of AI concerned with understanding and generating human language.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0006",
+      "AR_TERM": "رؤية حاسوبية",
+      "EN_TERM": "Computer Vision",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "فرع من الذكاء الاصطناعي يحلل الصور والفيديو.",
+      "DEFINITION_EN": "The branch of AI that analyzes images and video.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0007",
+      "AR_TERM": "وكيل",
+      "EN_TERM": "Agent",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "كيان يستشعر بيئته ويتصرف لتحقيق هدف.",
+      "DEFINITION_EN": "An entity that perceives its environment and acts to achieve a goal.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0008",
+      "AR_TERM": "نموذج",
+      "EN_TERM": "Model",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تمثيل رياضي يتعلم من البيانات لتقديم تنبؤات.",
+      "DEFINITION_EN": "A mathematical representation trained on data to make predictions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0009",
+      "AR_TERM": "تدريب",
+      "EN_TERM": "Training",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "عملية ضبط معاملات النموذج باستخدام البيانات.",
+      "DEFINITION_EN": "The process of adjusting a model's parameters using data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0010",
+      "AR_TERM": "مجموعة بيانات",
+      "EN_TERM": "Dataset",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "مجموعة منظمة من البيانات المستخدمة في التدريب والاختبار.",
+      "DEFINITION_EN": "An organized collection of data used for training and evaluation.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0011",
+      "AR_TERM": "ميزة",
+      "EN_TERM": "Feature",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خاصية قابلة للقياس تستخدمها النماذج في التمييز.",
+      "DEFINITION_EN": "A measurable property used by models for discrimination.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0012",
+      "AR_TERM": "مصنف",
+      "EN_TERM": "Classifier",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج يخصص عينة معينة إلى فئة من فئات.",
+      "DEFINITION_EN": "A model that assigns a given sample to one of several categories.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0013",
+      "AR_TERM": "انحدار",
+      "EN_TERM": "Regression",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقنية تتنبأ بقيمة مستمرة من مدخلات.",
+      "DEFINITION_EN": "A technique that predicts a continuous value from inputs.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0014",
+      "AR_TERM": "تجميع",
+      "EN_TERM": "Clustering",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقسيم البيانات إلى مجموعات متشابهة دون تسميات.",
+      "DEFINITION_EN": "Grouping data into similar clusters without labels.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0015",
+      "AR_TERM": "شجرة قرار",
+      "EN_TERM": "Decision Tree",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نموذج يصنف البيانات عبر سلسلة من القرارات المتفرعة.",
+      "DEFINITION_EN": "A model that classifies data through a chain of branching decisions.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0016",
+      "AR_TERM": "تعلم معزز",
+      "EN_TERM": "Reinforcement Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تعلم يحسّن السلوك عبر مكافآت وعقوبات.",
+      "DEFINITION_EN": "Learning that improves behavior through rewards and penalties.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0017",
+      "AR_TERM": "نقل التعلم",
+      "EN_TERM": "Transfer Learning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "استخدام معرفة نموذج مُدرَّب في مهمة لمهمة أخرى.",
+      "DEFINITION_EN": "Reusing knowledge from a model trained on one task for another task.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0018",
+      "AR_TERM": "نظام خبير",
+      "EN_TERM": "Expert System",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "نظام يقدم استشارات مستندة إلى قواعد معرفية.",
+      "DEFINITION_EN": "A system that provides advice based on knowledge rules.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0019",
+      "AR_TERM": "خوارزمية وراثية",
+      "EN_TERM": "Genetic Algorithm",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خوارزمية بحث مستوحاة من الانتقاء الطبيعي.",
+      "DEFINITION_EN": "A search algorithm inspired by natural selection.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 22989"
+    },
+    {
+      "ACS_ID": "ACS-AI-0020",
+      "AR_TERM": "توليد نص",
+      "EN_TERM": "Text Generation",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "إنتاج نص جديد تلقائيًا بواسطة نموذج لغوي.",
+      "DEFINITION_EN": "Producing new text automatically by a language model.",
+      "STATUS": "Draft",
       "SOURCE": "ISO/IEC 22989"
     },
     {
@@ -476,6 +986,176 @@
       "SOURCE": "RFC 791"
     },
     {
+      "ACS_ID": "ACS-NET-0004",
+      "AR_TERM": "حزمة",
+      "EN_TERM": "Packet",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "وحدة بيانات منسقة تنتقل عبر الشبكة.",
+      "DEFINITION_EN": "A formatted unit of data transmitted over a network.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0005",
+      "AR_TERM": "توجيه",
+      "EN_TERM": "Routing",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "عملية اختيار المسار لنقل البيانات بين الشبكات.",
+      "DEFINITION_EN": "The process of selecting paths to forward data between networks.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0006",
+      "AR_TERM": "موجه",
+      "EN_TERM": "Router",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يعيد توجيه الحزم بين الشبكات المختلفة.",
+      "DEFINITION_EN": "A device that forwards packets between different networks.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0007",
+      "AR_TERM": "مبدل",
+      "EN_TERM": "Switch",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يوزع البيانات بين أجهزة الشبكة المحلية.",
+      "DEFINITION_EN": "A device that forwards data among devices on a local network.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.1"
+    },
+    {
+      "ACS_ID": "ACS-NET-0008",
+      "AR_TERM": "عرض النطاق",
+      "EN_TERM": "Bandwidth",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "أقصى معدل نقل بيانات عبر قناة.",
+      "DEFINITION_EN": "The maximum data rate a channel can carry.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0009",
+      "AR_TERM": "زمن الاستجابة",
+      "EN_TERM": "Latency",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "الزمن المستغرق بين إرسال البيانات واستقبالها.",
+      "DEFINITION_EN": "The time between sending data and receiving it.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0010",
+      "AR_TERM": "اسم نطاق",
+      "EN_TERM": "Domain Name",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "اسم نصي سهل يحدد موردًا على الإنترنت.",
+      "DEFINITION_EN": "An easy textual name identifying a resource on the Internet.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1035"
+    },
+    {
+      "ACS_ID": "ACS-NET-0011",
+      "AR_TERM": "نظام أسماء النطاقات",
+      "EN_TERM": "Domain Name System",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "نظام يحول أسماء النطاقات إلى عناوين رقمية.",
+      "DEFINITION_EN": "A system that resolves domain names into numeric addresses.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 1035"
+    },
+    {
+      "ACS_ID": "ACS-NET-0012",
+      "AR_TERM": "نقطة وصول",
+      "EN_TERM": "Access Point",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يربط الأجهزة اللاسلكية بالشبكة السلكية.",
+      "DEFINITION_EN": "A device linking wireless devices to a wired network.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.11"
+    },
+    {
+      "ACS_ID": "ACS-NET-0013",
+      "AR_TERM": "شبكة محلية",
+      "EN_TERM": "Local Area Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "شبكة تربط الأجهزة ضمن نطاق جغرافي محدود.",
+      "DEFINITION_EN": "A network connecting devices within a limited geographic area.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0014",
+      "AR_TERM": "شبكة واسعة",
+      "EN_TERM": "Wide Area Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "شبكة تمتد عبر مناطق جغرافية واسعة.",
+      "DEFINITION_EN": "A network spanning wide geographic areas.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0015",
+      "AR_TERM": "جسر",
+      "EN_TERM": "Bridge",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "جهاز يربط قطاعي شبكة محلية.",
+      "DEFINITION_EN": "A device connecting two segments of a local network.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.1"
+    },
+    {
+      "ACS_ID": "ACS-NET-0016",
+      "AR_TERM": "طبقة",
+      "EN_TERM": "Layer",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "مستوى وظيفي ضمن نموذج شبكي متعدد الطبقات.",
+      "DEFINITION_EN": "A functional level within a multi-layered network model.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 2382"
+    },
+    {
+      "ACS_ID": "ACS-NET-0017",
+      "AR_TERM": "بث",
+      "EN_TERM": "Broadcast",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "إرسال بيانات إلى جميع الأجهزة على الشبكة.",
+      "DEFINITION_EN": "Sending data to all devices on a network.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 791"
+    },
+    {
+      "ACS_ID": "ACS-NET-0018",
+      "AR_TERM": "منفذ",
+      "EN_TERM": "Port",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "رقم يميز خدمة أو تطبيقًا على جهاز.",
+      "DEFINITION_EN": "A number identifying a service or application on a host.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 793"
+    },
+    {
+      "ACS_ID": "ACS-NET-0019",
+      "AR_TERM": "شبكة لاسلكية",
+      "EN_TERM": "Wireless Network",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "شبكة تنقل البيانات عبر موجات الراديو.",
+      "DEFINITION_EN": "A network transmitting data via radio waves.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.11"
+    },
+    {
+      "ACS_ID": "ACS-NET-0020",
+      "AR_TERM": "عنوان تحكم الوصول للوسط",
+      "EN_TERM": "Media Access Control Address",
+      "DOMAIN": "Networking",
+      "DEFINITION_AR": "معرف فريد مثبت على بطاقة الشبكة.",
+      "DEFINITION_EN": "A unique identifier embedded in a network interface card.",
+      "STATUS": "Draft",
+      "SOURCE": "IEEE 802.1"
+    },
+    {
       "ACS_ID": "ACS-SEC-0001",
       "AR_TERM": "تشفير",
       "EN_TERM": "Encryption",
@@ -506,6 +1186,176 @@
       "SOURCE": "RFC 4949"
     },
     {
+      "ACS_ID": "ACS-SEC-0004",
+      "AR_TERM": "ثغرة",
+      "EN_TERM": "Vulnerability",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "ضعف في نظام يمكن استغلاله للوصول غير المصرح به.",
+      "DEFINITION_EN": "A weakness in a system that can be exploited for unauthorized access.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0005",
+      "AR_TERM": "استغلال",
+      "EN_TERM": "Exploit",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "برنامج أو أسلوب يستغل ثغرة في نظام.",
+      "DEFINITION_EN": "A program or technique that exploits a system vulnerability.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0006",
+      "AR_TERM": "برنامج خبيث",
+      "EN_TERM": "Malware",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "برمجية مصممة لإلحاق الضرر بالنظام.",
+      "DEFINITION_EN": "Software designed to harm a system.",
+      "STATUS": "Draft",
+      "SOURCE": "CNSSI 4009"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0007",
+      "AR_TERM": "فيروس",
+      "EN_TERM": "Computer Virus",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "برنامج خبيث ينسخ نفسه وينتشر بين الملفات.",
+      "DEFINITION_EN": "Malware that replicates itself and spreads among files.",
+      "STATUS": "Draft",
+      "SOURCE": "CNSSI 4009"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0008",
+      "AR_TERM": "تصيد",
+      "EN_TERM": "Phishing",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "خداع المستخدمين لسرقة معلوماتهم الشخصية.",
+      "DEFINITION_EN": "Deceiving users into revealing their personal information.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0009",
+      "AR_TERM": "مصادقة",
+      "EN_TERM": "Authentication",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "التحقق من هوية مستخدم أو جهاز.",
+      "DEFINITION_EN": "Verifying the identity of a user or device.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0010",
+      "AR_TERM": "تفويض",
+      "EN_TERM": "Authorization",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "منح الصلاحيات المصرح بها لمستخدم بعد مصادقته.",
+      "DEFINITION_EN": "Granting permitted privileges to an authenticated user.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0011",
+      "AR_TERM": "هجوم حجب الخدمة",
+      "EN_TERM": "Denial of Service",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "هجوم يجعل خدمة ما غير متاحة للمستخدمين.",
+      "DEFINITION_EN": "An attack that makes a service unavailable to users.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0012",
+      "AR_TERM": "توقيع رقمي",
+      "EN_TERM": "Digital Signature",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "أسلوب إلكتروني يثبت أصالة رسالة وسلامتها.",
+      "DEFINITION_EN": "An electronic method proving the authenticity and integrity of a message.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0013",
+      "AR_TERM": "شهادة رقمية",
+      "EN_TERM": "Digital Certificate",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "وثيقة إلكترونية تربط مفتاحًا عامًا بهوية.",
+      "DEFINITION_EN": "An electronic document linking a public key to an identity.",
+      "STATUS": "Draft",
+      "SOURCE": "RFC 5280"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0014",
+      "AR_TERM": "مفتاح عام",
+      "EN_TERM": "Public Key",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "مفتاح تشفير يمكن مشاركته علنًا لتشفير البيانات.",
+      "DEFINITION_EN": "An encryption key that can be shared publicly to encrypt data.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0015",
+      "AR_TERM": "مفتاح خاص",
+      "EN_TERM": "Private Key",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "مفتاح سري يسمح بفك التشفير والتوقيع.",
+      "DEFINITION_EN": "A secret key enabling decryption and signing.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0016",
+      "AR_TERM": "تشفير مفتاح عام",
+      "EN_TERM": "Public-Key Cryptography",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "نظام تشفير يستخدم زوجًا من المفاتيح العامة والخاصة.",
+      "DEFINITION_EN": "A cryptographic system using a pair of public and private keys.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO/IEC 18033"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0017",
+      "AR_TERM": "تدقيق أمني",
+      "EN_TERM": "Security Audit",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "تقييم منهجي لمدى توافق النظام مع سياسات الأمان.",
+      "DEFINITION_EN": "A systematic evaluation of a system's compliance with security policies.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0018",
+      "AR_TERM": "سرية",
+      "EN_TERM": "Confidentiality",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "ضمان عدم اطلاع غير المصرح لهم على البيانات.",
+      "DEFINITION_EN": "Ensuring that unauthorized parties cannot access data.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0019",
+      "AR_TERM": "سلامة",
+      "EN_TERM": "Integrity",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "ضمان عدم تعديل البيانات دون تصريح.",
+      "DEFINITION_EN": "Ensuring that data is not altered without authorization.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
+      "ACS_ID": "ACS-SEC-0020",
+      "AR_TERM": "توافرية",
+      "EN_TERM": "Availability",
+      "DOMAIN": "Cybersecurity",
+      "DEFINITION_AR": "ضمان إتاحة الخدمة للمستخدمين المصرح لهم.",
+      "DEFINITION_EN": "Ensuring that a service is accessible to authorized users.",
+      "STATUS": "Draft",
+      "SOURCE": "NIST SP 800-53"
+    },
+    {
       "ACS_ID": "ACS-MATH-0001",
       "AR_TERM": "متغير",
       "EN_TERM": "Variable",
@@ -523,6 +1373,136 @@
       "DEFINITION_AR": "مساواة بين تعبيرين رياضيين.",
       "DEFINITION_EN": "A mathematical equality between two expressions.",
       "STATUS": "Approved",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0003",
+      "AR_TERM": "عدد",
+      "EN_TERM": "Number",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "مفهوم رياضي يعبر عن كمية أو ترتيب.",
+      "DEFINITION_EN": "A mathematical concept expressing a quantity or an order.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0004",
+      "AR_TERM": "مجموعة",
+      "EN_TERM": "Set",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "تجميع عناصر متميزة تُعامل كوحدة.",
+      "DEFINITION_EN": "A collection of distinct elements treated as a unit.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0005",
+      "AR_TERM": "اقتران",
+      "EN_TERM": "Function",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "علاقة تربط كل عنصر بمخرج وحيد.",
+      "DEFINITION_EN": "A relation assigning to each element a unique output.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0006",
+      "AR_TERM": "عنصر",
+      "EN_TERM": "Element",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "عضو مفرد في مجموعة.",
+      "DEFINITION_EN": "An individual member of a set.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0007",
+      "AR_TERM": "متجه",
+      "EN_TERM": "Vector",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "كمية لها مقدار واتجاه.",
+      "DEFINITION_EN": "A quantity having magnitude and direction.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0008",
+      "AR_TERM": "مصفوفة",
+      "EN_TERM": "Matrix",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "جدول مستطيل من الأعداد مرتب صفوفًا وأعمدة.",
+      "DEFINITION_EN": "A rectangular array of numbers arranged in rows and columns.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0009",
+      "AR_TERM": "فضاء",
+      "EN_TERM": "Space",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "بنية رياضية تشمل عناصر وعمليات عليها.",
+      "DEFINITION_EN": "A mathematical structure comprising elements and operations on them.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0010",
+      "AR_TERM": "متتالية",
+      "EN_TERM": "Sequence",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "قائمة مرتبة من العناصر وفق قاعدة.",
+      "DEFINITION_EN": "An ordered list of elements following a rule.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0011",
+      "AR_TERM": "نهاية",
+      "EN_TERM": "Limit",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "القيمة التي تقترب منها دالة عند اقتراب المتغير.",
+      "DEFINITION_EN": "The value a function approaches as a variable approaches a point.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0012",
+      "AR_TERM": "اشتقاق",
+      "EN_TERM": "Differentiation",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "عملية حساب معدل تغير دالة.",
+      "DEFINITION_EN": "The process of computing the rate of change of a function.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0013",
+      "AR_TERM": "تكامل",
+      "EN_TERM": "Integral",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "عملية حساب مساحات وتراكميات دالة.",
+      "DEFINITION_EN": "The process of computing areas and accumulations of a function.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0014",
+      "AR_TERM": "احتمال",
+      "EN_TERM": "Probability",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "قياس عددي لاحتمال حدوث حدث ما.",
+      "DEFINITION_EN": "A numerical measure of the likelihood that an event occurs.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-2"
+    },
+    {
+      "ACS_ID": "ACS-MATH-0015",
+      "AR_TERM": "إحصاء",
+      "EN_TERM": "Statistics",
+      "DOMAIN": "Mathematics",
+      "DEFINITION_AR": "فرع الرياضيات المعني بجمع البيانات وتحليلها.",
+      "DEFINITION_EN": "The branch of mathematics concerned with collecting and analyzing data.",
+      "STATUS": "Draft",
       "SOURCE": "ISO 80000-2"
     },
     {
@@ -546,6 +1526,136 @@
       "SOURCE": "ISO 80000-4"
     },
     {
+      "ACS_ID": "ACS-PHYS-0003",
+      "AR_TERM": "كتلة",
+      "EN_TERM": "Mass",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "مقدار المادة في جسم ما.",
+      "DEFINITION_EN": "The amount of matter in a body.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0004",
+      "AR_TERM": "سرعة",
+      "EN_TERM": "Velocity",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "معدل تغير الموضع مع الزمن مع اتجاه.",
+      "DEFINITION_EN": "The rate of change of position with time, including direction.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0005",
+      "AR_TERM": "تسارع",
+      "EN_TERM": "Acceleration",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "معدل تغير السرعة مع الزمن.",
+      "DEFINITION_EN": "The rate of change of velocity with time.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0006",
+      "AR_TERM": "كمية الحركة",
+      "EN_TERM": "Momentum",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "حاصل ضرب كتلة الجسم في سرعته.",
+      "DEFINITION_EN": "The product of a body's mass and its velocity.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0007",
+      "AR_TERM": "شغل",
+      "EN_TERM": "Work",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "الطاقة المنقولة عندما تحرك قوة جسمًا.",
+      "DEFINITION_EN": "Energy transferred when a force moves a body.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0008",
+      "AR_TERM": "حرارة",
+      "EN_TERM": "Heat",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "طاقة تنتقل بين الأجسام لاختلاف درجات الحرارة.",
+      "DEFINITION_EN": "Energy transferred between bodies due to temperature difference.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-5"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0009",
+      "AR_TERM": "تيار كهربائي",
+      "EN_TERM": "Electric Current",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "معدل تدفق الشحنات الكهربائية في موصل.",
+      "DEFINITION_EN": "The rate of flow of electric charge through a conductor.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-6"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0010",
+      "AR_TERM": "جهد كهربائي",
+      "EN_TERM": "Voltage",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "فرق الجهد الكهربائي بين نقطتين.",
+      "DEFINITION_EN": "The electric potential difference between two points.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-6"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0011",
+      "AR_TERM": "مقاومة كهربائية",
+      "EN_TERM": "Electrical Resistance",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "خاصية تعرقل مرور التيار في موصل.",
+      "DEFINITION_EN": "The property opposing current flow through a conductor.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-6"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0012",
+      "AR_TERM": "موجة",
+      "EN_TERM": "Wave",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "انتشار اضطراب ينقل طاقة دون نقل مادة.",
+      "DEFINITION_EN": "A disturbance that propagates energy without transferring matter.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-3"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0013",
+      "AR_TERM": "تردد",
+      "EN_TERM": "Frequency",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "عدد الدورات أو الذبذبات في الثانية.",
+      "DEFINITION_EN": "The number of cycles or oscillations per second.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-3"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0014",
+      "AR_TERM": "طول موجي",
+      "EN_TERM": "Wavelength",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "المسافة بين قمتين متتاليتين لموجة.",
+      "DEFINITION_EN": "The distance between two consecutive peaks of a wave.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-3"
+    },
+    {
+      "ACS_ID": "ACS-PHYS-0015",
+      "AR_TERM": "ضغط",
+      "EN_TERM": "Pressure",
+      "DOMAIN": "Physics",
+      "DEFINITION_AR": "القوة المؤثرة عموديًا على وحدة المساحة.",
+      "DEFINITION_EN": "The force acting perpendicularly per unit area.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
       "ACS_ID": "ACS-BIO-0001",
       "AR_TERM": "جين",
       "EN_TERM": "Gene",
@@ -564,6 +1674,506 @@
       "DEFINITION_EN": "The genetic material of living organisms.",
       "STATUS": "Approved",
       "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0003",
+      "AR_TERM": "خلية",
+      "EN_TERM": "Cell",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "الوحدة البنائية الأساسية للكائنات الحية.",
+      "DEFINITION_EN": "The basic structural unit of living organisms.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0004",
+      "AR_TERM": "نسيج",
+      "EN_TERM": "Tissue",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "مجموعة خلايا متشابهة تؤدي وظيفة مشتركة.",
+      "DEFINITION_EN": "A group of similar cells performing a common function.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0005",
+      "AR_TERM": "عضو",
+      "EN_TERM": "Organ",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "بنية متخصصة تؤدي وظيفة محددة في الجسم.",
+      "DEFINITION_EN": "A specialized structure performing a specific body function.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0006",
+      "AR_TERM": "كائن حي",
+      "EN_TERM": "Organism",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "كيان حي قادر على النمو والتكاثر.",
+      "DEFINITION_EN": "A living entity capable of growth and reproduction.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0007",
+      "AR_TERM": "نوع",
+      "EN_TERM": "Species",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "أصنوفة كائنات قادرة على التزاوج وإنتاج نسل خصب.",
+      "DEFINITION_EN": "A group of organisms able to interbreed and produce fertile offspring.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0008",
+      "AR_TERM": "تطور",
+      "EN_TERM": "Evolution",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "تغير في الصفات الوراثية عبر الأجيال.",
+      "DEFINITION_EN": "Change in inherited traits across generations.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0009",
+      "AR_TERM": "وراثة",
+      "EN_TERM": "Heredity",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "انتقال الصفات من الآباء إلى الأبناء.",
+      "DEFINITION_EN": "The transmission of traits from parents to offspring.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0010",
+      "AR_TERM": "طفرة",
+      "EN_TERM": "Mutation",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "تغير دائم في تسلسل المادة الوراثية.",
+      "DEFINITION_EN": "A permanent change in the sequence of genetic material.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0011",
+      "AR_TERM": "بروتين",
+      "EN_TERM": "Protein",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "جزيء حيوي يؤدي وظائف بنائية ووظيفية متنوعة.",
+      "DEFINITION_EN": "A biological molecule performing diverse structural and functional roles.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-BIO-0012",
+      "AR_TERM": "إنزيم",
+      "EN_TERM": "Enzyme",
+      "DOMAIN": "Biology",
+      "DEFINITION_AR": "بروتين يحفز التفاعلات الكيميائية الحيوية.",
+      "DEFINITION_EN": "A protein that catalyzes biochemical reactions.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0001",
+      "AR_TERM": "ذرة",
+      "EN_TERM": "Atom",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "أصغر وحدة للعنصر تحافظ على خصائصه.",
+      "DEFINITION_EN": "The smallest unit of an element retaining its properties.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0002",
+      "AR_TERM": "جزيء",
+      "EN_TERM": "Molecule",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "مجموعة ذرات مترابطة بروابط كيميائية.",
+      "DEFINITION_EN": "A group of atoms held together by chemical bonds.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0003",
+      "AR_TERM": "عنصر",
+      "EN_TERM": "Chemical Element",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "مادة لا يمكن تحليلها إلى مواد أبسط كيميائيًا.",
+      "DEFINITION_EN": "A substance that cannot be broken down into simpler substances chemically.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0004",
+      "AR_TERM": "مركب",
+      "EN_TERM": "Compound",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "مادة تتكون من اتحاد عنصرين أو أكثر.",
+      "DEFINITION_EN": "A substance formed by the combination of two or more elements.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0005",
+      "AR_TERM": "أيون",
+      "EN_TERM": "Ion",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "ذرة أو جزيء يحمل شحنة كهربائية.",
+      "DEFINITION_EN": "An atom or molecule carrying an electric charge.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0006",
+      "AR_TERM": "رابطة كيميائية",
+      "EN_TERM": "Chemical Bond",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "قوة ترابط بين الذرات ضمن المركب.",
+      "DEFINITION_EN": "A force holding atoms together within a compound.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0007",
+      "AR_TERM": "تفاعل كيميائي",
+      "EN_TERM": "Chemical Reaction",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "تحول مواد متفاعلة إلى مواد ناتجة جديدة.",
+      "DEFINITION_EN": "The transformation of reactants into new product substances.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0008",
+      "AR_TERM": "محلول",
+      "EN_TERM": "Solution",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "مزيج متجانس من مذيب ومذاب.",
+      "DEFINITION_EN": "A homogeneous mixture of a solvent and a solute.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0009",
+      "AR_TERM": "حمض",
+      "EN_TERM": "Acid",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "مادة تمنح أيونات الهيدروجين في المحلول.",
+      "DEFINITION_EN": "A substance that donates hydrogen ions in solution.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-CHEM-0010",
+      "AR_TERM": "قاعدة",
+      "EN_TERM": "Base",
+      "DOMAIN": "Chemistry",
+      "DEFINITION_AR": "مادة تستقبل أيونات الهيدروجين في المحلول.",
+      "DEFINITION_EN": "A substance that accepts hydrogen ions in solution.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الكيميائي (الاتحاد الدولي للكيمياء)"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0001",
+      "AR_TERM": "هندسة",
+      "EN_TERM": "Engineering",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "تطبيق العلم لحل مشاكل عملية بتصميم الأنظمة.",
+      "DEFINITION_EN": "The application of science to solve practical problems by designing systems.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0002",
+      "AR_TERM": "تصميم",
+      "EN_TERM": "Design",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "وضع مواصفات وبنية لمنتج أو نظام.",
+      "DEFINITION_EN": "Specifying the form and structure of a product or system.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0003",
+      "AR_TERM": "تحليل",
+      "EN_TERM": "Analysis",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "دراسة نظام أو مشكلة بتفكيكها إلى مكونات.",
+      "DEFINITION_EN": "Studying a system or problem by breaking it into components.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0004",
+      "AR_TERM": "نموذج أولي",
+      "EN_TERM": "Prototype",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "نسخة تجريبية أولية لاختبار تصميم ما.",
+      "DEFINITION_EN": "An early trial version for testing a design.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 9000"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0005",
+      "AR_TERM": "مادة",
+      "EN_TERM": "Material",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "جسم فيزيائي يستخدم في صناعة المنتجات.",
+      "DEFINITION_EN": "Physical matter used in manufacturing products.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0006",
+      "AR_TERM": "معدن",
+      "EN_TERM": "Metal",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "عنصر يتميز بالتوصيل الكهربائي والليونة.",
+      "DEFINITION_EN": "An element characterized by electrical conductivity and malleability.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0007",
+      "AR_TERM": "إجهاد",
+      "EN_TERM": "Stress",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "القوة الداخلية لكل وحدة مساحة في المادة.",
+      "DEFINITION_EN": "The internal force per unit area within a material.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0008",
+      "AR_TERM": "انفعال",
+      "EN_TERM": "Strain",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "التشوه النسبي الذي تعاني منه مادة تحت إجهاد.",
+      "DEFINITION_EN": "The relative deformation experienced by a material under stress.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 80000-4"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0009",
+      "AR_TERM": "إنتاج",
+      "EN_TERM": "Production",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "تحويل المدخلات إلى منتجات قابلة للاستخدام.",
+      "DEFINITION_EN": "Converting inputs into usable products.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 9000"
+    },
+    {
+      "ACS_ID": "ACS-ENG-0010",
+      "AR_TERM": "جودة",
+      "EN_TERM": "Quality",
+      "DOMAIN": "Engineering",
+      "DEFINITION_AR": "مدى استيفاء المنتج للمتطلبات المحددة.",
+      "DEFINITION_EN": "The degree to which a product fulfills specified requirements.",
+      "STATUS": "Draft",
+      "SOURCE": "ISO 9000"
+    },
+    {
+      "ACS_ID": "ACS-MED-0001",
+      "AR_TERM": "تشخيص",
+      "EN_TERM": "Diagnosis",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "تحديد المرض استنادًا إلى الأعراض والفحوصات.",
+      "DEFINITION_EN": "Identifying a disease based on symptoms and tests.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0002",
+      "AR_TERM": "علاج",
+      "EN_TERM": "Treatment",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "إجراءات تهدف إلى شفاء المرض أو تخفيفه.",
+      "DEFINITION_EN": "Procedures aimed at curing or alleviating a disease.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0003",
+      "AR_TERM": "مرض",
+      "EN_TERM": "Disease",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "اضطراب في وظيفة الجسم أو بنيته.",
+      "DEFINITION_EN": "A disorder of body function or structure.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0004",
+      "AR_TERM": "عرض",
+      "EN_TERM": "Symptom",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "علامة يشعر بها المريض تدل على مرض.",
+      "DEFINITION_EN": "A sign felt by a patient indicating a disease.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0005",
+      "AR_TERM": "دواء",
+      "EN_TERM": "Drug",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "مادة تستخدم للوقاية من الأمراض أو علاجها.",
+      "DEFINITION_EN": "A substance used to prevent or treat diseases.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0006",
+      "AR_TERM": "جراحة",
+      "EN_TERM": "Surgery",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "علاج يتضمن تدخلًا يدويًا أو آليًا في الجسم.",
+      "DEFINITION_EN": "Treatment involving manual or instrumental intervention in the body.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0007",
+      "AR_TERM": "لقاح",
+      "EN_TERM": "Vaccine",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "مستحضر يولد مناعة ضد مرض معين.",
+      "DEFINITION_EN": "A preparation that generates immunity against a specific disease.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0008",
+      "AR_TERM": "مناعة",
+      "EN_TERM": "Immunity",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "قدرة الجسم على مقاومة العدوى والأمراض.",
+      "DEFINITION_EN": "The body's ability to resist infection and disease.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0009",
+      "AR_TERM": "عدوى",
+      "EN_TERM": "Infection",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "استيطان كائنات دقيقة ممرضة في الجسم.",
+      "DEFINITION_EN": "The invasion of the body by pathogenic microorganisms.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-MED-0010",
+      "AR_TERM": "وباء",
+      "EN_TERM": "Epidemic",
+      "DOMAIN": "Medicine",
+      "DEFINITION_AR": "انتشار مرض بين أعداد كبيرة من الناس.",
+      "DEFINITION_EN": "The spread of a disease among large numbers of people.",
+      "STATUS": "Draft",
+      "SOURCE": "المعجم الطبي الموحد (منظمة الصحة العالمية)"
+    },
+    {
+      "ACS_ID": "ACS-LING-0001",
+      "AR_TERM": "لغة",
+      "EN_TERM": "Language",
+      "DOMAIN": "Linguistics",
+      "DEFINITION_AR": "نظام رموز صوتية أو كتابية للتواصل.",
+      "DEFINITION_EN": "A system of spoken or written symbols for communication.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات اللغوية (مجمع اللغة العربية)"
+    },
+    {
+      "ACS_ID": "ACS-LING-0002",
+      "AR_TERM": "نحو",
+      "EN_TERM": "Grammar",
+      "DOMAIN": "Linguistics",
+      "DEFINITION_AR": "قواعد تركيب الجمل في اللغة.",
+      "DEFINITION_EN": "The rules of sentence structure in a language.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات اللغوية (مجمع اللغة العربية)"
+    },
+    {
+      "ACS_ID": "ACS-LING-0003",
+      "AR_TERM": "صرف",
+      "EN_TERM": "Morphology",
+      "DOMAIN": "Linguistics",
+      "DEFINITION_AR": "دراسة بنية الكلمات وأشكالها.",
+      "DEFINITION_EN": "The study of word structure and forms.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات اللغوية (مجمع اللغة العربية)"
+    },
+    {
+      "ACS_ID": "ACS-LING-0004",
+      "AR_TERM": "دلالة",
+      "EN_TERM": "Semantics",
+      "DOMAIN": "Linguistics",
+      "DEFINITION_AR": "دراسة المعنى في اللغة.",
+      "DEFINITION_EN": "The study of meaning in language.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات اللغوية (مجمع اللغة العربية)"
+    },
+    {
+      "ACS_ID": "ACS-LING-0005",
+      "AR_TERM": "صوتيات",
+      "EN_TERM": "Phonetics",
+      "DOMAIN": "Linguistics",
+      "DEFINITION_AR": "دراسة أصوات الكلام وخصائصها.",
+      "DEFINITION_EN": "The study of speech sounds and their properties.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات اللغوية (مجمع اللغة العربية)"
+    },
+    {
+      "ACS_ID": "ACS-ECON-0001",
+      "AR_TERM": "اقتصاد",
+      "EN_TERM": "Economy",
+      "DOMAIN": "Economics",
+      "DEFINITION_AR": "نظام إنتاج وتوزيع واستهلاك الموارد.",
+      "DEFINITION_EN": "A system of producing, distributing, and consuming resources.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات الاقتصادية (صندوق النقد العربي)"
+    },
+    {
+      "ACS_ID": "ACS-ECON-0002",
+      "AR_TERM": "عرض",
+      "EN_TERM": "Supply",
+      "DOMAIN": "Economics",
+      "DEFINITION_AR": "كمية السلع التي يقدمها المنتجون عند سعر معين.",
+      "DEFINITION_EN": "The quantity of goods producers offer at a given price.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات الاقتصادية (صندوق النقد العربي)"
+    },
+    {
+      "ACS_ID": "ACS-ECON-0003",
+      "AR_TERM": "طلب",
+      "EN_TERM": "Demand",
+      "DOMAIN": "Economics",
+      "DEFINITION_AR": "كمية السلع التي يرغب المستهلكون بشراءها عند سعر معين.",
+      "DEFINITION_EN": "The quantity of goods consumers are willing to buy at a given price.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات الاقتصادية (صندوق النقد العربي)"
+    },
+    {
+      "ACS_ID": "ACS-ECON-0004",
+      "AR_TERM": "سوق",
+      "EN_TERM": "Market",
+      "DOMAIN": "Economics",
+      "DEFINITION_AR": "مكان أو آلية يلتقي فيها البائع والمشتري.",
+      "DEFINITION_EN": "A place or mechanism where buyers and sellers meet.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات الاقتصادية (صندوق النقد العربي)"
+    },
+    {
+      "ACS_ID": "ACS-ECON-0005",
+      "AR_TERM": "رأس مال",
+      "EN_TERM": "Capital",
+      "DOMAIN": "Economics",
+      "DEFINITION_AR": "الأصول المالية أو المادية المستخدمة في الإنتاج.",
+      "DEFINITION_EN": "Financial or physical assets used in production.",
+      "STATUS": "Draft",
+      "SOURCE": "المصطلحات الاقتصادية (صندوق النقد العربي)"
     }
   ]
 }
