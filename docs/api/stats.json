@@ -1,0 +1,9 @@
+{
+  "project": "ArCode-Core",
+  "standard": "ArCode-Standard",
+  "version": "1.0",
+  "language": "Arabic-English Hybrid Scientific Dictionary",
+  "description": "Core terminology database for ArCode system",
+  "termCount": 18000,
+  "domainCount": 18
+}

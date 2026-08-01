@@ -1,6 +1,6 @@
 {
   "name": "arcode-core",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Core structure of ArCode Standard: a bilingual (Arabic/English) scientific terminology system, 18,000 terms across 18 domains.",
   "main": "index.js",

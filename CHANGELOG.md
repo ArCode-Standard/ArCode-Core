@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-08-01
+
+### Added
+
+- Bilingual (Arabic/English) website with a language toggle (`docs/`)
+- New pages: API documentation (`docs/api.html`) and project wiki (`docs/wiki.html`)
+- Static JSON API endpoints: `/api/domains.json` and `/api/stats.json`
+- Browser client library `docs/api.js` (`ArCodeAPI`) with `search` / `byId` / `byDomain` / `domains`
+- Shared i18n layer `docs/i18n.js` (86 keys per language)
+
+### Changed
+
+- Redesigned `docs/index.html` with hero stats (18,000 terms / 18 domains), sticky navigation, and a language toggle button
+- Removed all blockchain / wallet ("Connect Wallet") UI from the website
+- All numeric counters keep Latin digits (`toLocaleString("en-US")`)
+
 ## [1.1.0] - 2026-08-01
 
 ### Added

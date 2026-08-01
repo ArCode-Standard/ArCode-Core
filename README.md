@@ -107,6 +107,39 @@ Example structure:
 
 ---
 
+## 🌐 Website
+
+The project ships a bilingual (Arabic / English) website deployed to GitHub Pages:
+
+- **Dictionary app**: [https://arcode-standard.github.io/ArCode-Core/](https://arcode-standard.github.io/ArCode-Core/)
+- **API documentation**: [https://arcode-standard.github.io/ArCode-Core/api.html](https://arcode-standard.github.io/ArCode-Core/api.html)
+- **Wiki (about the project)**: [https://arcode-standard.github.io/ArCode-Core/wiki.html](https://arcode-standard.github.io/ArCode-Core/wiki.html)
+
+### JSON API (static endpoints)
+
+The dataset is exposed as static JSON files on GitHub Pages:
+
+| Endpoint | Description |
+|----------|-------------|
+| `/dictionary.json` | Full dictionary (18,000 terms) |
+| `/api/domains.json` | Domains and per-domain term counts |
+| `/api/stats.json` | Project metadata and statistics |
+
+Base URL: `https://arcode-standard.github.io/ArCode-Core`
+
+A browser/client library is provided at `/api.js`:
+
+```js
+const api = new ArCodeAPI();
+const results = await api.search("خوارزمية");
+const term = await api.byId("ACS-CS-0042");
+const domains = await api.domains();
+```
+
+The npm package exposes the same functions (`search`, `byId`, `byDomain`, `domains`) for Node.js.
+
+---
+
 ## 🗂️ Repository Structure
 
 ```

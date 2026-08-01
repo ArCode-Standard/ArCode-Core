@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ArCode Standard wiki — what it is, the ID system, domains, and methodology. Arabic/English.">
+  <title>ArCode Wiki — الموسوعة | About</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <nav class="topnav">
+    <a class="brand" href="index.html">🏛️ <span data-i18n="app.name">ArCode Standard</span></a>
+    <div class="navlinks">
+      <a href="index.html" data-i18n="nav.dictionary">القاموس</a>
+      <a href="api.html" data-i18n="nav.api">API</a>
+      <a class="active" href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener">GitHub</a>
+      <button class="langbtn" onclick="toggleLang()" data-i18n="lang.btn">English</button>
+    </div>
+  </nav>
+
+  <main class="prose">
+    <h1 data-i18n="wiki.h1">ما هو ArCode Standard؟</h1>
+
+    <h2 data-i18n="wiki.vision">الرؤية</h2>
+    <p data-i18n="wiki.visiontxt">ArCode Standard هو معيار مفتوح المصدر لتوحيد المصطلحات العلمية والتقنية العربية. يوفّر قاموساً ثنائي اللغة (عربي-إنجليزي) لكل مصطلح، مع تعريف دقيق من مصادر معيارية عالمية، بحيث يتكلم المهندسون والعلماء والمطورون «لغة واحدة» بالعربية.</p>
+
+    <h2 data-i18n="wiki.why">لماذا نحتاج إليه؟</h2>
+    <ul>
+      <li data-i18n="wiki.why1">الترجمة الحرفية تنتج مصطلحات مختلفة لنفس المفهوم عبر المصادر.</li>
+      <li data-i18n="wiki.why2">المعيار يوفر مرجعاً موحداً قابلاً للاعتماد في التعليم والبرمجيات والوثائق.</li>
+      <li data-i18n="wiki.why3">ربط كل مصطلح بمعرّف ACS ثابت يسمح بالاعتماد عليه في الأنظمة البرمجية.</li>
+    </ul>
+
+    <h2 data-i18n="wiki.coverage">النطاق (المجالات)</h2>
+    <p data-i18n="wiki.coverage1">يغطي المعيار 18 مجالاً علمياً، لكل مجال 1,000 مصطلح معتمد (إجمالي 18,000):</p>
+    <p class="mono">GEN · CS · AI · NET · SEC · MATH · PHYS · BIO · CHEM · ENG · MED · LING · ECON · LAW · AGR · ASTR · GEO · STAT</p>
+
+    <h2 data-i18n="wiki.id">نظام المعرّفات (ACS ID)</h2>
+    <p data-i18n="wiki.id1">كل مصطلح له معرّف فريد من الشكل:</p>
+    <pre class="codeblock">ACS-&lt;DOMAIN-CODE&gt;-&lt;NUMBER&gt;</pre>
+    <p data-i18n="wiki.id2">مثال: <code>ACS-CS-0042</code> مصطلح علوم الحاسب رقم 42. المعرّف ثابت ولا يتغير، حتى لو تعدّل النص.</p>
+
+    <h2 data-i18n="wiki.data">بنية البيانات</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Field</th><th data-i18n="api.desc">الوصف</th></tr></thead>
+        <tbody>
+          <tr><td><code>ACS_ID</code></td><td data-i18n="wiki.d1">المعرّف الفريد.</td></tr>
+          <tr><td><code>AR_TERM</code></td><td data-i18n="wiki.d2">المصطلح العربي.</td></tr>
+          <tr><td><code>EN_TERM</code></td><td data-i18n="wiki.d3">المصطلح الإنجليزي المقابل.</td></tr>
+          <tr><td><code>DOMAIN</code></td><td data-i18n="wiki.d4">المجال العلمي.</td></tr>
+          <tr><td><code>DEFINITION_AR</code> / <code>DEFINITION_EN</code></td><td data-i18n="wiki.d5">التعريف باللغتين.</td></tr>
+          <tr><td><code>STATUS</code></td><td data-i18n="wiki.d6">حالة المراجعة.</td></tr>
+          <tr><td><code>SOURCE</code></td><td data-i18n="wiki.d7">المصدر المرجعي.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 data-i18n="wiki.meth">المنهجية</h2>
+    <ol>
+      <li data-i18n="wiki.m1">تحديد المجالات العلمية الـ 18 ذات الأولوية.</li>
+      <li data-i18n="wiki.m2">جمع المصطلحات من معايير عالمية (ISO، IEEE، وغيرها).</li>
+      <li data-i18n="wiki.m3">المراجعة اللغوية والدقيقة لكل مصطلح وتعريفه.</li>
+      <li data-i18n="wiki.m4">اعتماد المصطلح وتوليد معرّف ACS فريد.</li>
+    </ol>
+
+    <h2 data-i18n="wiki.tech">الجوانب التقنية</h2>
+    <ul>
+      <li data-i18n="wiki.t1">البيانات: <code>dictionary.json</code> (JSON موحّد).</li>
+      <li data-i18n="wiki.t2">حزمة npm: <code>arcode-core</code> مع دوال <span class="mono">search / byId / byDomain / domains</span>.</li>
+      <li data-i18n="wiki.t3">واجهة برمجة: ملفات JSON ثابتة على GitHub Pages. راجع <a href="api.html">صفحة API</a>.</li>
+      <li data-i18n="wiki.t4">رخصة مفتوحة المصدر، والمساهمة عبر GitHub.</li>
+    </ul>
+
+    <p><a href="index.html" data-i18n="api.back">← عودة إلى القاموس</a></p>
+  </main>
+
+  <footer>
+    <p>🏛️ ArCode Standard · <span data-i18n="footer.tagline">مشروع مفتوح المصدر لتوحيد المصطلحات العلمية العربية</span></p>
+    <p>
+      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a>
+      · <a href="index.html" data-i18n="nav.dictionary">القاموس</a>
+      · <a href="api.html" data-i18n="nav.api">API</a>
+    </p>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>

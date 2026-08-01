@@ -3,31 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ArCode Standard - القاموس الموحد</title>
+  <meta name="description" content="ArCode Standard — the unified Arabic scientific and technical dictionary. 18,000+ bilingual terms from international standards.">
+  <title>ArCode Standard — القاموس الموحد | Unified Dictionary</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
 </head>
 <body>
-  <header>
-    <h1>🏛️ ArCode Standard</h1>
-    <p>قاموس المصطلحات العلمية والتقنية العربية الموحد</p>
+  <nav class="topnav">
+    <a class="brand" href="index.html">🏛️ <span data-i18n="app.name">ArCode Standard</span></a>
+    <div class="navlinks">
+      <a class="active" href="index.html" data-i18n="nav.dictionary">القاموس</a>
+      <a href="api.html" data-i18n="nav.api">API</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener">GitHub</a>
+      <button class="langbtn" onclick="toggleLang()" data-i18n="lang.btn">English</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <span class="badge" data-i18n="hero.badge">مصدر مفتوح · معيار موحد</span>
+    <h1 data-i18n="hero.title">القاموس العربي الموحد للمصطلحات</h1>
+    <p data-i18n="hero.subtitle">أكثر من 18,000 مصطلح علمي وتقني بالعربية والإنجليزية، موثّق من مصادر معيارية عالمية، ومتاح للجميع للبحث والاستخدام.</p>
+    <div class="stats">
+      <div class="stat"><strong id="statTerms">18,000</strong><span data-i18n="stats.terms">مصطلح معتمد</span></div>
+      <div class="stat"><strong>18</strong><span data-i18n="stats.domains">مجال علمي</span></div>
+      <div class="stat"><strong>200+</strong><span data-i18n="stats.sources">مصدر ومرجع</span></div>
+      <div class="stat"><strong>2</strong><span data-i18n="stats.langs">لغة عمل</span></div>
+    </div>
   </header>
 
   <main>
     <section class="controls">
-      <input type="search" id="search" placeholder="ابحث بالعربية أو الإنجليزية…" autocomplete="off">
-      <select id="domain">
-        <option value="">كل المجالات (18)</option>
+      <input type="search" id="search" data-i18n="search.placeholder" placeholder="ابحث بالعربية أو الإنجليزية أو بمعرّف ACS…" autocomplete="off">
+      <select id="domain" aria-label="Domain">
+        <option value="">—</option>
       </select>
       <span class="count" id="count"></span>
     </section>
 
-    <section id="results" class="results"></section>
+    <section id="results" class="results" aria-live="polite"></section>
+
+    <section class="extralinks">
+      <a href="api.html" class="extracard">
+        <span class="icon">⚙️</span>
+        <div>
+          <strong data-i18n="api.note">كيف تستخدم البيانات في مشروعك؟</strong>
+          <em data-i18n="api.link">اقرأ توثيق واجهة البرمجة</em>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a href="wiki.html" class="extracard">
+        <span class="icon">📚</span>
+        <div>
+          <strong data-i18n="wiki.note">ما هو ArCode Standard؟</strong>
+          <em data-i18n="wiki.link">اكتشف الموسوعة</em>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+    </section>
   </main>
 
   <footer>
-    <p>ArCode-Core · <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener">GitHub</a></p>
+    <p>🏛️ ArCode Standard · <span data-i18n="footer.tagline">مشروع مفتوح المصدر لتوحيد المصطلحات العلمية العربية</span></p>
+    <p>
+      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a>
+      · <a href="api.html" data-i18n="footer.api">API</a>
+      · <a href="wiki.html" data-i18n="footer.wiki">Wiki</a>
+    </p>
   </footer>
 
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

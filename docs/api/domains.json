@@ -1,0 +1,77 @@
+{
+  "domains": [
+    {
+      "name": "Agriculture",
+      "count": 1000
+    },
+    {
+      "name": "Artificial Intelligence",
+      "count": 1000
+    },
+    {
+      "name": "Astronomy",
+      "count": 1000
+    },
+    {
+      "name": "Biology",
+      "count": 1000
+    },
+    {
+      "name": "Chemistry",
+      "count": 1000
+    },
+    {
+      "name": "Computer Science",
+      "count": 1000
+    },
+    {
+      "name": "Cybersecurity",
+      "count": 1000
+    },
+    {
+      "name": "Economics",
+      "count": 1000
+    },
+    {
+      "name": "Engineering",
+      "count": 1000
+    },
+    {
+      "name": "General Knowledge",
+      "count": 1000
+    },
+    {
+      "name": "Geology",
+      "count": 1000
+    },
+    {
+      "name": "Law",
+      "count": 1000
+    },
+    {
+      "name": "Linguistics",
+      "count": 1000
+    },
+    {
+      "name": "Mathematics",
+      "count": 1000
+    },
+    {
+      "name": "Medicine",
+      "count": 1000
+    },
+    {
+      "name": "Networking",
+      "count": 1000
+    },
+    {
+      "name": "Physics",
+      "count": 1000
+    },
+    {
+      "name": "Statistics",
+      "count": 1000
+    }
+  ],
+  "total": 18000
+}

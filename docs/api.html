@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ArCode Standard API — documentation for developers. JSON endpoints and JS client library.">
+  <title>ArCode API — واجهة البرمجة | Documentation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+</head>
+<body>
+  <nav class="topnav">
+    <a class="brand" href="index.html">🏛️ <span data-i18n="app.name">ArCode Standard</span></a>
+    <div class="navlinks">
+      <a href="index.html" data-i18n="nav.dictionary">القاموس</a>
+      <a class="active" href="api.html" data-i18n="nav.api">API</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener">GitHub</a>
+      <button class="langbtn" onclick="toggleLang()" data-i18n="lang.btn">English</button>
+    </div>
+  </nav>
+
+  <main class="prose">
+    <h1 data-i18n="api.h1">واجهة برمجة ArCode (API)</h1>
+    <p data-i18n="api.lead">البيانات منشورة كملفات JSON ثابتة على GitHub Pages، ويمكن استخدامها مباشرة من أي لغة برمجة أو من المتصفح.</p>
+
+    <h2 data-i18n="api.endpoints">النقاط المتاحة (Endpoints)</h2>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>Endpoint</th><th data-i18n="api.desc">الوصف</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><code>/dictionary.json</code></td><td data-i18n="api.e1">القاموس الكامل (18,000 مصطلح).</td></tr>
+          <tr><td><code>/api/domains.json</code></td><td data-i18n="api.e2">قائمة المجالات وعدد المصطلحات في كل مجال.</td></tr>
+          <tr><td><code>/api/stats.json</code></td><td data-i18n="api.e3">إحصاءات المشروع وبياناته الوصفية.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 data-i18n="api.base">الرابط الأساسي (Base URL)</h2>
+    <pre class="codeblock">https://arcode-standard.github.io/ArCode-Core</pre>
+
+    <h2 data-i18n="api.fields">حقول المصطلح</h2>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>Field</th><th data-i18n="api.desc">الوصف</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><code>ACS_ID</code></td><td data-i18n="api.f1">معرّف فريد للمصطلح.</td></tr>
+          <tr><td><code>AR_TERM</code></td><td data-i18n="api.f2">المصطلح بالعربية.</td></tr>
+          <tr><td><code>EN_TERM</code></td><td data-i18n="api.f3">المصطلح بالإنجليزية.</td></tr>
+          <tr><td><code>DOMAIN</code></td><td data-i18n="api.f4">اسم المجال العلمي.</td></tr>
+          <tr><td><code>DEFINITION_AR</code></td><td data-i18n="api.f5">التعريف بالعربية.</td></tr>
+          <tr><td><code>DEFINITION_EN</code></td><td data-i18n="api.f6">التعريف بالإنجليزية.</td></tr>
+          <tr><td><code>STATUS</code></td><td data-i18n="api.f7">حالة المراجعة (Approved).</td></tr>
+          <tr><td><code>SOURCE</code></td><td data-i18n="api.f8">المرجع أو المصدر المعياري.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 data-i18n="api.js">مثال — JavaScript (المتصفح)</h2>
+    <pre class="codeblock">// استخدم مكتبة العميل أو fetch مباشرة
+import { ArCodeAPI } from "https://arcode-standard.github.io/ArCode-Core/api.js";
+
+const api = new ArCodeAPI();
+const results = await api.search("خوارزمية");
+const term = await api.byId("ACS-CS-0042");
+const domains = await api.domains();</pre>
+
+    <h2 data-i18n="api.python">مثال — Python</h2>
+    <pre class="codeblock">import json, urllib.request
+
+base = "https://arcode-standard.github.io/ArCode-Core"
+with urllib.request.urlopen(base + "/dictionary.json") as r:
+    data = json.load(r)
+
+terms = [t for t in data["terms"] if "algorithm" in t["EN_TERM"].lower()]
+print(len(terms), "results")</pre>
+
+    <h2 data-i18n="api.curl">مثال — cURL</h2>
+    <pre class="codeblock">curl https://arcode-standard.github.io/ArCode-Core/api/domains.json</pre>
+
+    <h2 data-i18n="api.npm">حزمة npm</h2>
+    <p data-i18n="api.npmdesc">يمكنك أيضاً استخدام الحزمة الرسمية في Node.js:</p>
+    <pre class="codeblock">npm install arcode-core
+
+const { search, byId, byDomain, domains } = require("arcode-core");
+console.log(search("نظام", { limit: 10 }));</pre>
+
+    <p><a href="index.html" data-i18n="api.back">← عودة إلى القاموس</a></p>
+  </main>
+
+  <footer>
+    <p>🏛️ ArCode Standard · <span data-i18n="footer.tagline">مشروع مفتوح المصدر لتوحيد المصطلحات العلمية العربية</span></p>
+    <p>
+      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a>
+      · <a href="index.html" data-i18n="nav.dictionary">القاموس</a>
+      · <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+    </p>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
