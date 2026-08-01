@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-08-01
+
+### Added
+
+- 5 new domains: Law, Agriculture, Astronomy, Geology, Statistics (1,000 terms each)
+- Total dictionary expanded from 13,000 to 18,000 terms (18 domains × 1,000)
+
+### Changed
+
+- `standard.json` and `domain_list.json` updated with the 5 new domain codes
+- `README.md` coverage and table updated
+
 ## [1.0.0] - 2026-08-01
 
 ### Added

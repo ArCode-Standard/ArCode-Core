@@ -48,6 +48,11 @@
     "ENG":  "Engineering",
     "MED":  "Medicine",
     "LING": "Linguistics",
-    "ECON": "Economics"
+    "ECON": "Economics",
+    "LAW":  "Law",
+    "AGR":  "Agriculture",
+    "ASTR": "Astronomy",
+    "GEO":  "Geology",
+    "STAT": "Statistics"
   }
 }

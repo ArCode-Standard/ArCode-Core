@@ -12,6 +12,11 @@
     { "code": "ENG",  "name": "Engineering" },
     { "code": "MED",  "name": "Medicine" },
     { "code": "LING", "name": "Linguistics" },
-    { "code": "ECON", "name": "Economics" }
+    { "code": "ECON", "name": "Economics" },
+    { "code": "LAW",  "name": "Law" },
+    { "code": "AGR",  "name": "Agriculture" },
+    { "code": "ASTR", "name": "Astronomy" },
+    { "code": "GEO",  "name": "Geology" },
+    { "code": "STAT", "name": "Statistics" }
   ]
 }

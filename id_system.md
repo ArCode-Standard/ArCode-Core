@@ -25,6 +25,11 @@
 | MED   | Medicine |
 | LING  | Linguistics |
 | ECON  | Economics |
+| LAW   | Law |
+| AGR   | Agriculture |
+| ASTR  | Astronomy |
+| GEO   | Geology |
+| STAT  | Statistics |
 
 ## أمثلة:
 
@@ -33,6 +38,8 @@
 - `ACS-SEC-0001` → Cybersecurity
 - `ACS-MATH-0001` → Mathematics
 - `ACS-GEN-0001` → General Knowledge
+- `ACS-LAW-0001` → Law
+- `ACS-ASTR-0001` → Astronomy
 
 ## قواعد:
 - لا يسمح بالتكرار (كل ID فريد عالمياً)

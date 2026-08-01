@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArCode Standard - القاموس الموحد</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏛️ ArCode Standard</h1>
+    <p>قاموس المصطلحات العلمية والتقنية العربية الموحد</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input type="search" id="search" placeholder="ابحث بالعربية أو الإنجليزية…" autocomplete="off">
+      <select id="domain">
+        <option value="">كل المجالات (18)</option>
+      </select>
+      <span class="count" id="count"></span>
+    </section>
+
+    <section id="results" class="results"></section>
+  </main>
+
+  <footer>
+    <p>ArCode-Core · <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
