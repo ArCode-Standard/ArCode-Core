@@ -3,74 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ArCode Standard — the unified Arabic scientific and technical dictionary. 18,000+ bilingual terms from international standards.">
-  <title>ArCode Standard — القاموس الموحد | Unified Dictionary</title>
+  <title>ArCode — القاموس العلمي الموحد</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
 </head>
 <body>
-  <nav class="topnav">
-    <a class="brand" href="index.html">🏛️ <span data-i18n="app.name">ArCode Standard</span></a>
-    <div class="navlinks">
-      <a class="active" href="index.html" data-i18n="nav.dictionary">القاموس</a>
-      <a href="api.html" data-i18n="nav.api">API</a>
-      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
-      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener">GitHub</a>
-      <button class="langbtn" onclick="toggleLang()" data-i18n="lang.btn">English</button>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <div class="nav-logo-icon">A</div>
+        <span class="nav-logo-text" data-i18n="app.name">ArCode</span>
+      </a>
+      <div class="nav-links">
+        <a href="#search" class="nav-link active" data-i18n="nav.dictionary">القاموس</a>
+        <a href="api.html" class="nav-link" data-i18n="nav.api">API</a>
+        <a href="wiki.html" class="nav-link" data-i18n="nav.wiki">Wiki</a>
+        <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" class="nav-link">GitHub</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <button class="lang-btn" id="langBtn" onclick="toggleLang()" data-i18n="lang.btn">English</button>
+      </div>
     </div>
   </nav>
 
-  <header class="hero">
-    <span class="badge" data-i18n="hero.badge">مصدر مفتوح · معيار موحد</span>
-    <h1 data-i18n="hero.title">القاموس العربي الموحد للمصطلحات</h1>
-    <p data-i18n="hero.subtitle">أكثر من 18,000 مصطلح علمي وتقني بالعربية والإنجليزية، موثّق من مصادر معيارية عالمية، ومتاح للجميع للبحث والاستخدام.</p>
-    <div class="stats">
-      <div class="stat"><strong id="statTerms">18,000</strong><span data-i18n="stats.terms">مصطلح معتمد</span></div>
-      <div class="stat"><strong>18</strong><span data-i18n="stats.domains">مجال علمي</span></div>
-      <div class="stat"><strong>200+</strong><span data-i18n="stats.sources">مصدر ومرجع</span></div>
-      <div class="stat"><strong>2</strong><span data-i18n="stats.langs">لغة عمل</span></div>
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      <span data-i18n="hero.badge">18,000+ مصطلح معتمد</span>
     </div>
-  </header>
-
-  <main>
-    <section class="controls">
-      <input type="search" id="search" data-i18n="search.placeholder" placeholder="ابحث بالعربية أو الإنجليزية أو بمعرّف ACS…" autocomplete="off">
-      <select id="domain" aria-label="Domain">
-        <option value="">—</option>
-      </select>
-      <span class="count" id="count"></span>
-    </section>
-
-    <section id="results" class="results" aria-live="polite"></section>
-
-    <section class="extralinks">
-      <a href="api.html" class="extracard">
-        <span class="icon">⚙️</span>
-        <div>
-          <strong data-i18n="api.note">كيف تستخدم البيانات في مشروعك؟</strong>
-          <em data-i18n="api.link">اقرأ توثيق واجهة البرمجة</em>
-        </div>
-        <span class="arrow">→</span>
-      </a>
-      <a href="wiki.html" class="extracard">
-        <span class="icon">📚</span>
-        <div>
-          <strong data-i18n="wiki.note">ما هو ArCode Standard؟</strong>
-          <em data-i18n="wiki.link">اكتشف الموسوعة</em>
-        </div>
-        <span class="arrow">→</span>
-      </a>
-    </section>
-  </main>
-
-  <footer>
-    <p>🏛️ ArCode Standard · <span data-i18n="footer.tagline">مشروع مفتوح المصدر لتوحيد المصطلحات العلمية العربية</span></p>
-    <p>
-      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a>
-      · <a href="api.html" data-i18n="footer.api">API</a>
-      · <a href="wiki.html" data-i18n="footer.wiki">Wiki</a>
+    <h1 class="hero-title">
+      <span data-i18n="hero.title1">المعيار العلمي</span><br>
+      <span class="gradient" data-i18n="hero.title2">العربي الموحّد</span>
+    </h1>
+    <p class="hero-subtitle" data-i18n="hero.subtitle">
+      نظام مصطلحات موحّد يربط المفردات العلمية العربية بالإنجليزية عبر 18 مجالاً — من علوم الحاسب إلى الطب.
     </p>
+  </section>
+
+  <!-- Search -->
+  <section class="search-container" id="search">
+    <div class="search-box">
+      <div class="search-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      </div>
+      <input
+        type="text"
+        class="search-input"
+        id="searchInput"
+        data-i18n="search.placeholder"
+        placeholder="ابحث في المصطلحات أو التعريفات أو المعرّفات…"
+        autocomplete="off"
+      >
+      <kbd class="search-kbd" data-i18n="search.kbd">⌘K</kbd>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-bar">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="statTerms">18,000</div>
+        <div class="stat-label" data-i18n="stat.terms">مصطلح</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="statDomains">18</div>
+        <div class="stat-label" data-i18n="stat.domains">مجال</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="statSources">200+</div>
+        <div class="stat-label" data-i18n="stat.sources">مصدر</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="statLangs">2</div>
+        <div class="stat-label" data-i18n="stat.langs">لغة عمل</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters-section">
+    <div class="filters-scroll" id="domainFilters"></div>
+  </section>
+
+  <!-- Results -->
+  <section class="results-section">
+    <div class="results-header">
+      <span class="results-count" id="resultsCount"><strong>0</strong> <span data-i18n="results.count">نتيجة</span></span>
+      <span class="results-sort" data-i18n="results.sort">مرتبة حسب الأهمية</span>
+    </div>
+    <div class="term-list" id="resultsList">
+      <div class="loading-state">
+        <div class="loading-spinner"></div>
+        <p class="loading-text" data-i18n="loading.text">جارٍ تحميل القاموس…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a href="#" class="footer-brand">
+          <div class="footer-logo">A</div>
+          <span class="footer-brand-text" data-i18n="app.name">ArCode</span>
+        </a>
+        <span class="footer-copy" data-i18n="footer.copy">© 2026 ArCode Standard. CC-BY-SA 4.0 & Apache 2.0</span>
+      </div>
+      <div class="footer-right">
+        <a href="api.html" class="footer-link" data-i18n="nav.api">API</a>
+        <a href="wiki.html" class="footer-link" data-i18n="nav.wiki">Wiki</a>
+        <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+      </div>
+    </div>
   </footer>
+
+  <!-- FAB -->
+  <a class="fab" href="https://github.com/ArCode-Standard/ArCode-Core/issues/new?template=term_proposal.md" target="_blank" rel="noopener" title="Propose new term" aria-label="Propose new term">+</a>
 
   <script src="i18n.js"></script>
   <script src="app.js"></script>

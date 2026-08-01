@@ -1,38 +1,54 @@
 window.I18N = {
   ar: {
-    "app.name": "ArCode Standard",
-    "tagline": "قاموس المصطلحات العلمية والتقنية العربية الموحد",
+    "app.name": "ArCode",
     "nav.dictionary": "القاموس",
     "nav.api": "واجهة البرمجة (API)",
     "nav.wiki": "الموسوعة (Wiki)",
     "lang.btn": "English",
-    "hero.badge": "مصدر مفتوح · معيار موحد",
-    "hero.title": "القاموس العربي الموحد للمصطلحات",
+    "theme.title": "تبديل المظهر",
+    "hero.badge": "18,000+ مصطلح معتمد",
+    "hero.title1": "المعيار العلمي",
+    "hero.title2": "العربي الموحّد",
     "hero.subtitle":
-      "أكثر من 18,000 مصطلح علمي وتقني بالعربية والإنجليزية، موثّق من مصادر معيارية عالمية، ومتاح للجميع للبحث والاستخدام.",
-    "stats.terms": "مصطلح معتمد",
-    "stats.domains": "مجال علمي",
-    "stats.sources": "مصدر ومرجع",
-    "stats.langs": "لغة عمل",
-    "search.placeholder": "ابحث بالعربية أو الإنجليزية أو بمعرّف ACS…",
-    "domain.all": "كل المجالات",
-    "count.terms": "مصطلح",
-    "results.empty": "لا توجد نتائج مطابقة",
-    "load.error": "تعذّر تحميل القاموس",
+      "نظام مصطلحات لامركزي يربط المفردات العلمية العربية بالإنجليزية عبر 18 مجالاً — من علوم الحاسب إلى الطب.",
+    "search.placeholder": "ابحث في المصطلحات أو التعريفات أو المعرّفات…",
+    "search.kbd": "⌘K",
+    "stat.terms": "مصطلح",
+    "stat.domains": "مجال",
+    "stat.sources": "مصدر",
+    "stat.langs": "لغة عمل",
+    "results.count": "نتيجة",
+    "results.count.one": "نتيجة",
+    "results.sort": "مرتبة حسب الأهمية",
+    "loading.text": "جارٍ تحميل القاموس…",
+    "error.title": "تعذّر تحميل القاموس",
+    "error.desc": "يرجى التحقق من الاتصال والمحاولة مجدداً.",
+    "empty.title": "لا توجد نتائج",
+    "empty.desc": "جرّب كلمة بحث أو مجالاً مختلفاً.",
+    "term.source": "المصدر:",
     "copy": "نسخ",
     "copied": "تم النسخ",
-    "footer.tagline": "مشروع مفتوح المصدر لتوحيد المصطلحات العلمية العربية",
-    "footer.github": "GitHub",
-    "footer.api": "واجهة البرمجة",
-    "footer.wiki": "الموسوعة",
-    "stats.verified": "مصطلح مدقّق",
-    "stats.badge": "عربي-إنجليزي",
-    "dictionary.title": "القاموس الموحد",
-    "by": "المصدر",
-    "api.note": "كيف تستخدم البيانات في مشروعك؟",
-    "api.link": "اقرأ توثيق واجهة البرمجة",
-    "wiki.note": "ما هو ArCode Standard؟",
-    "wiki.link": "اكتشف الموسوعة",
+    "footer.copy": "© 2026 ArCode Standard. رخصة CC-BY-SA 4.0 وApache 2.0",
+    "fab.title": "اقترح مصطلحاً جديداً",
+    "all": "كل المجالات",
+    "dom.General Knowledge": "المعرفة العامة",
+    "dom.Computer Science": "علوم الحاسب",
+    "dom.Artificial Intelligence": "الذكاء الاصطناعي",
+    "dom.Networking": "الشبكات",
+    "dom.Cybersecurity": "الأمن السيبراني",
+    "dom.Mathematics": "الرياضيات",
+    "dom.Physics": "الفيزياء",
+    "dom.Biology": "علم الأحياء",
+    "dom.Chemistry": "الكيمياء",
+    "dom.Engineering": "الهندسة",
+    "dom.Medicine": "الطب",
+    "dom.Linguistics": "اللغويات",
+    "dom.Economics": "الاقتصاد",
+    "dom.Law": "القانون",
+    "dom.Agriculture": "الزراعة",
+    "dom.Astronomy": "الفلك",
+    "dom.Geology": "علوم الأرض",
+    "dom.Statistics": "الإحصاء",
     "api.h1": "واجهة برمجة ArCode (API)",
     "api.lead": "البيانات منشورة كملفات JSON ثابتة على GitHub Pages، ويمكن استخدامها مباشرة من أي لغة برمجة أو من المتصفح.",
     "api.endpoints": "النقاط المتاحة (Endpoints)",
@@ -88,39 +104,55 @@ window.I18N = {
     "wiki.t4": "رخصة مفتوحة المصدر، والمساهمة عبر GitHub.",
   },
   en: {
-    "app.name": "ArCode Standard",
-    "tagline": "The Unified Arabic Scientific & Technical Dictionary",
+    "app.name": "ArCode",
     "nav.dictionary": "Dictionary",
     "nav.api": "API",
     "nav.wiki": "Wiki",
     "lang.btn": "العربية",
-    "hero.badge": "Open Source · Unified Standard",
-    "hero.title": "The Unified Arabic Dictionary of Terms",
+    "theme.title": "Toggle theme",
+    "hero.badge": "18,000+ Approved Terms",
+    "hero.title1": "The Unified Arabic",
+    "hero.title2": "Scientific Standard",
     "hero.subtitle":
-      "18,000+ Arabic and English scientific and technical terms, sourced from international standards, free to search and use.",
-    "stats.terms": "Approved Terms",
-    "stats.domains": "Domains",
-    "stats.sources": "Sources",
-    "stats.langs": "Working Languages",
-    "search.placeholder": "Search Arabic, English or ACS ID…",
-    "domain.all": "All domains",
-    "count.terms": "terms",
-    "results.empty": "No matching results",
-    "load.error": "Failed to load the dictionary",
+      "A standardized terminology system bridging Arabic and English scientific vocabulary across 18 domains — from Computer Science to Medicine.",
+    "search.placeholder": "Search terms, definitions, or IDs…",
+    "search.kbd": "⌘K",
+    "stat.terms": "Terms",
+    "stat.domains": "Domains",
+    "stat.sources": "Sources",
+    "stat.langs": "Languages",
+    "results.count": "results",
+    "results.count.one": "result",
+    "results.sort": "Sorted by relevance",
+    "loading.text": "Loading dictionary…",
+    "error.title": "Failed to load dictionary",
+    "error.desc": "Please check your connection and try again.",
+    "empty.title": "No results found",
+    "empty.desc": "Try a different search term or domain filter.",
+    "term.source": "Source:",
     "copy": "Copy",
     "copied": "Copied",
-    "footer.tagline": "An open-source project to unify Arabic scientific terminology",
-    "footer.github": "GitHub",
-    "footer.api": "API",
-    "footer.wiki": "Wiki",
-    "stats.verified": "Verified Terms",
-    "stats.badge": "Arabic-English",
-    "dictionary.title": "The Unified Dictionary",
-    "by": "Source",
-    "api.note": "Using this data in your project?",
-    "api.link": "Read the API documentation",
-    "wiki.note": "What is ArCode Standard?",
-    "wiki.link": "Explore the wiki",
+    "footer.copy": "© 2026 ArCode Standard. CC-BY-SA 4.0 & Apache 2.0",
+    "fab.title": "Propose a new term",
+    "all": "All Domains",
+    "dom.General Knowledge": "General Knowledge",
+    "dom.Computer Science": "Computer Science",
+    "dom.Artificial Intelligence": "Artificial Intelligence",
+    "dom.Networking": "Networking",
+    "dom.Cybersecurity": "Cybersecurity",
+    "dom.Mathematics": "Mathematics",
+    "dom.Physics": "Physics",
+    "dom.Biology": "Biology",
+    "dom.Chemistry": "Chemistry",
+    "dom.Engineering": "Engineering",
+    "dom.Medicine": "Medicine",
+    "dom.Linguistics": "Linguistics",
+    "dom.Economics": "Economics",
+    "dom.Law": "Law",
+    "dom.Agriculture": "Agriculture",
+    "dom.Astronomy": "Astronomy",
+    "dom.Geology": "Geology",
+    "dom.Statistics": "Statistics",
     "api.h1": "ArCode API",
     "api.lead": "The dataset is published as static JSON files on GitHub Pages and can be consumed from any language or directly from the browser.",
     "api.endpoints": "Endpoints",
@@ -189,6 +221,7 @@ function applyLang() {
   const isAr = ACD_LANG === "ar";
   document.documentElement.lang = ACD_LANG;
   document.documentElement.dir = isAr ? "rtl" : "ltr";
+  document.documentElement.setAttribute("data-lang", ACD_LANG);
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
@@ -197,7 +230,7 @@ function applyLang() {
       el.textContent = t(key);
     }
   });
-  document.documentElement.setAttribute("data-lang", ACD_LANG);
+  document.title = t("app.name") + (isAr ? " — القاموس الموحد" : " — Unified Dictionary");
 }
 
 function toggleLang() {
@@ -208,3 +241,16 @@ function toggleLang() {
 }
 
 document.addEventListener("DOMContentLoaded", applyLang);
+
+/* ---- Theme (shared) ---- */
+function toggleTheme() {
+  const html = document.documentElement;
+  const next = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  html.setAttribute("data-theme", next);
+  localStorage.setItem("theme", next);
+}
+(function initTheme() {
+  const saved = localStorage.getItem("theme");
+  const prefers = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  document.documentElement.setAttribute("data-theme", saved || prefers);
+})();

@@ -3,20 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ArCode Standard wiki — what it is, the ID system, domains, and methodology. Arabic/English.">
   <title>ArCode Wiki — الموسوعة | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
 </head>
 <body>
-  <nav class="topnav">
-    <a class="brand" href="index.html">🏛️ <span data-i18n="app.name">ArCode Standard</span></a>
-    <div class="navlinks">
-      <a href="index.html" data-i18n="nav.dictionary">القاموس</a>
-      <a href="api.html" data-i18n="nav.api">API</a>
-      <a class="active" href="wiki.html" data-i18n="nav.wiki">Wiki</a>
-      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener">GitHub</a>
-      <button class="langbtn" onclick="toggleLang()" data-i18n="lang.btn">English</button>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-logo-icon">A</div>
+        <span class="nav-logo-text" data-i18n="app.name">ArCode</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link" data-i18n="nav.dictionary">القاموس</a>
+        <a href="api.html" class="nav-link" data-i18n="nav.api">API</a>
+        <a href="wiki.html" class="nav-link active" data-i18n="nav.wiki">Wiki</a>
+        <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" class="nav-link">GitHub</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <button class="lang-btn" onclick="toggleLang()" data-i18n="lang.btn">English</button>
+      </div>
     </div>
   </nav>
 
@@ -35,7 +47,7 @@
 
     <h2 data-i18n="wiki.coverage">النطاق (المجالات)</h2>
     <p data-i18n="wiki.coverage1">يغطي المعيار 18 مجالاً علمياً، لكل مجال 1,000 مصطلح معتمد (إجمالي 18,000):</p>
-    <p class="mono">GEN · CS · AI · NET · SEC · MATH · PHYS · BIO · CHEM · ENG · MED · LING · ECON · LAW · AGR · ASTR · GEO · STAT</p>
+    <p><span class="mono">GEN · CS · AI · NET · SEC · MATH · PHYS · BIO · CHEM · ENG · MED · LING · ECON · LAW · AGR · ASTR · GEO · STAT</span></p>
 
     <h2 data-i18n="wiki.id">نظام المعرّفات (ACS ID)</h2>
     <p data-i18n="wiki.id1">كل مصطلح له معرّف فريد من الشكل:</p>
@@ -77,13 +89,21 @@
     <p><a href="index.html" data-i18n="api.back">← عودة إلى القاموس</a></p>
   </main>
 
-  <footer>
-    <p>🏛️ ArCode Standard · <span data-i18n="footer.tagline">مشروع مفتوح المصدر لتوحيد المصطلحات العلمية العربية</span></p>
-    <p>
-      <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a>
-      · <a href="index.html" data-i18n="nav.dictionary">القاموس</a>
-      · <a href="api.html" data-i18n="nav.api">API</a>
-    </p>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a href="index.html" class="footer-brand">
+          <div class="footer-logo">A</div>
+          <span class="footer-brand-text" data-i18n="app.name">ArCode</span>
+        </a>
+        <span class="footer-copy" data-i18n="footer.copy">© 2026 ArCode Standard. CC-BY-SA 4.0 & Apache 2.0</span>
+      </div>
+      <div class="footer-right">
+        <a href="index.html" class="footer-link" data-i18n="nav.dictionary">القاموس</a>
+        <a href="api.html" class="footer-link" data-i18n="nav.api">API</a>
+        <a href="https://github.com/ArCode-Standard/ArCode-Core" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+      </div>
+    </div>
   </footer>
 
   <script src="i18n.js"></script>
