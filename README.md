@@ -61,13 +61,13 @@ Example structure:
 
 ## 📈 Current Coverage
 
-- **217 terms** in the dictionary (`dictionary.json`)
-- 70 Computer Science terms (ACS-CS-0001 → ACS-CS-0070) — the most in-depth domain
-- 13 registered domains with official codes, all now covered
+- **447 terms** in the dictionary (`dictionary.json`)
+- **300 Computer Science terms** (ACS-CS-0001 → ACS-CS-0300) — a complete, dedicated dictionary covering theory of computation, data structures, algorithms, programming, software engineering, operating systems, databases, hardware, graphics and more
+- 13 registered domains with official codes, all covered
 
 | Domain | Code | Terms |
 |--------|------|-------|
-| Computer Science | CS | 70 |
+| Computer Science | CS | 300 |
 | Artificial Intelligence | AI | 20 |
 | Networking | NET | 20 |
 | Cybersecurity | SEC | 20 |
