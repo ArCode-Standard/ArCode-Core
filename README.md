@@ -61,12 +61,20 @@ Example structure:
 
 ## 📈 Current Coverage
 
-- **2672 terms** in the dictionary (`dictionary.json`)
+- **10600 terms** in the dictionary (`dictionary.json`)
 - **300 Computer Science terms** (ACS-CS-0001 → ACS-CS-0300) — a complete, dedicated dictionary covering theory of computation, data structures, algorithms, programming, software engineering, operating systems, databases, hardware, graphics and more
 - **150 Artificial Intelligence terms** (ACS-AI-0001 → ACS-AI-0150) — a complete, dedicated dictionary covering machine learning, deep learning, neural networks, NLP, computer vision, reinforcement learning, generative models and AI ethics
 - **150 Networking terms** (ACS-NET-0001 → ACS-NET-0150) — a complete, dedicated dictionary covering internet protocols, TCP/IP, OSI layers, routing, switching, wireless networks, network security and cloud networking
 - **1000 Cybersecurity terms** (ACS-SEC-0001 → ACS-SEC-1000) — a comprehensive, dedicated dictionary covering cryptography, network security, malware, attack techniques, access control, security operations, incident response, digital forensics, threat intelligence, risk management, governance, compliance, cloud/container security, zero trust and security frameworks
 - **1000 Mathematics terms** (ACS-MATH-0001 → ACS-MATH-1000) — a comprehensive, dedicated dictionary covering arithmetic, algebra, geometry, trigonometry, calculus, linear algebra, differential equations, analysis, probability, statistics, number theory, graph theory, logic, discrete mathematics and applied mathematics
+- **1000 Physics terms** (ACS-PHYS-0001 → ACS-PHYS-1000) — a complete, dedicated dictionary covering mechanics, thermodynamics, waves, optics, electromagnetism, circuits, modern physics, quantum mechanics, solid state physics and astrophysics
+- **1000 Biology terms** (ACS-BIO-0001 → ACS-BIO-1000) — a complete, dedicated dictionary covering cell biology, molecular biology, genetics, anatomy, physiology, botany, zoology, ecology, evolution, microbiology, immunology and biotechnology
+- **1000 Chemistry terms** (ACS-CHEM-0001 → ACS-CHEM-1000) — a complete, dedicated dictionary covering atomic structure, chemical bonding, organic chemistry, physical chemistry, analytical chemistry, inorganic chemistry, nuclear chemistry and biochemistry
+- **1000 Engineering terms** (ACS-ENG-0001 → ACS-ENG-1000) — a complete, dedicated dictionary covering mechanical, civil, electrical, electronic, chemical, industrial, software and aerospace engineering
+- **1000 Medicine terms** (ACS-MED-0001 → ACS-MED-1000) — a complete, dedicated dictionary covering anatomy, physiology, pathology, clinical medicine, pharmacology, therapeutics, public health, pediatrics, psychiatry and emergency medicine
+- **1000 Linguistics terms** (ACS-LING-0001 → ACS-LING-1000) — a complete, dedicated dictionary covering phonetics, phonology, morphology, syntax, semantics, pragmatics, sociolinguistics, psycholinguistics, historical linguistics, computational linguistics and applied linguistics
+- **1000 Economics terms** (ACS-ECON-0001 → ACS-ECON-1000) — a complete, dedicated dictionary covering microeconomics, macroeconomics, finance, banking, international trade, development economics, labor economics and public economics
+- **1000 General Knowledge terms** (ACS-GEN-0001 → ACS-GEN-1000) — a complete, dedicated dictionary covering the scientific method, measurement, mathematics basics, earth and space sciences, life and health basics, society, culture, technology and education
 - 13 registered domains with official codes, all covered
 
 | Domain | Code | Terms |
@@ -76,14 +84,14 @@ Example structure:
 | Networking | NET | 150 |
 | Cybersecurity | SEC | 1000 |
 | Mathematics | MATH | 1000 |
-| Physics | PHYS | 15 |
-| Biology | BIO | 12 |
-| Chemistry | CHEM | 10 |
-| Engineering | ENG | 10 |
-| Medicine | MED | 10 |
-| Linguistics | LING | 5 |
-| Economics | ECON | 5 |
-| General Knowledge | GEN | 5 |
+| Physics | PHYS | 1000 |
+| Biology | BIO | 1000 |
+| Chemistry | CHEM | 1000 |
+| Engineering | ENG | 1000 |
+| Medicine | MED | 1000 |
+| Linguistics | LING | 1000 |
+| Economics | ECON | 1000 |
+| General Knowledge | GEN | 1000 |
 
 ---
 
