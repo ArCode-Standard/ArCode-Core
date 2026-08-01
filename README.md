@@ -138,6 +138,17 @@ The validator checks:
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md) to propose new terms or report issues.
 
+## ⚖️ License
+
+ArCode-Core is dual-licensed; the applicable license depends on the file:
+
+| Files                                                       | License      | Reason                                                      |
+| ----------------------------------------------------------- | ------------ | ----------------------------------------------------------- |
+| `dictionary.json`, definitions, documentation (`*.md`)      | **CC-BY-SA 4.0** | Protects the standard from fragmentation and keeps improvements open |
+| `validate.js`, scripts, and build tooling                   | **Apache 2.0**   | Protects the code and allows companies to use the tools freely |
+
+Full texts: [`LICENSE-CC-BY-SA-4.0`](LICENSE-CC-BY-SA-4.0) and [`LICENSE-APACHE-2.0`](LICENSE-APACHE-2.0). See [`LICENSE`](LICENSE) for details.
+
 ## 🔗 Related
 
 - [ArCode-Core](https://github.com/ArCode-Standard/ArCode-Core) — this repository

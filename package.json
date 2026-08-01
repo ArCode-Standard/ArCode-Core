@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Core structure of ArCode Standard: a scientific Arabic terminology system.",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "validate": "node validate.js"
   }
