@@ -61,10 +61,10 @@ Example structure:
 
 ## 📈 Current Coverage
 
-- **10600 terms** in the dictionary (`dictionary.json`)
-- **300 Computer Science terms** (ACS-CS-0001 → ACS-CS-0300) — a complete, dedicated dictionary covering theory of computation, data structures, algorithms, programming, software engineering, operating systems, databases, hardware, graphics and more
-- **150 Artificial Intelligence terms** (ACS-AI-0001 → ACS-AI-0150) — a complete, dedicated dictionary covering machine learning, deep learning, neural networks, NLP, computer vision, reinforcement learning, generative models and AI ethics
-- **150 Networking terms** (ACS-NET-0001 → ACS-NET-0150) — a complete, dedicated dictionary covering internet protocols, TCP/IP, OSI layers, routing, switching, wireless networks, network security and cloud networking
+- **13000 terms** in the dictionary (`dictionary.json`)
+- **1000 Computer Science terms** (ACS-CS-0001 → ACS-CS-1000) — a complete, dedicated dictionary covering theory of computation, data structures, algorithms, programming paradigms, software engineering, operating systems, concurrency, databases, computer architecture, hardware, networking basics, security and more
+- **1000 Artificial Intelligence terms** (ACS-AI-0001 → ACS-AI-1000) — a complete, dedicated dictionary covering machine learning, classical ML algorithms, deep learning, neural networks, NLP, computer vision, reinforcement learning, robotics, generative AI, large language models, AI ethics and governance
+- **1000 Networking terms** (ACS-NET-0001 → ACS-NET-1000) — a complete, dedicated dictionary covering network fundamentals, OSI/TCP/IP layers, protocols, routing and switching, network devices, wireless networks, network security, cloud networking, network management and emerging concepts
 - **1000 Cybersecurity terms** (ACS-SEC-0001 → ACS-SEC-1000) — a comprehensive, dedicated dictionary covering cryptography, network security, malware, attack techniques, access control, security operations, incident response, digital forensics, threat intelligence, risk management, governance, compliance, cloud/container security, zero trust and security frameworks
 - **1000 Mathematics terms** (ACS-MATH-0001 → ACS-MATH-1000) — a comprehensive, dedicated dictionary covering arithmetic, algebra, geometry, trigonometry, calculus, linear algebra, differential equations, analysis, probability, statistics, number theory, graph theory, logic, discrete mathematics and applied mathematics
 - **1000 Physics terms** (ACS-PHYS-0001 → ACS-PHYS-1000) — a complete, dedicated dictionary covering mechanics, thermodynamics, waves, optics, electromagnetism, circuits, modern physics, quantum mechanics, solid state physics and astrophysics
@@ -79,9 +79,9 @@ Example structure:
 
 | Domain | Code | Terms |
 |--------|------|-------|
-| Computer Science | CS | 300 |
-| Artificial Intelligence | AI | 150 |
-| Networking | NET | 150 |
+| Computer Science | CS | 1000 |
+| Artificial Intelligence | AI | 1000 |
+| Networking | NET | 1000 |
 | Cybersecurity | SEC | 1000 |
 | Mathematics | MATH | 1000 |
 | Physics | PHYS | 1000 |
