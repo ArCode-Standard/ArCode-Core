@@ -209,11 +209,12 @@ body {
   50% { opacity: 0.4; }
 }
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(1.6rem, 4.5vw, 3.4rem);
   font-weight: 800;
   line-height: 1.15;
   margin-bottom: 20px;
   letter-spacing: -1px;
+  white-space: nowrap;
 }
 [data-lang="ar"] .hero-title { letter-spacing: 0; }
 .hero-title .gradient {
