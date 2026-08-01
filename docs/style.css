@@ -354,9 +354,18 @@ body {
   color: var(--text-primary);
 }
 .filter-chip.active {
-  background: var(--accent);
+  background: var(--accent-blue);
   color: white;
-  border-color: var(--accent);
+  border-color: var(--accent-blue);
+}
+[data-theme="dark"] .filter-chip.active {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+}
+.filter-chip.active:hover {
+  background: var(--accent-blue-light);
+  border-color: var(--accent-blue-light);
+  color: white;
 }
 
 /* Results */
