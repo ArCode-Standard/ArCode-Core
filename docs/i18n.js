@@ -10,7 +10,7 @@ window.I18N = {
     "hero.title1": "المعيار العلمي",
     "hero.title2": "العربي الموحّد",
     "hero.subtitle":
-      "نظام مصطلحات لامركزي يربط المفردات العلمية العربية بالإنجليزية عبر 18 مجالاً — من علوم الحاسب إلى الطب.",
+      "نظام مصطلحات موحّد يربط المفردات العلمية العربية بالإنجليزية عبر 18 مجالاً، من علوم الحاسب إلى الطب.",
     "search.placeholder": "ابحث في المصطلحات أو التعريفات أو المعرّفات…",
     "search.kbd": "⌘K",
     "stat.terms": "مصطلح",
@@ -114,7 +114,7 @@ window.I18N = {
     "hero.title1": "The Unified Arabic",
     "hero.title2": "Scientific Standard",
     "hero.subtitle":
-      "A standardized terminology system bridging Arabic and English scientific vocabulary across 18 domains — from Computer Science to Medicine.",
+      "A standardized terminology system bridging Arabic and English scientific vocabulary across 18 domains, from Computer Science to Medicine.",
     "search.placeholder": "Search terms, definitions, or IDs…",
     "search.kbd": "⌘K",
     "stat.terms": "Terms",

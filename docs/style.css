@@ -568,7 +568,7 @@ body {
   inset-inline-start: 32px;
   width: 56px; height: 56px;
   border-radius: 50%;
-  background: var(--accent);
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light));
   color: white;
   border: none;
   font-size: 1.5rem;
@@ -583,7 +583,7 @@ body {
 }
 .fab:hover {
   transform: scale(1.1) rotate(90deg);
-  background: var(--accent-light);
+  background: var(--accent-blue);
   color: white;
 }
 
