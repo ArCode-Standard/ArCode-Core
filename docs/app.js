@@ -48,7 +48,7 @@ function render() {
         (t.DEFINITION_EN || "").toLowerCase().includes(q)
     );
   }
-  countEl.textContent = list.length.toLocaleString("ar-EG") + " مصطلح";
+  countEl.textContent = list.length.toLocaleString("en-US") + " مصطلح";
   if (!list.length) {
     resultsEl.innerHTML = '<div class="empty">لا توجد نتائج مطابقة</div>';
     return;
