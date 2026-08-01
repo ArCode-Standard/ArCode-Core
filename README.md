@@ -1,5 +1,7 @@
 # 🏛️ ArCode-Core
 
+![Validation](https://github.com/ArCode-Standard/ArCode-Core/actions/workflows/validate.yml/badge.svg)
+
 ArCode-Core is the foundational repository of the ArCode Standard project.
 
 It defines a structured system for Arabic scientific and technical terminology, aiming to unify and standardize modern knowledge in Arabic with global scientific compatibility.
