@@ -61,11 +61,12 @@ Example structure:
 
 ## 📈 Current Coverage
 
-- **1687 terms** in the dictionary (`dictionary.json`)
+- **2672 terms** in the dictionary (`dictionary.json`)
 - **300 Computer Science terms** (ACS-CS-0001 → ACS-CS-0300) — a complete, dedicated dictionary covering theory of computation, data structures, algorithms, programming, software engineering, operating systems, databases, hardware, graphics and more
 - **150 Artificial Intelligence terms** (ACS-AI-0001 → ACS-AI-0150) — a complete, dedicated dictionary covering machine learning, deep learning, neural networks, NLP, computer vision, reinforcement learning, generative models and AI ethics
 - **150 Networking terms** (ACS-NET-0001 → ACS-NET-0150) — a complete, dedicated dictionary covering internet protocols, TCP/IP, OSI layers, routing, switching, wireless networks, network security and cloud networking
 - **1000 Cybersecurity terms** (ACS-SEC-0001 → ACS-SEC-1000) — a comprehensive, dedicated dictionary covering cryptography, network security, malware, attack techniques, access control, security operations, incident response, digital forensics, threat intelligence, risk management, governance, compliance, cloud/container security, zero trust and security frameworks
+- **1000 Mathematics terms** (ACS-MATH-0001 → ACS-MATH-1000) — a comprehensive, dedicated dictionary covering arithmetic, algebra, geometry, trigonometry, calculus, linear algebra, differential equations, analysis, probability, statistics, number theory, graph theory, logic, discrete mathematics and applied mathematics
 - 13 registered domains with official codes, all covered
 
 | Domain | Code | Terms |
@@ -74,7 +75,7 @@ Example structure:
 | Artificial Intelligence | AI | 150 |
 | Networking | NET | 150 |
 | Cybersecurity | SEC | 1000 |
-| Mathematics | MATH | 15 |
+| Mathematics | MATH | 1000 |
 | Physics | PHYS | 15 |
 | Biology | BIO | 12 |
 | Chemistry | CHEM | 10 |
