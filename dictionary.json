@@ -3716,16 +3716,6 @@
       "SOURCE": "ISO/IEC 22989"
     },
     {
-      "ACS_ID": "ACS-AI-0067",
-      "AR_TERM": "تعلم عميق",
-      "EN_TERM": "Deep Learning",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "تعلم باستخدام شبكات عصبية متعددة الطبقات.",
-      "DEFINITION_EN": "Learning using multi-layered neural networks.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
       "ACS_ID": "ACS-AI-0068",
       "AR_TERM": "شبكة عصبية التفافية",
       "EN_TERM": "Convolutional Neural Network",
@@ -3757,7 +3747,7 @@
     },
     {
       "ACS_ID": "ACS-AI-0071",
-      "AR_TERM": "تجميع",
+      "AR_TERM": "الاختزال",
       "EN_TERM": "Pooling",
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "اختزال أبعاد خريطة الميزات.",
@@ -3926,16 +3916,6 @@
       "SOURCE": "ISO/IEC 22989"
     },
     {
-      "ACS_ID": "ACS-AI-0088",
-      "AR_TERM": "توليد نص",
-      "EN_TERM": "Text Generation",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "إنتاج نص جديد تلقائيًا بواسطة النموذج.",
-      "DEFINITION_EN": "Automatically producing new text by a model.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
       "ACS_ID": "ACS-AI-0089",
       "AR_TERM": "ترجمة آلية",
       "EN_TERM": "Machine Translation",
@@ -3952,16 +3932,6 @@
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "تحويل الكلام إلى نص آليًا.",
       "DEFINITION_EN": "Automatically converting speech into text.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
-      "ACS_ID": "ACS-AI-0091",
-      "AR_TERM": "معالجة اللغة الطبيعية",
-      "EN_TERM": "Natural Language Processing",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "فرع الذكاء الاصطناعي لمعالجة اللغة البشرية.",
-      "DEFINITION_EN": "The AI branch dealing with human language processing.",
       "STATUS": "Approved",
       "SOURCE": "ISO/IEC 22989"
     },
@@ -4032,16 +4002,6 @@
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "توليد إجابات عن الأسئلة المطروحة.",
       "DEFINITION_EN": "Generating answers to posed questions.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
-      "ACS_ID": "ACS-AI-0099",
-      "AR_TERM": "رؤية حاسوبية",
-      "EN_TERM": "Computer Vision",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "فرع الذكاء الاصطناعي لفهم الصور والفيديو.",
-      "DEFINITION_EN": "The AI branch for understanding images and video.",
       "STATUS": "Approved",
       "SOURCE": "ISO/IEC 22989"
     },
@@ -4142,26 +4102,6 @@
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "تقدير وضع أعضاء الجسم في الصورة.",
       "DEFINITION_EN": "Estimating body part positions in an image.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
-      "ACS_ID": "ACS-AI-0110",
-      "AR_TERM": "تعلم معزز",
-      "EN_TERM": "Reinforcement Learning",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "تعلم باتخاذ إجراءات لتعظيم المكافآت.",
-      "DEFINITION_EN": "Learning by taking actions to maximize rewards.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
-      "ACS_ID": "ACS-AI-0111",
-      "AR_TERM": "وكيل",
-      "EN_TERM": "Agent",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "كيان يستقبل الحالات وينفذ إجراءات.",
-      "DEFINITION_EN": "An entity that observes states and takes actions.",
       "STATUS": "Approved",
       "SOURCE": "ISO/IEC 22989"
     },
@@ -4406,16 +4346,6 @@
       "SOURCE": "ISO/IEC 22989"
     },
     {
-      "ACS_ID": "ACS-AI-0136",
-      "AR_TERM": "تعلم النقل",
-      "EN_TERM": "Transfer Learning",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "نقل المعرفة من مهمة إلى أخرى ذات صلة.",
-      "DEFINITION_EN": "Transferring knowledge from one task to a related one.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
       "ACS_ID": "ACS-AI-0137",
       "AR_TERM": "تعلم متعدد المهام",
       "EN_TERM": "Multi-Task Learning",
@@ -4447,7 +4377,7 @@
     },
     {
       "ACS_ID": "ACS-AI-0140",
-      "AR_TERM": "تجميع",
+      "AR_TERM": "التعبئة",
       "EN_TERM": "Bagging",
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "طريقة جماعية تدمج مخرجات نماذج مستقلة.",
@@ -4476,32 +4406,12 @@
       "SOURCE": "ISO/IEC 22989"
     },
     {
-      "ACS_ID": "ACS-AI-0143",
-      "AR_TERM": "شجرة قرار",
-      "EN_TERM": "Decision Tree",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "نموذج قرار يتفرع حسب الخصائص.",
-      "DEFINITION_EN": "A decision model branching according to features.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
       "ACS_ID": "ACS-AI-0144",
       "AR_TERM": "أقرب الجيران",
       "EN_TERM": "K-Nearest Neighbors",
       "DOMAIN": "Artificial Intelligence",
       "DEFINITION_AR": "مصنّف يستند إلى أقرب الأمثلة.",
       "DEFINITION_EN": "A classifier based on the nearest examples.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 22989"
-    },
-    {
-      "ACS_ID": "ACS-AI-0145",
-      "AR_TERM": "تجميع عنقودي",
-      "EN_TERM": "Clustering",
-      "DOMAIN": "Artificial Intelligence",
-      "DEFINITION_AR": "تجميع البيانات المتشابهة في عناقيد.",
-      "DEFINITION_EN": "Grouping similar data into clusters.",
       "STATUS": "Approved",
       "SOURCE": "ISO/IEC 22989"
     },
@@ -5116,16 +5026,6 @@
       "SOURCE": "ISO/IEC 2382"
     },
     {
-      "ACS_ID": "ACS-NET-0057",
-      "AR_TERM": "إرسال شامل",
-      "EN_TERM": "Broadcast",
-      "DOMAIN": "Networking",
-      "DEFINITION_AR": "إرسال البيانات إلى جميع الأجهزة في الشبكة.",
-      "DEFINITION_EN": "Sending data to all devices on a network.",
-      "STATUS": "Approved",
-      "SOURCE": "ISO/IEC 2382"
-    },
-    {
       "ACS_ID": "ACS-NET-0058",
       "AR_TERM": "عنوان الاسترجاع",
       "EN_TERM": "Loopback Address",
@@ -5504,16 +5404,6 @@
       "DEFINITION_EN": "The common version of the Internet Protocol.",
       "STATUS": "Approved",
       "SOURCE": "RFC 791"
-    },
-    {
-      "ACS_ID": "ACS-NET-0096",
-      "AR_TERM": "نظام أسماء النطاقات",
-      "EN_TERM": "Domain Name System",
-      "DOMAIN": "Networking",
-      "DEFINITION_AR": "نظام يحوّل الأسماء إلى عناوين.",
-      "DEFINITION_EN": "A system converting names to addresses.",
-      "STATUS": "Approved",
-      "SOURCE": "RFC 1035"
     },
     {
       "ACS_ID": "ACS-NET-0097",
@@ -14132,16 +14022,6 @@
       "DOMAIN": "Cybersecurity",
       "DEFINITION_AR": "قواعد الوصول بين الخدمات.",
       "DEFINITION_EN": "Rules for access between services.",
-      "STATUS": "Approved",
-      "SOURCE": "NIST SP 800-207"
-    },
-    {
-      "ACS_ID": "ACS-SEC-0809",
-      "AR_TERM": "الشبكة الصغيرة",
-      "EN_TERM": "Micro-segmentation",
-      "DOMAIN": "Cybersecurity",
-      "DEFINITION_AR": "عزل أمني دقيق بين الخدمات.",
-      "DEFINITION_EN": "Fine-grained security isolation between services.",
       "STATUS": "Approved",
       "SOURCE": "NIST SP 800-207"
     },
@@ -130004,6 +129884,126 @@
       "DEFINITION_EN": "A standardized and organized cabling system that interconnects network and telecommunication devices within a building.",
       "STATUS": "Approved",
       "SOURCE": "المصطلحات العلمية الموحدة (الألكسو)"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Graph Neural Network",
+      "AR_TERM": "شبكة عصبية بيانية",
+      "SOURCE": "ISO/IEC 22989",
+      "DEFINITION_AR": "شبكة عصبية تعمل على بيانات ذات بنية رسم بياني.",
+      "DEFINITION_EN": "A neural network that operates on graph-structured data.",
+      "ACS_ID": "ACS-AI-1001",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Spiking Neural Network",
+      "AR_TERM": "شبكة عصبية نبضية",
+      "SOURCE": "ISO/IEC 22989",
+      "DEFINITION_AR": "شبكة عصبية تحاكي النبضات العصبية البيولوجية في الاتصال.",
+      "DEFINITION_EN": "A neural network that mimics biological neural spiking in communication.",
+      "ACS_ID": "ACS-AI-1002",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Naive Bayes",
+      "AR_TERM": "ساذج بايز",
+      "SOURCE": "ISO/IEC 22989",
+      "DEFINITION_AR": "مصنف احتمالي يفترض استقلال الخصائص المشروطة.",
+      "DEFINITION_EN": "A probabilistic classifier assuming conditional independence of features.",
+      "ACS_ID": "ACS-AI-1003",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "K-Nearest Neighbor",
+      "AR_TERM": "الجار الأقرب",
+      "SOURCE": "ISO/IEC 22989",
+      "DEFINITION_AR": "مصنف يصنّف العينات وفقًا لأقرب نقاط التدريب إليها.",
+      "DEFINITION_EN": "A classifier that labels samples based on their closest training points.",
+      "ACS_ID": "ACS-AI-1004",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Model Compression",
+      "AR_TERM": "ضغط النماذج",
+      "SOURCE": "ISO/IEC 23053",
+      "DEFINITION_AR": "تقليص حجم النموذج مع الحفاظ على أدائه.",
+      "DEFINITION_EN": "Reducing a model's size while preserving its performance.",
+      "ACS_ID": "ACS-AI-1005",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Quantization",
+      "AR_TERM": "التكميم",
+      "SOURCE": "ISO/IEC 23053",
+      "DEFINITION_AR": "تمثيل معاملات النموذج بدقة رقمية أقل لتقليل التكلفة.",
+      "DEFINITION_EN": "Representing model parameters with lower numerical precision to reduce cost.",
+      "ACS_ID": "ACS-AI-1006",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Explainable Artificial Intelligence",
+      "AR_TERM": "الذكاء الاصطناعي القابل للتفسير",
+      "SOURCE": "ISO/IEC 22989",
+      "DEFINITION_AR": "مجال يهدف إلى جعل مخرجات النماذج مفهومة للإنسان.",
+      "DEFINITION_EN": "The field aimed at making model outputs understandable to humans.",
+      "ACS_ID": "ACS-AI-1007",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Capsule Network",
+      "AR_TERM": "شبكة الكبسولات",
+      "SOURCE": "IEEE",
+      "DEFINITION_AR": "شبكة عصبية تلتقط العلاقات الهرمية بين الميزات.",
+      "DEFINITION_EN": "A neural network that captures hierarchical relationships between features.",
+      "ACS_ID": "ACS-AI-1008",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Artificial Intelligence",
+      "EN_TERM": "Mixture of Experts",
+      "AR_TERM": "خليط الخبراء",
+      "SOURCE": "ISO/IEC 22989",
+      "DEFINITION_AR": "بنية تقسم المهمة بين وحدات متخصصة وتنسق مخرجاتها.",
+      "DEFINITION_EN": "An architecture dividing a task among specialized modules and combining their outputs.",
+      "ACS_ID": "ACS-AI-1009",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Networking",
+      "EN_TERM": "Virtual LAN",
+      "AR_TERM": "شبكة محلية افتراضية",
+      "SOURCE": "IEEE 802.1Q",
+      "DEFINITION_AR": "مجموعة منطقية من الأجهزة على شبكة فعلية واحدة.",
+      "DEFINITION_EN": "A logical group of devices on a single physical network.",
+      "ACS_ID": "ACS-NET-1010",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Networking",
+      "EN_TERM": "Trunking",
+      "AR_TERM": "الربط الجذعي",
+      "SOURCE": "IEEE 802.1Q",
+      "DEFINITION_AR": "تقنية تنقل إطارات شبكات افتراضية متعددة عبر رابط واحد.",
+      "DEFINITION_EN": "A technique carrying frames of multiple virtual LANs over a single link.",
+      "ACS_ID": "ACS-NET-1011",
+      "STATUS": "Approved"
+    },
+    {
+      "DOMAIN": "Cybersecurity",
+      "EN_TERM": "Threat Hunting",
+      "AR_TERM": "صيد التهديدات",
+      "SOURCE": "NIST SP 800-150",
+      "DEFINITION_AR": "بحث استباقي عن التهديدات المخفية داخل الشبكة.",
+      "DEFINITION_EN": "Proactive search for hidden threats within a network.",
+      "ACS_ID": "ACS-SEC-1012",
+      "STATUS": "Approved"
     }
   ]
 }

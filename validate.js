@@ -76,6 +76,30 @@ dictionary.terms.forEach((term) => {
   }
 });
 
+const domainTerms = new Map();
+dictionary.terms.forEach((term) => {
+  if (!domainTerms.has(term.DOMAIN)) {
+    domainTerms.set(term.DOMAIN, { en: new Map(), ar: new Map() });
+  }
+  const bucket = domainTerms.get(term.DOMAIN);
+  const enKey = (term.EN_TERM || "").trim().toLowerCase();
+  const arKey = (term.AR_TERM || "").trim();
+  if (enKey) {
+    if (bucket.en.has(enKey)) {
+      fail(`${term.ACS_ID}: duplicate EN_TERM "${term.EN_TERM}" within ${term.DOMAIN} (also ${bucket.en.get(enKey)})`);
+    } else {
+      bucket.en.set(enKey, term.ACS_ID);
+    }
+  }
+  if (arKey) {
+    if (bucket.ar.has(arKey)) {
+      fail(`${term.ACS_ID}: duplicate AR_TERM "${term.AR_TERM}" within ${term.DOMAIN} (also ${bucket.ar.get(arKey)})`);
+    } else {
+      bucket.ar.set(arKey, term.ACS_ID);
+    }
+  }
+});
+
 if (errors.length) {
   console.error(`ArCode validation failed (${errors.length} issue${errors.length === 1 ? "" : "s"}):`);
   errors.forEach((e) => console.error("  - " + e));
