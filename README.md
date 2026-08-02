@@ -1,4 +1,6 @@
-# 🏛️ ArCode-Core
+# ArCode-Core
+
+<img width="1536" height="1024" alt="aracode-core" src="https://github.com/user-attachments/assets/251cc982-cb01-444d-8451-2b24700289fa" />
 
 ![Validation](https://github.com/ArCode-Standard/ArCode-Core/actions/workflows/validate.yml/badge.svg)
 
