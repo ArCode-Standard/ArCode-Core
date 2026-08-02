@@ -1,3 +1,4 @@
+const INDEX_URL = "api/search-index.json";
 const DATA_URL = "dictionary.json";
 const RESULTS_LIMIT = 50;
 
@@ -34,13 +35,15 @@ document.addEventListener("keydown", (e) => {
 /* ---- Load ---- */
 async function loadDictionary() {
   try {
-    const res = await fetch(DATA_URL);
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const data = await res.json();
-    allTerms = data.terms || [];
+    const indexRes = await fetch(INDEX_URL);
+    if (!indexRes.ok) throw new Error("HTTP " + indexRes.status);
+    const indexData = await indexRes.json();
+    allTerms = indexData.terms || [];
     document.getElementById("statTerms").textContent = allTerms.length.toLocaleString("en-US");
     renderFilters();
     renderResults();
+
+    preloadFullDictionary();
   } catch (err) {
     resultsListEl.innerHTML = `
       <div class="empty-state">
@@ -49,6 +52,23 @@ async function loadDictionary() {
         <div class="empty-desc">${escapeHtml(t("error.desc"))} ${escapeHtml(err.message)}</div>
       </div>
     `;
+  }
+}
+
+async function preloadFullDictionary() {
+  try {
+    const res = await fetch(DATA_URL);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    const fullTerms = data.terms || [];
+    if (!fullTerms.length) return;
+
+    allTerms = fullTerms;
+    document.getElementById("statTerms").textContent = allTerms.length.toLocaleString("en-US");
+    renderFilters();
+    renderResults();
+  } catch (_) {
+    // Keep the lightweight index as the fallback so the site stays usable.
   }
 }
 
@@ -121,6 +141,8 @@ function renderResults() {
 
   resultsListEl.innerHTML = list.slice(0, RESULTS_LIMIT).map((term) => {
     const domLabel = t("dom." + term.DOMAIN) || term.DOMAIN;
+    const definitionAr = term.DEFINITION_AR || "";
+    const definitionEn = term.DEFINITION_EN || "";
     return `
       <article class="term-item">
         <div class="term-item-header">
@@ -134,8 +156,8 @@ function renderResults() {
           </div>
         </div>
         <div class="term-item-body">
-          <div class="term-def-ar">${escapeHtml(term.DEFINITION_AR)}</div>
-          <div class="term-def-en" dir="ltr" style="text-align:left">${escapeHtml(term.DEFINITION_EN)}</div>
+          <div class="term-def-ar">${escapeHtml(definitionAr)}</div>
+          <div class="term-def-en" dir="ltr" style="text-align:left">${escapeHtml(definitionEn)}</div>
         </div>
         <div class="term-item-footer">
           <div class="term-source">
