@@ -106,10 +106,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-weight: 800;
-  font-size: 0.9rem;
-  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  padding: 0;
+}
+.nav-logo-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 .nav-logo-text {
   font-family: 'Inter', sans-serif;
