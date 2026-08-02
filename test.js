@@ -7,6 +7,10 @@ assert.strictEqual(api.terms.length, 18000);
 const cs1 = api.byId("ACS-CS-0001");
 assert(cs1 && cs1.DOMAIN === "Computer Science", "byId should find ACS-CS-0001");
 
+assert.strictEqual(typeof api.createApi, "function", "createApi should be exported for flexible API creation");
+const customApi = api.createApi();
+assert(customApi && typeof customApi.search === "function", "createApi should return a usable API object");
+
 const res = api.search("algorithm", { limit: 5 });
 assert(Array.isArray(res) && res.length > 0, "search should return results");
 
