@@ -182,13 +182,7 @@ body {
 .hero-brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
   margin-bottom: 18px;
-}
-.hero-brand-logo {
-  width: 34px;
-  height: 34px;
-  display: block;
 }
 .hero-brand-text {
   font-size: 1rem;
