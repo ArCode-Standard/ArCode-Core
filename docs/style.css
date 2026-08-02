@@ -99,21 +99,12 @@ body {
   gap: 10px;
   text-decoration: none;
 }
-.nav-logo-icon {
-  width: 32px; height: 32px;
-  background: transparent;
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: visible;
-  padding: 0;
-}
-.nav-logo-icon img {
-  width: 32px;
-  height: 32px;
+.nav-logo-asset {
+  width: 28px;
+  height: 28px;
   display: block;
   object-fit: contain;
+  flex: 0 0 auto;
 }
 .nav-logo-text {
   font-family: 'Inter', sans-serif;
