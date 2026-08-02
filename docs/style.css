@@ -108,10 +108,11 @@ body {
 }
 .nav-logo-text {
   font-family: 'Inter', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  font-weight: 800;
   color: var(--text-primary);
   letter-spacing: -0.5px;
+  line-height: 1;
 }
 .nav-links {
   display: flex;
