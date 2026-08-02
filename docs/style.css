@@ -548,6 +548,37 @@ body {
   color: var(--text-secondary);
   font-size: 0.95rem;
 }
+.results-count.is-loading {
+  color: var(--text-secondary);
+}
+.skeleton-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 12px;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+.skeleton-line {
+  height: 12px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--border) 25%, var(--border-light) 50%, var(--border) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s linear infinite;
+  margin-bottom: 10px;
+}
+.skeleton-line-lg {
+  width: 55%;
+  height: 16px;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.9; }
+  50% { opacity: 0.6; }
+}
 
 /* Empty */
 .empty-state {

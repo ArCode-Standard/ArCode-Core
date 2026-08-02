@@ -4,6 +4,7 @@ const RESULTS_LIMIT = 50;
 
 let allTerms = [];
 let activeDomain = "all";
+let isLoading = true;
 
 const searchInput = document.getElementById("searchInput");
 const domainFiltersEl = document.getElementById("domainFilters");
@@ -33,7 +34,22 @@ document.addEventListener("keydown", (e) => {
 });
 
 /* ---- Load ---- */
+function showLoadingUi() {
+  isLoading = true;
+  resultsCountEl.classList.add("is-loading");
+  resultsCountEl.innerHTML = `<strong>…</strong> <span>${escapeHtml(t("loading.text"))}</span>`;
+  resultsListEl.innerHTML = Array.from({ length: 3 }, () => `
+    <div class="skeleton-card">
+      <div class="skeleton-line skeleton-line-lg"></div>
+      <div class="skeleton-line"></div>
+      <div class="skeleton-line"></div>
+    </div>
+  `).join("");
+}
+
 async function loadDictionary() {
+  showLoadingUi();
+
   try {
     const indexRes = await fetch(INDEX_URL);
     if (!indexRes.ok) throw new Error("HTTP " + indexRes.status);
@@ -45,6 +61,8 @@ async function loadDictionary() {
 
     preloadFullDictionary();
   } catch (err) {
+    isLoading = false;
+    resultsCountEl.classList.remove("is-loading");
     resultsListEl.innerHTML = `
       <div class="empty-state">
         <div class="empty-icon">⚠️</div>
@@ -64,11 +82,15 @@ async function preloadFullDictionary() {
     if (!fullTerms.length) return;
 
     allTerms = fullTerms;
+    isLoading = false;
+    resultsCountEl.classList.remove("is-loading");
     document.getElementById("statTerms").textContent = allTerms.length.toLocaleString("en-US");
     renderFilters();
     renderResults();
   } catch (_) {
-    // Keep the lightweight index as the fallback so the site stays usable.
+    isLoading = false;
+    resultsCountEl.classList.remove("is-loading");
+    renderResults();
   }
 }
 
@@ -125,7 +147,10 @@ function pluralCount(n) {
 }
 
 function renderResults() {
+  if (isLoading) return;
+
   const list = filteredTerms();
+  resultsCountEl.classList.remove("is-loading");
   resultsCountEl.innerHTML = `<strong>${list.length.toLocaleString("en-US")}</strong> ${escapeHtml(t(list.length === 1 ? "results.count.one" : "results.count"))}`;
 
   if (!list.length) {
