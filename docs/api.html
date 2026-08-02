@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://arcode-standard.github.io/ArCode-Core/api.html">
   <title>ArCode API — واجهة البرمجة | Documentation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,6 +46,9 @@
           <tr><td><code>/dictionary.json</code></td><td data-i18n="api.e1">القاموس الكامل (18,000 مصطلح).</td></tr>
           <tr><td><code>/api/domains.json</code></td><td data-i18n="api.e2">قائمة المجالات وعدد المصطلحات في كل مجال.</td></tr>
           <tr><td><code>/api/stats.json</code></td><td data-i18n="api.e3">إحصاءات المشروع وبياناته الوصفية.</td></tr>
+          <tr><td><code>/api/search</code></td><td>بحث متقدم مع فلترة حسب المجال والحالة، وفرز حسب الأهمية، وترقيم الصفحات.</td></tr>
+          <tr><td><code>/api/term/:id</code></td><td>استرجاع مصطلح واحد عبر ACS_ID.</td></tr>
+          <tr><td><code>/api/domain/:name</code></td><td>استرجاع جميع المصطلحات داخل مجال محدد.</td></tr>
         </tbody>
       </table>
     </div>
@@ -76,7 +80,14 @@
 import { ArCodeAPI } from "https://arcode-standard.github.io/ArCode-Core/api.js";
 
 const api = new ArCodeAPI();
-const results = await api.search("خوارزمية");
+const results = await api.search("خوارزمية", {
+  domain: "Computer Science",
+  status: "Approved",
+  sort: "relevance",
+  limit: 10,
+  page: 1,
+  format: "object"
+});
 const term = await api.byId("ACS-CS-0042");
 const domains = await api.domains();</pre>
 
@@ -98,7 +109,14 @@ print(len(terms), "results")</pre>
     <pre class="codeblock">npm install arcode-core
 
 const { search, byId, byDomain, domains } = require("arcode-core");
-console.log(search("نظام", { limit: 10 }));</pre>
+console.log(search("نظام", {
+  domain: "Computer Science",
+  status: "Approved",
+  sort: "relevance",
+  limit: 10,
+  page: 1,
+  format: "object"
+}));</pre>
 
     <p><a href="index.html" data-i18n="api.back">← عودة إلى القاموس</a></p>
   </main>
