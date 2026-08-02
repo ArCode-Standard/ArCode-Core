@@ -48,6 +48,44 @@
     <p data-i18n="wiki.coverage1">يغطي المعيار 18 مجالاً علمياً، لكل مجال 1,000 مصطلح معتمد (إجمالي 18,000):</p>
     <p><span class="mono">GEN · CS · AI · NET · SEC · MATH · PHYS · BIO · CHEM · ENG · MED · LING · ECON · LAW · AGR · ASTR · GEO · STAT</span></p>
 
+    <h2 data-i18n="wiki.project.title">ما الذي يتكوّن منه المشروع؟</h2>
+    <p data-i18n="wiki.project.desc">ArCode Core هو مشروع مفتوح المصدر يجمع بين البيانات والمعايير والوثائق، ويهدف إلى توفير مصدر موحّد للمصطلحات العلمية العربية عبر بيئة قابلة للتنفيذ في الويب، API، والحزم البرمجية.</p>
+    <ul>
+      <li><strong data-i18n="wiki.project.data">البيانات:</strong> <span data-i18n="wiki.project.data1">ملف <code>dictionary.json</code> يحتوي على المصطلحات الأساسية وحقولها المعيارية.</span></li>
+      <li><strong data-i18n="wiki.project.docs">الواجهة:</strong> <span data-i18n="wiki.project.docs1">مجلد <code>docs/</code> يحتوي على الموقع التوثيقي الرسمي، بما في ذلك الصفحة الرئيسية، API، وWiki.</span></li>
+      <li><strong data-i18n="wiki.project.code">البرمجة:</strong> <span data-i18n="wiki.project.code1">ملف <code>index.js</code> يوفر واجهة JavaScript قابلة للاستخدام في Node.js أو المتصفح.</span></li>
+      <li><strong data-i18n="wiki.project.verify">التحقق:</strong> <span data-i18n="wiki.project.verify1">ملفات التحقق مثل <code>validate.js</code> و <code>test.js</code> تضمن اتساق البيانات وجودة التحديثات.</span></li>
+    </ul>
+
+    <h2 data-i18n="wiki.workflow.title">كيف يعمل المشروع عملياً؟</h2>
+    <ol>
+      <li data-i18n="wiki.workflow.1">يتم جمع المصطلحات من مصادر معيارية موثوقة وتوحيدها في شكل متجانس.</li>
+      <li data-i18n="wiki.workflow.2">يُخزن كل مصطلح مع معرّف ACS ثابت، وتعريفه بالعربية والإنجليزية، ومجاله العلمي، ومصدره المرجعي.</li>
+      <li data-i18n="wiki.workflow.3">تُعرض البيانات في شكل قاموس بشكل مباشر على الموقع، أو عبر واجهة برمجة تتيح الاستعلام والبحث.</li>
+      <li data-i18n="wiki.workflow.4">تتم مراجعة التغييرات عبر التحقق الآلي قبل النشر، لتبقى البيانات متسقة وقابلة للاعتماد.</li>
+    </ol>
+
+    <h2 data-i18n="wiki.impact.title">لماذا يعتبر هذا المشروع مهمًا؟</h2>
+    <p data-i18n="wiki.impact.desc1">الهدف ليس مجرد جمع كلمات، بل بناء قاعدة معرفية موحدة تخلّي بين اللغة العربية والعالمية. هذا مهم للبرامج، التعليم، البحث، والوثائق التقنية، لأن الاستخدام المتكرر لمصطلحات مختلفة يسبب التشتت والارتباك.</p>
+    <p data-i18n="wiki.impact.desc2">من خلال ArCode، يكتسب الفريق أو المؤسسة مرجعًا واحدًا يمكن الرجوع إليه في كل مشروع، بدلًا من الاعتماد على ترجمات متفرقة أو اصطلاحات محلية غير موحّدة.</p>
+
+    <h2 data-i18n="wiki.contribute.title">كيف تساهم في المشروع؟</h2>
+    <p data-i18n="wiki.contribute.desc">إسهامك مرحب به إذا كنت تخطط لتطوير المصطلح نفسه، أو تحسين البيانات، أو تطوير الموقع أو واجهة API. يمكنك البدء من:</p>
+    <ul>
+      <li data-i18n="wiki.contribute.1">اقتراح مصطلح جديد أو تعديل مصطلح موجود عبر GitHub.</li>
+      <li data-i18n="wiki.contribute.2">تحسين التوثيق أو توضيح أجزاء Wiki وAPI.</li>
+      <li data-i18n="wiki.contribute.3">إضافة دعم أو اختبارات أو تحسينات على واجهة الاستخدام.</li>
+      <li data-i18n="wiki.contribute.4">مراجعة أو تجهيز بيانات المجالات المنقحة قبل التحديث النهائي.</li>
+    </ul>
+
+    <h2 data-i18n="wiki.outputs.title">المخرجات المتاحة للمستخدم</h2>
+    <ul>
+      <li data-i18n="wiki.outputs.1">قاموس بحث مباشر عبر الموقع الرسمي.</li>
+      <li data-i18n="wiki.outputs.2">ملفات JSON ثابتة يمكن استهلاكها من أي نظام أو تطبيق.</li>
+      <li data-i18n="wiki.outputs.3">واجهة برمجة API بسيطة للبحث حسب المصطلح أو المعرف أو المجال.</li>
+      <li data-i18n="wiki.outputs.4">حزمة npm قابلة للاستخدام في Node.js.</li>
+    </ul>
+
     <h2 data-i18n="wiki.id">نظام المعرّفات (ACS ID)</h2>
     <p data-i18n="wiki.id1">كل مصطلح له معرّف فريد من الشكل:</p>
     <pre class="codeblock">ACS-&lt;DOMAIN-CODE&gt;-&lt;NUMBER&gt;</pre>
