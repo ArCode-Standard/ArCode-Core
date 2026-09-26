@@ -181083,6 +181083,351 @@
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
       "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0063",
+      "AR_TERM": "طاقة الرياح",
+      "EN_TERM": "Wind energy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "طاقة حركية كامنة في حركة الرياح يمكن تحويلها إلى طاقة ميكانيكية لتشغيل المضخات والمطاحن ومولدات الكهرباء.",
+      "DEFINITION_EN": "Kinetic energy present in wind motion that can be converted to mechanical energy for driving pumps, mills, and electric power generators.",
+      "RELATIONS": [
+        "Wind Turbine",
+        "Wind Power Plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0064",
+      "AR_TERM": "خزان المياه",
+      "EN_TERM": "Water reservoir",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مسطح مائي داخلي كبير يُجمع ويُخزَّن فوق سطح الأرض في تكوين طبيعي أو اصطناعي.",
+      "DEFINITION_EN": "A large inland body of water collected and stored above ground in a natural or artificial formation.",
+      "RELATIONS": [
+        "Multiple Purpose Reservoir",
+        "Dam"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0065",
+      "AR_TERM": "ظروف المياه",
+      "EN_TERM": "Water conditions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حالة إمداد المياه والمياه المرتبطة بها المحتجزة في التخزين المؤقت وخزانات المحطات الكهرومائية.",
+      "DEFINITION_EN": "The status of the water supply and the associated water held in pondage and reservoirs at hydroelectric plants.",
+      "RELATIONS": [
+        "Average Water Conditions",
+        "Pondage"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0066",
+      "AR_TERM": "المضخة الحرارية ذات المصدر المائي",
+      "EN_TERM": "Water source heat pump",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نوع من المضخات الحرارية الجوفية يستخدم مياه الآبار أو المياه الجوفية أو المياه السطحية مصدرًا للحرارة، وتكون درجة حرارة الماء أكثر استقرارًا موسميًا من الهواء مما يجعله مصدرًا أكثر كفاءة.",
+      "DEFINITION_EN": "A type of geothermal heat pump that uses well or groundwater, or surface water, as a heat source; water has a more stable seasonal temperature than air, which makes it a more efficient heat source.",
+      "RELATIONS": [
+        "Heat Pump (geothermal)",
+        "Hot Dry Rock"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0067",
+      "AR_TERM": "العجلة المائية",
+      "EN_TERM": "Water wheel",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عجلة مصممة لتستفيد من وزن حركة المياه وقوتها في دورانها، ويُستخدم أساسًا لتشغيل الآلات أو طحن الحبوب.",
+      "DEFINITION_EN": "A wheel designed to use the weight and force of moving water to turn it, primarily to operate machinery or grind grain.",
+      "RELATIONS": [
+        "Water Turbine",
+        "Kaplan Turbine"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0068",
+      "AR_TERM": "الهدّار",
+      "EN_TERM": "Weir",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "سد منخفض يُبنى عبر مجرى مائي يمر فوقه الماء، ويقوم برفع منسوب المياه أو توجيه التدفق أو تنظيمه.",
+      "DEFINITION_EN": "A low dam built across a waterway over which water flows, serving to raise the water level or to direct or regulate flow.",
+      "RELATIONS": [
+        "Dam",
+        "Hydraulic Head"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0069",
+      "AR_TERM": "طاقة النفايات",
+      "EN_TERM": "Waste energy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نفايات صلبة بلدية وغاز مكبات وميثان وغاز هاضمات وحمأة نفايات وحبيبات ورق وإطارات ومخلفات زراعية وزيت سمك وتبن، تُستخدم كوقود.",
+      "DEFINITION_EN": "Municipal solid waste, landfill gas, methane, digester gas, sludge waste, paper pellets, tires, agricultural byproducts, fish oil, and straw used as fuel.",
+      "RELATIONS": [
+        "Waste Materials",
+        "Landfill Gas",
+        "Biomass Waste"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0070",
+      "AR_TERM": "استرجاع الحرارة المهدرة",
+      "EN_TERM": "Waste heat recovery",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أي نظام ترشيد تُستخدم فيه التسخين الفضائي أو تسخين المياه عبر التقاط نشأة الحرارة الناتجة عن العمليات التي كانت ستُطلق في البيئة، ومن أمثلتها ضواغط التبريد وعمليات التصنيع ومراكز البيانات وترتيبات الإضاءة وهواء عادم التهوية.",
+      "DEFINITION_EN": "Any conservation system in which space or water heating is done by actively capturing byproduct heat that would otherwise be discharged into the environment; examples include compressors, manufacturing processes, data centres, lighting fixtures and ventilation exhaust air.",
+      "RELATIONS": [
+        "Waste Heat Boiler",
+        "Active Solar"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0071",
+      "AR_TERM": "مرقدم الحرارة المهدرة",
+      "EN_TERM": "Waste heat boiler",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مرقدم يتلقى كامل مدخله من الطاقة أو جزءًا كبيرًا منها من غازات العادم القابلة للاحتراق الناتجة عن عملية حرق وقود منفصلة.",
+      "DEFINITION_EN": "A boiler that receives all or a substantial portion of its energy input from the combustible exhaust gases of a separate fuel-burning process.",
+      "RELATIONS": [
+        "Waste Heat Recovery",
+        "Biomass Gas"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0072",
+      "AR_TERM": "النفايات القابلة للحرق",
+      "EN_TERM": "Waste materials",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مواد قابلة للحرق كانت ستُطرح لولا ذلك، وتُنتج الطاقة عند حرقها لأغراض مثل تدفئة المساحات وتوليد الكهرباء، وقد يُقلَّص حجمها بالتمازيق أو الطواحن وتُزال المواد غير القابلة للاحتراق.",
+      "DEFINITION_EN": "Otherwise discarded combustible materials that, when burned, produce energy for purposes such as space heating and electric power generation; the size may be reduced by shredders or grinders, and noncombustible material may be removed.",
+      "RELATIONS": [
+        "Waste Energy",
+        "Municipal Solid Waste (MSW)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0073",
+      "AR_TERM": "عزل الجدران",
+      "EN_TERM": "Wall insulation",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مواد عازلة داخل الجدران أو عليها تفصل بين المناطق المدفأة في المبنى والمناطق غير المدفأة أو الخارج، وقد تفصل الجدران بين المناطق المكيَّفة والمناطق غير المكيَّفة.",
+      "DEFINITION_EN": "Insulating materials within or on the walls between heated areas of a building and unheated areas or the outside; walls may separate air-conditioned areas from areas that are not air-conditioned.",
+      "RELATIONS": [
+        "Zero Energy Building (ZEB)",
+        "Active Solar"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0074",
+      "AR_TERM": "برامج إدارة الطلب في تسخين المياه",
+      "EN_TERM": "Water heating demand-side management programs",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "برامج إدارة الطلب المصممة لرفع كفاءة تسخين المياه، ومنها أغطية عزل سخانات المياه.",
+      "DEFINITION_EN": "Demand-side management programs designed to promote increased efficiency in water heating, including water heater insulation wraps.",
+      "RELATIONS": [
+        "Wall Insulation",
+        "Zero Energy Building (ZEB)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0075",
+      "AR_TERM": "رسم العبور الكهربائي",
+      "EN_TERM": "Wheeling charge",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مبلغ تفرضه منظومة كهربائية واحدة مقابل نقل طاقة منظومة أخرى نيابةً عنها.",
+      "DEFINITION_EN": "An amount charged by one electrical system to transmit the energy of, and for, another system.",
+      "RELATIONS": [
+        "Wheeling Service",
+        "Wires Charge"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0076",
+      "AR_TERM": "خدمة العبور الكهربائي",
+      "EN_TERM": "Wheeling service",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نقل الكهرباء من منظومة إلى أخرى عبر منشآت النقل في المنظومات المترابطة، ويمكن إبرام عقود لهذه الخدمة بين منظومتين أو أكثر.",
+      "DEFINITION_EN": "The movement of electricity from one system to another over the transmission facilities of interconnecting systems; contracts for this service can be established between two or more systems.",
+      "RELATIONS": [
+        "Wheeling Charge",
+        "Wholesale Electric Power Market"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0077",
+      "AR_TERM": "سوق الكهرباء بالجملة",
+      "EN_TERM": "Wholesale electric power market",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "شراء وبيع الكهرباء من المولدات إلى تجار الجملة، مع الخدمات المساندة اللازمة للحفاظ على الموثوقية وجودة القدرة عند مستوى النقل.",
+      "DEFINITION_EN": "The purchase and sale of electricity from generators to resellers, along with the ancillary services needed to maintain reliability and power quality at the transmission level.",
+      "RELATIONS": [
+        "Wheeling Service",
+        "Capacity Factor"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0078",
+      "AR_TERM": "رسم استخدام الأسلاك",
+      "EN_TERM": "Wires charge",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مصطلح عام يشير إلى الرسوم المفروضة على موردي الكهرباء أو عملائهم مقابل استخدام أسلاك النقل أو التوزيع.",
+      "DEFINITION_EN": "A broad term referring to fees levied on power suppliers or their customers for the use of transmission or distribution wires.",
+      "RELATIONS": [
+        "Wheeling Charge"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0079",
+      "AR_TERM": "معدات خلف العدّاد",
+      "EN_TERM": "Behind-the-meter (BTM)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "معدات كهربائية تقع في جهة المستهلك من عدّاد الكهرباء وتكون عادةً تحت سيطرته، وتشمل الألواح الشمسية على أسطح المباني والبطاريات أو المولدات السكنية والصناعية وأنظمة إدارة الطاقة وضوابط الاستجابة للطلب، ومحللات التحليل الكهربائي في الموقع.",
+      "DEFINITION_EN": "Electrical equipment situated on the consumer's side of an electricity meter and usually under the consumer's control; it includes rooftop solar PV, residential and industrial batteries or generators, energy management systems and demand response controls, and on-site electrolysers.",
+      "RELATIONS": [
+        "Distributed energy resources (DER)",
+        "Capacity"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0080",
+      "AR_TERM": "القدرة الاسمية",
+      "EN_TERM": "Nameplate capacity",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تُسمى أيضًا القدرة المصنَّفة أو الاسمية أو المثبتة أو الإجمالية أو مقدار الأثر الأقصى، وتشير عادةً إلى تشغيل الحمل الكامل الذي صممه المصمم وضمانته الشركة المصنّعة، مع إمكانية تجاوزها فعليًا لفترات قصيرة.",
+      "DEFINITION_EN": "Also called rated, nominal, installed, gross or maximum effect capacity; it typically refers to the full-load operation intended by the designer and guaranteed by the equipment manufacturer, although actual operation can usually exceed it over short periods.",
+      "RELATIONS": [
+        "Capacity",
+        "Capacity Factor"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0081",
+      "AR_TERM": "ائتمان القدرة",
+      "EN_TERM": "Capacity credit",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نسبة القدرة التوليدية الاسمية لمولد كهربائي يمكن الاعتماد بثبات على إنتاج الكهرباء بها في أوقات ذروة الطلب على الشبكة المتصل بها.",
+      "DEFINITION_EN": "The proportion of the nameplate generating capacity of an electrical generator that can be reliably expected to generate electricity during times of peak demand on the grid to which it is connected.",
+      "RELATIONS": [
+        "Nameplate Capacity",
+        "Capacity Factor"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0082",
+      "AR_TERM": "معامل الاستخدام",
+      "EN_TERM": "Capacity factor",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نسبة متوسط إنتاج منشأة إلى قدرتها القصوى الاسمية خلال فترة زمنية محددة، وتُعبَّر بالنسبة المئوية، وتُطبق على محطات التوليد ومنشآت إنتاج الوقود والمصانع والتركيبات الأخرى، وتُعرف أيضًا باسم معامل الحمل.",
+      "DEFINITION_EN": "The ratio of the average output of a plant to its nameplate maximum capacity during a prescribed period of time, expressed as a percentage; it can be applied to generating plants, fuel production facilities, factories and other installations, and is also known as the load factor.",
+      "RELATIONS": [
+        "Nameplate Capacity",
+        "Capacity"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0083",
+      "AR_TERM": "الإنفاق الرأسمالي",
+      "EN_TERM": "Capital expenditure",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تكلفة تطوير إنشاء أصل ثابت مثل محطة توليد كهرباء أو بنية تحتية للشبكة.",
+      "DEFINITION_EN": "The cost of developing and constructing a fixed asset such as a power plant or grid infrastructure.",
+      "RELATIONS": [
+        "Capacity",
+        "Wholesale Electric Power Market"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0084",
+      "AR_TERM": "التسخين الشمسي النشط",
+      "EN_TERM": "Active solar thermal",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تسخين سائل أو غاز ناقل للحرارة، عادةً الهواء، وسيلة لنقل الإشعاع الشمسي لأغراض تدفئة المساحات، وغالبًا ما يقترن بتدفئة مركزية وتخزين للحرارة في خزان أو بناء حجري.",
+      "DEFINITION_EN": "Heating of a heat transfer liquid or gas, typically air, as a means of transferring solar radiation for space heating, often coupled with central heating and heat storage in a tank or masonry.",
+      "RELATIONS": [
+        "Active Solar",
+        "Solar Thermal Collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0085",
+      "AR_TERM": "البطارية (الكهروكيميائية)",
+      "EN_TERM": "Battery (electrochemical)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "جهاز يتكون من خلية كهروكيميائية واحدة أو أكثر لتخزين الكهرباء وتشغيل الأجهزة الكهربائية، ويتكون من قطب كهربائي (مثبت وسالب) ومحلول كهروليتي، ويمكن شحن البطاريات القابلة لدورات شحن وتفريغ متعددة من مصدر طاقة خارجي.",
+      "DEFINITION_EN": "A device consisting of one or more electrochemical cells for storing electricity and powering electrical devices; it comprises an electrode (an anode and a cathode) and an electrolyte, and batteries capable of multiple charge-discharge cycles can be recharged from an external power source.",
+      "RELATIONS": [
+        "Distributed energy resources (DER)",
+        "Capacity"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
     }
   ]
 }
