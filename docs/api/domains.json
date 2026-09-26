@@ -69,13 +69,17 @@
       "count": 1000
     },
     {
-      "name": "Statistics",
+      "name": "Quantum Computing",
       "count": 1000
     },
     {
-      "name": "Quantum Computing",
+      "name": "Renewable Energy",
+      "count": 1000
+    },
+    {
+      "name": "Statistics",
       "count": 1000
     }
   ],
-  "total": 19000
+  "total": 20000
 }

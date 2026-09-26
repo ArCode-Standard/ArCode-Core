@@ -1,32 +1,16 @@
 {
   "domains": [
     {
-      "code": "GEN",
-      "name": "General Knowledge"
-    },
-    {
-      "code": "CS",
-      "name": "Computer Science"
+      "code": "AGR",
+      "name": "Agriculture"
     },
     {
       "code": "AI",
       "name": "Artificial Intelligence"
     },
     {
-      "code": "NET",
-      "name": "Networking"
-    },
-    {
-      "code": "SEC",
-      "name": "Cybersecurity"
-    },
-    {
-      "code": "MATH",
-      "name": "Mathematics"
-    },
-    {
-      "code": "PHYS",
-      "name": "Physics"
+      "code": "ASTR",
+      "name": "Astronomy"
     },
     {
       "code": "BIO",
@@ -37,44 +21,64 @@
       "name": "Chemistry"
     },
     {
-      "code": "ENG",
-      "name": "Engineering"
-    },
-    {
-      "code": "MED",
-      "name": "Medicine"
-    },
-    {
-      "code": "LING",
-      "name": "Linguistics"
+      "code": "CS",
+      "name": "Computer Science"
     },
     {
       "code": "ECON",
       "name": "Economics"
     },
     {
-      "code": "LAW",
-      "name": "Law"
+      "code": "ENG",
+      "name": "Engineering"
     },
     {
-      "code": "AGR",
-      "name": "Agriculture"
-    },
-    {
-      "code": "ASTR",
-      "name": "Astronomy"
+      "code": "GEN",
+      "name": "General Knowledge"
     },
     {
       "code": "GEO",
       "name": "Geology"
     },
     {
-      "code": "STAT",
-      "name": "Statistics"
+      "code": "LAW",
+      "name": "Law"
+    },
+    {
+      "code": "LING",
+      "name": "Linguistics"
+    },
+    {
+      "code": "MATH",
+      "name": "Mathematics"
+    },
+    {
+      "code": "MED",
+      "name": "Medicine"
+    },
+    {
+      "code": "NET",
+      "name": "Networking"
+    },
+    {
+      "code": "PHYS",
+      "name": "Physics"
     },
     {
       "code": "QNT",
       "name": "Quantum Computing"
+    },
+    {
+      "code": "RES",
+      "name": "Renewable Energy"
+    },
+    {
+      "code": "SEC",
+      "name": "Cybersecurity"
+    },
+    {
+      "code": "STAT",
+      "name": "Statistics"
     }
   ]
 }

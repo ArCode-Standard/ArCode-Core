@@ -49,6 +49,7 @@
     "ASTR": "Astronomy",
     "GEO": "Geology",
     "STAT": "Statistics",
-    "QNT": "Quantum Computing"
+    "QNT": "Quantum Computing",
+    "RES": "Renewable Energy"
   }
 }
