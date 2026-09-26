@@ -1,6 +1,6 @@
 window.I18N = {
   ar: {
-    "app.name": "ArCode",
+    "app.name": "ArCode Core",
     "nav.dictionary": "القاموس",
     "nav.api": "واجهة البرمجة (API)",
     "nav.wiki": "الموسوعة (Wiki)",
@@ -135,7 +135,7 @@ window.I18N = {
     "wiki.t4": "رخصة مفتوحة المصدر، والمساهمة عبر GitHub.",
   },
   en: {
-    "app.name": "ArCode",
+    "app.name": "ArCode Core",
     "nav.dictionary": "Dictionary",
     "nav.api": "API",
     "nav.wiki": "Wiki",
