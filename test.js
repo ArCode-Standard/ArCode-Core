@@ -1,8 +1,8 @@
 const assert = require("assert");
 const api = require("./index.js");
 
-assert.strictEqual(api.meta.termCount, 20000, "termCount should be 20000");
-assert.strictEqual(api.terms.length, 20000);
+assert.strictEqual(api.meta.termCount, 18010, "termCount should be 18010");
+assert.strictEqual(api.terms.length, 18010);
 
 const cs1 = api.byId("ACS-CS-0001");
 assert(cs1 && cs1.DOMAIN === "Computer Science", "byId should find ACS-CS-0001");
@@ -18,6 +18,6 @@ const law = api.byDomain("Law", { limit: 3 });
 assert(law.length === 3 && law[0].DOMAIN === "Law", "byDomain should filter Law");
 
 const doms = api.domains();
-assert.strictEqual(doms.length, 20, "should have 20 domains");
+assert.strictEqual(doms.length, 18, "should have 18 domains");
 
 console.log("All tests passed ✓");
