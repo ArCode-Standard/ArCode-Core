@@ -183546,6 +183546,1772 @@
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
       "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0228",
+      "AR_TERM": "الاسترجاع الخلفي",
+      "EN_TERM": "Back-casting",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عكس التنبؤ. التنبؤ بالظروف في الماضي انطلاقًا من الظروف الحالية.",
+      "DEFINITION_EN": "The opposite of forecasting. Predicting conditions in the past from current conditions.",
+      "RELATIONS": [
+        "ACS-MATH-0172",
+        "ACS-RES-0331"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0229",
+      "AR_TERM": "الفئة الرئيسية",
+      "EN_TERM": "Key category",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الفئة الرئيسية هي فئة ذات أولوية ضمن نظام الجرد الوطني لأن تقديرها يؤثر بشكل ملحوظ في الجرد الإجمالي لغازات الدفينة لأي بلد، سواء من حيث المستوى المطلق للانبعاثات والإزالة، أو اتجاه الانبعاثات والإزالة، أو عدم اليقين في الانبعاثات أو الإزالة. ومتى استُخدم مصطلح الفئة الرئيسية، فإنها تشمل فئات المصادر والبالوعات معًا.",
+      "DEFINITION_EN": "A key category is one that is prioritised within the national inventory system because its estimate has a significant influence on a country's total inventory of greenhouse gases in terms of the absolute level of emissions and removals, the trend in emissions and removals, or uncertainty in emissions or removals. Whenever the term key category is used, it includes both source and sink categories.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0256"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0230",
+      "AR_TERM": "الإزالة",
+      "EN_TERM": "Removals",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إزالة غازات الدفينة و/أو سلائفها من الغلاف الجوي بواسطة بالوعة.",
+      "DEFINITION_EN": "Removal of greenhouse gases and/or their precursors from the atmosphere by a sink.",
+      "RELATIONS": [
+        "ACS-RES-0332",
+        "ACS-RES-0289"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0231",
+      "AR_TERM": "انبعاث مكافئ لثاني أكسيد الكربون",
+      "EN_TERM": "Carbon dioxide equivalent emission",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية انبعاث ثاني أكسيد الكربون (CO2) التي تُحدث قوة الإشعاع المُكاملة نفسها أو تغيّر الحرارة نفسه، خلال أفق زمني محدد، التي يحدثها انبعاث كمية من غاز دفينة أو من خليط من غازات الدفينة. وهناك عدد من طرق حساب هذه الانبعاثات المكافئة واختيار الأفق الزمني المناسب. وبشكل أكثر شيوعًا، يُحسب الانبعاث المكافئ لثاني أكسيد الكربون بضرب كمية انبعاث غاز الدفينة في احتمالية الاحتباس الحراري (GWP) الخاصة به لأفق زمني قدره 100 سنة.",
+      "DEFINITION_EN": "The amount of carbon dioxide (CO2) emission that would cause the same integrated radiative forcing or temperature change, over a given time horizon, as an emitted amount of a greenhouse gas (GHG) or a mixture of GHGs. There are a number of ways to compute such equivalent emissions and choose appropriate time horizons. Most typically, the CO2-equivalent emission is obtained by multiplying the emission of a GHG by its global warming potential (GWP) for a 100-year time horizon.",
+      "RELATIONS": [
+        "ACS-RES-0114",
+        "ACS-RES-0308"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0232",
+      "AR_TERM": "الانبعاث المُزاح",
+      "EN_TERM": "Displaced emission",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "انبعاث غازات دفينة نُقل مكانيًا (وربما زمنيًا) دون تغير في كميته. فعلى سبيل المثال، قد تحدث إعادة التمعدن وانبعاث CO2 لكل 1 كجم من كربون التربة، والمفترض أن تحدث في حقل زراعي، في الواقع في اتجاه المصب في نهر أو خزان أو محيط إذا كان ذلك الـ 1 كجم من كربون التربة قد انتقل إلى شبكة المجاري المائية نتيجة لتساقط الأمطار. ويظل الكربون قد تحوّل إلى CO2 لكنه يدخل الغلاف الجوي في موقع في اتجاه المصب من مصدر الكربون.",
+      "DEFINITION_EN": "An emission of greenhouse gases that has been relocated in space (and possibly in time) but unchanged in quantity. For example, remineralisation and emission of CO2 of 1 kg of soil C assumed to occur in an agricultural field may actually occur downstream in a river, reservoir or ocean if that 1 kg of soil C is carried into the stream network as a consequence of rainfall. The carbon is still converted to CO2 but enters the atmosphere at a location downstream of the carbon source.",
+      "RELATIONS": [
+        "ACS-RES-0256",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0233",
+      "AR_TERM": "الكربون اللاعضوي الذائب (DIC)",
+      "EN_TERM": "Dissolved Inorganic Carbon (DIC)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجموع جميع أشكال الكربون اللاعضوية الذائبة في المحلول (مثل الكربونات، والبيكربونات، وحمض الكربونيك، وثاني أكسيد الكربون).",
+      "DEFINITION_EN": "Sum of all inorganic carbon species in solution (e.g. carbonate, bicarbonate, carbonic acid, carbon dioxide).",
+      "RELATIONS": [
+        "ACS-RES-0015",
+        "ACS-BIO-0687"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0234",
+      "AR_TERM": "الكربون العضوي الذائب (DOC)",
+      "EN_TERM": "Dissolved Organic Carbon (DOC)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الكربون العضوي المتبقي في المحلول بعد ترشيح العينة، عادة باستخدام مرشح مقاسه 0.45 ميكرون.",
+      "DEFINITION_EN": "Organic carbon remaining in solution after filtering the sample, typically using a 0.45 micrometer filter.",
+      "RELATIONS": [
+        "ACS-RES-0015",
+        "ACS-BIO-0687"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0235",
+      "AR_TERM": "مخزون الكربون والنيتروجين",
+      "EN_TERM": "Pool, carbon and nitrogen",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مستودع في نظام الأرض تقيم فيه عناصر مثل الكربون والنيتروجين بصيغ كيميائية مختلفة لفترة من الزمن. انظر أيضًا: احتجاز الكربون، والبالوعة، والمصدر، والامتصاص.",
+      "DEFINITION_EN": "A reservoir in the Earth System where elements, such as carbon and nitrogen, reside in various chemical forms for a period of time. See also Sequestration, Sink, Source and Uptake.",
+      "RELATIONS": [
+        "ACS-RES-0015",
+        "ACS-RES-0237"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0236",
+      "AR_TERM": "مخزون الكربون في التربة",
+      "EN_TERM": "Soil carbon pool",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مخزون كربون مكون من المادة العضوية في التربة التي يقل حجمها عن 2 مم.",
+      "DEFINITION_EN": "A pool of carbon comprised of soil organic matter that is smaller than 2mm in size.",
+      "RELATIONS": [
+        "ACS-RES-0015",
+        "ACS-AGR-0001"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0237",
+      "AR_TERM": "بالوعة",
+      "EN_TERM": "Sink",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أي عملية أو نشاط أو آلية تزيل غاز دفينة أو هباءً جويًا أو سليفة غاز دفينة من الغلاف الجوي (المادة 1.8 من اتفاقية الأمم المتحدة الإطارية بشأن تغيّر المناخ (UNFCCC 1992)). انظر أيضًا: مخزون الكربون والنيتروجين، احتجاز الكربون، المصدر، والامتصاص.",
+      "DEFINITION_EN": "Any process, activity or mechanism which removes a greenhouse gas, an aerosol or a precursor of a greenhouse gas from the atmosphere (UNFCCC Article 1.8 (UNFCCC 1992)). See also Pool, carbon and nitrogen, Sequestration, Source and Uptake.",
+      "RELATIONS": [
+        "ACS-RES-0238",
+        "ACS-RES-0332"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0238",
+      "AR_TERM": "مصدر الانبعاثات",
+      "EN_TERM": "Source",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أي عملية أو نشاط يطلق غاز دفينة أو هباءً جويًا أو سليفة غاز دفينة إلى الغلاف الجوي (المادة 1.9 من اتفاقية الأمم المتحدة الإطارية بشأن تغيّر المناخ (UNFCCC 1992)). انظر أيضًا: بالوعة، ومخزون الكربون والنيتروجين، واحتجاز الكربون، واحتمالية الاحتجاز، والامتصاص.",
+      "DEFINITION_EN": "Any process or activity which releases a greenhouse gas (GHG), an aerosol or a precursor of a GHG into the atmosphere (UNFCCC Article 1.9 (UNFCCC 1992)). See also Sink, Pool, carbon and nitrogen, Sequestration, Sequestration Potential and Uptake.",
+      "RELATIONS": [
+        "ACS-RES-0237",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0239",
+      "AR_TERM": "نهج التمثيل المتسق للأراضي",
+      "EN_TERM": "Approaches to consistent representation of lands",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "النهج 1: يمثّل إجماليات مساحات استخدام الأراضي ضمن وحدة مكانية محددة، تُعرَّف غالبًا بالحدود السياسية، مثل بلد أو مقاطعة أو بلدية. النهج 2: السمة الجوهرية للنهج 2 هي أنه يوفر تقييمًا لكل من الخسائر أو المكاسب الصافية في مساحة فئات استخدام الأراضي المحددة، وما تمثله هذه التحويلات (أي التغييرات من فئة وإليها). وهكذا، يختلف النهج 2 عن النهج 1 في أنه يتضمن معلومات عن التحويلات بين الفئات، لكنه يظل مجرد تتبع لتلك التغييرات دون بيانات موقع مكانية صريحة، غالبًا استنادًا إلى الحدود السياسية (أي أن مواضع استخدام الأراضي وتحويلات استخدامها غير معروفة). النهج 3: الصفة المميزة الأساسية للنهج 3 هي أنه متسق وصريح مكانيًا وزمنيًا معًا. ويمكن اعتبار الطرق القائمة على العينات، أو المسوحات، أو ذات التغطية الكاملة للمساحة ضمن النهج 3، بحسب تصميم برنامج أخذ العينات ورسم الخرائط وطريقة معالجة البيانات وتحليلها.",
+      "DEFINITION_EN": "Approach 1: Represents land-use area totals within a defined spatial unit, which is often defined by political boundaries, such as a country, province or municipality. Approach 2: The essential feature of Approach 2 is that it provides an assessment of both the net losses or gains in the area of specific land-use categories and what these conversions represent (i.e., changes both from and to a category). Thus, Approach 2 differs from Approach 1 in that it includes information on conversions between categories, but is still only tracking those changes without spatially-explicit location data, often based on political boundaries (i.e., locations of specific land-use and land-use conversions are not known). Approach 3: The key defining characteristic of Approach 3 is that it is both spatially and temporally consistent and explicit. Sample-based, survey-based and wall-to-wall methods can be considered Approach 3 depending on the design of the sampling/mapping program and the way the data is processed and analysed.",
+      "RELATIONS": [
+        "ACS-RES-0243",
+        "ACS-RES-0242"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0240",
+      "AR_TERM": "المجال المناخي الفرعي",
+      "EN_TERM": "Climate sub-domain",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجموعة فرعية من منطقة مناخية يمكن تجميع الأراضي فيها لأغراض حسابات الجرد. ويُستخدم لتوفير استبانة أدق لتدرجات المناخ ضمن إحدى مناطق المناخ الست.",
+      "DEFINITION_EN": "A subset of a climate zone into which lands may be grouped for the purposes of inventory calculations. Used to provide finer resolution of climate gradients within one of the six climate zones.",
+      "RELATIONS": [
+        "ACS-LAW-0237"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0241",
+      "AR_TERM": "مادة الهضم المشتركة",
+      "EN_TERM": "Co-digestate",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مادة تكميلية تُضاف إلى المحاضنات اللاهوائية، إلى جانب مادة الهضم الرئيسية (السماد في حالة المحاضنات الزراعية)، لزيادة إنتاجية الميثان.",
+      "DEFINITION_EN": "Supplemental material added to anaerobic digesters, in addition to the main digestion material (manure in the case of agricultural digesters) to increase methane yield.",
+      "RELATIONS": [
+        "ACS-ENG-0446",
+        "ACS-AGR-0685"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0242",
+      "AR_TERM": "غطاء الأرض",
+      "EN_TERM": "Land cover",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "التغطية الفيزيائية الحيوية للأرض (مثل: التربة العارية، والصخور، والغابات، والمباني والطرق، أو البحيرات). ويصنَّف غطاء الأرض غالبًا في فئات عريضة (مثل: الغابة المتساقطة الأوراق، والغابة الصنوبرية، والغابة المختلطة، والمرج، والأرض الجرداء).",
+      "DEFINITION_EN": "The biophysical coverage of land (e.g., bare soil, rocks, forests, buildings and roads or lakes). Land cover is often categorised in broad land-cover classes (e.g., deciduous forest, coniferous forest, mixed forest, grassland, bare ground).",
+      "RELATIONS": [
+        "ACS-RES-0243",
+        "ACS-AGR-0654"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0243",
+      "AR_TERM": "استخدام الأراضي",
+      "EN_TERM": "Land use",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إجمالي الترتيبات والأنشطة والمدخلات المطبقة على قطعة أرض. ويُستخدم مصطلح استخدام الأراضي أيضًا بمعنى الأغراض الاجتماعية والاقتصادية التي تُدار من أجلها الأرض (مثل: الرعي، واستخراج الأخشاب، والحفظ، والسكن في المدن). وفي الجرد الوطني لغازات الدفينة، يُصنَّف استخدام الأراضي وفق فئات استخدام الأراضي الصادرة عن IPCC: الأراضي الحرجية، والأراضي الزراعية، والمراعي، والأراضي الرطبة، والمستوطنات، والأراضي الأخرى (انظر الإرشادات العامة للجرد الوطني لغازات الدفينة الصادرة عن IPCC لعام 2006 وتنقيحها لعام 2019 للتفاصيل (IPCC 2006, 2019)).",
+      "DEFINITION_EN": "The total of arrangements, activities and inputs applied to a parcel of land. The term land use is also used in the sense of the social and economic purposes for which land is managed (e.g., grazing, timber extraction, conservation and city dwelling). In national greenhouse gas (GHG) inventories, land use is classified according to the IPCC land-use categories of forest land, cropland, grassland, wetlands, settlements, other lands (see the 2006 IPCC Guidelines for National GHG Inventories and their 2019 Refinement for details (IPCC 2006, 2019)).",
+      "RELATIONS": [
+        "ACS-RES-0242",
+        "ACS-RES-0279"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0244",
+      "AR_TERM": "الأراضي المُدارة",
+      "EN_TERM": "Managed land",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "في سياق الجرد الوطني لغازات الدفينة ضمن اتفاقية الأمم المتحدة الإطارية بشأن تغيّر المناخ (UNFCCC)، تعرّف الإرشادات العامة للجرد الوطني لغازات الدفينة الصادرة عن IPCC لعام 2006 (IPCC 2006) الأراضي المُدارة بأنها \"الأراضي التي طُبِّقت فيها التدخلات والممارسات البشرية لأداء وظائف إنتاجية أو بيئية أو اجتماعية\". وتعرّف IPCC (2006) الانبعاثات والإزالة ذات المنشأ البشري في قطاع استخدام الأراضي وتغيير استخدامها والغابات على أنها جميع الانبعاثات والإزالة التي تحدث في \"الأراضي المُدارة\". والسبب الجوهري لهذا النهج هو أن أغلب الآثار البشرية تقع في الأراضي المُدارة.",
+      "DEFINITION_EN": "In the context of national greenhouse gas (GHG) inventories under the United Nations Framework Convention on Climate Change (UNFCCC), the 2006 IPCC Guidelines for National GHG Inventories (IPCC 2006) defines managed land 'where human interventions and practices have been applied to perform production, ecological or social functions'. IPCC (2006) defines anthropogenic GHG emissions and removals in the LULUCF sector as all those occurring on 'managed land'. The key rationale for this approach is that the preponderance of anthropogenic effects occurs on managed lands.",
+      "RELATIONS": [
+        "ACS-RES-0243",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0245",
+      "AR_TERM": "أراضي الخث",
+      "EN_TERM": "Peatland",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أراضي الخث هي أنظمة بيئية للأراضي الرطبة تهيمن على تربتها مادة الخث. وفي أراضي الخث، يفوق الإنتاج الأولي الصافي تحلل المادة العضوية نتيجة لظروف التشبع بالماء، مما يؤدي إلى تراكم الخث.",
+      "DEFINITION_EN": "Peatlands are wetland ecosystems where soils are dominated by peat. In peatlands net primary production exceeds organic matter decomposition as a result of waterlogged conditions, which leads to the accumulation of peat.",
+      "RELATIONS": [
+        "ACS-BIO-0702",
+        "ACS-RES-0339"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0246",
+      "AR_TERM": "الانبعاث المتوسَّط بالنبات",
+      "EN_TERM": "Plant-mediated emission",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تدفقات من انبعاثات غازات الدفينة إلى الغلاف الجوي تتأثر بالنباتات، مثل إنتاج الميثان ونقله وأكسدته في تربة الأراضي الرطبة.",
+      "DEFINITION_EN": "Flows of greenhouse gas emissions to the atmosphere that are influenced by plants, and such as the production, transport and oxidation of methane in wetland soils.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0251"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0247",
+      "AR_TERM": "لاهوائي",
+      "EN_TERM": "Anaerobic",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "ظروف لا تتوفر فيها الأكسجين بسهولة. وهذه الظروف مهمة لإنتاج انبعاثات الميثان. ومتى تحلّلت المواد العضوية في ظروف لاهوائية (في مكبات النفايات وحقول الأرز المغمورة بالمياه وما شابه)، فمن المرجح أن يتكون الميثان.",
+      "DEFINITION_EN": "Conditions in which oxygen is not readily available. These conditions are important for the production of methane emissions. Whenever organic material decomposes in anaerobic conditions (in landfills, flooded rice fields, etc.) methane is likely to be formed.",
+      "RELATIONS": [
+        "ACS-RES-0320",
+        "ACS-ENG-0446"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0248",
+      "AR_TERM": "المُولّد الذاتي",
+      "EN_TERM": "Auto producer",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منشأة تولّد الكهرباء أو الحرارة لاستخدامها هي و/أو تبيعها كنشاط ثانوي، أي لا كأنها نشاطها الرئيسي.",
+      "DEFINITION_EN": "An enterprise which generates electricity or heat for its own use and/or sells it as a secondary activity i.e., not as its main business.",
+      "RELATIONS": [
+        "ACS-RES-0187",
+        "ACS-GEN-0693"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0249",
+      "AR_TERM": "الفحم الحيوي",
+      "EN_TERM": "Biochar",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مادة مستقرة نسبيًا غنية بالكربون تُنتج بتسخين الكتلة الحيوية في بيئة محدودة الأكسجين. ويُميَّز الفحم الحيوي عن الفحم الخشبي من حيث الاستخدام: فالفحم الحيوي يُستخدم كمُحسِّن للتربة بهدف تحسين وظائف التربة وتقليل انبعاثات غازات الدفينة من الكتلة الحيوية التي كان ستفقد سريعًا (IBI 2018). انظر أيضًا: الإزالة البشرية المنشأ، وإزالة ثاني أكسيد الكربون.",
+      "DEFINITION_EN": "Relatively stable, carbon-rich material produced by heating biomass in an oxygen-limited environment. Biochar is distinguished from charcoal by its application: biochar is used as a soil amendment with the intention to improve soil functions and to reduce greenhouse gas emissions from biomass that would otherwise decompose rapidly (IBI 2018). See also Anthropogenic removals and Carbon dioxide removal (CDR).",
+      "RELATIONS": [
+        "ACS-RES-0250",
+        "ACS-RES-0117"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0250",
+      "AR_TERM": "الطاقة الحيوية",
+      "EN_TERM": "Bioenergy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "طاقة مشتقة من أي شكل من أشكال الكتلة الحيوية أو من نواتجها الأيضية. انظر أيضًا: الوقود الحيوي.",
+      "DEFINITION_EN": "Energy derived from any form of biomass or its metabolic by-products. See also Biofuel.",
+      "RELATIONS": [
+        "ACS-BIO-0663",
+        "ACS-ENG-0472"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0251",
+      "AR_TERM": "الكربون الحيوي",
+      "EN_TERM": "Biogenic carbon",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كربون مشتق من مصادر حيوية (نباتية أو حيوانية) باستثناء الكربون الأحفوري. ولاحظ أن الطين يُعامَل في هذه الإرشادات على أنه كربون أحفوري لأن استبدال الطين المحصود يستغرق وقتًا طويلًا.",
+      "DEFINITION_EN": "Carbon derived from biogenic (plant or animal) sources excluding fossil carbon. Note that peat is treated as a fossil carbon in these guidelines as it takes so long to replace harvested peat.",
+      "RELATIONS": [
+        "ACS-CHEM-0912",
+        "ACS-RES-0250"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0252",
+      "AR_TERM": "المعالجة البيولوجية للنفايات",
+      "EN_TERM": "Biological treatment of waste",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "التسميد الحيوي والهضم اللاهوائي للنفايات العضوية، مثل مخلفات الطعام، ومخلفات الحدائق والمنتزهات، والحمأة، لخفض حجم مادة النفايات، وتثبيت النفايات، والقضاء على مسببات الأمراض في مادة النفايات. ويشمل ذلك المعالجة الميكانيكية البيولوجية.",
+      "DEFINITION_EN": "Composting and anaerobic digestion of organic wastes, such as food waste, garden/park waste and sludge, to reduce volume in the waste material, stabilisation of waste, and destruction of pathogens in the waste material. This includes mechanical-biological treatment.",
+      "RELATIONS": [
+        "ACS-ENG-0426",
+        "ACS-RES-0030"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0253",
+      "AR_TERM": "كربيد الكالسيوم",
+      "EN_TERM": "Calcium carbide",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "يُستخدم كربيد الكالسيوم في إنتاج الأسيتيلين، وفي تصنيع السياناميد (استخدام تاريخي طفيف)، وكعامل مختزل في أفران صهر الصلب الكهربائية. ويُصنع من كربونات الكالسيوم (الحجر الجيري) ومادة مخفضة محتوية على الكربون (مثل كوك البترول).",
+      "DEFINITION_EN": "Calcium carbide is used in the production of acetylene, in the manufacture of cyanamide (a minor historical use), and as a reductant in electric arc steel furnaces. It is made from calcium carbonate (limestone) and carbon-containing reductant (e.g., petroleum coke).",
+      "RELATIONS": [
+        "ACS-RES-0306",
+        "ACS-CHEM-0946"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0254",
+      "AR_TERM": "التوليد المدمج للكهرباء والحرارة",
+      "EN_TERM": "Combined heat and power (CHP)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "التوليد المدمج للكهرباء والحرارة، المعروف أيضًا بالتوليد المشترك، هو الإنتاج المتزامن للكهرباء والحرارة المفيدة، للاستخدام من قبل المنتج أو لبيعها لمستخدمين آخرين، بهدف استغلال الطاقة المستخدمة بشكل أفضل. وقد تستخدم المرافق العامة جزءًا من الحرارة المنتجة في محطات الطاقة وتبيعها لأغراض التدفئة العامة. وقد تبيع الصناعات بوصفها منتجات ذاتية جزءًا من الكهرباء الفائضة المنتجة إلى صناعات أخرى أو إلى مرافق الكهرباء.",
+      "DEFINITION_EN": "Combined heat and power (CHP), also known as cogeneration, is the simultaneous production of both electricity and useful heat for application by the producer or to be sold to other users with the aim of better utilisation of the energy used. Public utilities may utilise part of the heat produced in power plants and sell it for public heating purposes. Industries as auto-producers may sell part of the excess electricity produced to other industries or to electric utilities.",
+      "RELATIONS": [
+        "ACS-ENG-0633",
+        "ACS-ENG-0967"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0255",
+      "AR_TERM": "نزع النترات",
+      "EN_TERM": "Denitrification",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الاختزال الميسَّر بالميكروباتيات للنترات أو النيتريت إلى النيتروجين الجزيئي، وعبره يُطلق النيتروجين من الركيزة إلى الغلاف الجوي.",
+      "DEFINITION_EN": "The microbially facilitated reduction of nitrates or nitrites to molecular nitrogen (N2) through which the nitrogen is emitted from the substrate to the atmosphere.",
+      "RELATIONS": [
+        "ACS-RES-0324",
+        "ACS-BIO-0685"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0256",
+      "AR_TERM": "معامل الانبعاثات",
+      "EN_TERM": "Emission factor",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "معامل يكميم الانبعاثات أو الإزالة لغاز ما لكل وحدة من وحدات النشاط. وغالبًا ما تستند معاملات الانبعاثات إلى عينة من بيانات القياس، ثم تُوسَّط لتحديد معدل انبعاث تمثيلي لمستوى نشاط معين ضمن مجموعة محددة من ظروف التشغيل.",
+      "DEFINITION_EN": "A coefficient that quantifies the emissions or removals of a gas per unit activity. Emission factors are often based on a sample of measurement data, averaged to develop a representative rate of emission for a given activity level under a given set of operating conditions.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0308"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0257",
+      "AR_TERM": "استرجاع الطاقة",
+      "EN_TERM": "Energy recovery",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "شكل من أشكال استرجاع الموارد يتم فيه تحويل الجزء العضوي من النفايات إلى شكل من أشكال الطاقة القابلة للاستخدام. ويمكن تحقيق الاسترجاع من خلال احتراق النفايات المعالجة أو الخام لإنتاج البخار، ومن خلال التحلل الحراري للنفايات لإنتاج الزيت أو الغاز؛ ومن خلال الهضم اللاهوائي للنفايات العضوية لإنتاج غاز الميثان.",
+      "DEFINITION_EN": "A form of resource recovery in which the organic fraction of waste is converted to some form of usable energy. Recovery may be achieved through the combustion of processed or raw refuse to produce steam through the pyrolysis of refuse to produce oil or gas; and through the anaerobic digestion of organic wastes to produce methane gas.",
+      "RELATIONS": [
+        "ACS-ENG-0967",
+        "ACS-RES-0149"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0258",
+      "AR_TERM": "استرجاع الميثان المعزز من الفحم",
+      "EN_TERM": "Enhanced coal bed methane (recovery)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "زيادة في استرجاع CH4 ناتجة عن حقن CO2 في الطبقات الفحمية.",
+      "DEFINITION_EN": "Increased CH4 recovery produced by the injection of CO2 into coal seams.",
+      "RELATIONS": [
+        "ACS-RES-0320",
+        "ACS-RES-0261"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0259",
+      "AR_TERM": "الكربون الأحفوري",
+      "EN_TERM": "Fossil carbon",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كربون مشتق من الوقود الأحفوري أو من مصدر أحفوري آخر.",
+      "DEFINITION_EN": "Carbon derived from fossil fuel or other fossil source.",
+      "RELATIONS": [
+        "ACS-RES-0306",
+        "ACS-RES-0015"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0260",
+      "AR_TERM": "احتراق الوقود",
+      "EN_TERM": "Fuel combustion",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "في الإرشادات، يُقصد باحتراق الوقود الأكسدة المتعمَّدة للمواد داخل جهاز مصمَّم لتوفير حرارة أو عمل ميكانيكي لعملية ما، أو للاستخدام خارج الجهاز.",
+      "DEFINITION_EN": "Within the Guidelines fuel combustion is the intentional oxidation of materials within an apparatus that is designed to provide heat or mechanical work to a process, or for use away from the apparatus.",
+      "RELATIONS": [
+        "ACS-RES-0306",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0261",
+      "AR_TERM": "الانبعاثات المتسربة (أنظمة النفط والغاز الطبيعي)",
+      "EN_TERM": "Fugitive emissions (oil and natural gas systems)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إفلات غازات الدفينة الذي يحدث أثناء استكشاف الوقود الأحفوري ومعالجته ونقله حتى نقطة الاستخدام النهائي. ويشمل ذلك استثناء انبعاثات غازات الدفينة الناتجة عن احتراق الوقود لإنتاج حرارة أو طاقة مفيدة. ويشمل التنفيس وحرق الفوارات والتسريبات.",
+      "DEFINITION_EN": "The release of greenhouse gases that occur during the exploration, processing and delivery of fossil fuels to the point of final use. This excludes greenhouse gas emissions from fuel combustion for the production of useful heat or power. It encompasses venting, flaring, and leaks.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-GEO-0208"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0262",
+      "AR_TERM": "منتجات الخشب المحصود",
+      "EN_TERM": "Harvested wood products",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تشير منتجات الخشب المحصود، وفقًا لإرشادات الممارسات الجيدة الصادرة عن IPCC لعام 2003 و2006، إلى منتجات الخشب والورق، وتشمل: أ) منتجات الخشب قيد الاستخدام، أي الخشب المستغل كمادة؛ ب) الكتلة الحيوية الخشبية المستخدمة لأغراض الطاقة؛ وج) الكتلة الحيوية الخشبية في مواقع التخلص من النفايات الصلبة.",
+      "DEFINITION_EN": "Harvested wood products (HWP) according to the IPCC good practice guidance (2003, 2006) refers to wood and paper products, and includes i) wood products in use (i.e. wood utilised as a material); ii) wood biomass used for energy purposes and iii) wood biomass in solid waste disposal sites.",
+      "RELATIONS": [
+        "ACS-AGR-0654",
+        "ACS-RES-0015"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0263",
+      "AR_TERM": "انبعاثات العمليات",
+      "EN_TERM": "Process emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "انبعاثات من العمليات الصناعية التي تنطوي على تحولات كيميائية بخلاف الاحتراق.",
+      "DEFINITION_EN": "Emissions from industrial processes involving chemical transformations other than combustion.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-ENG-0315"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0264",
+      "AR_TERM": "النمذجة القائمة على العمليات",
+      "EN_TERM": "Process-based modelling",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نهج في النمذجة الرياضية قائم على فهم نظري للعمليات البيئية والبيولوجية والكيميائية والفيزيائية الأساسية. وهو يستخدم عادة المعادلات التفاضلية لتمثيل تغيّر المعاملات موضع الاهتمام مع الزمن، مما يوفر إطارًا مفيدًا لتوقع استجابات محددة لظروف بيئية متغيرة. فعلي سبيل المثال، قد يُستخدم نموذج قائم على العمليات لتقدير وصول المادة العضوية من حوض التجميع وأو إنتاجها عبر الإنتاج الأولي داخل خزان، وترسبها في رواسب الخزان، وتحلل المادة العضوية هوائيا إلى CO2 أو لاهوائيا إلى CH4 بمرور الوقت، وإصدار هذه الغازات عبر الواجهة بين الهواء والماء.",
+      "DEFINITION_EN": "A mathematical modelling approach based on a theoretical understanding of fundamental ecological, biological, chemical, and physical processes. Typically using differential equations to represent the change over time of parameters of interest, it provides a useful framework to project specific responses to altered environmental conditions. For example, a process-based model might be used to quantify the delivery of organic matter delivered from the catchment and/or produced by primary production within a reservoir, its deposition onto a reservoir's sediment, the degradation of the organic matter aerobically to CO2 or anaerobically to CH4 over time, and the emission of these gases across the air-water interface.",
+      "RELATIONS": [
+        "ACS-RES-0256",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0265",
+      "AR_TERM": "انبعاثات إزالة الغاز",
+      "EN_TERM": "Degassing emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "انبعاثات غازية مرتفعة تحدث عندما يصرَّف الماء من سد ويطرأ عليه تغير مفاجئ في الضغط ودرجة الحرارة والاضطراب. وتسبب هذه التغيرات حدوث عمليات التبادل بين الهواء والماء بمعدلات أعلى بكثير مما يحدث في المياه السطحية، إذ يقترب الماء المصرَّف من حالة اتزان جديدة مع البيئة في المصب وفقًا لمبدأ لوشاتلييه. وفي حالة السدود، يؤثر التغير في الضغط الهيدروستاتيكي قبل مرور الماء عبر التوربينات وبعده في هذا الاتزان. كما أن الماء المصرَّف من السدود يصرَّف عادة إلى حوض تهدئة مصمم لتبديد معظم الطاقة الاضطرابية للتدفق، بهدف منع التعرية المفرطة لضفاف المجرى الطبيعي في المصب. يزيد الاضطراب في عمود الماء كثيرا من معدل انتقال الغاز بين الهواء والماء عند تركيز معين للغاز المذاب. وفي بعض الحالات، قد يفرَّغ الماء عبر صمامات إبرية إلى الهواء، مما يوفر مساحة تماس شديدة الارتفاع بين الهواء والماء ويؤدي إلى تحرر الغاز بسرعة.",
+      "DEFINITION_EN": "Elevated gas emissions that occur as water is released from a dam and experiences sudden changes in pressure, temperature and turbulence. These changes cause air-water exchange processes to occur at much greater rates than in surface waters as the released water approaches a new equilibrium with the environment downstream following Le Chatelier's principle. In the case of dams the change in the hydrostatic pressure before and after water passing through turbines affects this balance. Also, water released from dams is typically released into a stilling basin designed to dissipate much of the turbulent energy of the flow in order to prevent excessive bank erosion in the natural river channel downstream. The increased water column turbulence greatly increases the air-water gas transfer rate for a given dissolved gas concentration. In some cases, water may be discharged through needle valves into the air, which provides very high air-water contact area leading to rapid gas release.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-CHEM-0946"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0266",
+      "AR_TERM": "الانبعاث الانتشاري",
+      "EN_TERM": "Diffusive emission",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تدفق الغاز عبر الواجهة بين الهواء والماء الذي يحكمه الانتشار. ولقياس التدفقات الانتشارية، تُعد أكثر الطرق شيوعا استخدام الغرف العائمة. وكثيرا ما يتم التقدير باستخدام نموذج الطبقة الحدية الرقيقة في انتقال الغاز.",
+      "DEFINITION_EN": "The gas flux across the air-water interface governed by diffusion. For measuring diffusive fluxes, the most popular method employs floating chambers. Frequently estimated using the Thin Boundary Layer model of gas transfer.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0261"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0267",
+      "AR_TERM": "الانبعاثات في المصب",
+      "EN_TERM": "Downstream emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إجمالي انبعاثات غازات الدفينة التي تحدث في المصب من السد، بما في ذلك انبعاثات إزالة الغاز والانبعاث الانتشاري على حد سواء",
+      "DEFINITION_EN": "The total greenhouse gas emissions that occur downstream of a dam including both degassing emissions and the diffusive emission",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-AGR-0235"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0268",
+      "AR_TERM": "قياس تدفق الدوامية",
+      "EN_TERM": "Eddy flux measurement",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "قياس تدفقات المواد عبر ربط تقلبات سرعة الاضطراب عالية التردد بتقلبات تركيز الاضطراب. ويشار إليه أيضا بالارتباط الدوامي، أي المنهجية الميكوروميتورولوجية التي تستخدم فروق التركيز المرتبطة بالاضطراب في الهواء لتقدير التبادل الصافي الرأسي للغازات.",
+      "DEFINITION_EN": "The measurement of material fluxes by correlating high-frequency turbulent velocity fluctuations with turbulent concentration fluctuations. Also referred to as eddy correlation i.e. micrometeorological method that uses differences in concentration associated with turbulence in the air to quantify net vertical gas exchange.",
+      "RELATIONS": [
+        "ACS-RES-0015",
+        "ACS-RES-0320"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0269",
+      "AR_TERM": "الانبعاث الفقوري",
+      "EN_TERM": "Ebullitive emission",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تدفق الغاز الذي تحمله الفقاعات من الرواسب عبر عمود الماء إلى الغلاف الجوي.",
+      "DEFINITION_EN": "The flux of gas carried by bubbles from sediments through to the water column to the atmosphere.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0266"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0270",
+      "AR_TERM": "المركبات العضوية المتطايرة غير الميثانية (NMVOCs)",
+      "EN_TERM": "Non-Methane Volatile Organic Compounds (NMVOCs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "فئة من الانبعاثات تشمل نطاقا واسعا من المواد الكيميائية العضوية المحددة. وتلعب المركبات العضوية المتطايرة غير الميثانية دورا رئيسيا في تكوّن الأوزون في التروبوسفير، أي الغلاف الجوي السفلي. والأوزون في التروبوسفير غاز من غازات الدفينة. وهو أيضا ملوث هواء محلي وإقليمي رئيسي يسبب أضرارا كبيرة للصحة والبيئة. ولأنها تسهم في تكوّن الأوزون، تُعد هذه المركبات غازات دفينة سابقة لتكوّن الأوزون. ومتى تم تأكسلها في الغلاف الجوي، أنتجت ثاني أكسيد الكربون.",
+      "DEFINITION_EN": "A class of emissions which includes a wide range of specific organic chemical substances. Non-Methane Volatile Organic Compounds (NMVOCs) play a major role in the formation of ozone in the troposphere (lower atmosphere). Ozone in the troposphere is a greenhouse gas. It is also a major local and regional air pollutant, causing significant health and environmental damage. Because they contribute to ozone formation, NMVOCs are considered \"precursor\" greenhouse gases. NMVOCs, once oxidized in the atmosphere, produce carbon dioxide.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-BIO-0698"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0271",
+      "AR_TERM": "الحرق المكشوف للنفايات",
+      "EN_TERM": "Open burning of waste",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "احتراق المواد القابلة للاحتراق غير المرغوب فيها، مثل الورق والخشب والبلاستيك والمنسوجات والمطاط والحطام الآخر، في العراء أو في موقع نفايات مكشوف، حيث يفرغ الدخان والانبعاثات الأخرى مباشرة إلى الهواء دون المرور عبر مدخنة أو بئر. وقد يشمل الحرق المكشوف أيضا أجهزة حرق لا تتحكم في هواء الاحتراق للحفاظ على درجة حرارة كافية ولا توفر زمن بقاء كافيا لاحتراق كامل.",
+      "DEFINITION_EN": "The combustion of unwanted combustible materials such as paper, wood, plastics, textiles, rubber, and other debris in the open or at an open dump site, where smoke and other emissions are released directly into the air without passing through a chimney or stack. Open burning can also include incineration devices that do not control the combustion air to maintain an adequate temperature and do not provide sufficient residence time for complete combustion.",
+      "RELATIONS": [
+        "ACS-BIO-0663",
+        "ACS-RES-0285"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0272",
+      "AR_TERM": "وكيل النفخ (لإنتاج الرغوة)",
+      "EN_TERM": "Blowing agent (for foam production)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "غاز أو سائل متطاير أو مادة كيميائية تولّد غازا أثناء عملية نفخ الرغوة. ويُنشئ الغاز فقاعات أو خلايا في البنية البلاستيكية للرغوة.",
+      "DEFINITION_EN": "A gas, volatile liquid, or chemical that generates gas during the foaming process. The gas creates bubbles or cells in the plastic structure of a foam.",
+      "RELATIONS": [
+        "ACS-ENG-0103",
+        "ACS-RES-0309"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0273",
+      "AR_TERM": "الكلوروفلوروكربونات (CFCs)",
+      "EN_TERM": "Chlorofluorocarbons (CFCs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "هالوكربونات تحتوي على ذرات الكلور والفلور والكربون فقط. والكلوروفلوروكربونات مواد مستنفدة للأوزون وغازات دفينة في آن واحد.",
+      "DEFINITION_EN": "Halocarbons containing only chlorine, fluorine, and carbon atoms. CFCs are both ozone-depleting substances (ODSs) and greenhouse gases.",
+      "RELATIONS": [
+        "ACS-RES-0277",
+        "ACS-RES-0309"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0274",
+      "AR_TERM": "الفلوروكربونات",
+      "EN_TERM": "Fluorocarbons",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "هالوكربونات تحتوي على ذرات الفلور، منها الكلوروفلوروكربونات والهيدروكلوروفلوروكربونات والهيدروفلوروكربونات والبارفلوروكربونات.",
+      "DEFINITION_EN": "Halocarbons containing fluorine atoms, including chlorofluorocarbons (CFCs), hydrochlorofluorocarbons (HCFCs), hydrofluorocarbons (HFCs), and perfluorocarbons (PFCs).",
+      "RELATIONS": [
+        "ACS-RES-0309"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0275",
+      "AR_TERM": "الهيدروكلوروفلوروكربونات (HCFCs)",
+      "EN_TERM": "Hydrochlorofluorocarbons (HCFCs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "هالوكربونات تحتوي على ذرات الهيدروجين والكلور والفلور والكربون فقط. ولأن الهيدروكلوروفلوروكربونات تحتوي على الكلور، فإنها تسهم في استنفاد الأوزون. وهي أيضا غازات دفينة.",
+      "DEFINITION_EN": "Halocarbons containing only hydrogen, chlorine, fluorine and carbon atoms. Because HCFCs contain chlorine, they contribute to ozone depletion. They are also greenhouse gases.",
+      "RELATIONS": [
+        "ACS-RES-0277",
+        "ACS-RES-0309"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0276",
+      "AR_TERM": "الهيدروفلوروإيثرات (HFEs)",
+      "EN_TERM": "Hydrofluoroethers (HFEs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مواد كيميائية تتكون من ذرات الهيدروجين والفلور والكربون، ذات بنية إيثرية. ولأن الهيدروفلوروإيثرات لا تحتوي على الكلور أو البروم أو اليود، فإنها لا تستنفد طبقة الأوزون. وكغيرها من الهالوكربونات، فهي غازات دفينة قوية.",
+      "DEFINITION_EN": "Chemicals composed of hydrogen, fluorine and carbon atoms, with ether structure. Because HFEs contain no chlorine, bromine, or iodine, they do not deplete the ozone layer. Like other halocarbons, they are potent greenhouse gases.",
+      "RELATIONS": [
+        "ACS-RES-0309"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0277",
+      "AR_TERM": "المواد المستنفدة للأوزون",
+      "EN_TERM": "Ozone-depleting substances (ODS)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مركب يسهم في استنفاد الأوزون الستراتوسفيري. وتشمل المواد المستنفدة للأوزون الكلوروفلوروكربونات والهيدروكلوروفلوروكربونات والهالونات وبروميد الميثيل ورباعي كلوريد الكربون وكلوروفورم الميثيل. وتكون هذه المواد مستقرة بدرجة كبيرة في التروبوسفير ولا تتحلل إلا تحت ضوء الأشعة فوق البنفسجية المكثف في الستراتوسفير. وعندما تتفكك، تطلق ذرات الكلور أو البروم، التي تستنفد الأوزون بدورها.",
+      "DEFINITION_EN": "A compound that contributes to stratospheric ozone depletion. Ozone-depleting substances (ODS) include CFCs, HCFCs, halons, methyl bromide, carbon tetrachloride, and methyl chloroform. ODS are generally very stable in the troposphere and only degrade under intense ultraviolet light in the stratosphere. When they break down, they release chlorine or bromine atoms, which then deplete ozone.",
+      "RELATIONS": [
+        "ACS-BIO-0698",
+        "ACS-RES-0309"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0278",
+      "AR_TERM": "البارفلوروكربونات (PFCs)",
+      "EN_TERM": "Perfluorocarbons (PFCs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "هالوكربونات منتجة صناعيا تحتوي على ذرات الكربون والفلور فقط. وتتميز بثباتها الشديد وغياب قابلية الاشتعال وانخفاض سميتها واحتماليتها الصفرية لاستنفاد الأوزون وقدرتها العالية على الاحتباس الحراري.",
+      "DEFINITION_EN": "Synthetically produced halocarbons containing only carbon and fluorine atoms. They are characterized by extreme stability, non-flammability, low toxicity, zero ozone depleting potential, and high global warming potential.",
+      "RELATIONS": [
+        "ACS-RES-0309"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories - Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0279",
+      "AR_TERM": "الزراعة والغابات واستخدام الأراضي الأخرى",
+      "EN_TERM": "Agriculture, Forestry and Other Land Use (AFOLU)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "في سياق جردات غازات الدفينة الوطنية بموجب اتفاقية الأمم المتحدة الإطارية بشأن تغيّر المناخ (UNFCCC)، يمثّل هذا المصطلح مجموع قطاعي الجرد الخاص بالزراعة واستخدام الأراضي، وتغيير استخدام الأراضي والغابات؛ انظر إرشادات IPCC لعام 2006 لجردات غازات الدفينة الوطنية للحصول على التفاصيل. ونظرا للاختلاف في تقدير عمليات إزالة ثاني أكسيد الكربون البشرية المنشأ بين الدول ومجتمع النمذجة العالمي، فإن صافي انبعاثات غازات الدفينة المرتبطة بالأراضي في النماذج العالمية المشمولة في هذا التقرير لا تكون بالضرورة قابلة للمقارنة المباشرة بتقديرات قطاع تغيير استخدام الأراضي والغابات في جردات غازات الدفينة الوطنية. وانظر أيضا إلى استخدام الأراضي، وتغيير استخدام الأراضي والغابات، وتغيير استخدام الأراضي.",
+      "DEFINITION_EN": "In the context of national greenhouse gas (GHG) inventories under the United Nations Framework Convention on Climate Change (UNFCCC), AFOLU is the sum of the GHG inventory sectors Agriculture and Land Use, Land-Use Change and Forestry (LULUCF); see the 2006 IPCC Guidelines for National GHG Inventories for details. Given the difference in estimating the ' anthropogenic ' carbon dioxide (CO2) removals between countries and the global modelling community, the land-related net GHG emissions from global models included in this report are not necessarily directly comparable with LULUCF estimates in national GHG Inventories. See also Land use, Land-use change and forestry (LULUCF) and Land-use change (LUC).",
+      "RELATIONS": [
+        "ACS-RES-0243",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0280",
+      "AR_TERM": "الانبعاثات البشرية المنشأ",
+      "EN_TERM": "Anthropogenic emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "انبعاثات غازات الدفينة والمواد السابقة لها والرذاذ الناتجة عن الأنشطة البشرية. وتشمل هذه الأنشطة حرق الوقود الأحفوري وإزالة الغابات واستخدام الأراضي وتغييرات استخدام الأراضي وإنتاج الماشية والتسميد وإدارة النفايات والعمليات الصناعية. وانظر أيضا إلى مصطلح البشرية المنشأ وإلى الإزالة البشرية المنشأة.",
+      "DEFINITION_EN": "Emissions of greenhouse gases (GHGs), precursors of GHGs and aerosols caused by human activities. These activities include the burning of fossil fuels, deforestation, land use and land-use changes (LULUC), livestock production, fertilisation, waste management, and industrial processes. See also Anthropogenic and Anthropogenic removals.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0308"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0281",
+      "AR_TERM": "الإزالة البشرية المنشأة",
+      "EN_TERM": "Anthropogenic removals",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "سحب غازات الدفينة من الغلاف الجوي نتيجة لأنشطة بشرية متعمَّدة. وتشمل هذه الأنشطة تعزيز البالوعات البيولوجية لثاني أكسيد الكربون، واستخدام الهندسة الكيميائية لتحقيق الإزالة والتخزين على المدى الطويل. أما التقاط وتخزين ثاني أكسيد الكربون، وهو ما لا يزيل ثاني أكسيد الكربون من الغلاف الجوي بمفرده، فيمكن أن يساعد على خفض ثاني أكسيد الكربون في الغلاف الجوي من المصادر الصناعية والمتصلة بالطاقة إذا اقترنت بإنتاج الطاقة الحيوية (BECCS)، أو إذا تم التقاط ثاني أكسيد الكربون من الهواء مباشرة وتخزينه (DACCS). وانظر أيضا إلى إزالة ثاني أكسيد الكربون (CDR)، والتشجير، والفحم الحيوي، والتعرية المعزَّزة، وقلوية المحيطات أو تحسين قلوية المحيطات، وإعادة التشجير، واحتجاز الكربون في التربة.",
+      "DEFINITION_EN": "The withdrawal of greenhouse gases (GHGs) from the atmosphere as a result of deliberate human activities. These include enhancing biological sinks of CO2 and using chemical engineering to achieve long-term removal and storage. Carbon capture and storage (CCS), which alone does not remove CO2 from the atmosphere, can help reduce atmospheric CO2 from industrial and energy-related sources if it is combined with bioenergy production (BECCS), or if CO2 is captured from the air directly and stored (DACCS). See also Carbon dioxide removal (CDR), Afforestation, Biochar, Enhanced weathering, Ocean alkalinisation/Ocean alkalinity enhancement, Reforestation, and Soil carbon sequestration (SCS).",
+      "RELATIONS": [
+        "ACS-RES-0230",
+        "ACS-RES-0332"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0282",
+      "AR_TERM": "التجنّب والتحويل والتحسين",
+      "EN_TERM": "Avoid, Shift, Improve (ASI)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "خفض انبعاثات غازات الدفينة عبر تجنّب استخدام خدمة منتِجة للانبعاثات كليا، والانتقال إلى أقل أساليب تقديم الخدمة انبعاثا، وأو تحسين التقنيات والأنظمة المستخدمة في تقديم الخدمة بطرق تقلل الانبعاثات.",
+      "DEFINITION_EN": "Reducing greenhouse gas emissions by avoiding the use of an emissions-producing service entirely, shifting to the lowest-emission mode of providing the service, and/or improving the technologies and systems for providing the service in ways that reduce emissions.",
+      "RELATIONS": [
+        "ACS-RES-0184",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0283",
+      "AR_TERM": "الطاقة الحيوية مع التقاط وتخزين ثاني أكسيد الكربون",
+      "EN_TERM": "Bioenergy with carbon dioxide capture and storage (BECCS)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تقنية التقاط وتخزين ثاني أكسيد الكربون (CCS) المطبَّقة على منشأة للطاقة الحيوية. ولاحظ أن ثاني أكسيد الكربون يمكن إزالته من الغلاف الجوي،وفقا لإجمالي انبعاثات سلسلة إمداد هذه التقنية. وانظر أيضا إلى الإزالة البشرية المنشأة وإلى إزالة ثاني أكسيد الكربون.",
+      "DEFINITION_EN": "Carbon dioxide capture and storage (CCS) technology applied to a bioenergy facility. Note that, depending on the total emissions of the BECCS supply chain, carbon dioxide (CO2) can be removed from the atmosphere. See also Anthropogenic removals and Carbon dioxide removal.",
+      "RELATIONS": [
+        "ACS-RES-0250",
+        "ACS-RES-0287"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0284",
+      "AR_TERM": "انبعاثات الكربون الحيوي",
+      "EN_TERM": "Biogenic carbon emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الكربون الذي يُطلق على هيئة ثاني أكسيد الكربون أو الميثان نتيجة لاحتراق الكتلة الحيوية أو المنتجات الحيوية أو تحللها.",
+      "DEFINITION_EN": "Carbon released as carbon dioxide or methane from combustion or decomposition of biomass or biobased products.",
+      "RELATIONS": [
+        "ACS-RES-0251",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0285",
+      "AR_TERM": "الكربون الأسود",
+      "EN_TERM": "Black carbon (BC)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "شكل شبه نقي من الكربون، يُعرف أيضا بالسخام، ينشأ عن الاحتراق غير الكامل للوقود الأحفوري والوقود الحيوي والكتلة الحيوية. ولا يبقى في الغلاف الجوي إلا أياما أو أسابيع. والكربون الأسود عامل من عوامل الإجبار المناخي ذو أثر تحريمي قوي، سواء في الغلاف الجوي أو عند ترسبه على الثلج أو الجليد. وانظر أيضا إلى الرذاذ.",
+      "DEFINITION_EN": "A relatively pure form of carbon, also known as soot, arising from the incomplete combustion of fossil fuels, biofuel, and biomass. It only stays in the atmosphere for days or weeks. BC is a climate forcing agent with strong warming effect, both in the atmosphere and when deposited on snow or ice. See also Aerosol.",
+      "RELATIONS": [
+        "ACS-ENG-0458",
+        "ACS-BIO-0663"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0286",
+      "AR_TERM": "الأعمال كالمعتاد",
+      "EN_TERM": "Business as usual (BAU)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "استُخدم مصطلح سيناريو الأعمال كالمعتاد لوصف سيناريو يفترض عدم وجود سياسات إضافية خارج السياسات السارية حاليا، وأنماط تنمية اقتصادية واجتماعية تتسق مع الاتجاهات الحديثة. وقد قلّ استخدام هذا المصطلح اليوم مقارنة بالماضي. وانظر أيضا إلى سيناريو المرجع ضمن كلمة سيناريو.",
+      "DEFINITION_EN": "The term business as usual scenario has been used to describe a scenario that assumes no additional policies beyond those currently in place and that patterns of socio-economic development are consistent with recent trends. The term is now used less frequently than in the past. See also Reference scenario (under Scenario).",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0331"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0287",
+      "AR_TERM": "التقاط وتخزين ثاني أكسيد الكربون (CCS)",
+      "EN_TERM": "Carbon dioxide capture and storage (CCS)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عملية يتم فيها فصل (اعتراض) تيار نقي نسبيًا من ثاني أكسيد الكربون (CO2) الصادر عن المصادر الصناعية والمتصلة بالطاقة، ثم تهيئته وضغطه ونقله إلى موقع تخزين من أجل عزله عن الغلاف الجوي على المدى الطويل. ويشار إليها أحيانًا باسم التقاط وتخزين الكربون. انظر أيضًا إلى الإزالات البشرية، وإلى الطاقة الحيوية مع التقاط وتخزين ثاني أكسيد الكربون (BECCS)، وإلى التقاط واستخدام ثاني أكسيد الكربون (CCU)، وإزالة ثاني أكسيد الكربون (CDR)، والحجز.",
+      "DEFINITION_EN": "A process in which a relatively pure stream of carbon dioxide (CO2) from industrial and energy-related sources is separated (captured), conditioned, compressed and transported to a storage location for long-term isolation from the atmosphere. Sometimes referred to as Carbon Capture and Storage. See also Anthropogenic removals, Bioenergy with carbon dioxide capture and storage (BECCS), Carbon dioxide capture and utilisation (CCU), Carbon dioxide removal (CDR), and Sequestration.",
+      "RELATIONS": [
+        "ACS-CHEM-0912",
+        "ACS-RES-0332"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0288",
+      "AR_TERM": "التقاط واستخدام ثاني أكسيد الكربون (CCU)",
+      "EN_TERM": "Carbon dioxide capture and utilisation (CCU)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عملية يتم فيها التقاط ثاني أكسيد الكربون (CO2) ثم استخدام الكربون في أحد المنتجات. ويعتمد الأثر المناخي لـ CCU على عمر المنتج، وعلى المنتج الذي يحل محله، وعلى مصدر CO2 (الوقود الأحفوري أو الكتلة الأحيائية أو الغلاف الجوي). ويشار إلى CCU أحيانًا باسم التقاط واستخدام ثاني أكسيد الكربون، أو التقاط واستغلاله. انظر أيضًا إلى الإزالات البشرية، وإلى التقاط وتخزين ثاني أكسيد الكربون (CCS)، وإزالة ثاني أكسيد الكربون (CDR).",
+      "DEFINITION_EN": "A process in which carbon dioxide (CO2) is captured and the carbon then used in a product. The climate effect of CCU depends on the product lifetime, the product it displaces, and the CO2 source (fossil, biomass or atmosphere). CCU is sometimes referred to as Carbon Dioxide Capture and Use, or Carbon Capture and Utilisation. See also Anthropogenic removals, Carbon dioxide capture and storage (CCS), and Carbon dioxide removal (CDR).",
+      "RELATIONS": [
+        "ACS-CHEM-0912",
+        "ACS-RES-0287"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0289",
+      "AR_TERM": "إزالة ثاني أكسيد الكربون (CDR)",
+      "EN_TERM": "Carbon dioxide removal (CDR)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الأنشطة البشرية التي تزيل ثاني أكسيد الكربون (CO2) من الغلاف الجوي وتخزّنه على نحو دائم في مصارف جيولوجية أو برية أو محيطية، أو في منتجات. وتشمل التعزيز البشري القائم والمحتمل للمصارف الحيوية أو الجيوكيميائية لـ CO2، وكذلك التقاط وتخزين ثاني أكسيد الكربون من الهواء مباشرة (DACCS)، لكنها لا تشمل امتصاص CO2 الطبيعي الذي لا ينتج مباشرة عن الأنشطة البشرية. انظر أيضًا إلى الإزالات البشرية، والتشجير، والفحم الحيوي، والطاقة الحيوية مع التقاط وتخزين ثاني أكسيد الكربون (BECCS)، والتقاط وتخزين ثاني أكسيد الكربون (CCS)، والتحسين بالتعرية، وتحييد قلوية المحيطات أو تعزيز قلوية المحيطات، وإعادة التشجير، وحجز الكربون في التربة (SCS).",
+      "DEFINITION_EN": "Anthropogenic activities removing carbon dioxide (CO2) from the atmosphere and durably storing it in geological, terrestrial, or ocean reservoirs, or in products. It includes existing and potential anthropogenic enhancement of biological or geochemical CO2 sinks and direct air carbon dioxide capture and storage (DACCS), but excludes natural CO2 uptake not directly caused by human activities. See also Anthropogenic removals, Afforestation, Biochar, Bioenergy with carbon dioxide capture and storage (BECCS), Carbon dioxide capture and storage (CCS), Enhanced weathering, Ocean alkalinisation/Ocean alkalinity enhancement, Reforestation, and Soil carbon sequestration (SCS).",
+      "RELATIONS": [
+        "ACS-RES-0230",
+        "ACS-CHEM-0912"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0290",
+      "AR_TERM": "الحياد الكربوني",
+      "EN_TERM": "Carbon neutrality",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الحالة التي تتساوى فيها الانبعاثات البشرية لثاني أكسيد الكربون (CO2) المرتبطة بموضوع ما مع الإزالات البشرية لـ CO2. ويمكن أن يكون الموضوع كيانًا مثل بلد أو منظمة أو إقليم أو سلعة، أو نشاطًا مثل خدمة أو حدث. وغالبًا ما يُقيَّم الحياد الكربوني على مدار دورة الحياة بما في ذلك الانبعاثات غير المباشرة (النطاق 3)، لكنه قد يقتصر أيضًا على الانبعاثات والإزالات، خلال فترة محددة، التي يسيطر عليها الموضوع مباشرة، على النحو الذي يحدده النظام المعني. انظر أيضًا إلى الحياد في غازات الدفينة، واستخدام الأراضي وتغير استخدام الأراضي والغابات (LULUCF)، وصافٍ انبعاثات CO2.",
+      "DEFINITION_EN": "Condition in which anthropogenic carbon dioxide (CO2) emissions associated with a subject are balanced by anthropogenic CO2 removals. The subject can be an entity such as a country, an organisation, a district or a commodity, or an activity such as a service and an event. Carbon neutrality is often assessed over the lifecycle including indirect ('scope 3') emissions, but can also be limited to the emissions and removals, over a specified period, for which the subject has direct control, as determined by the relevant scheme. See also Greenhouse gas neutrality, Land use, land-use change and forestry (LULUCF) and Net-zero CO2 emissions.",
+      "RELATIONS": [
+        "ACS-RES-0323",
+        "ACS-RES-0289"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0291",
+      "AR_TERM": "الظاهرة المناخية المتطرفة (طقس متطرف أو ظاهرة مناخية)",
+      "EN_TERM": "Climate extreme (extreme weather or climate event)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حدوث قيمة لمتغير من متغيرات الطقس أو المناخ تتجاوز (أو تنخفض عن) قيمة عتبة قريبة من الحد الأعلى (أو الأدنى) لمدى القيم المرصودة لذلك المتغير. وبتعريف ذلك، قد تختلف خصائص ما يُسمى بالطقس المتطرف من مكان إلى آخر بالمعنى المطلق. وعندما يستمر نمط من الطقس المتطرف لبعض الوقت، مثل فصل، فقد يُصنَّف كظاهرة مناخية متطرفة، ولا سيما إذا أنتج متوسطًا أو إجماليًا يكون هو نفسه متطرفًا (مثل ارتفاع درجة الحرارة، أو الجفاف، أو الهطول الغزير على مدار فصل). وللتبسيط، يُشار إلى أحداث الطقس المتطرف وأحداث المناخ المتطرف جمعاءً بالعبارة (الظواهر المناخية المتطرفة).",
+      "DEFINITION_EN": "The occurrence of a value of a weather or climate variable above (or below) a threshold value near the upper (or lower) ends of the range of observed values of the variable. By definition, the characteristics of what is called extreme weather may vary from place to place in an absolute sense. When a pattern of extreme weather persists for some time, such as a season, it may be classified as an extreme climate event, especially if it yields an average or total that is itself extreme (e.g., high temperature, drought, or heavy rainfall over a season). For simplicity, both extreme weather events and extreme climate events are referred to collectively as 'climate extremes'.",
+      "RELATIONS": [
+        "ACS-LAW-0237",
+        "ACS-RES-0302"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0292",
+      "AR_TERM": "انبعاث مكافئ لثاني أكسيد الكربون (CO2-eq)",
+      "EN_TERM": "CO2 equivalent (CO2-eq) emission",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية انبعاثات ثاني أكسيد الكربون (CO2) التي يكون لها، على مدى أفق زمني محدد، أثر مكافئ على مقياس رئيسي محدد لتغير المناخ، مثل كمية منبعثة من غاز دفيئة آخر (GHG) أو من خليط من غازات الدفئة الأخرى. وبالنسبة إلى خليط من غازات الدفينة، يُحصل عليها بجمع انبعاثات ثاني أكسيد الكربون المكافئة لكل غاز. وهناك طرق متعددة وأفق زمنية متعددة لحساب هذه الانبعاثات المكافئة (انظر مقياس انبعاثات غازات الدفينة). وتُستخدم انبعاثات ثاني أكسيد الكربون المكافئة عادةً لمقارنة انبعاثات غازات الدفئة المختلفة، لكن لا ينبغي تفسيرها على أنها تعني أن هذه الانبعاثات لها أثر مكافئ على جميع المقاييس الرئيسية لتغير المناخ.",
+      "DEFINITION_EN": "The amount of carbon dioxide (CO2) emission that would have an equivalent effect on a specified key measure of climate change, over a specified time horizon, as an emitted amount of another greenhouse gas (GHG) or a mixture of other GHGs. For a mix of GHGs, it is obtained by summing the CO2-equivalent emissions of each gas. There are various ways and time horizons to compute such equivalent emissions (see greenhouse gas emission metric). CO2-equivalent emissions are commonly used to compare emissions of different GHGs, but should not be taken to imply that these emissions have an equivalent effect across all key measures of climate change.",
+      "RELATIONS": [
+        "ACS-RES-0114",
+        "ACS-RES-0308"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0293",
+      "AR_TERM": "الانبعاثات القائمة على الاستهلاك",
+      "EN_TERM": "Consumption-based emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الانبعاثات التي تُطلق إلى الغلاف الجوي من أجل توليد السلع والخدمات التي يستهلكها كيان معين (مثل شخص أو شركة أو بلد أو منطقة). انظر أيضًا إلى الانبعاثات القائمة على الإنتاج.",
+      "DEFINITION_EN": "Emissions released to the atmosphere in order to generate the goods and services consumed by a certain entity (e.g., a person, firm, country, or region). See also Production-based emissions.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0328"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0294",
+      "AR_TERM": "اللامس الكربوني",
+      "EN_TERM": "Decarbonisation",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الإجراءات البشرية الرامية إلى خفض انبعاثات ثاني أكسيد الكربون الناتجة عن الأنشطة البشرية.",
+      "DEFINITION_EN": "Human actions to reduce carbon dioxide emissions from human activities.",
+      "RELATIONS": [
+        "ACS-RES-0290",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0295",
+      "AR_TERM": "التدابير المتعلقة بالطلب والعرض",
+      "EN_TERM": "Demand- and supply-side measures",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تدابير جانب الطلب: سياسات وبرامج ترمي إلى التأثير في الطلب على السلع و/أو الخدمات. وفي قطاع الطاقة، ترمي تدابير التخفيف المتعلقة بجانب الطلب إلى خفض كمية انبعاثات غازات الدفئة المنبعثة لكل وحدة من خدمات الطاقة المستخدمة. تدابير جانب العرض: سياسات وبرامج ترمي إلى التأثير في كيفية تلبية طلب معين على السلع و/أو الخدمات. وفي قطاع الطاقة، ترمي تدابير التخفيف المتعلقة بجانب العرض إلى خفض كمية انبعاثات غازات الدفئة المنبعثة لكل وحدة من خدمات الطاقة المنتجة.",
+      "DEFINITION_EN": "Demand-side measures Policies and programmes for influencing the demand for goods and/or services. In the energy sector, demand-side mitigation measures aim at reducing the amount of greenhouse gas emissions emitted per unit of energy service used. Supply-side measures Policies and programmes for influencing how a certain demand for goods and/or services is met. In the energy sector, supply-side mitigation measures aim at reducing the amount of greenhouse gas emissions emitted per unit of energy service produced.",
+      "RELATIONS": [
+        "ACS-RES-0184",
+        "ACS-ENG-0967"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0296",
+      "AR_TERM": "البلدان المتقدمة والنامية (البلدان المصنَّعة والمتقدمة والنامية)",
+      "EN_TERM": "Developed/developing countries (Industrialised/developed/developing countries)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "هناك تنوع في الأساليب المتبعة لتصنيف البلدان على أساس مستوى تنميتها، وتعريف مصطلحات مثل (المصنَّعة) أو (المتقدمة) أو (النامية). ويُستخدم في هذا التقرير عدة تصنيفات: (أ) في نظام الأمم المتحدة (UN)، لا يوجد عرف راسخ لتسمية البلدان أو المناطق المتقدمة والنامية. (ب) وتحدد إدارة الأمم المتحدة للإحصاء المناطق المتقدمة والنامية استنادًا إلى الممارسة الشائعة. وبالإضافة إلى ذلك، تُصنَّف بلدان محددة على أنها أقل البلدان نموًا، والبلدان النامية غير المتصلة بالبحر، والدول الجزرية الصغيرة النامية (SIDS)، والاقتصادات الانتقالية. وتظهر العديد من البلدان في أكثر من فئة واحدة من هذه الفئات. (ج) ويستخدم البنك الدولي الدخل معيارًا رئيسيًا لتصنيف البلدان إلى بلدان منخفضة الدخل، ومتوسطة الدخل الأدنى، ومتوسطة الدخل الأعلى، وعالية الدخل. (د) ويجمع برنامج الأمم المتحدة الإنمائي (UNDP) مؤشرات متوسط العمر المتوقع، والتحصيل التعليمي، والدخل في مؤشر واحد مركب هو مؤشر التنمية البشرية (HDI)، لتصنيف البلدان إلى منخفضة التنمية البشرية، ومتوسطة، وعالية، وعالية جدًّا في التنمية البشرية.",
+      "DEFINITION_EN": "There is a diversity of approaches for categorising countries on the basis of their level of development, and for defining terms such as 'industrialised', 'developed', or 'developing'. Several categorisations are used in this report: (i) In the United Nations (UN) system, there is no established convention for the designation of developed and developing countries or areas. (ii) The UN Statistics Division specifies developed and developing regions based on common practice. In addition, specific countries are designated as least developed countries, landlocked developing countries, Small Island Developing States (SIDS), and transition economies. Many countries appear in more than one of these categories. (iii) The World Bank uses income as the main criterion for classifying countries as low, lower middle, upper middle, and high income. (iv) The UN Development Programme (UNDP) aggregates indicators for life expectancy, educational attainment, and income into a single composite Human Development Index (HDI) to classify countries as low, medium, high, or very high human development.",
+      "RELATIONS": [
+        "ACS-RES-0345",
+        "ACS-LAW-0237"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0297",
+      "AR_TERM": "التقاط الهواء مباشرة (DAC)",
+      "EN_TERM": "Direct air capture (DAC)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عملية كيميائية يُنتج بها تيار نقي من ثاني أكسيد الكربون (CO2) بالتقاط CO2 من الهواء المحيط. انظر أيضًا إلى الإزالات البشرية، وإلى إزالة ثاني أكسيد الكربون (CDR)، وإلى التقاط وتخزين ثاني أكسيد الكربون من الهواء مباشرة (DACCS).",
+      "DEFINITION_EN": "Chemical process by which a pure carbon dioxide (CO2) stream is produced by capturing CO2 from the ambient air. See also Anthropogenic removals, Carbon dioxide removal (CDR) and Direct air carbon dioxide capture and storage (DACCS).",
+      "RELATIONS": [
+        "ACS-CHEM-0912",
+        "ACS-RES-0287"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0298",
+      "AR_TERM": "التقاط وتخزين ثاني أكسيد الكربون من الهواء مباشرة (DACCS)",
+      "EN_TERM": "Direct air carbon dioxide capture and storage (DACCS)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عملية كيميائية يُلتقط بها ثاني أكسيد الكربون (CO2) مباشرة من الهواء المحيط، ثم يُخزَّن لاحقًا. وتُعرف أيضًا باسم التقاط الهواء مباشرة وتخزينه (DACS). انظر أيضًا إلى الإزالات البشرية، وإلى إزالة ثاني أكسيد الكربون (CDR)، وإلى التقاط الهواء مباشرة (DAC).",
+      "DEFINITION_EN": "Chemical process by which carbon dioxide (CO2) is captured directly from the ambient air, with subsequent storage. Also known as direct air capture and storage (DACS). See also Anthropogenic removals, Carbon dioxide removal (CDR) and Direct air capture (DAC).",
+      "RELATIONS": [
+        "ACS-RES-0297",
+        "ACS-RES-0287"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0299",
+      "AR_TERM": "الانبعاثات المباشرة",
+      "EN_TERM": "Direct emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الانبعاثات التي تنشأ ماديًا من أنشطة تقع ضمن حدود محددة بدقة، مثل حدود منطقة أو قطاع اقتصادي أو شركة أو عملية. انظر أيضًا إلى الانبعاثات غير المباشرة.",
+      "DEFINITION_EN": "Emissions that physically arise from activities within well-defined boundaries of, for instance, a region, an economic sector, a company, or a process. See also Indirect emissions.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0310"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0300",
+      "AR_TERM": "المُضمّن (الانبعاثات والمياه والأراضي)",
+      "EN_TERM": "Embodied (embedded) [emissions, water, land]",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إجمالي الانبعاثات (استخدام المياه، استخدام الأراضي) الناتجة (المستخدمة) في إنتاج السلع والخدمات، بغض النظر عن موقع وتوقيت تلك الانبعاثات (استخدام المياه، استخدام الأراضي) في عملية الإنتاج. ويشمل ذلك الانبعاثات (استخدام المياه، استخدام الأراضي) داخل البلد المستخدم لإنتاج السلع أو الخدمات من أجل استخدام البلد نفسه، لكنه يشمل أيضًا الانبعاثات (استخدام المياه، استخدام الأراضي) المرتبطة بإنتاج مثل هذه السلع أو الخدمات في بلدان أخرى تُستهلك بعد ذلك في بلد آخر عبر الواردات. وتُسمى هذه الانبعاثات (المياه، الأراضي) بالانبعاثات (المُضمَّنة) أو (المضمَّنة)، أو في بعض الحالات، ولا سيما فيما يتعلق بالماء، بـ(استخدام المياه الافتراضي) (دافيس وكالديرا 2010؛ آلان 2005؛ ماكدونالد وآخرون 2015).",
+      "DEFINITION_EN": "The total emissions [water use, land use] generated [used] in the production of goods and services regardless of the location and timing of those emissions [water use, land use] in the production process. This includes emissions [water use, land use] within the country used to produce goods or services for the country's own use, but also includes the emissions [water use, land use] related to the production of such goods or services in other countries that are then consumed in another country through imports. Such emissions [water, land] are termed 'embodied' or 'embedded' emissions, or, in some cases, (particularly with water) as 'virtual water use' (Davis and Caldeira 2010; Allan 2005; MacDonald et al. 2015).",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0293"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0301",
+      "AR_TERM": "الإكسرجي",
+      "EN_TERM": "Exergy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "قدرة تدفقات الطاقة على إنجاز عمل مفيد. والإكسرجي مؤشر على جودة تدفقات الطاقة (أي تنوع استخدامها)، وتتراوح تدفقات الطاقة هذه من منخفضة (مثل حرارة منخفضة الدرجة، والكتلة الأحيائية) إلى مرتفعة (مثل الكهرباء). وتصف كفاءة الإكسرجي مقدار العمل المفيد الذي يمكن أن يؤديه تدفق طاقة معين قياسًا بالحد الأقصى الممكن على النحو الديناميكي. ويمكن تحديدها لجميع تدفقات الطاقة وخطوات تحويل الطاقة، بما في ذلك أنظمة تقديم الخدمات البديلة أيضًا (غروبلر وآخرون 2012).",
+      "DEFINITION_EN": "Capacity of energy flows to perform useful work. Exergy is a quality (versatility) indicator of energy flows which ranges from low (e.g., low-temperature heat, biomass) to high (e.g., electricity). Exergy efficiency describes how much useful work can be performed by a particular energy flow in relation to the thermodynamic maximum possible. It can be determined for all energy flows and energy conversion steps, also including alternative service delivery systems (Grubler et al. 2012).",
+      "RELATIONS": [
+        "ACS-PHYS-0001",
+        "ACS-ENG-0967"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0302",
+      "AR_TERM": "حدث الطقس المتطرف",
+      "EN_TERM": "Extreme weather event",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حدث نادر في مكان معين ووقت معين من السنة. وتختلف تعريفات (النادر)، لكن حدث الطقس المتطرف يكون عادةً بقدر ندرة المئين العاشر أو التسعين لدالة كثافة الاحتمال المقدَّرة من الملاحظات، أو أكثر ندرة من ذلك. وبتعريف ذلك، قد تختلف خصائص ما يُسمى بالطقس المتطرف من مكان إلى آخر بالمعنى المطلق. انظر أيضًا إلى الظاهرة المناخية المتطرفة (طقس متطرف أو ظاهرة مناخية).",
+      "DEFINITION_EN": "An event that is rare at a particular place and time of year. Definitions of 'rare' vary, but an extreme weather event would normally be as rare as, or rarer than, the 10th or 90th percentile of a probability density function estimated from observations. By definition, the characteristics of what is called extreme weather may vary from place to place in an absolute sense. See also Climate extreme (extreme weather or climate event).",
+      "RELATIONS": [
+        "ACS-LAW-0237",
+        "ACS-RES-0291"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0303",
+      "AR_TERM": "الطاقة النهائية",
+      "EN_TERM": "Final energy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الطاقة المسلَّمة إلى المستخدمين النهائيين (الشركات والأفراد والمؤسسات)، حيث تصبح طاقة قابلة للاستخدام في تقديم خدمات الطاقة (مثل الإضاءة والتدفئة والتنقل). انظر أيضًا إلى الطاقة الأولية.",
+      "DEFINITION_EN": "The energy delivered to final users (firms, individuals, institutions), where it becomes usable energy in supplying energy services (e.g., light, heat, mobility). See also Primary energy.",
+      "RELATIONS": [
+        "ACS-RES-0326",
+        "ACS-PHYS-0001"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0304",
+      "AR_TERM": "المرونة (الطلب والعرض)",
+      "EN_TERM": "Flexibility (demand and supply)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تعديل خصائص الأحمال الطاقةية عن طريق تغييرات تقنية و/أو غير تقنية لتحقيق موازنة بين كل من طلب الطاقة وعرضها.",
+      "DEFINITION_EN": "Adjustment of energy load characteristics by technical and/or non-technical change to balance energy demand and supply.",
+      "RELATIONS": [
+        "ACS-RES-0336",
+        "ACS-RES-0184"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0305",
+      "AR_TERM": "الغابة",
+      "EN_TERM": "Forest",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نوع من الغطاء النباتي تهيمن عليه الأشجار. وتُستخدم في مختلف أنحاء العالم تعريفات عديدة لمصطلح الغابة، تعكس فروقًا واسعة في الظروف الحيوية والفيزيائية، وفي البنية الاجتماعية، وفي الاقتصاد.",
+      "DEFINITION_EN": "A vegetation type dominated by trees. Many definitions of the term forest are in use throughout the world, reflecting wide differences in biogeophysical conditions, social structure and economics.",
+      "RELATIONS": [
+        "ACS-AGR-0654",
+        "ACS-RES-0279"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0306",
+      "AR_TERM": "الوقود الأحفوري",
+      "EN_TERM": "Fossil fuels",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود قائم على الكربون مصدره الترسبات الأحفورية الهيدروكربونية، بما في ذلك الفحم والنفط والغاز الطبيعي.",
+      "DEFINITION_EN": "Carbon-based fuels from fossil hydrocarbon deposits, including coal, oil, and natural gas.",
+      "RELATIONS": [
+        "ACS-GEO-0210",
+        "ACS-GEO-0208"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0307",
+      "AR_TERM": "الحياد في غازات الدفينة",
+      "EN_TERM": "Greenhouse gas neutrality",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الحالة التي تتساوى فيها الانبعاثات البشرية لغازات الدفينة (GHG) المرتبطة بموضوع ما، المرجَّحة بمقياس مناسب، مع الإزالات البشرية لـ GHG المرجَّحة بالمقياس نفسه. ويمكن أن يكون الموضوع كيانًا مثل بلد أو منظمة أو إقليم أو سلعة، أو نشاطًا مثل خدمة أو حدث. وغالبًا ما يُقيَّم الحياد في غازات الدفينة على مدار دورة الحياة، بما في ذلك الانبعاثات غير المباشرة (النطاق 3)، لكنه قد يقتصر أيضًا على الانبعاثات والإزالات، خلال فترة محددة، التي يسيطر عليها الموضوع مباشرة، على النحو الذي يحدده النظام المعني. ويعتمد تحديد كمية انبعاثات غازات الدفينة وإزالاتها على مقياس انبعاثات غازات الدفينة المختار لمقارنة انبعاثات الغازات المختلفة وإزالاتها، وكذلك على الأفق الزمني المختار لذلك المقياس. انظر أيضًا إلى الحياد الكربوني، ومقياس انبعاثات غازات الدفينة، واستخدام الأراضي، وتغير استخدام الأراضي والغابات (LULUCF)، وصافٍ انبعاثات غازات الدفينة.",
+      "DEFINITION_EN": "Condition in which metric-weighted anthropogenic greenhouse gas (GHG) emissions associated with a subject are balanced by metric-weighted anthropogenic GHG removals. The subject can be an entity such as a country, an organisation, a district or a commodity, or an activity such as a service and an event. GHG neutrality is often assessed over the lifecycle, including indirect ('scope 3') emissions, but can also be limited to the emissions and removals, over a specified period, for which the subject has direct control, as determined by the relevant scheme. The quantification of GHG emissions and removals depends on the GHG emission metric chosen to compare emissions and removals of different gases, as well as the time horizon chosen for that metric. See also Carbon neutrality, Greenhouse gas emission metric, Land use, Land-use change and forestry (LULUCF) and Net-zero greenhouse gas emissions.",
+      "RELATIONS": [
+        "ACS-RES-0323",
+        "ACS-RES-0290"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0308",
+      "AR_TERM": "غازات الدفينة (GHGs)",
+      "EN_TERM": "Greenhouse gases (GHGs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "المكونات الغازية للغلاف الجوي، سواء الطبيعية أو البشرية المنشأ، التي تمتص وتبعث الإشعاع عند أطوال موجية محددة ضمن طيف الإشعاع الذي يبثه سطح الأرض والغلاف الجوي نفسه والسحب. وتسبب هذه الخاصية ظاهرة الاحتباس الحراري. وتشمل غازات الدفينة الأساسية في الغلاف الجوي للأرض بخار الماء (H2O)، وثاني أكسيد الكربون (CO2)، وأكسيد النيتروز (N2O)، والميثان (CH4)، والأوزون (O3). ومن بين غازات الدفينة التي يصنعها الإنسان سداسي فلوريد الكبريت (SF6)، والهيدروفلوروكربونات (HFCs)، وكلوروفلوروكربونات (CFCs)، وبيرفلوروكربونات (PFCs)؛ وعدة من هذه الغازات تستنزف O3 أيضًا (وهي خاضعة للوائح بروتوكول مونتريال).",
+      "DEFINITION_EN": "Gaseous constituents of the atmosphere, both natural and anthropogenic, that absorb and emit radiation at specific wavelengths within the spectrum of radiation emitted by the Earth's surface, by the atmosphere itself, and by clouds. This property causes the greenhouse effect. Water vapour (H2O), carbon dioxide (CO2), nitrous oxide (N2O), methane (CH4) and ozone (O3) are the primary GHGs in the Earth's atmosphere. Human-made GHGs include sulphur hexafluoride (SF6), hydrofluorocarbons (HFCs), chlorofluorocarbons (CFCs) and perfluorocarbons (PFCs); several of these are also O3-depleting (and are regulated under the Montreal Protocol).",
+      "RELATIONS": [
+        "ACS-CHEM-0912",
+        "ACS-RES-0320"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0309",
+      "AR_TERM": "الهالوكربونات",
+      "EN_TERM": "Halocarbons",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مصطلح جمعي لمجموعة الأنواع العضوية الجزئية الهالوجينية، وتضم الكلوروفلوروكربونات (CFCs)، والهيدروكلوروفلوروكربونات (HCFCs)، والهيدروفلوروكربونات (HFCs)، والهالونات، وكلوريد الميثيل، وبروميد الميثيل. ولكثير من الهالوكربونات قدرات عالية في إحداث الاحتباس الحراري عالميًا. كما تشارك الهالوكربونات المحتوية على الكلور والبروم في استنزاف طبقة الأوزون.",
+      "DEFINITION_EN": "A collective term for the group of partially halogenated organic species, which includes the chlorofluorocarbons (CFCs), hydrochlorofluorocarbons (HCFCs), hydrofluorocarbons (HFCs), halons, methyl chloride and methyl bromide. Many of the halocarbons have large global warming potentials. The chlorine and bromine-containing halocarbons are also involved in the depletion of the ozone layer.",
+      "RELATIONS": [
+        "ACS-RES-0277",
+        "ACS-RES-0278"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0310",
+      "AR_TERM": "الانبعاثات غير المباشرة",
+      "EN_TERM": "Indirect emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الانبعاثات التي تنشأ نتيجة لأنشطة تقع ضمن حدود محددة بدقة، مثل حدود منطقة أو قطاع اقتصادي أو شركة أو عملية، لكنها تحدث خارج تلك الحدود المحددة. فعلى سبيل المثال، توصف الانبعاثات بأنها غير مباشرة إذا كانت تتعلق باستخدام الحرارة لكنها تنشأ ماديًا خارج حدود مستخدم الحرارة، أو تتعلق بإنتاج الكهرباء لكنها تنشأ ماديًا خارج حدود قطاع إمداد الكهرباء. انظر أيضًا إلى الانبعاثات المباشرة.",
+      "DEFINITION_EN": "Emissions that are a consequence of the activities within well-defined boundaries of, for instance, a region, an economic sector, a company or process, but which occur outside the specified boundaries. For example, emissions are described as indirect if they relate to the use of heat but physically arise outside the boundaries of the heat user, or to electricity production but physically arise outside of the boundaries of the power supply sector. See also Direct emissions.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0299"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0311",
+      "AR_TERM": "إنترنت الأشياء (IoT)",
+      "EN_TERM": "Internet of Things (IoT)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "شبكة من أجهزة الحوسبة المدمجة في الأشياء اليومية مثل السيارات والهواتف والحاسوب، والمتصلة عبر الإنترنت، مما يتيح لها إرسال البيانات واستقبالها.",
+      "DEFINITION_EN": "The network of computing devices embedded in everyday objects such as cars, phones and computers, connected via the internet, enabling them to send and receive data.",
+      "RELATIONS": [
+        "ACS-RES-0336",
+        "ACS-ENG-0596"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0312",
+      "AR_TERM": "تغير الغطاء الأرضي",
+      "EN_TERM": "Land cover change",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الانتقال من فئة غطاء أرضي إلى فئة أخرى، بسبب تغير استخدام الأراضي أو تغير الظروف الطبيعية (بونغراتس وآخرون 2018).",
+      "DEFINITION_EN": "Change from one land cover class to another, due to change in land use or change in natural conditions (Pongratz et al. 2018).",
+      "RELATIONS": [
+        "ACS-RES-0242",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0313",
+      "AR_TERM": "استخدام الأراضي وتغير استخدام الأراضي والغابات (LULUCF)",
+      "EN_TERM": "Land use, land-use change and forestry (LULUCF)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "في سياق الجرد الوطني لغازات الدفينة (GHG) بموجب اتفاقية الأمم المتحدة الإطارية لتغير المناخ (UNFCCC) لعام 2019، يُعد LULUCF قطاعًا في جرد غازات الدفينة يغطي الانبعاثات والإزالات البشرية لغازات الدفينة في الأراضي المُدارة، باستثناء الانبعاثات الزراعية غير المرتبطة بـ CO2. وامتداءً لإرشادات IPCC لعام 2006 الخاصة بالجرد الوطني لغازات الدفينة وتنقيحها لعام 2019، تُعرَّف تدفقات غازات الدفينة (البشرية) المتعلقة بالأراضي بأنها جميع التدفقات التي تحدث على (الأرض المُدارة)، أي (حيث طُبِّقت التدخلات والممارسات البشرية لأداء وظائف إنتاجية أو بيئية أو اجتماعية). وبما أن الأراضي المُدارة قد تشمل إزالة ثاني أكسيد الكربون (CO2)، في حين لا تُعد بعض هذه الإزالات (بشرية) في بعض الأدبيات العلمية التي قيَّمها هذا التقرير (مثل الإزالات المرتبطة بتخصيب CO2 وترسيب النيتروجين)، فإن تقديرات صافي انبعاثات غازات الدفينة المتعلقة بالأراضي والمستمدة من النماذج العالمية التي يتضمنها هذا التقرير ليست بالضرورة قابلة للمقارنة المباشرة بتقديرات LULUCF في الجرد الوطني لغازات الدفينة (IPCC، 2006، 2019).",
+      "DEFINITION_EN": "In the context of national greenhouse gas (GHG) inventories under the United Nations Framework Convention on Climate Change (UNFCCC 2019), LULUCF is a GHG inventory sector that covers anthropogenic emissions and removals of GHG in managed lands, excluding non-CO2 agricultural emissions. Following the 2006 IPCC Guidelines for National GHG Inventories and their 2019 Refinement, 'anthropogenic' land-related GHG fluxes are defined as all those occurring on 'managed land', that is, 'where human interventions and practices have been applied to perform production, ecological or social functions'. Since managed land may include carbon dioxide (CO2), removals not considered as 'anthropogenic' in some of the scientific literature assessed in this report (e.g., removals associated with CO2 fertilisation and N deposition), the land-related net GHG emission estimates from global models included in this report are not necessarily directly comparable with LULUCF estimates in National GHG Inventories (IPCC 2006, 2019).",
+      "RELATIONS": [
+        "ACS-RES-0279",
+        "ACS-RES-0243"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0314",
+      "AR_TERM": "تغير استخدام الأراضي (LUC)",
+      "EN_TERM": "Land-use change (LUC)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الانتقال من فئة استخدام أراضٍ إلى فئة أخرى. ولاحظ أن تغير استخدام الأراضي في بعض الأدبيات العلمية يشمل تغيرات في فئات استخدام الأراضي وكذلك تغيرات في إدارة الأراضي. انظر أيضًا إلى التشجير، والزراعة، والغابات واستخدام الأراضي الأخرى (AFOLU)، وإزالة الغابات، واستخدام الأراضي وتغير استخدام الأراضي والغابات (LULUCF)، وإعادة التشجير. التغير غير المباشر في استخدام الأراضي (iLUC): تغير استخدام الأراضي خارج منطقة التركيز الذي يحدث نتيجة لتغير في استخدام أو إدارة الأراضي داخل منطقة التركيز، مثل ما ينتج عن محركات السوق أو السياسات. فعلى سبيل المثال، إذا حُوِّلت الأراضي الزراعية إلى إنتاج الوقود الحيوي، فقد تقع إزالة الغابات في مكان آخر لاستبدال الإنتاج الزراعي السابق.",
+      "DEFINITION_EN": "The change from one land use category to another. Note that, in some scientific literature, land-use change encompasses changes in land-use categories as well as changes in land management. See also Afforestation, Agriculture, Forestry and Other Land Use (AFOLU), Deforestation, Land use, land-use change and forestry (LULUCF), and Reforestation. Indirect land-use change (iLUC) Land-use change outside the area of focus that occurs as a consequence of change in use or management of land within the area of focus, such as through market or policy drivers. For example, if agricultural land is diverted to biofuel production, forest clearance may occur elsewhere to replace the former agricultural production.",
+      "RELATIONS": [
+        "ACS-RES-0243",
+        "ACS-RES-0279"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0315",
+      "AR_TERM": "تدفق الحرارة الكامنة",
+      "EN_TERM": "Latent heat flux",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "التدفق المضطرب للحرارة من سطح الأرض إلى الغلاف الجوي المرتبط بتبخر بخار الماء أو تكاثفه عند السطح؛ وهو أحد مكوّنات ميزانية الطاقة السطحية.",
+      "DEFINITION_EN": "The turbulent flux of heat from the Earth's surface to the atmosphere that is associated with evaporation or condensation of water vapour at the surface; a component of the surface energy budget.",
+      "RELATIONS": [
+        "ACS-AGR-0083",
+        "ACS-RES-0268"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0316",
+      "AR_TERM": "تسرّب السياسات",
+      "EN_TERM": "Leakage",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "آثار السياسات التي تؤدي إلى إزاحة الأثر البيئي، مما يُناقض الآثار المقصودة للسياسات الأولية.",
+      "DEFINITION_EN": "The effects of policies that result in a displacement of the environmental impact, thereby counteracting the intended effects of the initial policies.",
+      "RELATIONS": [
+        "ACS-RES-0261",
+        "ACS-AI-0117"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0317",
+      "AR_TERM": "تقييم دورة الحياة (LCA)",
+      "EN_TERM": "Lifecycle assessment (LCA)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تجميع المدخلات والمخرجات وتقييم الآثار البيئية المحتملة لمنتج أو خدمة عبر دورة حياتها كاملة (ISO 2018).",
+      "DEFINITION_EN": "Compilation and evaluation of the inputs, outputs and the potential environmental impacts of a product or service throughout its lifecycle (ISO 2018).",
+      "RELATIONS": [
+        "ACS-RES-0300",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0318",
+      "AR_TERM": "الخسائر والأضرار",
+      "EN_TERM": "Loss and Damage, and losses and damages",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "اتخذت الأبحاث مصطلح الخسائر والأضرار (بالحروف الكبيرة) للإشارة إلى الجدل السياسي في إطار اتفاقية الأمم المتحدة الإطارية لتغير المناخ (UNFCCC) في أعقاب إنشاء آلية وارسو الدولية للخسائر والأضرار عام 2013، والتي تكفل بمعالجة الخسائر والأضرار المرتبطة بآثار تغيّر المناخ، بما في ذلك الأحداث المتطرفة والأحداث بطيئة الظهور، في البلدان النامية التي تتعرض بصفة خاصة للآثار الضارة لتغيّر المناخ. أما الأحرف الصغيرة (الخسائر والأضرار) فيُفهم منها على نطاق واسع الأضرار الناتجة عن الآثار المرصودة والمخاطر المتوقعة، وقد تكون اقتصادية أو غير اقتصادية (ميكلر وآخرون 2018).",
+      "DEFINITION_EN": "Research has taken Loss and Damage (capitalised letters) to refer to political debate under the United Nations Framework Convention on Climate Change (UNFCCC) following the establishment of the Warsaw International Mechanism for Loss and Damage in 2013, which is to 'address loss and damage associated with impacts of climate change, including extreme events and slow onset events, in developing countries that are particularly vulnerable to the adverse effects of climate change.' Lowercase letters (losses and damages) have been taken to refer broadly to harm from (observed) impacts and (projected) risks, and can be economic or non-economic (Mechler et al. 2018).",
+      "RELATIONS": [
+        "ACS-LAW-0237",
+        "ACS-AGR-0683"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0319",
+      "AR_TERM": "القياس والتقرير والتحقق (MRV)",
+      "EN_TERM": "Measurement, Reporting and Verification (MRV)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "القياس: عمليات جمع البيانات عبر الزمن، توفر مجموعة البيانات الأساسية، بما في ذلك الدقة والصقة المرتبطات بها، لكل المتغيرات ذات الصلة. ومصادر البيانات المحتملة هي القياسات الميدانية والملاحظات الميدانية والكشف عن طريق الاستشعار عن بعد والمقابلات (أمم المتحدة REDD لعام 2009). التقرير: عملية الإبلاغ الرسمية بنتائج التقييم إلى UNFCCC، وفق نماذج محددة مسبقًا ومعايير قائمة، ولا سيما إرشادات IPCC وإرشادات الممارسة الجيدة (GPG) (أمم المتحدة REDD لعام 2009). التحقق: عملية التحقق الرسمي من التقارير، مثل المنهجيات المعتمدة للتحقق من الاتفاقيات الوطنية وتقارير الجرد الوطنية المقدَّمة إلى UNFCCC (أمم المتحدة REDD لعام 2009).",
+      "DEFINITION_EN": "Measurement 'Processes of data collection over time, providing basic datasets, including associated accuracy and precision, for the range of relevant variables. Possible data sources are field measurements, field observations, detection through remote sensing and interviews' (UN-REDD 2009). Reporting 'The process of formal reporting of assessment results to the UNFCCC, according to predetermined formats and established standards, especially the Intergovernmental Panel on Climate Change (IPCC) Guidelines and GPG (Good Practice Guidance)' (UN-REDD 2009). Verification 'The process of formal verification of reports, for example, the established approach to verify national communications and national inventory reports to the UNFCCC' (UN-REDD 2009).",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-ENG-0872"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0320",
+      "AR_TERM": "الميثان (CH4)",
+      "EN_TERM": "Methane (CH4)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "غاز الميثان، وهو غاز دفينة (GHG)، هو المكوّن الرئيسي للغاز الطبيعي ويرتبط بجميع وقود الكربون الهيدروكربوني. كما تحدث انبعاثات بشرية كبيرة نتيجة لتربية الحيوان وإنتاج الأرز في الأراضي المغمورة بالمياه. كما يُنتج الميثان بصورة طبيعية حيث تتحلل المادة العضوية في ظروف لاهوائية، مثلًا في الأراضي الرطبة. وفي ظل الاحتباس الحراري العالمي المستقبلي، توجد إمكانات لزيادة انبعاثات الميثان من التربة الدائمة الذابة والأراضي الرطبة وغازات الهيدرات تحت سطح البحر. انظر أيضًا المحفزات المناخية قصيرة العمر (SLCFs).",
+      "DEFINITION_EN": "The greenhouse gas (GHG) methane is the major component of natural gas and associated with all hydrocarbon fuels. Significant anthropogenic emissions also occur as a result of animal husbandry and paddy rice production. Methane is also produced naturally where organic matter decays under anaerobic conditions, such as in wetlands. Under future global warming, there is potential for increased methane emissions from thawing permafrost, wetlands and sub-sea gas hydrates. See also Short-lived climate forcers (SLCFs).",
+      "RELATIONS": [
+        "ACS-RES-0308",
+        "ACS-RES-0058"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0321",
+      "AR_TERM": "الانبعاثات السالبة الصافية لغازات الاحتباس الحراري",
+      "EN_TERM": "Net negative greenhouse gas emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تتحقق حالة صافي الانبعاثات السالبة لغازات الاحتباس الحراري عندما تتجاوز كميات الإزالة البشرية لغازات الاحتباس الحراري (GHG) الموزونة بمقياس، كميات الانبعاثات البشرية الموزونة بالمقياس نفسه. وعند تعدد غازات الاحتباس الحراري، فإن تحديد كمية الانبعاثات الصافية يعتمد على المقياس المختار لمقارنة انبعاثات الغازات المختلفة (مثل احتمالية الاحتباس الحراري، وإمكانية تغيّر درجة الحرارة العالمية، وغيرها، فضلًا عن الأفق الزمني المختار). انظر أيضًا إزالة ثاني أكسيد الكربون (CDR)، ومقياس انبعاث غاز الاحتباس الحراري، وصافي الانبعاثات الصفرية من CO2؛ وصافي الانبعاثات الصفرية لغازات الاحتباس الحراري، والانبعاثات السالبة لغازات الاحتباس الحراري.",
+      "DEFINITION_EN": "A situation of net negative greenhouse gas emissions is achieved when metric-weighted anthropogenic greenhouse gas (GHG) removals exceed metric-weighted anthropogenic GHG emissions. Where multiple GHG are involved, the quantification of net emissions depends on the metric chosen to compare emissions of different gases (such as global warming potential, global temperature change potential, and others, as well as the chosen time horizon). See also Carbon dioxide removal (CDR), Greenhouse gas emission metric, Net-zero CO2 emissions; Net-zero greenhouse gas emissions, and Negative greenhouse gas emissions.",
+      "RELATIONS": [
+        "ACS-RES-0323",
+        "ACS-RES-0230"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0322",
+      "AR_TERM": "صافي الانبعاثات الصفرية من CO2",
+      "EN_TERM": "Net-zero CO2 emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حالة تتوازن فيها الانبعاثات البشرية لثاني أكسيد الكربون (CO2) مع الإزالة البشرية لثاني أكسيد الكربون خلال فترة محددة. انظر أيضًا حيادية الكربون، واستخدام الأراضي وتغيير استخدام الأراضي والغابات (LULUCF)، وصافي الانبعاثات الصفرية لغازات الاحتباس الحراري.",
+      "DEFINITION_EN": "Condition in which anthropogenic carbon dioxide (CO2) emissions are balanced by anthropogenic CO2 removals over a specified period. See also Carbon neutrality, Land use, land-use change and forestry (LULUCF) and Net-zero greenhouse gas emissions.",
+      "RELATIONS": [
+        "ACS-RES-0290",
+        "ACS-CHEM-0912"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0323",
+      "AR_TERM": "صافي الانبعاثات الصفرية لغازات الاحتباس الحراري",
+      "EN_TERM": "Net-zero greenhouse gas emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حالة تتوازن فيها الانبعاثات البشرية لغازات الاحتباس الحراري (GHG) المرجّحة بمقياس مع الإزالة البشرية لنفس الغازات المرجّحة بالمقياس خلال فترة محددة. ويعتمد تحديد كمية صافي الانبعاثات الصفرية لغازات الاحتباس الحراري على مقياس انبعاث غاز الاحتباس الحراري المختار لمقارنة انبعاثات وإزاحات الغازات المختلفة، وعلى الأفق الزمني المختار لذلك المقياس. انظر أيضًا حيادية غازات الاحتباس الحراري، وصافي الانبعاثات الصفرية من CO2، واستخدام الأراضي وتغيير استخدام الأراضي والغابات (LULUCF).",
+      "DEFINITION_EN": "Condition in which metric-weighted anthropogenic greenhouse gas (GHG) emissions are balanced by metric-weighted anthropogenic GHG removals over a specified period. The quantification of net-zero GHG emissions depends on the GHG emission metric chosen to compare emissions and removals of different gases, as well as the time horizon chosen for that metric. See also Greenhouse gas neutrality, Net-zero CO2 emissions, and Land use, land-use change and forestry (LULUCF).",
+      "RELATIONS": [
+        "ACS-RES-0290",
+        "ACS-RES-0308"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0324",
+      "AR_TERM": "أكسيد النيتروز (N2O)",
+      "EN_TERM": "Nitrous oxide (N2O)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "المصدر الرئيسي البشري لثاني أكسيد النيتروز N2O، وهو غاز دفينة (GHG)، هو الزراعة (إدارة التربة وروث الحيوان)، غير أن مساهمات مهمة تأتي أيضًا من معالجة مياه الصرف، وحرق الوقود الأحفوري، والعمليات الصناعية الكيميائية. كما يُنتج N2O بصورة طبيعية من مجموعة واسعة من المصادر البيولوجية في التربة والماء، ولا سيما النشاط الميكروبي في الغابات الاستوائية الرطبة.",
+      "DEFINITION_EN": "The main anthropogenic source of N2O, a greenhouse gas (GHG), is agriculture (soil and animal manure management), but important contributions also come from sewage treatment, fossil fuel combustion, and chemical industrial processes. N2O is also produced naturally from a wide variety of biological sources in soil and water, particularly microbial action in wet tropical forests.",
+      "RELATIONS": [
+        "ACS-RES-0308",
+        "ACS-BIO-0685"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0325",
+      "AR_TERM": "المسارات",
+      "EN_TERM": "Pathways",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "التطور الزمني للأنظمة الطبيعية و/أو البشرية نحو حالة مستقبلية. وتتراوح مفاهيم المسارات بين مجموعات من السيناريوهات أو السرديات الكمية والنوعية الخاصة بالمستقبل المحتمل، وصولًا إلى عمليات صنع القرار الموجّهة إلى الحلول لتحقيق أهداف مجتمعية مرغوبة. وتركز مقاربات المسارات عادةً على المسارات الفيزيائية الحيوية والاقتصادية التقنية و/أو السلوكية الاجتماعية، وتضم ديناميكيات وأهدافًا وفاعلين مختلفين عبر المقاييس المختلفة. انظر أيضًا السيناريو والقصة. مسار 1.5 درجة مئية: مسار انبعاثات لغازات الاحتباس الحراري وسائر المحفزات المناخية، يوفر، بالنظر إلى المعرفة الحالية باستجابة المناخ، احتمالًا يقارب واحدًا إلى اثنين في ثلاثة، إما أن يبقى الاحتباس الحراري العالمي دون 1.5 درجة مئية أو أن يعود إلى 1.5 درجة مئية بحلول نحو عام 2100 بعد تجاوز مؤقت. مسارات التكيف: سلسلة من خيارات التكيف التي تنطوي على مقايضات بين الأهداف والقيم قصيرة المدى وطويلة المدى. وهذه عمليات تأملية لتحديد الحلول ذات المغزى للناس في سياق حياتهم اليومية ولتجنب التكييف الخاطئ المحتمل. مسارات مقاومة المناخ: عمليات متكررة لإدارة التغيير داخل الأنظمة المعقدة، من أجل تقليل الاضطرابات وتعزيز الفرص المرتبطة بتغير المناخ. مسارات التنمية: تتطور مسارات التنمية نتيجة للقرارات التي لا تحصى والإجراءات المتخذة على جميع مستويات البنية المجتمعية، وكذلك بسبب الديناميكيات الناشئة داخل المؤسسات وفيما بينها، والأعراف الثقافية، والأنظمة التقنية، وسائر محركات التغير السلوكي. انظر أيضًا تحويل مسارات التنمية (SDPs) وتحويل مسارات التنمية إلى الاستدامة (SDPS). مسارات الانبعاثات: مسارات نمذجة للانبعاثات العالمية البشرية خلال القرن الحادي والعشرين. مسارات التخفيف: تطور زمني لمجموعة من سمات سيناريو التخفيف، مثل انبعاثات غازات الاحتباس الحراري والتنمية الاجتماعية والاقتصادية. مسارات عدم التجاوز: مسارات تبقى دون مستوى محدد من التركيز أو التأثير الإشعاعي أو الاحتباس الحراري العالمي خلال فترة زمنية محددة، مثلًا حتى عام 2100. مسارات التجاوز: مسارات تتجاوز أولًا مستوى محددًا من التركيز أو التأثير الإشعاعي أو الاحتباس الحراري العالمي، ثم تعود إلى ذلك المستوى أو إلى ما دونه مرة أخرى قبل نهاية فترة زمنية محددة، مثلًا قبل عام 2100. وكثيرًا ما يتناول هذا الوصف أيضًا حجم التجاوز واحتماليته. ويمكن أن تتفاوت مدة التجاوز من مسار إلى آخر، غير أن معظم مسارات التجاوز الواردة في الأدبيات والمشار إليها في التقرير AR6 يقع فيها التجاوز على مدى فترة لا تقل عن عقد واحد وتصل إلى عدة عقود. مسارات التركز التمثيلية (RCPs): سيناريوهات تتضمن سلاسل زمنية من الانبعاثات والتركيزات لمجموعة غازات الاحتباس الحراري (GHG) الكاملة والهباء الجوي والغازات النشطة كيميائيًا، فضلًا عن استخدام الأرض والغطاء الأرضي (موس وآخرون 2010). ويقصد بالكلمة الدالة على التمثيل أن كل RCP يوفر واحدًا فقط من السيناريوهات الممكنة العديدة التي تؤدي إلى الخصائص المحددة للتأثير الإشعاعي. ويؤكد مصطلح المسار أن مستويات التركيز طويلة الأمد ليست موضع الاهتمام فحسب، بل أيضًا المسار المتخذ عبر الزمن للوصول إلى تلك النتيجة (موس وآخرون 2010). وتشير RCPs عادةً إلى جزء مسار التركيز الممتد حتى عام 2100، حيث أنتجت نماذج التقييم المتكاملة سيناريوهات انبعاثات مقابلة. وتصف مسارات التركز الممتدة امتدادات لمسارات التركز التمثيلة (RCPs) من عام 2100 إلى 2300، حسيت باستخدام قواعد بسيطة مستمدة من مشاورات أصحاب المصلحة، وهي لا تمثل سيناريوهات متسقة تمامًا. وقد اختيرت أربعة مسارات من نوع RCP من نماذج التقييم المتكاملة من أدبيات منشورة، واستخدمت في التقييم الخامس لـ IPCC، كما استُخدمت أيضًا في هذا التقييم لأغراض المقارنة، متباينة بين دفء أقل من 2 درجة مئية تقريبًا ودفء مرتفع، أي أكثر من 4 درجة مئية، وفق أفضل التقديرات بحلول نهاية القرن الحادي والعشرين: RCP2.6 وRCP4.5 وRCP6.0 وRCP8.5. RCP2.6: مسار واحد يبلغ فيه التأثير الإشعاعي ذروته عند نحو 3 W m-2 ثم يتراجع ليحدد عند 2.6 W m-2 في عام 2100، أما مسار التركز الممتد المقابل، أو ECP، فيظل فيه الانبعاثات ثابتة بعد عام 2100. RCP4.5 وRCP6.0: مسارا استقرار وسيطان يحدد فيهما التأثير الإشعاعي عند نحو 4.5 W m-2 و6.0 W m-2 في عام 2100، أما مسارا التركز الممتدان المقابلان فيظل فيهما التركيزات ثابتة بعد عام 2150. RCP8.5: مسار مرتفع واحد يؤدي إلى أكثر من 8.5 W m-2 في عام 2100، أما مسار التركز الممتد المقابل فيظل فيه الانبعاثات ثابتة بعد عام 2100 حتى عام 2150، والتركيزات ثابتة بعد عام 2250. انظر أيضًا المسارات الاجتماعية والاقتصادية المشتركة (SSPs) تحت بند المسارات. المسارات الاجتماعية والاقتصادية المشتركة (SSPs): طورت SSPs لتكميل مسارات التركز التمثيلية (RCPs). وقد جردت مسارات الانبعاثات والتركيز في RCP من ارتباطها بتنمية اجتماعية واقتصادية معينة بالتصميم. ومن ثم يمكن استكشاف مستويات مختلفة من الانبعاثات وتغير المناخ على امتداد بُعد RCPs في ضوء مسارات تنمية اجتماعية واقتصادية مختلفة، أي SSPs، على البُعد الآخر ضمن مصفوفة. وأصبح إطار SSP-RCP التكاملي مستخدمًا الآن على نطاق واسع في أدبيات تحليل آثار المناخ والسياسات، حيث تحلل فيها إسقاطات المناخ المتحصل عليها تحت سيناريوهات RCP في ضوء مختلف SSPs. ولأن عدة تحديثات للانبعاثات كانت واجبة، طورت مجموعة جديدة من سيناريوهات الانبعاثات بالتوازي مع SSPs. ومن ثم يستخدم الآن اختصار SSP لأمرين: من جهة، تستخدم SSP1 وSSP2 وSSP5، وهكذا، للدلالة على عائلات السيناريوهات الاجتماعية والاقتصادية الخمس. ومن جهة أخرى، تستخدم الاختصارات SSP1-1.9 وSSP1-2.6 وSSP5-8.5، وهكذا، للدلالة على سيناريوهات الانبعاثات المستحدثة التي تنتج عن تنفيذ SSP ضمن نموذج تقييم متكامل. وتفتقر سيناريوهات SSP هذه إلى افتراضات سياسة المناخ، غير أنه بالجمع بين SSPs وما تسمى افتراضات السياسة المشتركة (SPAs)، يتم بلوغ مستويات تقريبية من التأثير الإشعاعي تبلغ 1.9 و2.6 و8.5 W m-2 بحلول نهاية القرن، على التوالي. مسارات التحول: مسارات تصف مجموعات متسقة من العوالم المستقبلية الممكنة لانبعاثات غازات الاحتباس الحراري (GHG)، أو تركيزات الغلاف الجوي، أو درجات حرارة سطح الأرض المتوسطة عالميًا، التي تنشأ عن إجراءات التخفيف والتكيف المرتبطة بمجموعة من التغييرات الاقتصادية والتقنية والمجتمعية والسلوكية العريضة وغير القابلة للعكس. وقد يشمل ذلك تغييرات في طريقة استخدام الطاقة والبنية التحتية وإنتاجهما، وإدارة الموارد الطبيعية وإنشاء المؤسسات، وكذلك في وتيرة التغيير التقني واتجاهه.",
+      "DEFINITION_EN": "The temporal evolution of natural and/or human systems towards a future state. Pathway concepts range from sets of quantitative and qualitative scenarios or narratives of potential futures to solution-oriented decision-making processes to achieve desirable societal goals. Pathway approaches typically focus on biophysical, techno-economic, and/or socio-behavioural trajectories and involve various dynamics, goals, and actors across different scales. See also Scenario and Storyline. 1.5 degrees Celsius pathway A pathway of emissions of greenhouse gases and other climate forcers that provides an approximately one-in-two to two-in-three chance, given current knowledge of the climate response, of global warming either remaining below 1.5 degrees Celsius or returning to 1.5 degrees Celsius by around 2100 following an overshoot. Adaptation pathways A series of adaptation choices involving trade-offs between short-term and long-term goals and values. These are processes of deliberation to identify solutions that are meaningful to people in the context of their daily lives and to avoid potential maladaptation. Climate-resilient pathways Iterative processes for managing change within complex systems in order to reduce disruptions and enhance opportunities associated with climate change. Development pathways Development pathways evolve as the result of the countless decisions being made and actions being taken at all levels of societal structure, as well due to the emergent dynamics within and between institutions, cultural norms, technological systems and other drivers of behavioural change. See also Shifting development pathways (SDPs) and Shifting development pathways to sustainability (SDPS). Emission pathways Modelled trajectories of global anthropogenic emissions over the 21st century. Mitigation pathways A temporal evolution of a set of mitigation scenario features, such as greenhouse gas emissions and socio-economic development. Non-overshoot pathways Pathways that stay below a specified concentration, forcing, or global warming level during a specified period of time (e.g., until 2100). Overshoot pathways Pathways that first exceed a specified concentration, forcing, or global warming level, and then return to or below that level again before the end of a specified period of time (e.g., before 2100). Sometimes the magnitude and likelihood of the overshoot is also characterised. The overshoot duration can vary from one pathway to the next, but in most overshoot pathways in the literature and referred to as overshoot pathways in the AR6, the overshoot occurs over a period of at least one decade and up to several decades. Representative Concentration Pathways (RCPs) Scenarios that include time series of emissions and concentrations of the full suite of greenhouse gases (GHGs) and aerosols and chemically active gases, as well as land use/land cover (Moss et al. 2010). The word representative signifies that each RCP provides only one of many possible scenarios that would lead to the specific radiative forcing characteristics. The term pathway emphasises that not only the long-term concentration levels are of interest, but also the trajectory taken over time to reach that outcome (Moss et al. 2010). RCPs usually refer to the portion of the concentration pathway extending up to 2100, for which integrated assessment models produced corresponding emission scenarios. Extended concentration pathways describe extensions of the RCPs from 2100 to 2300 that were calculated using simple rules generated by stakeholder consultations, and do not represent fully consistent scenarios. Four RCPs produced from integrated assessment models were selected from the published literature and used in the Fifth IPCC Assessment, and are also used in this Assessment for comparison, spanning the range from approximately below 2 degrees Celsius warming to high (>4 degrees Celsius) warming best-estimates by the end of the 21st century: RCP2.6, RCP4.5 and RCP6.0 and RCP8.5. RCP2.6: One pathway where radiative forcing peaks at approximately 3 W m-2 and then declines to be limited at 2.6 W m-2 in 2100 (the corresponding Extended Concentration Pathway, or ECP, has constant emissions after 2100). RCP4.5 and RCP6.0: Two intermediate stabilisation pathways in which radiative forcing is limited at approximately 4.5 W m -2 and 6.0 W m -2 in 2100 (the corresponding ECPs have constant concentrations after 2150). RCP8.5: One high pathway which leads to >8.5 W m-2 in 2100 (the corresponding ECP has constant emissions after 2100 until 2150 and constant concentrations after 2250). See also Shared socio-economic pathways (SSPs) (under Pathways). Shared Socio-economic Pathways (SSPs) SSPs have been developed to complement the Representative Concentration Pathways (RCPs). By design, the RCP emission and concentration pathways were stripped of their association with a certain socio-economic development. Different levels of emissions and climate change along the dimension of the RCPs can hence be explored against the backdrop of different socio-economic development pathways (SSPs) on the other dimension in a matrix. This integrative SSP-RCP framework is now widely used in the climate impact and policy analysis literature, where climate projections obtained under the RCP scenarios are analysed against the backdrop of various SSPs. As several emission updates were due, a new set of emission scenarios was developed in conjunction with the SSPs. Hence, the abbreviation SSP is now used for two things: On the one hand SSP1, SSP2, ..., SSP5 are used to denote the five socio-economic scenario families. On the other hand, the abbreviations SSP1-1.9, SSP1-2.6, ..., SSP5-8.5 are used to denote the newly developed emission scenarios that are the result of an SSP implementation within an integrated assessment model. Those SSP scenarios are bare of climate policy assumption, but in combination with so-called shared policy assumptions (SPAs), various approximate radiative forcing levels of 1.9, 2.6, ..., or 8.5 W m-2 are reached by the end of the century, respectively. Transformation pathways Trajectories describing consistent sets of possible futures of greenhouse gas (GHG) emissions, atmospheric concentrations, or global mean surface temperatures implied from mitigation and adaptation actions associated with a set of broad and irreversible economic, technological, societal, and behavioural changes. This can encompass changes in the way energy and infrastructure are used and produced, natural resources are managed and institutions are set up, and in the pace and direction of technological change.",
+      "RELATIONS": [
+        "ACS-RES-0331",
+        "ACS-RES-0343"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0326",
+      "AR_TERM": "الطاقة الأولية",
+      "EN_TERM": "Primary energy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الطاقة المجسدة في الموارد كما توجد في الطبيعة، مثل الفحم، والكتلة الحيوية، واليورانيوم، والإشعاع الشمسي، والرياح، وتيارات المحيط (غروبلر وآخرون 2012). انظر أيضًا الطاقة النهائية.",
+      "DEFINITION_EN": "The energy that is embodied in resources as they exist in nature (e.g., coal, biomass uranium, solar radiation, wind, ocean currents) (Grubler et al. 2012). See also Final energy.",
+      "RELATIONS": [
+        "ACS-RES-0303",
+        "ACS-PHYS-0001"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0327",
+      "AR_TERM": "الإنتاج الأولي",
+      "EN_TERM": "Primary production",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تخليق المركبات العضوية بواسطة النباتات والميكروبات، على اليابسة أو في المحيط، أساسًا من خلال التمثيل الضوئي باستخدام الضوء وثاني أكسيد الكربون (CO2) مصدرين للطاقة والكربون على التوالي. ويمكن أن يحدث ذلك أيضًا من خلال التخليق الكيميائي باستخدام الطاقة الكيميائية، مثلًا في الفتحات الموجودة في أعماق البحار.",
+      "DEFINITION_EN": "The synthesis of organic compounds by plants and microbes, on land or in the ocean, primarily by photosynthesis using light and carbon dioxide (CO2) as sources of energy and carbon respectively. It can also occur through chemosynthesis, using chemical energy, for example, in deep sea vents.",
+      "RELATIONS": [
+        "ACS-RES-0015",
+        "ACS-BIO-0663"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0328",
+      "AR_TERM": "الانبعاثات القائمة على الإنتاج",
+      "EN_TERM": "Production-based emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الانبعاثات التي تطلق في الغلاف الجوي لإنتاج السلع والخدمات من قبل كيان معين، مثل شخص، أو شركة، أو بلد، أو منطقة. انظر أيضًا الانبعاثات القائمة على الاستهلاك.",
+      "DEFINITION_EN": "Emissions released to the atmosphere for the production of goods and services by a certain entity (e.g., a person, firm, country, or region). See also Consumption-based emissions.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-RES-0293"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0329",
+      "AR_TERM": "الحد من الانبعاثات الناتجة عن إزالة الغابات وتدهورها (REDD Plus)",
+      "EN_TERM": "Reducing Emissions from Deforestation and Forest Degradation (REDD+)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تشير REDD Plus إلى الحد من الانبعاثات الناتجة عن إزالة الغابات؛ والحد من الانبعاثات الناتجة عن تدهور الغابات؛ وحفظ مخزونات الكربون في الغابات؛ والإدارة المستدامة للغابات؛ وتعزيز مخزونات الكربون في الغابات، انظر قرار UNFCCC 1/CP.16، الفقرة 70.",
+      "DEFINITION_EN": "REDD+ refers to reducing emissions from deforestation; reducing emissions from forest degradation; conservation of forest carbon stocks; sustainable management of forests; and enhancement of forest carbon stocks (see UNFCCC decision 1/CP.16, para. 70).",
+      "RELATIONS": [
+        "ACS-RES-0279",
+        "ACS-BIO-0700"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0330",
+      "AR_TERM": "الطاقة المتجددة (RE)",
+      "EN_TERM": "Renewable energy (RE)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أي شكل من أشكال الطاقة الذي يتجدد بالعمليات الطبيعية بمعدل يساوي معدل استخدامه أو يتجاوزه. الطاقة المتجددة المتغيرة (VRE): مصادر الطاقة المتجددة مثل الرياح والطاقة الشمسية التي يتحدد إنتاجها حسب حالة الطقس، على عكس المولدات القابلة للتوجيه التي تعدل إنتاجها استجابة للحوافز الاقتصادية. وقد وُصفت الطاقة المتجددة المتغيرة أيضًا بأنها متقطعة أو متذبذبة أو غير قابلة للتوجيه (هيرث 2013).",
+      "DEFINITION_EN": "Any form of energy that is replenished by natural processes at a rate that equals or exceeds its rate of use. Variable renewable energy (VRE) Renewable energy sources such as wind and solar energy whose output is determined by weather, in contrast to 'dispatchable' generators that adjust their output as a reaction to economic incentives. Variable renewables have also been termed intermittent, fluctuating, or non-dispatchable (Hirth 2013).",
+      "RELATIONS": [
+        "ACS-ENG-0647",
+        "ACS-ENG-0634"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0331",
+      "AR_TERM": "السيناريو المناخي",
+      "EN_TERM": "Scenario",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وصف معقول لكيفية تطور المستقبل بناءً على مجموعة متسقة داخليًا من الافتراضات حول القوى المحركة الرئيسية، مثل معدل التغيير التكنولوجي والأسعار، والعلاقات بينها. ولاحظ أن السيناريوهات ليست تنبؤات ولا توقعات، بل تستخدم لتوفير رؤية حول آثار التطورات والإجراءات. سيناريو خط الأساس: انظر سيناريو المرجع تحت بند السيناريو. سيناريو التركز: تمثيل معقول للتطور المستقبلي لتركيزات المواد النشطة إشعاعيًا، مثل غازات الاحتباس الحراري والهباء الجوي والأوزون الستراتوسبيري، في الغلاف الجوي، إضافة إلى تغييرات الغطاء الأرضي التي يحدثها الإنسان والتي قد تكون نشطة إشعاعيًا عبر تغير البياض، وكثيرًا ما يستخدم كمدخل لنموذج مناخي لحساب إسقاطات المناخ. سيناريو الانبعاثات: تمثيل معقول للتطور المستقبلي لانبعاثات المواد النشطة إشعاعيًا، مثل غازات الاحتباس الحراري أو الهباء الجوي، إضافة إلى تغييرات الغطاء الأرضي التي يحدثها الإنسان والتي قد تكون نشطة إشعاعيًا عبر تغير البياض، بناءً على مجموعة متسقة داخليًا من الافتراضات حول القوى المحركة، مثل التنمية السكانية والاجتماعية والاقتصادية، والتغيير التكنولوجي، واستخدام الطاقة والأراضي، وعلاقاتها الرئيسية. وكثيرًا ما تستخدم سيناريوهات التركيز، المشتقة من سيناريوهات الانبعاثات، كمدخل لنموذج مناخي لحساب إسقاطات المناخ. سيناريو التخفيف: وصف معقول للمستقبل يصف كيف يستجيب النظام قيد الدراسة لتنفيذ سياسات وإجراءات التخفيف. سيناريو المرجع: السيناريو المستخدم كنقطة انطلاق أو مرجع للمقارنة بين سيناريوهين أو أكثر. السيناريو الاجتماعي الاقتصادي: سيناريو يصف مستقبلًا معقولًا من حيث السكان، وناتج المحلي الإجمالي (GDP)، وسائر العوامل الاجتماعية والاقتصادية ذات الصلة بفهم آثار تغير المناخ.",
+      "DEFINITION_EN": "A plausible description of how the future may develop based on a coherent and internally consistent set of assumptions about key driving forces (e.g., rate of technological change, prices) and relationships. Note that scenarios are neither predictions nor forecasts, but are used to provide a view of the implications of developments and actions. Baseline scenario See Reference Scenario (under Scenario). Concentrations scenario A plausible representation of the future development of atmospheric concentrations of substances that are radiatively active (e.g., greenhouse gases, aerosols, tropospheric ozone), plus human-induced land cover changes that can be radiatively active via albedo changes, and often used as input to a climate model to compute climate projections. Emissions scenario A plausible representation of the future development of emissions of substances that are radiatively active (e.g., greenhouse gases or aerosols), plus human-induced land-cover changes that can be radiatively active via albedo changes, based on a coherent and internally consistent set of assumptions about driving forces (such as demographic and socio-economic development, technological change, energy and land use) and their key relationships. Concentration scenarios, derived from emission scenarios, are often used as input to a climate model to compute climate projections. Mitigation scenario A plausible description of the future that describes how the (studied) system responds to the implementation of mitigation policies and measures. Reference scenario Scenario used as starting or reference point for a comparison between two or more scenarios. Socio-economic scenario A scenario that describes a plausible future in terms of population, gross domestic product (GDP), and other socio-economic factors relevant to understanding the implications of climate change.",
+      "RELATIONS": [
+        "ACS-RES-0325",
+        "ACS-LAW-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0332",
+      "AR_TERM": "الاحتجاز",
+      "EN_TERM": "Sequestration",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عملية تخزين الكربون في مجمع الكربون. انظر أيضًا مجمع الكربون والنيتروجين، وإمكانات الاحتجاز، والمصرف، واحتجاز الكربون في التربة (SCS)، والمصدر، والامتصاص.",
+      "DEFINITION_EN": "The process of storing carbon in a carbon pool. See also Pool, carbon and nitrogen, Sequestration potential, Sink, Soil carbon sequestration (SCS), Source, and Uptake.",
+      "RELATIONS": [
+        "ACS-RES-0237",
+        "ACS-RES-0015"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0333",
+      "AR_TERM": "إمكانات الاحتجاز",
+      "EN_TERM": "Sequestration potential",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية غازات الاحتباس الحراري التي يمكن إزالتها من الغلاف الجوي بالتعزيز البشري للمصارف وتخزينها في مجمع. انظر إمكانات التخفيف والفئات الفرعية المختلفة لإمكانات الاحتجاز. انظر أيضًا مجمع الكربون والنيتروجين، والاحتجاز، والمصرف، والمصدر، والامتصاص.",
+      "DEFINITION_EN": "The quantity of greenhouse gases that can be removed from the atmosphere by anthropogenic enhancement of sinks and stored in a pool. See Mitigation potential for different subcategories of sequestration potential. See also Pool, carbon and nitrogen, Sequestration, Sink, Source, and Uptake.",
+      "RELATIONS": [
+        "ACS-RES-0332",
+        "ACS-RES-0015"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0334",
+      "AR_TERM": "تحويل مسارات التنمية (SDPs)",
+      "EN_TERM": "Shifting development pathways (SDPs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "في هذا التقرير، يصف تحويل مسارات التنمية تحولات تهدف إلى إعادة توجيه اتجاهات التنمية القائمة. وقد تضع المجتمعات الظروف التمكينية للتأثير في مسارات تنميتها المستقبلية، عندما تبذل جهدًا لتحقيق نتائج معينة. وقد تكون بعض النتائج مشتركة، في حين تكون أخرى خاصة بالسياق، نظرًا لاختلاف نقاط البداية. انظر أيضًا مسارات التنمية تحت بند المسارات، وتحويل مسارات التنمية إلى الاستدامة.",
+      "DEFINITION_EN": "In this report, shifting development pathways describes transitions aimed at re-directing existing developmental trends. Societies may put in place enabling conditions to influence their future development pathways, when they endeavour to achieve certain outcomes. Some outcomes may be common, while others may be context-specific, given different starting points. See also Development pathways (under Pathways), and Shifting development pathways to sustainability.",
+      "RELATIONS": [
+        "ACS-RES-0325",
+        "ACS-BIO-0912"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0335",
+      "AR_TERM": "تحويل مسارات التنمية إلى الاستدامة",
+      "EN_TERM": "Shifting development pathways to sustainability",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "ينطوي تحويل مسارات التنمية إلى الاستدامة على تحولات متسقة مع طموح مشترك بشأن أهداف التنمية المستدامة (SDGs) المتفق عليها عالميًا، وإن كانت الاستدامة قد تتفاوت في تفسيرها بين السياقات المختلفة مع سعي المجتمعات إلى تحقيق تشكيلة متنوعة من أهداف التنمية المستدامة. انظر أيضًا مسارات التنمية تحت بند المسارات، وتحويل مسارات التنمية (SDPs).",
+      "DEFINITION_EN": "Shifting development pathways to sustainability involves transitions aligned with a shared aspiration in the Sustainable Development Goals (SDGs) agreed globally, though sustainability may be interpreted differently in various contexts as societies pursue a variety of sustainable development objectives. See also Development pathways (under Pathways), and Shifting development pathways (SDPs).",
+      "RELATIONS": [
+        "ACS-BIO-0912",
+        "ACS-RES-0325"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0336",
+      "AR_TERM": "الشبكات الذكية",
+      "EN_TERM": "Smart grids",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تستخدم الشبكة الذكية تقنيات المعلومات والاتصالات لجمع بيانات حول سلوك الموردين والمستهلكين في إنتاج الكهرباء وتوزيعها واستخدامها. ومن خلال الاستجابات الآلية أو توفير إشارات الأسعار، يمكن عندئذ استخدام هذه المعلومات لتحسين كفاءة الشبكة الكهربائية وموثوقيتها واقتصاديتها واستدامتها.",
+      "DEFINITION_EN": "A smart grid uses information and communications technology to gather data on the behaviours of suppliers and consumers in the production, distribution, and use of electricity. Through automated responses or the provision of price signals, this information can then be used to improve the efficiency, reliability, economics, and sustainability of the electricity network.",
+      "RELATIONS": [
+        "ACS-RES-0193",
+        "ACS-ENG-0596"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0337",
+      "AR_TERM": "احتجاز الكربون في التربة (SCS)",
+      "EN_TERM": "Soil carbon sequestration (SCS)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تغييرات إدارة الأراضي التي تزيد من محتوى الكربون العضوي في التربة، مما ينتج إزالة صافية لثاني أكسيد الكربون (CO2) من الغلاف الجوي. انظر أيضًا الإزالات البشرية وإزالة ثاني أكسيد الكربون (CDR).",
+      "DEFINITION_EN": "Land management changes which increase the soil organic carbon content, resulting in a net removal of carbon dioxide (CO2) from the atmosphere. See also Anthropogenic removals and Carbon dioxide removal (CDR).",
+      "RELATIONS": [
+        "ACS-RES-0332",
+        "ACS-RES-0236"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0338",
+      "AR_TERM": "الكربون العضوي في التربة",
+      "EN_TERM": "Soil organic carbon",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الكربون الموجود في المادة العضوية للتربة.",
+      "DEFINITION_EN": "Carbon contained in soil organic matter.",
+      "RELATIONS": [
+        "ACS-AGR-0001",
+        "ACS-RES-0015"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0339",
+      "AR_TERM": "المادة العضوية في التربة",
+      "EN_TERM": "Soil organic matter",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "المكون العضوي للتربة، ويضم بقايا النباتات والحيوانات في مراحل مختلفة من التحلل، إضافة إلى كائنات التربة.",
+      "DEFINITION_EN": "The organic component of soil, comprising plant and animal residue at various stages of decomposition, and soil organisms.",
+      "RELATIONS": [
+        "ACS-AGR-0001",
+        "ACS-RES-0015"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0340",
+      "AR_TERM": "الإدارة المستدامة للغابات",
+      "EN_TERM": "Sustainable forest management",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إدارة الغابات وأراضي الغابات واستخدامها بطريقة ومعدل يحافظان على تنوعها الحيوي وإنتاجيتها وقدرتها على التجدد وحيويتها وإمكانتها في الوفاء، الآن وفي المستقبل، بالوظائف البيئية والاقتصادية والاجتماعية ذات الصلة، على المستويات المحلية والوطنية والعالمية، ولا يسببان ضررًا للنظم البيئية الأخرى (أوروبا الغابات 1993).",
+      "DEFINITION_EN": "The stewardship and use of forests and forest lands in a way, and at a rate, that maintains their biodiversity, productivity, regeneration capacity, vitality and their potential to fulfil, now and in the future, relevant ecological, economic and social functions, at local, national, and global levels, and that does not cause damage to other ecosystems (Forest Europe 1993).",
+      "RELATIONS": [
+        "ACS-AGR-0654",
+        "ACS-RES-0279"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0341",
+      "AR_TERM": "التكثيف المستدام (للزراعة)",
+      "EN_TERM": "Sustainable intensification (of agriculture)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "زيادة الغلات من المساحة نفسها من الأرض مع تقليل الآثار السلبية للإنتاج الزراعي وزيادة تقديم الخدمات البيئية (CGIAR 2019).",
+      "DEFINITION_EN": "Increasing yields from the same area of land while decreasing negative environmental impacts of agricultural production and increasing the provision of environmental services (CGIAR 2019).",
+      "RELATIONS": [
+        "ACS-AGR-0242",
+        "ACS-AGR-0227"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0342",
+      "AR_TERM": "الإدارة المستدامة للأراضي",
+      "EN_TERM": "Sustainable land management",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إدارة موارد الأرض واستخدامها، بما فيها التربة والمياه والحيوانات والنباتات، لتلبية الاحتياجات البشرية المتغيرة، مع ضمان الحفاظ في الوقت نفسه على الإمكان الإنتاجي طويل الأمد لهذه الموارد وعلى صيانة وظائفها البيئية (WOCAT، دون تاريخ).",
+      "DEFINITION_EN": "The stewardship and use of land resources, including soils, water, animals and plants, to meet changing human needs, while simultaneously ensuring the long-term productive potential of these resources and the maintenance of their environmental functions (WOCAT, no date).",
+      "RELATIONS": [
+        "ACS-RES-0243",
+        "ACS-AGR-0001"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0343",
+      "AR_TERM": "الانتقال",
+      "EN_TERM": "Transition",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عملية الانتقال من حالة أو وضع إلى آخر خلال فترة زمنية محددة. وقد يحدث التحول لدى الأفراد والشركات والمدن والمناطق والدول، وقد يستند إلى تغيير تدريجي أو تغيير تحويلي.",
+      "DEFINITION_EN": "The process of changing from one state or condition to another in a given period of time. Transition can occur in individuals, firms, cities, regions and nations, and can be based on incremental or transformative change.",
+      "RELATIONS": [
+        "ACS-RES-0325",
+        "ACS-RES-0323"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0344",
+      "AR_TERM": "اتفاقية الأمم المتحدة لمكافحة التصحر (UNCCD)",
+      "EN_TERM": "United Nations Convention to Combat Desertification (UNCCD)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "اتفاقية دولية ملزمة قانونًا تربط البيئة والتنمية بالإدارة المستدامة للأراضي، وقد أنشئت عام 1994. ويتمثل هدف الاتفاقية في مكافحة التصحر وتخفيف آثار الجفاف في البلدان التي تعاني من الجفاف أو التصحر أو كليهما. وتتعامل الاتفاقية تحديدًا مع المناطق القاحية وشبه القاحية والمناطق شبه الجافة المعتدلة، المعروفة بالأراضي الجافة، وتولي تركيزًا خاصًا على أفريقيا. وحتى سبتمبر 2020، كان عدد الأطراف في UNCCD هو 197 طرفًا. انظر أيضًا التصحر، والجفاف، وتدهور الأراضي.",
+      "DEFINITION_EN": "A legally binding international agreement linking environment and development to sustainable land management, established in 1994. The Convention's objective is 'to combat desertification and mitigate the effects of drought in countries experiencing drought and/or desertification'. The Convention specifically addresses the arid, semi-arid and dry sub-humid areas, known as the drylands, and has a particular focus on Africa. As of September 2020, the UNCCD had 197 Parties. See also Desertification, Drought and Land degradation.",
+      "RELATIONS": [
+        "ACS-BIO-0701",
+        "ACS-RES-0342"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0345",
+      "AR_TERM": "اتفاقية الأمم المتحدة الإطارية لتغير المناخ (UNFCCC)",
+      "EN_TERM": "United Nations Framework Convention on Climate Change (UNFCCC)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "اعتمدت اتفاقية UNFCCC في مايو 1992 وفتح باب التوقيع عليها في قمة الأرض لعام 1992 في ريو دي جانيرو. ودخلت حيز النفاذ في مارس 1994، وحتى سبتمبر 2020 كان قد صار لها 197 طرفًا، منها 196 دولة والاتحاد الأوروبي. ويتمثل الهدف النهائي للاتفاقية في تثبيت تركيزات غازات الاحتباس الحراري في الغلاف الجوي عند مستوى يمنع التدخل الخطير من جانب الإنسان في نظام المناخ (UNFCCC 1992). وتُنفَّذ أحكام الاتفاقية وتُطبَّق عبر معاهدتين إضافيتين: بروتوكول كيوتو واتفاق باريس.",
+      "DEFINITION_EN": "The UNFCCC was adopted in May 1992 and opened for signature at the 1992 Earth Summit in Rio de Janeiro. It entered into force in March 1994 and, as of September 2020, had 197 Parties (196 States and the European Union). The Convention's ultimate objective is the 'stabilisation of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interference with the climate system' (UNFCCC 1992). The provisions of the Convention are pursued and implemented by two further treaties: the Kyoto Protocol and the Paris Agreement.",
+      "RELATIONS": [
+        "ACS-LAW-0236",
+        "ACS-ENG-0872"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IPCC AR6 Working Group III - Annex I: Glossary",
+      "VERSION": "1.0"
     }
   ]
 }
