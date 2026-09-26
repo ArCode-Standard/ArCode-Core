@@ -71,7 +71,11 @@
     {
       "name": "Statistics",
       "count": 1000
+    },
+    {
+      "name": "الحوسبة الكمية",
+      "count": 1000
     }
   ],
-  "total": 18000
+  "total": 19000
 }
