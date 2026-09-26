@@ -49,7 +49,7 @@ window.I18N = {
     "dom.Astronomy": "الفلك",
     "dom.Geology": "علوم الأرض",
     "dom.Statistics": "الإحصاء",
-    "dom.الحوسبة الكمية": "الحوسبة الكمية",
+    "dom.Quantum Computing": "الحوسبة الكمية",
     "api.h1": "واجهة برمجة ArCode (API)",
     "api.lead": "البيانات منشورة كملفات JSON ثابتة على GitHub Pages، ويمكن استخدامها مباشرة من أي لغة برمجة أو من المتصفح.",
     "api.endpoints": "النقاط المتاحة (Endpoints)",
