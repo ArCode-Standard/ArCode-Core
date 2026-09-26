@@ -181428,6 +181428,343 @@
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
       "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0086",
+      "AR_TERM": "الثابت الشمسي",
+      "EN_TERM": "Solar constant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "متوسط كمية الإشعاع الشمسي التي تصل إلى الغلاف الجوي الخارجي للأرض على سطح عمودي على أشعة الشمس، وتساوي 1353 وات لكل متر مربع.",
+      "DEFINITION_EN": "The average amount of solar radiation that reaches the outer atmosphere of the earth on a surface perpendicular to the sun's rays; equal to 1353 watts per square meter or 492 Btu per square foot.",
+      "RELATIONS": [
+        "Solar Radiation"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0087",
+      "AR_TERM": "الإشعاع الشمسي",
+      "EN_TERM": "Solar radiation",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إشعاع كهرومغناطيسي مرئي وقريب من المرئي (الأشعة فوق البنفسجية وقرب الأشعة تحت الحمراء) يصدر من الشمس، وله توزيع طيفي أو توزيع حسب الطول الموجي يقابل مستويات طاقة مختلفة، وتحمل الإشعاعات ذات الطول الموجي القصير طاقة أكبر من الإشعاعات ذات الطول الموجي الطويل.",
+      "DEFINITION_EN": "Electromagnetic radiation, visible and near visible (ultraviolet and near-infrared), emitted by the sun; it has a spectral or wavelength distribution that corresponds to different energy levels, and short wavelength radiation carries more energy than long wavelength radiation.",
+      "RELATIONS": [
+        "Solar Constant",
+        "Photovoltaic Module"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0088",
+      "AR_TERM": "الميل الشمسي",
+      "EN_TERM": "Solar declination",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الزاوية الظاهرية للشمس شمال أو جنوب المستوي الاستوائي للأرض، ويؤدي دوران الأرض حول محورها إلى تغير يومي في هذا الميل.",
+      "DEFINITION_EN": "The apparent angle of the sun north or south of the earth's equatorial plane; the earth's rotation on its axis causes a daily change in the declination.",
+      "RELATIONS": [
+        "Solar Radiation",
+        "Solar Constant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0089",
+      "AR_TERM": "الامتصاص الانتقائي",
+      "EN_TERM": "Selective absorber",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "سطح ممتص شمسي يمتاز بارتفاع معامل الامتصاص عند الأطوال الموجية المقابلة للطيف الشمسي وانخفاض الانبعاثية في نطاق الأشعة تحت الحمراء.",
+      "DEFINITION_EN": "A solar absorber surface that has high absorptance at the wavelengths corresponding to the solar spectrum and low emittance in the infrared range.",
+      "RELATIONS": [
+        "Solar Thermal Collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0090",
+      "AR_TERM": "العاكس اللامع",
+      "EN_TERM": "Specular reflector",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عاكس ذو خصائص تشبه المرآة، وأكثر المواد شيوعًا في مقاومات مصابيح اللهب المتوهجة هي الألومنيوم والفضة، حيث تتميز الفضة بأعلى درجة انعكاس والألومنيوم بأقل تكلفة، ويُصمم شكل العاكس لتقليل امتصاص الضوء داخل الحاوية.",
+      "DEFINITION_EN": "A reflector having mirror-like characteristics; the most common materials used in fluorescent lamp ballasts are aluminum and silver, where silver has the highest reflectivity and aluminum the lowest cost, and the shape of the reflector is designed to reduce light absorption within the fixture.",
+      "RELATIONS": [
+        "Selective Absorber",
+        "Solar Radiation"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0091",
+      "AR_TERM": "المجمّع الحراري الشمسي",
+      "EN_TERM": "Solar thermal collector",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "جهاز مصمم لاستقبال الإشعاع الشمسي وتحويله إلى طاقة حرارية، ويتكون عادةً من إطار وزجاج وممتص مع عزل مناسب، وقد تُستخدم الحرارة المجمَّعة فورًا أو تُخزَّن لاستخدام لاحق.",
+      "DEFINITION_EN": "A device designed to receive solar radiation and convert it to thermal energy; it normally includes a frame, glazing, and an absorber, together with appropriate insulation, and the heat collected may be used immediately or stored for later use.",
+      "RELATIONS": [
+        "Selective Absorber",
+        "Active Solar Thermal"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0092",
+      "AR_TERM": "المجمّع الحراري الشمسي عالي الحرارة",
+      "EN_TERM": "Solar thermal collector, high temperature",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجمّع حراري شمسي يعمل عادةً عند درجات حرارة تتجاوز 180 درجة فهرنهايت.",
+      "DEFINITION_EN": "A solar thermal collector that generally operates at temperatures above 180 degrees Fahrenheit.",
+      "RELATIONS": [
+        "Solar Thermal Collector",
+        "Solar Power Tower"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0093",
+      "AR_TERM": "المجمّع الحراري الشمسي منخفض الحرارة",
+      "EN_TERM": "Solar thermal collector, low-temperature",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجمّع حراري شمسي يعمل عادةً دون 110 درجة فهرنهايت، ولا يحمل عادةً زجاجًا أو عزلًا، ويُصنع من البلاستيك أو المطاط مع وجود نماذج مصنوعة من المعدن.",
+      "DEFINITION_EN": "A solar thermal collector that generally operates below 110 degrees Fahrenheit; it typically has no glazing or insulation and is made of plastic or rubber, although some are made of metal.",
+      "RELATIONS": [
+        "Solar Thermal Collector",
+        "Solar Pond"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0094",
+      "AR_TERM": "المجمّع الحراري الشمسي متوسط الحرارة",
+      "EN_TERM": "Solar thermal collector, medium-temperature",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجمّع حراري شمسي يعمل عادةً عند درجات حرارة تتراوح بين 140 و180 درجة فهرنهايت، وقد يعمل حتى عند 110 درجة فهرنهايت، ويحمل عادةً طبقة زجاجية واحدة أو اثنتين وإطارًا معدنيًا ولوح ممتص معدنيًا ذو قنوات تدفق أو أنابيب ملحقة، مع عزل على الجانبين والخلف.",
+      "DEFINITION_EN": "A solar thermal collector that generally operates at temperatures of 140 to 180 degrees Fahrenheit but can also operate as low as 110 degrees Fahrenheit; it typically has one or two glazings, a metal frame, a metal absorber panel with integral flow channels or attached tubing, and insulation on the sides and back.",
+      "RELATIONS": [
+        "Solar Thermal Collector",
+        "Active Solar Thermal"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0095",
+      "AR_TERM": "المجمّع الحراري الشمسي الخاص",
+      "EN_TERM": "Solar thermal collector, special",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجمّع بأنبوب مفرغ أو مجمّع مُركّيز للضوء، وتعمل المجمعات الخاصة ضمن نطاق حراري يمتد من درجة أعلى قليلًا من درجة الحرارة المحيطة للتسخين منخفض التركيز لأحواض السباحة حتى مئات الدرجات الفهرنهايتية للتبريد عالي التركيز والعمليات الصناعية التخصصية.",
+      "DEFINITION_EN": "An evacuated tube collector or a concentrating collector; special collectors operate in the temperature range from just above ambient temperature for low concentration pool heating to several hundred degrees Fahrenheit for high concentration air conditioning and specialized industrial processes.",
+      "RELATIONS": [
+        "Solar Thermal Collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0096",
+      "AR_TERM": "الألواح الشمسية الحرارية",
+      "EN_TERM": "Solar thermal panels",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نظام يركّز الطاقة الحرارية من الشمس بشكل نشط عبر ألواح مجمّعات شمسية، تتكون عادةً من صناديق مسطحة موجهة نحو الشمس بأغطية شفافة، تحتوي أنابيب مياه أو موجهات هوائية تحت لوحة سوداء ممتصة للحرارة، وتُستخدم الطاقة عادةً في تدفئة المساحات وتسخين المياه وتسخين أحواض السباحة.",
+      "DEFINITION_EN": "A system that actively concentrates thermal energy from the sun by means of solar collector panels consisting typically of flat, sun-oriented boxes with transparent covers, containing water tubes or air baffles under a blackened heat absorbent panel; the energy is usually used for space heating, water heating, and pool heating.",
+      "RELATIONS": [
+        "Solar Thermal Collector",
+        "Active Solar"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0097",
+      "AR_TERM": "طاقة الاستخدام المباشر الحرارية الشمسية",
+      "EN_TERM": "Solar thermal direct-use energy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حرارة من الشمس تُجمع وتُستهلك عند نقطة الاستخدام النهائية، كما في أنظمة التسخين المائي الحرارية الشمسية.",
+      "DEFINITION_EN": "Heat from the sun that is collected and consumed at the final point of use, such as in solar thermal water heating systems.",
+      "RELATIONS": [
+        "Solar Thermal Collector",
+        "Active Solar Thermal"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0098",
+      "AR_TERM": "برج الطاقة الشمسية",
+      "EN_TERM": "Solar power tower",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نظام تحويل للطاقة الشمسية يستخدم حقلًا كبيرًا من المرايا القابلة للضبط المستقلة لتركيز أشعة الشمس على نقطة واحدة في قمة برج ثابت، وقد تُستخدم الطاقة المركزة لتسخين سائل العمل في محرك دورة رانكن أو لتسخين مادة تخزين حراري وسيطة مثل ملح الذوبان.",
+      "DEFINITION_EN": "A solar energy conversion system that uses a large field of independently adjustable mirrors called heliostats to focus solar rays on a near single point at the top of a fixed tower; the concentrated energy may be used to heat the working fluid of a Rankine cycle engine or an intermediary thermal storage medium such as a molten salt.",
+      "RELATIONS": [
+        "Solar Thermal Collector",
+        "Solar Thermal Collector, high temperature"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0099",
+      "AR_TERM": "البركة الشمسية",
+      "EN_TERM": "Solar pond",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كتلة من المياه الشروب أو شديدة الملوحة تتكون منها طبقات بملوحة مختلفة تمتص الإشعاع الشمسي وتحبسه، ويمكن أن توفر البرك الشمسية حرارة للعمليات الصناعية أو الزراعية ولتدفئة المباني وتبريدها ولتوليد الكهرباء.",
+      "DEFINITION_EN": "A body of water containing brackish or highly saline water that forms layers of differing salinity and absorbs and traps solar energy; solar ponds can provide heat for industrial or agricultural processes, building heating and cooling, and electricity generation.",
+      "RELATIONS": [
+        "Salt gradient solar pond",
+        "Solar Thermal Collector, low-temperature"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0100",
+      "AR_TERM": "البركة الشمسية مملحة متدرجة الملوحة",
+      "EN_TERM": "Salt gradient solar pond",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "بركة شمسية تتكون من ثلاث طبقات رئيسية: طبقة عليا قريبة من درجة الحرارة المحيطة منخفضة الملوحة، وطبقة سفلية ساخنة تتراوح عادةً بين 160 و212 درجة فهرنهايت شديدة الملوحة، ومنطقة تدرج مهمة تعمل كعازل شفاف يسمح بمحبس ضوء الشمس في الطبقة الساخنة السفلية التي تُسحب منها الحرارة المفيدة.",
+      "DEFINITION_EN": "A solar pond consisting of three main layers: a top layer near ambient temperature with low salt content, a hot bottom layer typically between 160 and 212 degrees Fahrenheit that is very salty, and an important gradient zone that acts as a transparent insulator, permitting sunlight to be trapped in the hot bottom layer from which useful heat is withdrawn.",
+      "RELATIONS": [
+        "Solar Pond",
+        "Solar Thermal Collector, low-temperature"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0101",
+      "AR_TERM": "الطاقة الشمسية صغيرة النطاق",
+      "EN_TERM": "Small-scale solar",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أنظمة الطاقة الشمسية الكهروضوئية الأصغر من ميغاواط واحد، مقاسة بالتيار المتردد.",
+      "DEFINITION_EN": "Solar photovoltaic systems smaller than one megawatt, as measured in alternating current.",
+      "RELATIONS": [
+        "Distributed Energy Resources (DER)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0102",
+      "AR_TERM": "التبريد الشمسي",
+      "EN_TERM": "Solar cooling",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "استخدام الطاقة الحرارية الشمسية أو الكهرباء الشمسية لتشغيل جهاز تبريد، وأبرز الأنواع التبريد بالامتصاص، والتبريد بالمجففات، والتبريد بالضغط البخاري، والمبردات التبخيرية، والمضخات الحرارية ومكيفات الهواء التي تعمل بأنظمة شمسية كهروضوئية.",
+      "DEFINITION_EN": "The use of solar thermal energy or solar electricity to power a cooling appliance; the main types are absorption cooling, desiccant cooling, vapor compression cooling, evaporative coolers, and heat pumps and air conditioners powered by solar photovoltaic systems.",
+      "RELATIONS": [
+        "Active Solar",
+        "Active Solar Thermal"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0103",
+      "AR_TERM": "الأطباق الشمسية الحرارية المكافئة",
+      "EN_TERM": "Solar thermal parabolic dishes",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تقنية حرارية شمسية تستخدم نظام مرايا معياريًا يقارب قطعًا مكافئًا وتتبع محورين لتركيز ضوء الشمس على مستقبلات عند البؤرة لكل طبق، وقد تُشغل الشمس المركزة محرك دورة ستيرلنغ أو رانكن أو بريتون عند البؤرة أو تسخن سائل عمل يُنقل عبر أنابيب إلى محرك مركزي.",
+      "DEFINITION_EN": "A solar thermal technology using a modular mirror system that approximates a parabola and incorporates two-axis tracking to focus sunlight onto receivers at the focal point of each dish; the concentrated sunlight may drive a Stirling, Rankine, or Brayton cycle engine at the focal point or heat a working fluid piped to a central engine.",
+      "RELATIONS": [
+        "Solar Power Tower",
+        "Solar Thermal Collector, special"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0104",
+      "AR_TERM": "الاحتياطي الدوّار",
+      "EN_TERM": "Spinning reserve",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "قدرة توليد احتياطية تعمل عند حمل صفري وتكون متزامنة مع النظام الكهربائي.",
+      "DEFINITION_EN": "Reserve generating capacity that is running at zero load and synchronized to the electric system.",
+      "RELATIONS": [
+        "Standby Facility"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0105",
+      "AR_TERM": "المولّد المستقل",
+      "EN_TERM": "Stand-alone generator",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مصدر طاقة أو مولّد يعمل بمعزل عن شبكة النقل والتوزيع الكهربائية أو غير متصل بها، ويُستخدم لتلبية الأحمال القريبة منه جغرافيًا.",
+      "DEFINITION_EN": "A power source or generator that operates independently of, or is not connected to, an electric transmission and distribution network; it is used to meet loads physically close to the generator.",
+      "RELATIONS": [
+        "Distributed Energy Resources (DER)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0106",
+      "AR_TERM": "منشأة الاستعداد",
+      "EN_TERM": "Standby facility",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منشأة تدعم نظام خدمة عامة وتعمل عادةً دون حمل، ومتاحة للاستبدال أو لتعزيز منشأة تعمل بصورة اعتيادية.",
+      "DEFINITION_EN": "A facility that supports a utility system and is generally running under no load; it is available to replace or supplement a facility normally in service.",
+      "RELATIONS": [
+        "Spinning Reserve",
+        "Standby Service"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0107",
+      "AR_TERM": "خدمة الاستعداد",
+      "EN_TERM": "Standby service",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "خدمة مساندة متاحة عند الحاجة لدعم عميل أو نظام خدمة عامة أو مزود آخر متى سمح جدول أو اتفاقية بذلك، وهي خدمة لا تُستخدم بصورة اعتيادية.",
+      "DEFINITION_EN": "A support service that is available as needed to supplement a customer, a utility system, or another utility if a schedule or an agreement authorizes the transaction; the service is not regularly used.",
+      "RELATIONS": [
+        "Standby Facility"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0108",
+      "AR_TERM": "سعة التخزين",
+      "EN_TERM": "Storage capacity",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية الطاقة التي يكون جهاز أو نظام تخزين الطاقة قادرًا على الاحتفاظ بها.",
+      "DEFINITION_EN": "The amount of energy that an energy storage device or system is able to store.",
+      "RELATIONS": [
+        "Battery (electrochemical)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
     }
   ]
 }
