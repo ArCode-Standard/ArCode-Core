@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New domain `RES` — Renewable Energy and Sustainability / الطاقة المتجددة والاستدامة
 - 85 sourced terms so far (`ACS-RES-0001` … `ACS-RES-0085`), each with an Arabic term,
   an Arabic definition, an English definition, and a named source:
-  - 94 from the U.S. Energy Information Administration (EIA) glossary: <https://www.eia.gov/tools/glossary/>
+  - 144 from the U.S. Energy Information Administration (EIA) glossary: <https://www.eia.gov/tools/glossary/>
   - 14 from the International Energy Agency (IEA) glossary: <https://www.iea.org/glossary>
 - `test.js` now pins the expected term/domain counts and asserts the RES domain exists,
   only grows, and that every RES term carries a source plus both definitions
@@ -23,8 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/i18n.js`: added the RES domain label (Arabic + English) and removed leftover
   `Renewable Energy` / `Quantum Computing` keys from the reverted placeholder domains
 - Regenerated `docs/api/stats.json`, `docs/api/domains.json`, and `docs/api/search-index.json`
-  (18,010 → 18,118 terms, 18 → 19 domains)
-- Dictionary now totals 18,118 terms across 19 domains
+  (18,010 → 18,168 terms, 18 → 19 domains)
+- Dictionary now totals 18,168 terms across 19 domains
 
 ## [1.2.0] - 2026-08-01
 

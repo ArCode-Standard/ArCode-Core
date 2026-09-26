@@ -181765,6 +181765,752 @@
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
       "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0109",
+      "AR_TERM": "الديزل الحيوي (B100)",
+      "EN_TERM": "Biodiesel (B100)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود متجدد يتكون من إسترات أحادي الألكيل (أحماض دهنية ذات سلاسل طويلة) تُنتج عبر تحويل مواد أولية من الدهون الحيوانية والزيوت النباتية والشحم المعاد تدويره (التحويل الاستيري) لإنتاج الديزل الحيوي. ويُخلط الديزل الحيوي عادةً مع الديزل البترالي بتركيزات تتراوح من 2% إلى 20% من الديزل الحيوي، أي من B2 إلى B20.",
+      "DEFINITION_EN": "Renewable fuel consisting of mono alkyl esters (long chain fatty acids) that are produced through the conversion of animal fats, vegetable oils, and recycled grease feedstocks (transesterification) to produce biodiesel.  Biodiesel is typically blended with petroleum diesel in concentrations of 2% to 20% biodiesel, or B2 to B20.",
+      "RELATIONS": [
+        "Biofuels",
+        "Biomass"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0110",
+      "AR_TERM": "حيوي المنشأ",
+      "EN_TERM": "Biogenic",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "يُنتَج عن عمليات بيولوجية للكائنات الحية. ملاحظة: تستخدم EIA مصطلح حيوي المنشأ للإشارة فقط إلى المواد العضوية غير الأحفورية ذات الأصل البيولوجي.",
+      "DEFINITION_EN": "Produced by biological processes of living organisms. Note: EIA uses the term \"biogenic\" to refer only to organic nonfossil material of biological origin.",
+      "RELATIONS": [
+        "Biomass",
+        "Carbon cycle"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0111",
+      "AR_TERM": "الوسائط الحيوية",
+      "EN_TERM": "Biointermediates",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود حيوي سيُعالَج لاحقًا ليُحوَّل إلى منتج مصفَّر في مصافي النفط أو في منشآت أخرى. ولا يُعد زيت التسخين المتجدد وسيطًا حيويًا في النموذج EIA-819، التقرير الشهري للوقود الحيوي، ووقود النفايات غير المولوجة حيويًا، وأكسجينيات الوقود، والأيزوكتان، والأيزوكتين.",
+      "DEFINITION_EN": "Biofuels that will be further processed into a refined product at petroleum refineries or other facilities. Renewable heating oil is not considered a biointermediate on Form EIA-819, Monthly Report of Biofuels, Fuels from Non-Biogenic Wastes, Fuel Oxygenates, Isooctane, and Isooctene.",
+      "RELATIONS": [
+        "Biofuels"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0112",
+      "AR_TERM": "الدورة السفلية",
+      "EN_TERM": "Bottoming cycle",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "يُعيد مرجل استرجاع الحرارة المهدرة التقاط الطاقة غير المستغنى عنها واستخدامها لإنتاج بخار يُشغّل مولّدًا بتوربين بخاري لإنتاج الكهرباء.",
+      "DEFINITION_EN": "A waste-heat recovery boiler recaptures the unused energy and uses it to produce steam to drive a steam turbine generator to produce electricity.",
+      "RELATIONS": [
+        "Combined-heat-and-power (CHP) plant",
+        "Cogeneration system"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0113",
+      "AR_TERM": "ميزانية الكربون",
+      "EN_TERM": "Carbon budget",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "رصيد عمليات التبادل (المكاسب والخسائر) للكربون بين مخازن الكربون (مثل الغلاف الجوي والحوض الحيوي الأرضي) في دورة الكربون. انظر أيضًا دورة الكربون ومخزن الكربون.",
+      "DEFINITION_EN": "The balance of the exchanges (incomes and losses) of carbon between carbon sinks (e.g., atmosphere and biosphere) in the carbon cycle. Also see Carbon cycle and Carbon sink.",
+      "RELATIONS": [
+        "Greenhouse gases",
+        "Global warming potential (GWP)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0114",
+      "AR_TERM": "مكافئ ثاني أكسيد الكربون",
+      "EN_TERM": "Carbon dioxide equivalent",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية ثاني أكسيد الكربون بالوزن المنبعثة إلى الغلاف الجوي التي تنتج نفس القوة الإشعاعية المقدَّرة لأي وزن معطى من غاز آخر نشط إشعاعيًا. وتُحسب مكافئات ثاني أكسيد الكربون بضرب وزن الغاز الجاري قياسه (مثل الميثان) في إمكانات الاحتباس الحراري العالمية المقدَّرة له (وهي 21 للميثان). وتُعرَّف وحدات الكربون المكافئة بأنها مكافئات ثاني أكسيد الكربون مضروبة في محتوى الكربون في ثاني أكسيد الكربون (أي 12/44).",
+      "DEFINITION_EN": "The amount of carbon dioxide by weight emitted into the atmosphere that would produce the same estimated radiative forcing as a given weight of another radiatively active gas. Carbon dioxide equivalents are computed by multiplying the weight of the gas being measured (for example, methane)by its estimated global warming potential (which is 21 for methane).\"Carbon equivalent units\" are defined as carbon dioxide equivalents multiplied by the carbon content of carbon dioxide (i.e., 12/44).",
+      "RELATIONS": [
+        "Greenhouse gases",
+        "Global warming potential (GWP)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0115",
+      "AR_TERM": "كثافة الكربون",
+      "EN_TERM": "Carbon intensity",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية الكربون بالوزن المنبعثة لكل وحدة من الطاقة المستهلكة. ومن المقاييس الشائعة لكثافة الكربون وزن الكربون لكل وحدة حرارية بريطانية (Btu) من الطاقة. وحين يكون وقود أحفوري واحد فقط هو محل النظر، تتساوى كثافة الكربون مع معامل الانبعاثات. وعند وجود عدة وقود، تستند كثافة الكربون إلى معاملات انبعاثاتها المدمجة مرجَّحةً بمستويات استهلاكها من الطاقة. انظر أيضًا معامل الانبعاثات ومعدل إخراج الكربون.",
+      "DEFINITION_EN": "The amount of carbon by weight emitted per unit of energy consumed. A common measure of carbon intensity is weight of carbon per British thermal unit (Btu) of energy. When there is only one fossil fuel under consideration, the carbon intensity and the emissions coefficient are identical. When there are several fuels, carbon intensity is based on their combined emissions coefficients weighted by their energy consumption levels. Also see Emissions coefficient and Carbon output rate.",
+      "RELATIONS": [
+        "Carbon output rate",
+        "Carbon sequestration"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0116",
+      "AR_TERM": "معدل إخراج الكربون",
+      "EN_TERM": "Carbon output rate",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية الكربون بالوزن لكل كيلوواط ساعي من الكهرباء المُنتَجة.",
+      "DEFINITION_EN": "The amount of carbon by weight per kilowatthour of electricity produced.",
+      "RELATIONS": [
+        "Carbon intensity",
+        "Carbon sequestration"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0117",
+      "AR_TERM": "احتجاز الكربون",
+      "EN_TERM": "Carbon sequestration",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تثبيت ثاني أكسيد الكربون الجوي في مخزن الكربون عبر عمليات بيولوجية أو فيزيائية.",
+      "DEFINITION_EN": "The fixation of atmospheric carbon dioxide in a carbon sink through biological or physical processes.",
+      "RELATIONS": [
+        "Carbon sink",
+        "Carbon output rate"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0118",
+      "AR_TERM": "مخزن الكربون",
+      "EN_TERM": "Carbon sink",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "خزان يمتص الكربون المُطلق أو يستقبله من جزء آخر من دورة الكربون. والمخازن الأربعة، وهي مناطق من الأرض داخلها يتصرف الكربون بطريقة منتظمة، هي الغلاف الجوي، والحوض الحيوي الأرضي (ويتضمن عادةً النظم المائية العذبة)، والمحيطات، والرواسب (بما في ذلك الوقود الأحفوري).",
+      "DEFINITION_EN": "A reservoir that absorbs or takes up released carbon from another part of the carbon cycle. The four sinks, which are regions of the Earth within which carbon behaves in a systematic manner, are the atmosphere, terrestrial biosphere (usually including freshwater systems), oceans, and sediments (including fossil fuels).",
+      "RELATIONS": [
+        "Carbon sequestration",
+        "Greenhouse gases"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0119",
+      "AR_TERM": "الإيثانول السليلوزي",
+      "EN_TERM": "Cellulosic fuel ethanol",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إيثانول وقود يُنتج من مكوّنات الكتلة الحيوية: السليلوز أو الهيميسسلوز أو اللين، كما يصنّفها معيار الوقود المتجدد (RFS). وتشمل المواد الأولية مخلفات الزراعة والغابات، ومحاصيل الطاقة المخصصة.",
+      "DEFINITION_EN": "Fuel ethanol produced from the cellulose, hemicellulose, or lignin components of biomass, as classified by the Renewable Fuel Standard (RFS). Feedstocks include  agricultural and forestry residues  and  dedicated energy crops .",
+      "RELATIONS": [
+        "Biofuels",
+        "Crop residue"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0120",
+      "AR_TERM": "آلية التنمية النظيفة (CDM)",
+      "EN_TERM": "Clean Development Mechanism (CDM)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "برنامج ضمن بروتوكول كيوتو يتيح للدول الصناعية تمويل مشاريع في الدول النامية تتفادى الانبعاثات، والحصول على رصيد مقابل خفضات تحققت مقارنةً بأهداف الحد من انبعاثاتها الخاصة. انظر أيضًا بروتوكول كيوتو.",
+      "DEFINITION_EN": "A Kyoto Protocol program that enables industrialized countries to finance emissions-avoiding projects in developing countries and receive credit for reductions achieved against their own emissions limitation targets. Also see Kyoto Protocol.",
+      "RELATIONS": [
+        "Conference of the parties (COP)",
+        "Greenhouse gases"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0121",
+      "AR_TERM": "نظام التوليد المشترك",
+      "EN_TERM": "Cogeneration system",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نظام يستخدم مصدر طاقة مشتركًا لإنتاج الكهرباء والبخار معًا لاستخدامات أخرى، مما يؤدي إلى زيادة كفاءة الوقود.",
+      "DEFINITION_EN": "A system using a common energy source to produce both electricity and steam for other uses, resulting in increased fuel efficiency.",
+      "RELATIONS": [
+        "Cogenerator",
+        "Combined-heat-and-power (CHP) plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0122",
+      "AR_TERM": "المولّد المشترك",
+      "EN_TERM": "Cogenerator",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منشأة توليد تنتج الكهرباء وشكلًا آخر من الطاقة الحرارية المفيدة (مثل الحرارة أو البخار)، وتُستخدم لأغراض صناعية أو تجارية أو للتدفئة أو التبريد. ولأن تُمنح هذه المنشأة صفة منشأة مؤهلة (QF) بموجب قانون سياسات تنظيم المرافق العامة (PURPA)، فيجب أن تنتج طاقة كهربائية، وأن تُنتج شكلًا آخر من الطاقة الحرارية المفيدة عبر الاستخدام التسلسلي للطاقة، وأن تستوفي معايير معينة للملكية والتشغيل والكفاءة التي تضعها لجنة تنظيم الطاقة الفيدرالية (FERC). (راجع Code of Federal Regulations, Title 18, Part 292.)",
+      "DEFINITION_EN": "A generating facility that produces electricity and another form of useful thermal energy (such as heat or steam), used for industrial, commercial, heating, or cooling purposes. To receive status as a qualifying facility (QF) under the Public Utility Regulatory Policies Act (PURPA), the facility must produce electric energy and \"another form of useful thermal energy through the sequential use of energy\" and meet certain ownership, operating, and efficiency criteria established by the Federal Energy Regulatory Commission (FERC).(See the Code of Federal Regulations, Title 18, Part 292.)",
+      "RELATIONS": [
+        "Cogeneration system",
+        "Combined-heat-and-power (CHP) plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0123",
+      "AR_TERM": "محطة التوليد المشترك (CHP)",
+      "EN_TERM": "Combined-heat-and-power (CHP) plant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "محطة مصمَّمة لإنتاج الحرارة والكهرباء معًا من مصدر حرارة واحد. ملاحظة: يُستخدم هذا المصطلح بدلًا من مصطلح المولّد المشترك الذي كان تستخدمه EIA في الماضي. وتُعد CHP وصفًا أدق للمنشآت، لأن بعض المحطات المدرجة لا تُنتج الحرارة والكهرباء بتسلسل، وبالتالي لا تستوفي التعريف القانوني للتوليد المشترك المنصوص عليه في قانون سياسات تنظيم المرافق العامة (PURPA).",
+      "DEFINITION_EN": "A plant designed to produce both heat and electricity from a single heat source. Note: This term is being used in place of the term \"cogenerator\" that was used by EIA in the past. CHP better describes the facilities because some of the plants included do not produce heat and power in a sequential fashion and, as a result, do not meet the legal definition of cogeneration specified in the Public Utility Regulatory Policies Act (PURPA).",
+      "RELATIONS": [
+        "Cogeneration system",
+        "Bottoming cycle"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0124",
+      "AR_TERM": "مؤتمر الأطراف (COP)",
+      "EN_TERM": "Conference of the parties (COP)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجموعة الدول التي صادقت على اتفاقية الإطار بشأن تغير المناخ (FCCC). والدور الأساسي لمؤتمر الأطراف هو متابعة تنفيذ الاتفاقية ومراجعة القرارات اللازمة لتطبيقها الفعال. انظر أيضًا اتفاقية الإطار بشأن تغير المناخ (FCCC).",
+      "DEFINITION_EN": "The collection of nations that have ratified the Framework Convention on Climate Change(FCCC). The primary role of the COP is to keep implementation of the FCCC under review and make the decisions necessary for its effective implementation. Also see Framework Convention on Climate Change (FCCC).",
+      "RELATIONS": [
+        "Clean Development Mechanism (CDM)",
+        "Greenhouse gases"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0125",
+      "AR_TERM": "إيثانول الوقود التقليدي",
+      "EN_TERM": "Conventional fuel ethanol",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "إيثانول وقود يُنتج بتخمر نشا الذرة. ويُخلط إيثانول الوقود عادةً مع بنزين المحركات كمؤكسِّن أو محسِّن لرقم الأوكتان بتركيز 10% إيثانول، لكنه يمكن خلطه حتى تركيز 15% في بعض الأسواق لمركبات مصنَّمة لاستخدام E15. وعند التركيزات الأعلى، من 51% إلى 83% من إيثانول الوقود، يُستخدم في المركبات البديلة أو المركبات مرنة الوقود.",
+      "DEFINITION_EN": "Fuel ethanol produced by fermenting cornstarch. Fuel ethanol is typically blended with motor gasoline as an oxygenate or octane enhancer in concentrations of 10% ethanol, but it can be blended up to a 15% concentration in some markets for vehicle models manufactured to use E15. In higher concentrations of 51%-83% fuel ethanol, it is used in alternative or flex-fuel vehicles.",
+      "RELATIONS": [
+        "Biofuels",
+        "Cellulosic fuel ethanol"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0126",
+      "AR_TERM": "مركبة محوَّلة (تعمل بوقود بديل)",
+      "EN_TERM": "Converted (alternative-fuel) vehicle",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مركبة صُمِّمت في الأصل للعمل بالبنزين/الديزل، ثم جُرِّدت أو عُدِّلت لتعمل بوقود بديل بعد تسليمها أول مرة إلى المستخدم النهائي.",
+      "DEFINITION_EN": "A vehicle originally designed to operate on gasoline/diesel that was modified or altered to run on an alternative fuel after its initial delivery to an end-user.",
+      "RELATIONS": [
+        "Biofuels",
+        "Biodiesel (B100)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0127",
+      "AR_TERM": "أيام درجة التبريد (CDD)",
+      "EN_TERM": "Cooling Degree Days (CDD)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مقياس لمدى دفء موقع ما خلال فترة زمنية مقارنةً بدرجة حرارة أساس، تُحدَّد عادةً بـ 65 درجة فهرنهايت. يُحسب المقياس لكل يوم بطرح درجة حرارة الأساس (65 درجة) من متوسط أعلى درجات حرارة اليوم وأدناها، مع اعتبار القيم السالبة مساوية للصفر. وتُجمع أيام درجة التبريد الخاصة بكل يوم لتكوين مقياس لأيام درجة التبريد خلال فترة مرجعية محددة. وتُستخدم أيام درجة التبريد في تحليل الطاقة كمؤشر على متطلبات طاقة التكييف أو استخدامها.",
+      "DEFINITION_EN": "A measure of how warm a location is over a period of time relative to a base temperature, most commonly specified as 65 degrees Fahrenheit. The measure is computed for each day by subtracting the base temperature (65 degrees) from the average of the day's high and low temperatures, with negative values set equal to zero. Each day's cooling degree days are summed to create a cooling degree day measure for a specified reference period. Cooling degree days are used in energy analysis as an indicator of air conditioning energy requirements or use.",
+      "RELATIONS": [
+        "Cooling pond",
+        "HVAC DSM program"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0128",
+      "AR_TERM": "بركة تبريد",
+      "EN_TERM": "Cooling pond",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "جسم مائي طبيعي أو من صنع الإنسان يُستخدم لتبديد الحرارة المهدرة من محطات توليد الكهرباء.",
+      "DEFINITION_EN": "A natural or manmade body of water that is used for dissipating waste heat from power plants.",
+      "RELATIONS": [
+        "Cooling Degree Days (CDD)",
+        "Geothermal plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0129",
+      "AR_TERM": "ملوث معياري",
+      "EN_TERM": "Criteria pollutant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "ملوث ثبت أنه ضار بصحة الإنسان ويخضع للرقابة بموجب معايير جودة الهواء الوطنية التابعة لـ EPA. وتتطلب تعديلات عام 1970 على قانون الهواء النظيف من EPA وصف الآثار الصحية والرفاهية للملوث باعتبارها المعايير المشترطة لإدراجه في النظام التنظيمي.",
+      "DEFINITION_EN": "A pollutant determined to behazardous to human health and regulated under EPA's National Ambient Air Quality Standards. The 1970 amendments to the Clean Air Act require EPA to describe the health and welfare impacts of a pollutant as the \"criteria\" for inclusion in the regulatory regime.",
+      "RELATIONS": [
+        "Greenhouse gases",
+        "Carbon output rate"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0130",
+      "AR_TERM": "مخلفات المحصول",
+      "EN_TERM": "Crop residue",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "المخلفات العضوية المتبقية بعد حصاد المحصول ومعالجته.",
+      "DEFINITION_EN": "Organic residue remaining after the harvesting and processing of a crop.",
+      "RELATIONS": [
+        "Biofuels",
+        "Biomass"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0131",
+      "AR_TERM": "خشب التالف",
+      "EN_TERM": "Cull wood",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "جذوع أو رقائق أو منتجات خشبية تُحرق.",
+      "DEFINITION_EN": "Wood logs, chips, or wood products that are burned.",
+      "RELATIONS": [
+        "Biomass",
+        "Pulp wood"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0132",
+      "AR_TERM": "التحويل الغازي",
+      "EN_TERM": "Gasification",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "طريقة لتحويل الفحم أو النفط أو الكتلة الحيوية أو النفايات أو المواد المحتوية على الكربون الأخرى إلى غاز يمكن حرقه لتوليد الطاقة أو معالجته لإنتاج مواد كيميائية ووقود.",
+      "DEFINITION_EN": "A method for converting coal, petroleum, biomass, wastes, or other carbon-containing materials into a gas that can be burned to generate power or processed into chemicals and fuels.",
+      "RELATIONS": [
+        "Biomass",
+        "Biofuels"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0133",
+      "AR_TERM": "مضغوط جيولوجيًا",
+      "EN_TERM": "Geopressured",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نوع من الموارد الحرارية الأرضية يقع في أحواض عميقة يكون فيها السائل تحت ضغط مرتفع للغاية.",
+      "DEFINITION_EN": "A type of geothermal resource occurring in deep basins in which the fluid is under very high pressure.",
+      "RELATIONS": [
+        "Geothermal plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0134",
+      "AR_TERM": "محطة حرارية أرضية",
+      "EN_TERM": "Geothermal plant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "محطة يكون فيها المحرك الأولي عنفة بخارية. وتُدار العنفة إما ببخار مُنتَج من مياه ساخنة أو ببخار طبيعي يستمد طاقته من حرارة موجودة في الصخور.",
+      "DEFINITION_EN": "A plant in which the prime mover is a steam turbine. The turbine is driven either by steam produced from hot water or by natural steam that derives its energy from heat found in rock.",
+      "RELATIONS": [
+        "Geopressured",
+        "Heat pump (air source)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0135",
+      "AR_TERM": "احتمالية الاحتباس الحراري (GWP)",
+      "EN_TERM": "Global warming potential (GWP)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مؤشر يُستخدم لمقارنة التأثير الإشعاعي النسبي للغازات المختلفة دون حساب مباشر للتغيرات في تركيزاتها في الغلاف الجوي. وتُحسب احتمالية الاحتباس الحراري كنسبة التأثير الإشعاعي الذي ينتج عن إطلاق كيلوجرام واحد من غاز دفيء إلى التأثير الذي ينتج عن إطلاق كيلوجرام واحد من ثاني أكسيد الكربون خلال فترة زمنية ثابتة، مثل 100 سنة.",
+      "DEFINITION_EN": "An index used to compare the relative radiative forcing of different gases without directly calculating the changes in atmospheric concentrations. GWPs are calculated as the ratio of the radiative forcing that would result from the emission of one kilogram of a greenhouse gas to that from the emission of one kilogram of carbon dioxide over a fixed period of time, such as 100 years.",
+      "RELATIONS": [
+        "Greenhouse gases",
+        "Carbon dioxide equivalent"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0136",
+      "AR_TERM": "غازات الدفينة",
+      "EN_TERM": "Greenhouse gases",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الغازات، مثل بخار الماء وثاني أكسيد الكربون وأكسيد النيتروز والميتان والهيدروفلوروكربونات (HFCs) والبيرفلوروكربونات (PFCs) وسداسي فلوريد الكبريت، التي تكون شفافة أمام الإشعاع الشمسي (الموجات القصيرة) لكنها معتمة أمام الإشعاع طويل الموجة (الأشعة تحت الحمراء)، مما يمنع الطاقة الإشعاعية طويلة الموجة من مغادرة الغلاف الجوي للأرض. ويتمثل الأثر الصافي في حبس الإشعاع الممتص والميل إلى تسخين سطح الكوكب.",
+      "DEFINITION_EN": "Those gases, such as water vapor, carbon dioxide, nitrous oxide, methane, hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) and sulfur hexafluoride, that are transparent to solar (short-wave) radiation but opaque to long-wave (infrared) radiation, thus preventing long-wave radiant energy from leaving Earth's atmosphere. The net effect is a trapping of absorbed radiation and a tendency to warm the planet's surface.",
+      "RELATIONS": [
+        "Global warming potential (GWP)",
+        "Carbon dioxide equivalent"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0137",
+      "AR_TERM": "الشبكة",
+      "EN_TERM": "Grid",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تكوين نظام توزيع الكهرباء. انظر شبكة الطاقة الكهربائية.",
+      "DEFINITION_EN": "The layout of an electrical distribution system. See electric power grid.",
+      "RELATIONS": [
+        "Power pool",
+        "Hybrid transmission line"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0138",
+      "AR_TERM": "مضخة الحرارة (مصدر الهواء)",
+      "EN_TERM": "Heat pump (air source)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مضخة الحرارة ذات مصدر الهواء هي أكثر أنواع مضخات الحرارة شيوعًا. تمتص مضخة الحرارة الحرارة من الهواء الخارجي وتنقلها إلى المساحة المطلوب تدفئتها في وضع التدفئة. وفي وضع التبريد تمتص مضخة الحرارة الحرارة من المساحة المطلوب تبريدها وتطرح الحرارة إلى الهواء الخارجي. وفي وضع التدفئة، عندما يقترب الهواء الخارجي من 32 درجة فهرنهايت أو يقل عن ذلك، تفقد مضخات الحرارة ذات مصدر الهواء كفاءتها وتحتاج عمومًا إلى نظام تدفئة احتياطي (بالمقاومة).",
+      "DEFINITION_EN": "An air-source heat pump is the most common type of heat pump. The heat pump absorbs heat from the outside air and transfers the heat to the space to be heated in the heating mode. In the cooling mode the heat pump absorbs heat from the space to be cooled and rejects the heat to the outside air. In the heating mode when the outside air approaches 32o F or less, air-source heat pumps loose efficiency and generally require a back-up (resistance) heating system.",
+      "RELATIONS": [
+        "Heat pump efficiency",
+        "Geothermal plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0139",
+      "AR_TERM": "كفاءة مضخة الحرارة",
+      "EN_TERM": "Heat pump efficiency",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كفاءة مضخة الحرارة، أي الطاقة الكهربائية اللازمة لتشغيلها، ترتبط مباشرة بدرجتي الحرارة بين تعمل بينهما. وتعد مضخات الحرارة الحرارية الأرضية أكثر كفاءة من مضخات الحرارة التقليدية أو مكيفات الهواء التي تستخدم الهواء الخارجي، لأن الأرض أو المياه الجوفية على بعد عدة أقدام أسفل سطح الأرض تبقى ثابتة نسبيًا طوال العام. وفي الشتاء يكون سحب الحرارة من الأرض الدافئة نسبيًا أكثر كفاءة من سحبها من الغلاف الجوي حيث تكون حرارة الهواء أبرد بكثير، وفي الصيف يكون تحويل الحرارة المهدرة إلى الأرض الأبرد نسبيًا أكثر كفاءة من تحويلها إلى الهواء الأكثر حرارة. وتعد مضخات الحرارة الحرارية الأرضية عمومًا أكثر تكلفة في التركيب (من 2,000 إلى 5,000 دولار) من مضخات الحرارة ذات الهواء الخارجي. غير أنه، وبحسب الموقع، يمكن لمضخات الحرارة الحرارية الأرضية خفض استهلاك الطاقة (تكلفة التشغيل) وبالتالي الانبعاثات بنسبة تزيد على 20 في المئة مقارنة بمضخات الحرارة عالية الكفاءة ذات الهواء الخارجي. كما تستخدم مضخات الحرارة الحرارية الأرضية الحرارة المهدرة الناتجة عن التكييف لتوفير تسخين مجاني للمياه الساخنة في الصيف.",
+      "DEFINITION_EN": "The efficiency of a heat pump, that is, the electrical energy to operate it, is directly related to temperatures between which it operates. Geothermal heat pumps are more efficient than conventional heat pumps or air conditioners that use the outdoor air since the ground or ground water a few feet below the earth's surface remains relatively constant throughout the year. It is more efficient in the winter to draw heat from the relatively warm ground than from the atmosphere where the air temperature is much colder, and in summer transfer waste heat to the relatively cool ground than to hotter air. Geothermal heat pumps are generally more expensive ($2,000-$5,000) to install than outside air heat pumps. However, depending on the location geothermal heat pumps can reduce energy consumption (operating cost) and correspondingly, emissions by more than 20 percent compared to high-efficiency outside air heat pumps. Geothermal heat pumps also use the waste heat from air-conditioning to provide free hot water heating in the summer.",
+      "RELATIONS": [
+        "Heat pump (air source)",
+        "HVAC conservation feature"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0140",
+      "AR_TERM": "الهيليوستات",
+      "EN_TERM": "Heliostat",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مرآة تعكس الأشعة الشمسية نحو مستقبل مركزي. ويضبط الهيليوستات موضعه تلقائيًا لتتبع التغيرات اليومية أو الموسمية في موقع الشمس. وتسمى ترتيبات الهيليوستات حول مستقبل مركزي أيضًا حقل المجمعات الشمسية.",
+      "DEFINITION_EN": "A mirror that reflects solar rays onto a central receiver. A heliostat automatically adjusts its position to track daily or seasonal changes in the sun's position. The arrangement of heliostats around a central receiver is also called a solar collector field.",
+      "RELATIONS": [
+        "High-temperature collector",
+        "Solar power tower"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0141",
+      "AR_TERM": "المجمّع الحراري عالي الحراة",
+      "EN_TERM": "High-temperature collector",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "جامع حراري شمسي مصمم للعمل عند درجة حرارة 180 درجة فهرنهايت أو أعلى.",
+      "DEFINITION_EN": "A solar thermal collector designed to operate at a temperature of 180 degrees Fahrenheit or higher.",
+      "RELATIONS": [
+        "Heliostat",
+        "Solar thermal collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0142",
+      "AR_TERM": "توربين رياح أفقي المحور",
+      "EN_TERM": "Horizontal axis wind turbine",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أكثر أنواع توربينات الرياح شيوعًا، حيث يكون محور الدوران أفقيًا. انظر أيضًا توربين الرياح.",
+      "DEFINITION_EN": "The most common type of wind turbine where the axis of rotation is oriented horizontally. Also see Wind turbine.",
+      "RELATIONS": [
+        "Wind Turbine",
+        "Grid"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0143",
+      "AR_TERM": "خط نقل هجين",
+      "EN_TERM": "Hybrid transmission line",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "خط ثنائي الدوائر يضم دائرة تيار متردد واحدة ودائرة تيار مستمر واحدة. وتخدم دائرة التيار المتردد عادةً الأحمال المحلية الموزعة على امتداد الخط.",
+      "DEFINITION_EN": "A double-circuit line that has one alternating current and one direct circuit. The AC circuit usually serves local loads along the line.",
+      "RELATIONS": [
+        "Grid",
+        "Power exchange"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0144",
+      "AR_TERM": "الهيدروفلوروكربونات (HFCs)",
+      "EN_TERM": "Hydrofluorocarbons (HFCs)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مجموعة من المواد الكيميائية المصنّعة التي تتكوّن من ذرة كربون واحدة أو ذرتين وبأعداد متفاوتة من ذرات الهيدروجين والفلور. وتمتلك معظم مركبات HFCs قدرات احتباس حراري عالمية على مدى 100 عام تبلغ الآلاف.",
+      "DEFINITION_EN": "A group of man-made chemicals composed of one or two carbon atoms and varying numbers of hydrogen and fluorine atoms. Most HFCs have 100-year Global Warming Potentials in the thousands.",
+      "RELATIONS": [
+        "Greenhouse gases",
+        "Global warming potential (GWP)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0145",
+      "AR_TERM": "ميزة ترشيد الطاقة في أنظمة التدفئة والتهوية والتكييف (HVAC)",
+      "EN_TERM": "HVAC conservation feature",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "خاصية في المبنى مصمّمة لتقليل كمية الطاقة المستهلكة في معدات التدفئة والتبريد والتهوية.",
+      "DEFINITION_EN": "A building feature designed to reduce the amount of energy consumed by the heating, cooling, and ventilating equipment.",
+      "RELATIONS": [
+        "HVAC DSM program",
+        "Heat pump efficiency"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0146",
+      "AR_TERM": "برنامج إدارة الطلب (DSM) في أنظمة التدفئة والتهوية والتكييف (HVAC)",
+      "EN_TERM": "HVAC DSM program",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "برنامج لإدارة الطلب (DSM) مصمّم لتعزيز كفاءة نظام توزيع التدفئة أو التبريد، بما في ذلك الاستبدال. ويشمل التهوية (الموفّرات؛ استرداد الحرارة من هواء العادم)، والتبريد (التبريد بالتبخير؛ التخزين البارد؛ استرداد الحرارة من المبردات؛ التكييف عالي الكفاءة)، والتدفئة، وأنظمة إدارة الطاقة الآلية.",
+      "DEFINITION_EN": "A DSM (demand-side management)program designed to promote the efficiency of the heating or cooling delivery system, including replacement. Includes ventilation (economizers; heat recovery from exhaust air), cooling (evaporative cooling, cool storage; heat recovery from chillers; high-efficiency air conditioning), heating, and automatic energy management systems.",
+      "RELATIONS": [
+        "HVAC conservation feature",
+        "Cooling Degree Days (CDD)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0147",
+      "AR_TERM": "مولدات الميثان",
+      "EN_TERM": "Methanogens",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "بكتيريا تصنع الميثان، وتتطلب للنمو ظروفًا لا هوائية تمامًا.",
+      "DEFINITION_EN": "Bacteria that synthesize methane, requiring completely anaerobic conditions for growth.",
+      "RELATIONS": [
+        "Methanotrophs",
+        "Biogas"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0148",
+      "AR_TERM": "بكتيريات مؤكسدة الميثان",
+      "EN_TERM": "Methanotrophs",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "بكتيريات تستخدم الميثان كغذاء وتؤكسده إلى ثاني أكسيد الكربون.",
+      "DEFINITION_EN": "Bacteria that use methane as food and oxidize it into carbon dioxide.",
+      "RELATIONS": [
+        "Methanogens",
+        "Biogas"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0149",
+      "AR_TERM": "مشروع أو محطة تحويل النفايات البلدية إلى طاقة",
+      "EN_TERM": "Municipal waste to energy project or plant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منشأة تنتج الوقود أو الطاقة من النفايات البلدية الصلبة.",
+      "DEFINITION_EN": "A facility that produces fuel or energy from municipal solid waste.",
+      "RELATIONS": [
+        "Biomass",
+        "Waste energy"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0150",
+      "AR_TERM": "الطلب الأقصى",
+      "EN_TERM": "Peak demand",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أقصى الحمل خلال فترة زمنية محددة.",
+      "DEFINITION_EN": "The maximum load during a specified period of time.",
+      "RELATIONS": [
+        "Power exchange",
+        "Grid"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0151",
+      "AR_TERM": "الطاقة الكهروضوئية والطاقة الحرارية الشمسية (كما تُستخدم في شركات الكهرباء)",
+      "EN_TERM": "Photovoltaic and solar thermal energy (as used at electric utilities)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الطاقة التي تبثّها الشمس على شكل موجات كهرومغناطيسية (إشعاع كهرومغناطيسي)، والتي تحوّلها شركات الكهرباء إلى كهرباء بواسطة الخلايا الشمسية (الكهروضوئية) أو المجمّعات المركزة (البؤرية).",
+      "DEFINITION_EN": "Energy radiated by the sun as electromagnetic waves (electromagnetic radiation) that is converted at electric utilities into electricity by means of solar (photovoltaic) cells or concentrating (focusing) collectors.",
+      "RELATIONS": [
+        "Photovoltaic Module",
+        "Solar thermal collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0152",
+      "AR_TERM": "مركز تبادل الطاقة",
+      "EN_TERM": "Power exchange",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كيان يوفر سوقًا فوريًا تنافسيًا للطاقة الكهربائية عبر مزاد يوم و/أو بالساعة لعروض التوليد والطلب.",
+      "DEFINITION_EN": "An entity providing a competitive spot market for electric power through day- and/or hour-ahead auction of generation and demand bids.",
+      "RELATIONS": [
+        "Power pool",
+        "Grid"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0153",
+      "AR_TERM": "مجمّع الشبكات الكهربائية المترابطة",
+      "EN_TERM": "Power pool",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تجمّع لنظامين كهربائيين أو أكثر مترابطين، يوقّعان اتفاقًا لتنسيق التشغيل والتخطيط بهدف تحسين الموثوقية والكفاءة.",
+      "DEFINITION_EN": "An association of two or more interconnected electric systems having an agreement to coordinate operations and planning for improved reliability and efficiencies.",
+      "RELATIONS": [
+        "Grid",
+        "Power exchange"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0154",
+      "AR_TERM": "التصريح الأولي (الطاقة الكهرومائية)",
+      "EN_TERM": "Preliminary permit (hydroelectric power)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تصريح لموقع واحد تمنحه FERC، ويمنح الحاصل عليه أولوية على أي طرف آخر في طلب ترخيص توليد كهرومائي. ويتيح التصريح الأولي للحاصل عليه إعداد طلب الترخيص وإجراء دراسات متعددة بشأن الجدوى الاقتصادية والآثار البيئية. وقد تمتد مدة التصريح الأولي إلى 3 سنوات.",
+      "DEFINITION_EN": "A single site permit granted by the FERC (Federal Energy Regulatory Commission), which gives the recipient priority over anyone else to apply for a hydroelectric license. The preliminary permit enables the recipient to prepare a license application and conduct various studies for economic feasibility and environmental impacts. The period for a preliminary permit may extend to 3 years.",
+      "RELATIONS": [
+        "Pumped-storage hydroelectric plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0155",
+      "AR_TERM": "محطة كهرومائية بالتخزين المضغوط",
+      "EN_TERM": "Pumped-storage hydroelectric plant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "محطة تولّد الطاقة الكهربائية عادةً خلال فترات الحمل الأقصى مستخدِمةً المياه التي ضُخّت مسبقًا إلى خزان تخزين مرتفع في فترات الحمل الأدنى، عندما تتوفر قدرة توليد زائدة للقيام بذلك. وعند الحاجة إلى قدرة توليد إضافية، يمكن تصريف المياه من الخزان عبر قناة إلى مولدات توربينية تقع في محطة على مستوى أدنى.",
+      "DEFINITION_EN": "A plant that usually generates electric energy during peak load periods by using water previously pumped into an elevated storage reservoir during off-peak periods when excess generating capacity is available to do so. When additional generating capacity is needed, the water can be released from the reservoir through a conduit to turbine generators located in a power plant at a lower level.",
+      "RELATIONS": [
+        "Storage capacity",
+        "Preliminary permit (hydroelectric power)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0156",
+      "AR_TERM": "محطة كهرومائية بالتخزين المضغوط الخالص",
+      "EN_TERM": "Pure pumped-storage hydroelectric plant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "محطة تنتج الطاقة من مياه ضُخّت مسبقًا إلى خزان علوي فحسب.",
+      "DEFINITION_EN": "A plant that produces power only from water that has previously been pumped to an upper reservoir.",
+      "RELATIONS": [
+        "Pumped-storage hydroelectric plant",
+        "Storage capacity"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0157",
+      "AR_TERM": "خشب الألياف",
+      "EN_TERM": "Pulp wood",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الأخشاب المستديرة أو رقائق الشجر الكامل أو مخلفات الخشب.",
+      "DEFINITION_EN": "Roundwood, whole-tree chips, or wood residues.",
+      "RELATIONS": [
+        "Biomass",
+        "Cull wood"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0158",
+      "AR_TERM": "قانون سياسات تنظيم الخدمات العامة لعام 1978 (PURPA)",
+      "EN_TERM": "Public Utility Regulatory Policies Act of 1978",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "قانون سياسات تنظيم الخدمات العامة لعام 1978، الذي أقره الكونغرس الأمريكي. ويتطلب هذا التشريع من الولايات تنفيذ برامج ترشيد استهلاك الطاقة في شركات الخدمات العامة، وإنشاء أسواق خاصة لمولدات الطاقة المشتركة والمنتجين الصغار الذين يستوفون معايير معينة، بما في ذلك اشتراط أن تحدد الولايات أسعار وكميات الطاقة التي يجب أن تشتريها شركات الخدمات العامة من تلك المنشآت.",
+      "DEFINITION_EN": "The Public Utility Regulatory Policies Act of1978, passed by the U.S. Congress. This statute requires States to implement utility conservation programs and create special markets for co-generators and small producers who meet certain standards, including the requirement that States set the prices and quantities of power the utilities must buy from such facilities.",
+      "RELATIONS": [
+        "Green pricing"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
     }
   ]
 }
