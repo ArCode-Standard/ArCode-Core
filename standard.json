@@ -2,7 +2,6 @@
   "standard_name": "ArCode-Standard",
   "version": "1.0",
   "status": "Foundation Stage",
-
   "core_principles": [
     "كل مصطلح يجب أن يكون ثنائي اللغة (AR + EN)",
     "كل مصطلح يجب أن ينتمي إلى Domain واحد فقط",
@@ -11,7 +10,6 @@
     "المعيار يجب أن يبقى مستقلاً عن أي لغة برمجة",
     "كل مصطلح يجب أن يستند إلى مصدر موثوق (SOURCE)"
   ],
-
   "term_required_fields": [
     "ACS_ID",
     "AR_TERM",
@@ -22,37 +20,35 @@
     "STATUS",
     "SOURCE"
   ],
-
   "term_optional_fields": [
     "RELATIONS",
     "VERSION",
     "NOTES"
   ],
-
   "allowed_status_values": [
     "Draft",
     "Approved",
     "Deprecated"
   ],
-
   "domain_codes": {
-    "GEN":  "General Knowledge",
-    "CS":   "Computer Science",
-    "AI":   "Artificial Intelligence",
-    "NET":  "Networking",
-    "SEC":  "Cybersecurity",
+    "GEN": "General Knowledge",
+    "CS": "Computer Science",
+    "AI": "Artificial Intelligence",
+    "NET": "Networking",
+    "SEC": "Cybersecurity",
     "MATH": "Mathematics",
     "PHYS": "Physics",
-    "BIO":  "Biology",
+    "BIO": "Biology",
     "CHEM": "Chemistry",
-    "ENG":  "Engineering",
-    "MED":  "Medicine",
+    "ENG": "Engineering",
+    "MED": "Medicine",
     "LING": "Linguistics",
     "ECON": "Economics",
-    "LAW":  "Law",
-    "AGR":  "Agriculture",
+    "LAW": "Law",
+    "AGR": "Agriculture",
     "ASTR": "Astronomy",
-    "GEO":  "Geology",
-    "STAT": "Statistics"
+    "GEO": "Geology",
+    "STAT": "Statistics",
+    "QNT": "Quantum Computing"
   }
 }
