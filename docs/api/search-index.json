@@ -180976,6 +180976,113 @@
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
       "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0056",
+      "AR_TERM": "البغاس",
+      "EN_TERM": "Bagasse",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "المخلف المتبقي بعد استخلاص العصير المحتوي على السكر المستخدم في إنتاج الإيثانول الحيوي من نباتات مثل قصب السكر، ويمكن حرقه لتوفير مصدر متجدد للحرارة، كما في مصانع التكرير الحيوية.",
+      "DEFINITION_EN": "The residue remaining after the sugar-containing juice used in bioethanol production has been extracted from plants such as sugar cane; it can be burned to provide a renewable source of heat, for example at biorefineries.",
+      "RELATIONS": [
+        "Biofuels",
+        "Biomass Waste"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0057",
+      "AR_TERM": "النفايات الحيوية المنشأ",
+      "EN_TERM": "Biogenic waste",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الحصة من النفايات المصنَّفة ككتلة حيوية متجددة، والمشتقة من الغذاء أو الزراعة أو مادة عضوية أخرى، وتُفترض أحيانًا بنسبة خمسين بالمئة من الطاقة في النفايات الصلبة البلدية عند غياب بيانات أدق.",
+      "DEFINITION_EN": "The fraction of waste classified as biomass and renewable, derived from food, agriculture, or other organic matter; in the absence of better data it is sometimes assumed to be 50% of municipal solid waste by energy content.",
+      "RELATIONS": [
+        "Biomass Waste",
+        "Non-biomass Waste",
+        "Municipal Solid Waste (MSW)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0058",
+      "AR_TERM": "البيوميثان",
+      "EN_TERM": "Biomethane",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مصدر شبه نقي من الميثان يُنتج إما بترقية الغاز الحيوي لإزالة ثاني أكسيد الكربون والملوثات الأخرى، أو بتحويل الكتلة الحيوية الصلبة إلى غاز ثم ميثانته، ويُعرف أيضًا باسم الغاز الطبيعي المتجدد.",
+      "DEFINITION_EN": "A near-pure source of methane produced either by upgrading biogas to remove carbon dioxide and other contaminants, or by gasifying solid biomass followed by methanation; also known as renewable natural gas.",
+      "RELATIONS": [
+        "Biomass Gas",
+        "Anaerobic Decomposition",
+        "Landfill Gas"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0059",
+      "AR_TERM": "الطاقة النظيفة",
+      "EN_TERM": "Clean energy",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مصطلح شامل يجمع مصادر الطاقة والبنية التحتية والتطبيقات والأصول المرتبطة المتوافقة مع نظام طاقة صافٍ الانبعاثات.",
+      "DEFINITION_EN": "An umbrella term grouping energy sources, infrastructure, applications, and related assets that are compatible with a net zero emissions energy system.",
+      "RELATIONS": [
+        "Renewable Energy Resources",
+        "Geologic Sequestration"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0060",
+      "AR_TERM": "ابتكار الطاقة النظيفة",
+      "EN_TERM": "Clean energy innovation",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "عملية تطوير تقنية طاقة نظيفة جديدة، بدءًا من الفكرة الأولى مرورًا بالبحث والتطوير والنماذج الأولية وصولًا إلى مرحلة العرض التوضيحي وتطوير المنتج.",
+      "DEFINITION_EN": "The process of developing a new clean energy technology, from the initial idea through research and development and prototyping, to demonstration and product development.",
+      "RELATIONS": [
+        "Clean Energy"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0061",
+      "AR_TERM": "الوقود المتجدد القابل للحرق",
+      "EN_TERM": "Combustible renewables",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مادة من مصادر متجددة تُستخدم لإنتاج الحرارة والطاقة، وتشمل الطاقة الحيوية والوقود المعتمد على الهيدروجين المشتق من الكهرباء المتجددة.",
+      "DEFINITION_EN": "Material from renewable sources used to produce heat and power; it includes bioenergy and hydrogen-based fuels derived from renewable electricity.",
+      "RELATIONS": [
+        "Biofuels",
+        "Biomethane",
+        "Renewable Energy Resources"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0062",
+      "AR_TERM": "مصادر الطاقة الموزعة",
+      "EN_TERM": "Distributed energy resources (DER)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مصادر طاقة صغيرة الحجم تقع عادةً بالقرب من مواقع استخدام الكهرباء، مثل الألواح الشمسية على أسطح المباني ووحدات تخزين البطاريات، وعند وجودها في جهة الشبكة من العدّاد تُربط عادةً بشبكة التوزيع لا بشبكة النقل.",
+      "DEFINITION_EN": "Small-scale energy resources usually situated near sites of electricity use, such as rooftop solar panels and battery storage; when on the grid side of the meter they are usually connected to the distribution grid rather than the transmission grid.",
+      "RELATIONS": [
+        "Photovoltaic Module",
+        "Renewable Energy Resources"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "International Energy Agency (IEA) Glossary",
+      "VERSION": "1.0"
     }
   ]
 }

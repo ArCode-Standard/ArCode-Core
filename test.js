@@ -1,9 +1,9 @@
 const assert = require("assert");
 const api = require("./index.js");
 
-const EXPECTED_TERM_COUNT = 18065;
+const EXPECTED_TERM_COUNT = 18072;
 const EXPECTED_DOMAIN_COUNT = 19;
-const RES_MIN_TERMS = 55;
+const RES_MIN_TERMS = 62;
 
 assert.strictEqual(api.meta.termCount, EXPECTED_TERM_COUNT, `termCount should be ${EXPECTED_TERM_COUNT}`);
 assert.strictEqual(api.terms.length, EXPECTED_TERM_COUNT);
@@ -33,6 +33,19 @@ assert(
 
 const res1 = api.byId("ACS-RES-0001");
 assert(res1 && res1.DOMAIN === "Renewable Energy and Sustainability", "byId should find ACS-RES-0001");
-assert(res1.SOURCE.includes("Energy Information Administration"), "RES terms must cite a real source");
+assert(
+  res1.SOURCE.includes("Energy Information Administration"),
+  "RES terms must cite a real source"
+);
+
+const resTerms = api.byDomain("Renewable Energy and Sustainability", { limit: 1000 });
+assert(
+  resTerms.every((t) => t.SOURCE && t.SOURCE.length > 10),
+  "every RES term must carry a named source"
+);
+assert(
+  resTerms.every((t) => t.DEFINITION_AR && t.DEFINITION_EN),
+  "every RES term must have both Arabic and English definitions"
+);
 
 console.log("All tests passed ✓");
