@@ -180163,8 +180163,8 @@
       "DEFINITION_AR": "طاقة شمسية تُجمع وتُخزَّن باستخدام مضخات أو مراوح ميكانيكية تُدير سوائل أو هواءً محمّلًا بالحرارة بين المجمّعات الشمسية والمبنى.",
       "DEFINITION_EN": "Solar energy collected and stored using mechanical pumps or fans that circulate heat-laden fluids or air between solar collectors and a building.",
       "RELATIONS": [
-        "Photovoltaic Cell (PVC)",
-        "Solar Thermal Collector"
+        "ACS-ENG-0597",
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180178,8 +180178,8 @@
       "DEFINITION_AR": "انخفاض تصريف المجرى أو نقص هطول الأمطار في حوض التصريف أو انخفاض منسوب المياه خلف السد، مما يخفض الفارق الإجمالي في المنسوب ويحدّ من إنتاج الطاقة الكهرومائية.",
       "DEFINITION_EN": "Reduced streamflow, insufficient rainfall in the drainage basin, or low water supply behind a dam, which reduce the gross head and limit hydroelectric power production.",
       "RELATIONS": [
-        "Hydraulic Head",
-        "Dam"
+        "ACS-RES-0027",
+        "ACS-ENG-0489"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180193,8 +180193,8 @@
       "DEFINITION_AR": "سبيكة من السيليكون والهيدروجين ذات بني ذري غير منظم وغير بلوري، تُرسَّب في طبقات رقيقة لإنتاج خلايا كهروضوئية بأغشية رقيقة.",
       "DEFINITION_EN": "An alloy of silicon and hydrogen with a disordered, noncrystalline atomic structure that can be deposited in thin-film layers to produce thin-film photovoltaic cells.",
       "RELATIONS": [
-        "Photovoltaic Cell (PVC)",
-        "Ribbon Silicon"
+        "ACS-ENG-0597",
+        "ACS-RES-0222"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180208,9 +180208,9 @@
       "DEFINITION_AR": "تحلل في غياب الأكسجين، كما يحدث في البركة اللاهوائية أو الهاضم، وينتج غازي ثاني أكسيد الكربون والميثان.",
       "DEFINITION_EN": "Decomposition in the absence of oxygen, as in an anaerobic lagoon or digester, which produces carbon dioxide and methane.",
       "RELATIONS": [
-        "Anaerobic Lagoon",
-        "Landfill Gas",
-        "Biomass Waste"
+        "ACS-RES-0005",
+        "ACS-RES-0030",
+        "ACS-RES-0012"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180224,8 +180224,8 @@
       "DEFINITION_AR": "منشأة لإدارة المخلفات العضوية السائلة تبقى فيها المخلفات في الماء بعمق لا يقل عن ستة أقدام ولمدة تتراوح بين 30 و200 يوم.",
       "DEFINITION_EN": "A liquid-based organic waste management installation in which waste remains in water at a depth of at least 6 feet for periods of 30 to 200 days.",
       "RELATIONS": [
-        "Anaerobic Decomposition",
-        "Municipal Solid Waste (MSW)"
+        "ACS-RES-0004",
+        "ACS-RES-0036"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180239,8 +180239,8 @@
       "DEFINITION_AR": "كمية وتوزيع هطول الأمطار داخل حوض التصريف وظروف الجريان السطحي، على النحو الذي يُحدد من سجلات إمداد المياه طويلة الأجل.",
       "DEFINITION_EN": "The amount and distribution of precipitation within a drainage basin and the runoff conditions present, as determined from long-term water supply records.",
       "RELATIONS": [
-        "Median water condition",
-        "Regulated Streamflow"
+        "ACS-RES-0033",
+        "ACS-RES-0047"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180254,7 +180254,7 @@
       "DEFINITION_AR": "زاوية توجيه اللوح الشمسي المائل بالنسبة إلى الشمال: صفر درجة نحو الشمال، وتسعون درجة نحو الشرق، ومئة وثمانين درجة نحو الجنوب، ومئتان وسبعون درجة نحو الغرب.",
       "DEFINITION_EN": "The orientation angle of a tilted solar panel relative to north: 0 degrees is north, 90 degrees is east, 180 degrees is south, and 270 degrees is west.",
       "RELATIONS": [
-        "Solar Thermal Collector"
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180268,8 +180268,8 @@
       "DEFINITION_AR": "أيزوميرات البوتانول المستخدمة كوقود ومستخرجة من مواد خام متجددة مثل الذرة أو السورغوم.",
       "DEFINITION_EN": "Butanol isomers used as fuel and derived from renewable feedstocks such as corn or sorghum.",
       "RELATIONS": [
-        "Biofuels",
-        "Renewable Naphtha"
+        "ACS-RES-0009",
+        "ACS-RES-0053"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180283,8 +180283,8 @@
       "DEFINITION_AR": "وقود سائل ومكونات مزج منتَجة من مواد خام من الكتلة الحيوية، تُستخدم أساسًا في النقل.",
       "DEFINITION_EN": "Liquid fuels and blending components produced from biomass feedstocks and used primarily for transportation.",
       "RELATIONS": [
-        "Biomass Waste",
-        "Biobutanol"
+        "ACS-RES-0012",
+        "ACS-RES-0008"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180298,8 +180298,8 @@
       "DEFINITION_AR": "انبعاثات تنشأ طبيعيًا ولا تتأثر بصورة معتبرة بالأفعال أو الأنشطة البشرية.",
       "DEFINITION_EN": "Emissions that arise naturally and are not significantly affected by human actions or activity.",
       "RELATIONS": [
-        "Carbon Stocks",
-        "Terrestrial Sequestration"
+        "ACS-RES-0015",
+        "ACS-RES-0160"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180313,8 +180313,8 @@
       "DEFINITION_AR": "غاز متوسط القيمة الحرارية يحتوي على الميثان وثاني أكسيد الكربون، ينتج عن نشاط الكائنات الدقيقة على المواد العضوية مثل نفايات المكبات.",
       "DEFINITION_EN": "A medium-Btu gas containing methane and carbon dioxide that results from the action of microorganisms on organic materials such as landfill waste.",
       "RELATIONS": [
-        "Landfill Gas",
-        "Anaerobic Decomposition"
+        "ACS-RES-0030",
+        "ACS-RES-0004"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180328,9 +180328,9 @@
       "DEFINITION_AR": "مادة عضوية غير أحفورية ذات أصل بيولوجي تنتج كمنتج ثانوي أو كمنتج متخلَّى عنه، وتشمل النفايات الصلبة البلدية ذات المصدر الحيوي وغاز المكبات والحمأة ومخلفات المحاصيل الزراعية.",
       "DEFINITION_EN": "Organic non-fossil material of biological origin that is a byproduct or a discarded product, including municipal solid waste from biogenic sources, landfill gas, sludge, and agricultural crop byproducts.",
       "RELATIONS": [
-        "Non-biomass Waste",
-        "Biofuels",
-        "Municipal Solid Waste (MSW)"
+        "ACS-RES-0039",
+        "ACS-RES-0009",
+        "ACS-RES-0036"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180344,8 +180344,8 @@
       "DEFINITION_AR": "الديزل الحيوي ووقود الديزيل المتجدد الآخر ومكونات مزج الديزيل المشتقة من الكتلة الحيوية، باستثناء وقود الديزيل المتجدد المعالَج مع مواد خام نفطية.",
       "DEFINITION_EN": "Biodiesel and other renewable diesel fuel or diesel blending components derived from biomass, excluding renewable diesel co-processed with petroleum feedstocks.",
       "RELATIONS": [
-        "Renewable Diesel Fuel",
-        "Biomass Waste"
+        "ACS-RES-0048",
+        "ACS-RES-0012"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180359,8 +180359,8 @@
       "DEFINITION_AR": "منتج ثانوي لعملية صناعة الورق: سائل قلوي مستنفد يُزال من الهاضمات أثناء استخلاص ألياف الخشب، ثم يُبخر ويُحرق وقودًا في فرن الاسترجاع.",
       "DEFINITION_EN": "A byproduct of the paper production process: alkaline spent liquor removed from digesters during wood pulping, which is evaporated and burned as fuel in a recovery furnace.",
       "RELATIONS": [
-        "Pulp Chips",
-        "Wood Energy"
+        "ACS-RES-0046",
+        "ACS-RES-0021"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180374,9 +180374,9 @@
       "DEFINITION_AR": "كمية الكربون المخزَّنة في الأنظمة البيولوجية والمادية، بما في ذلك الأشجار ومنتجات حصادها والمحاصيل الزراعية والتربة والمحيطات والطبقات الجيولوجية.",
       "DEFINITION_EN": "The quantity of carbon stored in biological and physical systems, including trees, harvested products, agricultural crops, soils, oceans, and geological sinks.",
       "RELATIONS": [
-        "Terrestrial Sequestration",
-        "Geologic Sequestration",
-        "Reforestation"
+        "ACS-RES-0160",
+        "ACS-RES-0022",
+        "ACS-AGR-0656"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180390,8 +180390,8 @@
       "DEFINITION_AR": "محطة كهرومائية تستخدم المياه المحلوجة والمجرى الطبيعي معًا في إنتاج الطاقة.",
       "DEFINITION_EN": "A hydroelectric plant that uses both pumped water and natural streamflow for power production.",
       "RELATIONS": [
-        "Conventional Hydroelectric Plant",
-        "Run-of-river Hydroelectric Plant"
+        "ACS-RES-0019",
+        "ACS-RES-0225"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180405,9 +180405,9 @@
       "DEFINITION_AR": "نظام تحويل طاقة شمسية يركّز الأشعة الشمسية بصريًا باستخدام المرايا لتوليد سائل عامل عالي الحرارة.",
       "DEFINITION_EN": "A solar energy conversion system that optically concentrates solar rays with mirrors to generate a high-temperature working fluid.",
       "RELATIONS": [
-        "Concentrator",
-        "Solar Power Tower",
-        "Parabolic Trough"
+        "ACS-RES-0018",
+        "ACS-RES-0098",
+        "ACS-RES-0042"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180421,8 +180421,8 @@
       "DEFINITION_AR": "جهاز عاكس أو مُثبِّن يفوّز الإشعاع الساقط على مساحة أصغر من سطحه، مما يزيد كثافة الإشعاع عند نقطة التركيز.",
       "DEFINITION_EN": "A reflective or refractive device that focuses incident insolation onto an area smaller than its own surface, increasing irradiance at the focus.",
       "RELATIONS": [
-        "Concentrating Solar Power",
-        "Parabolic Dish"
+        "ACS-RES-0017",
+        "ACS-ASTR-0997"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180436,8 +180436,8 @@
       "DEFINITION_AR": "محطة تُنتج فيها كامل الطاقة من التصريف الطبيعي للمجرى بحسب ما تسمح به المخزون المتاحة.",
       "DEFINITION_EN": "A plant in which all of the power is produced from natural streamflow as regulated by available storage.",
       "RELATIONS": [
-        "Run-of-river Hydroelectric Plant",
-        "Multiple Purpose Reservoir"
+        "ACS-RES-0225",
+        "ACS-RES-0035"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180451,8 +180451,7 @@
       "DEFINITION_AR": "وحدة من حطب الوقود بأبعاد أربعة أقدام في أربعة أقدام في ثمانية أقدام، أي ما يعادل مئة وثمانين قدمًا مكعبًا.",
       "DEFINITION_EN": "A unit of firewood measuring 4 feet by 4 feet by 8 feet, equivalent to 128 cubic feet.",
       "RELATIONS": [
-        "Fuel Wood",
-        "Wood Energy"
+        "ACS-RES-0021"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180466,8 +180465,7 @@
       "DEFINITION_AR": "الخشب ومنتجات الخشب، وقد تشمل الشجيرات والأغصان، التي تُجمع أو تُشترى وتُستخدم للحرق المباشر.",
       "DEFINITION_EN": "Wood and wood products, possibly including shrubs and branches, that are gathered or purchased and used for direct combustion.",
       "RELATIONS": [
-        "Cord of Wood",
-        "Wood Energy"
+        "ACS-RES-0020"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180481,8 +180479,8 @@
       "DEFINITION_AR": "تحزين هندسي يُحقن فيه ثاني أكسيد الكربون المُلتقط للتخزين الدائم في خزانات جيولوجية تحت الأرض مثل الطبقات الجوفية المالحة وحقول النفط والغاز أو مناجم الفحم المهجورة.",
       "DEFINITION_EN": "Engineered sequestration in which captured carbon dioxide is injected for permanent storage into underground geologic reservoirs such as saline aquifers, oil and gas fields, or abandoned coal mines.",
       "RELATIONS": [
-        "Carbon Stocks",
-        "Terrestrial Sequestration"
+        "ACS-RES-0015",
+        "ACS-RES-0160"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180496,7 +180494,7 @@
       "DEFINITION_AR": "حل سوقي يدفع فيه عملاء الكهرباء رسومًا إضافية على فواتيرهم لدعم تطوير الطاقة المتجددة.",
       "DEFINITION_EN": "A market solution in which electricity customers pay a premium on their utility bills to support renewable energy development.",
       "RELATIONS": [
-        "Renewable Energy Resources"
+        "ACS-RES-0049"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180510,7 +180508,7 @@
       "DEFINITION_AR": "مضخة حرارية يتبادل فيها وسيط التبريد الحرارة مع سائل يدور في وسيط متصل بالأرض مثل التربة أو المياه الجوفية، وتُركَّب في حلقات أفقية أو رأسية.",
       "DEFINITION_EN": "A heat pump whose refrigerant exchanges heat with a fluid circulating through an earth connection medium such as ground or groundwater, installed in horizontal or vertical loops.",
       "RELATIONS": [
-        "Hot Dry Rock"
+        "ACS-RES-0025"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180524,7 +180522,7 @@
       "DEFINITION_AR": "طاقة حرارية كامنة في صخور بلورية غير منفذة، وقد يُستخدم التكسير الهيدروليكي لخلق نفاذية تسمح بدوران الماء وسحب الحرارة.",
       "DEFINITION_EN": "Heat energy residing in impermeable crystalline rock; hydraulic fracturing may be used to create permeability so that water can circulate and remove the heat.",
       "RELATIONS": [
-        "Heat Pump (Geothermal)"
+        "ACS-RES-0024"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180538,8 +180536,7 @@
       "DEFINITION_AR": "في توربين الرياح ذي المحور الأفقي، المسافة من منصة التوربين إلى محور الدوران.",
       "DEFINITION_EN": "In a horizontal-axis wind turbine, the distance from the turbine platform to the rotor shaft.",
       "RELATIONS": [
-        "Wind Turbine",
-        "Variable-speed Wind Turbine"
+        "ACS-ENG-0634"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180553,9 +180550,9 @@
       "DEFINITION_AR": "الفارق الرأسي بين منسوب المياه في المصب الأعلى (مياه الرأس) ومنسوب المياه في المصب الأدنى (مياه الذيل) عند محطة كهرومائية.",
       "DEFINITION_EN": "The vertical distance between the upstream water surface (headwater) and the downstream water surface (tailwater) at a hydroelectric plant.",
       "RELATIONS": [
-        "Net Head",
-        "Low Head",
-        "Dam"
+        "ACS-RES-0038",
+        "ACS-RES-0031",
+        "ACS-ENG-0489"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180569,8 +180566,8 @@
       "DEFINITION_AR": "منشأة توليد كهربائي يتحكم في إنتاجها التغير الطبيعي في مورد الطاقة لا أوامر تشغيل الشبكة، وهي غالبًا تحوّل الطاقة الشمسية أو الرياح أو طاقة الأنهار المجارية.",
       "DEFINITION_EN": "An electric generating plant whose output is controlled by the natural variability of the energy resource rather than by system dispatch, typically converting solar, wind, or run-of-river hydro.",
       "RELATIONS": [
-        "Renewable Energy Resources",
-        "Run-of-river Hydroelectric Plant"
+        "ACS-RES-0049",
+        "ACS-RES-0225"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180584,8 +180581,7 @@
       "DEFINITION_AR": "توربين تفاعلي ذو ريشتين قابلتين لتغيير زاوية الميل، وقد تتحكم البوابات في زاوية تدفق السائل إلى الريش.",
       "DEFINITION_EN": "A reaction turbine with two adjustable-pitch blades; gates may control the angle of fluid flow into the blades.",
       "RELATIONS": [
-        "Water Turbine",
-        "Net Head"
+        "ACS-RES-0038"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180599,8 +180595,8 @@
       "DEFINITION_AR": "غاز ينتج عن تحلل المواد العضوية في مواقع المكبات، ويحتوي في المتوسط على نحو خمسين بالمئة ميثان وخمسين بالمئة ثاني أكسيد الكربون وبخار ماء بالحجم.",
       "DEFINITION_EN": "Gas generated by decomposition of organic material at landfill sites, averaging about 50 percent methane and 50 percent carbon dioxide and water vapor by volume.",
       "RELATIONS": [
-        "Biomass Gas",
-        "Anaerobic Decomposition"
+        "ACS-RES-0011",
+        "ACS-RES-0004"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180614,8 +180610,8 @@
       "DEFINITION_AR": "فارق رأسي لا يتجاوز مئة قدم بين منسوب المياه في المصب الأعلى ومنسوبها في المصب الأدنى عند السد.",
       "DEFINITION_EN": "A vertical difference of 100 feet or less between the upstream and downstream water surface elevations at a dam.",
       "RELATIONS": [
-        "Hydraulic Head",
-        "Run-of-river Hydroelectric Plant"
+        "ACS-RES-0027",
+        "ACS-RES-0225"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180629,7 +180625,7 @@
       "DEFINITION_AR": "منشأة لحرق النفايات الصلبة البلدية تُحرق فيها النفايات بفرز أولي طفيف فقط لإزالة المواد الكبيرة أو الخطرة أو المتفجرة.",
       "DEFINITION_EN": "A municipal solid waste incineration facility in which waste is burned with only minor presorting to remove oversize, hazardous, or explosive materials.",
       "RELATIONS": [
-        "Municipal Solid Waste (MSW)"
+        "ACS-RES-0036"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180643,8 +180639,8 @@
       "DEFINITION_AR": "حالة الهطول والجريان الوسطى ضمن توزيع حالات المياه خلال فترة طويلة، وعادةً ما تُحدد بفحص سجل إمداد المياه.",
       "DEFINITION_EN": "The middle precipitation and runoff condition within a distribution of water conditions over a long period, usually determined by examining the water supply record.",
       "RELATIONS": [
-        "Average Water Conditions",
-        "Minimum Streamflow"
+        "ACS-RES-0006",
+        "ACS-RES-0034"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180658,8 +180654,8 @@
       "DEFINITION_AR": "أدنى معدل لتدفق المياه عند نقطة معينة خلال فترة محددة.",
       "DEFINITION_EN": "The lowest rate of water flow past a given point during a specified period.",
       "RELATIONS": [
-        "Regulated Streamflow",
-        "Median Water Condition"
+        "ACS-RES-0047",
+        "ACS-RES-0033"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180673,8 +180669,8 @@
       "DEFINITION_AR": "مياه مخزَّنة واستخداماتها التي تخضع لممارسات ترشيد الموارد المائية المتقدمة لتحقيق أكثر من هدف من أهداف إدارة المياه، مثل التحكم في الفيضانات وتوليد الكهرباء والري والترفيه.",
       "DEFINITION_EN": "Stored water and its uses governed by advanced water resource conservation practices to achieve more than one water control objective, such as flood control, power, irrigation, and recreation.",
       "RELATIONS": [
-        "Dam",
-        "Pondage"
+        "ACS-ENG-0489",
+        "ACS-RES-0045"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180688,8 +180684,8 @@
       "DEFINITION_AR": "مخلفات تجمعها البلديات، وتشمل خليطًا من المواد السكنية والتجارية ذات الأجزاء الحيوية وغير الحيوية، وهي تُطرح عادةً في المكبات أو تُحرق.",
       "DEFINITION_EN": "Waste collected from municipalities, including a mix of residential and commercial material with biogenic and non-biogenic fractions, typically landfilled or incinerated.",
       "RELATIONS": [
-        "Mass Burn Facility",
-        "Biomass Waste"
+        "ACS-RES-0032",
+        "ACS-RES-0012"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180703,8 +180699,8 @@
       "DEFINITION_AR": "كما يعرّفها قانون أمن الطاقة الأمريكي: أي مادة عضوية تشمل مياه الصرف الصحي والحمأة والمخلفات الصناعية أو التجارية، وخلائط هذه المواد مع الفضلات غير العضوية.",
       "DEFINITION_EN": "As defined in the U.S. Energy Security Act, any organic matter including sewage, sewage sludge, and industrial or commercial waste, and mixtures of such matter with inorganic refuse.",
       "RELATIONS": [
-        "Municipal Solid Waste (MSW)",
-        "Non-biomass Waste"
+        "ACS-RES-0036",
+        "ACS-RES-0039"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180718,8 +180714,7 @@
       "DEFINITION_AR": "الفارق الإجمالي في المنسوب مطروحًا منه جميع الفواقد المائية عدا الفواقد المنسوبة إلى التوربين.",
       "DEFINITION_EN": "Gross head minus all hydraulic losses except those chargeable to the turbine.",
       "RELATIONS": [
-        "Hydraulic Head",
-        "Water Turbine"
+        "ACS-RES-0027"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180733,8 +180728,8 @@
       "DEFINITION_AR": "مادة ذات أصل غير بيولوجي تنتج كمنتج ثانوي أو كمنتج متخلَّى عنه، وتشمل النفايات الصلبة البلدية غير الحيوية مثل البلاستيك والوقود المشتق من الإطارات.",
       "DEFINITION_EN": "Material of non-biological origin that is a byproduct or a discarded product, including non-biogenic municipal solid waste such as plastics and tire-derived fuels.",
       "RELATIONS": [
-        "Biomass Waste",
-        "Municipal Solid Waste (MSW)"
+        "ACS-RES-0012",
+        "ACS-RES-0036"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180748,7 +180743,7 @@
       "DEFINITION_AR": "تقنيات تحويل الطاقة التي تستثمر طاقة المدّ والأمواج وفروق الحرارة في المحيطات.",
       "DEFINITION_EN": "Energy conversion technologies that harness the energy in tides, waves, and thermal gradients in the oceans.",
       "RELATIONS": [
-        "Ocean Thermal Energy Conversion (OTEC)"
+        "ACS-RES-0041"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180762,7 +180757,7 @@
       "DEFINITION_AR": "تقنية تستثمر فرق درجة الحرارة بين المياه السطحية الدافئة والمياه العميقة الباردة، حيث تُبخّر المياه الدافئة سائلًا عاملًا يدير توربينًا مولِّدًا للكهرباء.",
       "DEFINITION_EN": "Technology that harnesses temperature differences between warm surface water and cold deep water; warm water vaporizes a working fluid that drives a turbine-generator.",
       "RELATIONS": [
-        "Ocean Energy Systems"
+        "ACS-RES-0040"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180776,8 +180771,8 @@
       "DEFINITION_AR": "مُركِّز حراري شمسي عالي الحرارة فوق مئة وثمانين درجة فهرنهايت، قادر على تتبّع الشمس باستخدام محور دوران واحد.",
       "DEFINITION_EN": "A high-temperature (above 180 degrees Fahrenheit) solar thermal concentrator with the capacity to track the sun using one axis of rotation.",
       "RELATIONS": [
-        "Concentrating Solar Power",
-        "Concentrator"
+        "ACS-RES-0017",
+        "ACS-RES-0018"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180791,8 +180786,8 @@
       "DEFINITION_AR": "نظام تسخين شمسي لا يستخدم طاقة ميكانيكية خارجية، مثل المضخات أو المنفاخات، لنقل الحرارة الشمسية المجموعة.",
       "DEFINITION_EN": "A solar heating system that uses no external mechanical power, such as pumps or blowers, to move the collected solar heat.",
       "RELATIONS": [
-        "Active Solar",
-        "Solar Thermal Collector"
+        "ACS-RES-0001",
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180806,7 +180801,7 @@
       "DEFINITION_AR": "تجميعة متكاملة من خلايا كهروضوئية مترابطة مصممة لتوفير مستوى محدد من الجهد والتيار، ومغلفة لحماية الخلايا من التدهور البيئي.",
       "DEFINITION_EN": "An integrated assembly of interconnected photovoltaic cells designed to deliver a selected level of voltage and current, packaged for protection against environmental degradation.",
       "RELATIONS": [
-        "Photovoltaic Cell (PVC)"
+        "ACS-ENG-0597"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180820,8 +180815,8 @@
       "DEFINITION_AR": "كمية المياه المخزَّنة خلف سد كهرومائي ذي سعة تخزين صغيرة نسبيًا، وتُستخدم عادةً لضبط تدفق النهر يوميًا أو أسبوعيًا.",
       "DEFINITION_EN": "The amount of water stored behind a hydroelectric dam of relatively small storage capacity, usually used for daily or weekly control of river flow.",
       "RELATIONS": [
-        "Dam",
-        "Multiple Purpose Reservoir"
+        "ACS-ENG-0489",
+        "ACS-RES-0035"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180835,8 +180830,8 @@
       "DEFINITION_AR": "الأخشاب أو المخلفات التي تُعالج لتصبح قطعًا خشبية صغيرة ذات أبعاد متقاربة بدرجة عالية مع نسبة ضئيلة من اللحاء.",
       "DEFINITION_EN": "Timber or residues processed into small pieces of wood of more or less uniform dimensions with minimal amounts of bark.",
       "RELATIONS": [
-        "Black Liquor",
-        "Fuel Wood"
+        "ACS-RES-0014",
+        "ACS-RES-0021"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180850,8 +180845,8 @@
       "DEFINITION_AR": "معدل التدفق عند نقطة معينة خلال فترة محددة، تتحكم فيه عمليات تصريف المياه من الخزان.",
       "DEFINITION_EN": "The rate of flow past a given point during a specified period that is controlled by reservoir water release operations.",
       "RELATIONS": [
-        "Minimum Streamflow",
-        "Pondage"
+        "ACS-RES-0034",
+        "ACS-RES-0045"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180865,8 +180860,8 @@
       "DEFINITION_AR": "وقود هيدروكربوني متجدد ينتج من المعالجة بالهيدروجين للدهون الحيوانية والزيوت النباتية والشحوم المعاد تدويرها، ويُستخدم كبديل مباشر للديزل النفطي دون تعديل المحرك.",
       "DEFINITION_EN": "A renewable hydrocarbon fuel produced by hydrotreating animal fats, vegetable oils, and recycled grease; a drop-in replacement for petroleum diesel.",
       "RELATIONS": [
-        "Biomass-based Diesel Fuel",
-        "Renewable Naphtha"
+        "ACS-RES-0013",
+        "ACS-RES-0053"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180880,8 +180875,8 @@
       "DEFINITION_AR": "مصادر طاقة تُجدَّد طبيعيًا لكنها محدودة بمعدل التدفق، تكاد لا تنفد من حيث الزمن إلا أنها محدودة في الطاقة المتاحة لكل وحدة زمنية.",
       "DEFINITION_EN": "Energy resources that are naturally replenishing but flow-limited; virtually inexhaustible in duration yet limited in the amount available per unit of time.",
       "RELATIONS": [
-        "Green Pricing",
-        "Intermittent Electric Generator"
+        "ACS-RES-0023",
+        "ACS-RES-0028"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180895,8 +180890,8 @@
       "DEFINITION_AR": "برنامج لمكتب حماية البيئة الأمريكي يُنفَّذ بالتعاون مع وزارتي الزراعة والطاقة، ويشترط حد أدنى من كميات الوقود المتجدد في وقود النقل المباع في الولايات المتحدة مع زيادتها سنويًا.",
       "DEFINITION_EN": "A U.S. Environmental Protection Agency program, implemented with the U.S. Department of Agriculture and Energy, requiring a minimum volume of renewable fuels in transportation fuel sold in the United States, increasing annually.",
       "RELATIONS": [
-        "Biofuels",
-        "Renewable Energy Resources"
+        "ACS-RES-0009",
+        "ACS-RES-0049"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180910,8 +180905,8 @@
       "DEFINITION_AR": "وقود هيدروكربوني متجدد يُعد بديلًا لبنزين المحركات النفطي، ويمكن استخدامه في محركات البنزين دون تعديل.",
       "DEFINITION_EN": "A renewable hydrocarbon fuel considered a replacement for petroleum motor gasoline that can be used in motor gasoline engines without modification.",
       "RELATIONS": [
-        "Renewable Diesel Fuel",
-        "Renewable Naphtha"
+        "ACS-RES-0048",
+        "ACS-RES-0053"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180925,8 +180920,8 @@
       "DEFINITION_AR": "وقود هيدروكربوني متجدد يُخلط عادةً بوقود نفاث قائم على الكيروسين النفطي، ويُعرف أيضًا بوقود الطيران المستدام.",
       "DEFINITION_EN": "A renewable hydrocarbon fuel typically blended with petroleum-based kerosene jet fuel; also known as sustainable aviation fuel.",
       "RELATIONS": [
-        "Renewable Naphtha",
-        "Biofuels"
+        "ACS-RES-0053",
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180940,8 +180935,8 @@
       "DEFINITION_AR": "وقود متجدد يتكوّن من جزيئات هيدروكربونية ويُعد بديلًا عن مواد التغذية البتروكيماوية في مدى النافثا.",
       "DEFINITION_EN": "A renewable fuel consisting of hydrocarbon molecules and considered a replacement for naphtha-range petrochemical feedstocks.",
       "RELATIONS": [
-        "Renewable Gasoline",
-        "Biobutanol"
+        "ACS-RES-0051",
+        "ACS-RES-0008"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180955,8 +180950,8 @@
       "DEFINITION_AR": "استبدال تقنية توليد الطاقة أو مصدر الطاقة في محطة قائمة بتقنية أحدث، بما يحسن الكفاءة أو يقلل الانبعاثات أو يزيد القدرة مع إعادة استخدام البنية التحتية القائمة.",
       "DEFINITION_EN": "Replacing the power-generating technology or energy source of an existing plant with newer technology, improving efficiency, reducing emissions, or increasing capacity while reusing existing infrastructure.",
       "RELATIONS": [
-        "Wind Power Plant",
-        "Renewable Energy Resources"
+        "ACS-RES-0063",
+        "ACS-RES-0049"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180970,8 +180965,7 @@
       "DEFINITION_AR": "توربين مائي، يُركَّب عادةً في محطة ضخ وتخزين، ويمكن استخدامه بدلًا من ذلك كمضخة أو محرك أو عجلة مائية لتشغيل مولد كهربائي.",
       "DEFINITION_EN": "A hydraulic turbine, normally installed in a pumped-storage plant, that can alternatively be used as a pump, an engine, or a water wheel to drive an electrical generator.",
       "RELATIONS": [
-        "Water Turbine",
-        "Kaplan Turbine"
+        "ACS-RES-0029"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -180985,8 +180979,8 @@
       "DEFINITION_AR": "المخلف المتبقي بعد استخلاص العصير المحتوي على السكر المستخدم في إنتاج الإيثانول الحيوي من نباتات مثل قصب السكر، ويمكن حرقه لتوفير مصدر متجدد للحرارة، كما في مصانع التكرير الحيوية.",
       "DEFINITION_EN": "The residue remaining after the sugar-containing juice used in bioethanol production has been extracted from plants such as sugar cane; it can be burned to provide a renewable source of heat, for example at biorefineries.",
       "RELATIONS": [
-        "Biofuels",
-        "Biomass Waste"
+        "ACS-RES-0009",
+        "ACS-RES-0012"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181000,9 +180994,9 @@
       "DEFINITION_AR": "الحصة من النفايات المصنَّفة ككتلة حيوية متجددة، والمشتقة من الغذاء أو الزراعة أو مادة عضوية أخرى، وتُفترض أحيانًا بنسبة خمسين بالمئة من الطاقة في النفايات الصلبة البلدية عند غياب بيانات أدق.",
       "DEFINITION_EN": "The fraction of waste classified as biomass and renewable, derived from food, agriculture, or other organic matter; in the absence of better data it is sometimes assumed to be 50% of municipal solid waste by energy content.",
       "RELATIONS": [
-        "Biomass Waste",
-        "Non-biomass Waste",
-        "Municipal Solid Waste (MSW)"
+        "ACS-RES-0012",
+        "ACS-RES-0039",
+        "ACS-RES-0036"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181016,9 +181010,9 @@
       "DEFINITION_AR": "مصدر شبه نقي من الميثان يُنتج إما بترقية الغاز الحيوي لإزالة ثاني أكسيد الكربون والملوثات الأخرى، أو بتحويل الكتلة الحيوية الصلبة إلى غاز ثم ميثانته، ويُعرف أيضًا باسم الغاز الطبيعي المتجدد.",
       "DEFINITION_EN": "A near-pure source of methane produced either by upgrading biogas to remove carbon dioxide and other contaminants, or by gasifying solid biomass followed by methanation; also known as renewable natural gas.",
       "RELATIONS": [
-        "Biomass Gas",
-        "Anaerobic Decomposition",
-        "Landfill Gas"
+        "ACS-RES-0011",
+        "ACS-RES-0004",
+        "ACS-RES-0030"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181032,8 +181026,8 @@
       "DEFINITION_AR": "مصطلح شامل يجمع مصادر الطاقة والبنية التحتية والتطبيقات والأصول المرتبطة المتوافقة مع نظام طاقة صافٍ الانبعاثات.",
       "DEFINITION_EN": "An umbrella term grouping energy sources, infrastructure, applications, and related assets that are compatible with a net zero emissions energy system.",
       "RELATIONS": [
-        "Renewable Energy Resources",
-        "Geologic Sequestration"
+        "ACS-RES-0049",
+        "ACS-RES-0022"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181047,7 +181041,7 @@
       "DEFINITION_AR": "عملية تطوير تقنية طاقة نظيفة جديدة، بدءًا من الفكرة الأولى مرورًا بالبحث والتطوير والنماذج الأولية وصولًا إلى مرحلة العرض التوضيحي وتطوير المنتج.",
       "DEFINITION_EN": "The process of developing a new clean energy technology, from the initial idea through research and development and prototyping, to demonstration and product development.",
       "RELATIONS": [
-        "Clean Energy"
+        "ACS-RES-0059"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181061,9 +181055,9 @@
       "DEFINITION_AR": "مادة من مصادر متجددة تُستخدم لإنتاج الحرارة والطاقة، وتشمل الطاقة الحيوية والوقود المعتمد على الهيدروجين المشتق من الكهرباء المتجددة.",
       "DEFINITION_EN": "Material from renewable sources used to produce heat and power; it includes bioenergy and hydrogen-based fuels derived from renewable electricity.",
       "RELATIONS": [
-        "Biofuels",
-        "Biomethane",
-        "Renewable Energy Resources"
+        "ACS-RES-0009",
+        "ACS-RES-0058",
+        "ACS-RES-0049"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181077,8 +181071,8 @@
       "DEFINITION_AR": "مصادر طاقة صغيرة الحجم تقع عادةً بالقرب من مواقع استخدام الكهرباء، مثل الألواح الشمسية على أسطح المباني ووحدات تخزين البطاريات، وعند وجودها في جهة الشبكة من العدّاد تُربط عادةً بشبكة التوزيع لا بشبكة النقل.",
       "DEFINITION_EN": "Small-scale energy resources usually situated near sites of electricity use, such as rooftop solar panels and battery storage; when on the grid side of the meter they are usually connected to the distribution grid rather than the transmission grid.",
       "RELATIONS": [
-        "Photovoltaic Module",
-        "Renewable Energy Resources"
+        "ACS-RES-0044",
+        "ACS-RES-0049"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181092,8 +181086,7 @@
       "DEFINITION_AR": "طاقة حركية كامنة في حركة الرياح يمكن تحويلها إلى طاقة ميكانيكية لتشغيل المضخات والمطاحن ومولدات الكهرباء.",
       "DEFINITION_EN": "Kinetic energy present in wind motion that can be converted to mechanical energy for driving pumps, mills, and electric power generators.",
       "RELATIONS": [
-        "Wind Turbine",
-        "Wind Power Plant"
+        "ACS-ENG-0634"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181107,8 +181100,8 @@
       "DEFINITION_AR": "مسطح مائي داخلي كبير يُجمع ويُخزَّن فوق سطح الأرض في تكوين طبيعي أو اصطناعي.",
       "DEFINITION_EN": "A large inland body of water collected and stored above ground in a natural or artificial formation.",
       "RELATIONS": [
-        "Multiple Purpose Reservoir",
-        "Dam"
+        "ACS-RES-0035",
+        "ACS-ENG-0489"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181122,8 +181115,8 @@
       "DEFINITION_AR": "حالة إمداد المياه والمياه المرتبطة بها المحتجزة في التخزين المؤقت وخزانات المحطات الكهرومائية.",
       "DEFINITION_EN": "The status of the water supply and the associated water held in pondage and reservoirs at hydroelectric plants.",
       "RELATIONS": [
-        "Average Water Conditions",
-        "Pondage"
+        "ACS-RES-0006",
+        "ACS-RES-0045"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181137,8 +181130,8 @@
       "DEFINITION_AR": "نوع من المضخات الحرارية الجوفية يستخدم مياه الآبار أو المياه الجوفية أو المياه السطحية مصدرًا للحرارة، وتكون درجة حرارة الماء أكثر استقرارًا موسميًا من الهواء مما يجعله مصدرًا أكثر كفاءة.",
       "DEFINITION_EN": "A type of geothermal heat pump that uses well or groundwater, or surface water, as a heat source; water has a more stable seasonal temperature than air, which makes it a more efficient heat source.",
       "RELATIONS": [
-        "Heat Pump (geothermal)",
-        "Hot Dry Rock"
+        "ACS-RES-0024",
+        "ACS-RES-0025"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181152,8 +181145,7 @@
       "DEFINITION_AR": "عجلة مصممة لتستفيد من وزن حركة المياه وقوتها في دورانها، ويُستخدم أساسًا لتشغيل الآلات أو طحن الحبوب.",
       "DEFINITION_EN": "A wheel designed to use the weight and force of moving water to turn it, primarily to operate machinery or grind grain.",
       "RELATIONS": [
-        "Water Turbine",
-        "Kaplan Turbine"
+        "ACS-RES-0029"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181167,8 +181159,8 @@
       "DEFINITION_AR": "سد منخفض يُبنى عبر مجرى مائي يمر فوقه الماء، ويقوم برفع منسوب المياه أو توجيه التدفق أو تنظيمه.",
       "DEFINITION_EN": "A low dam built across a waterway over which water flows, serving to raise the water level or to direct or regulate flow.",
       "RELATIONS": [
-        "Dam",
-        "Hydraulic Head"
+        "ACS-ENG-0489",
+        "ACS-RES-0027"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181182,9 +181174,9 @@
       "DEFINITION_AR": "نفايات صلبة بلدية وغاز مكبات وميثان وغاز هاضمات وحمأة نفايات وحبيبات ورق وإطارات ومخلفات زراعية وزيت سمك وتبن، تُستخدم كوقود.",
       "DEFINITION_EN": "Municipal solid waste, landfill gas, methane, digester gas, sludge waste, paper pellets, tires, agricultural byproducts, fish oil, and straw used as fuel.",
       "RELATIONS": [
-        "Waste Materials",
-        "Landfill Gas",
-        "Biomass Waste"
+        "ACS-RES-0072",
+        "ACS-RES-0030",
+        "ACS-RES-0012"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181198,8 +181190,8 @@
       "DEFINITION_AR": "أي نظام ترشيد تُستخدم فيه التسخين الفضائي أو تسخين المياه عبر التقاط نشأة الحرارة الناتجة عن العمليات التي كانت ستُطلق في البيئة، ومن أمثلتها ضواغط التبريد وعمليات التصنيع ومراكز البيانات وترتيبات الإضاءة وهواء عادم التهوية.",
       "DEFINITION_EN": "Any conservation system in which space or water heating is done by actively capturing byproduct heat that would otherwise be discharged into the environment; examples include compressors, manufacturing processes, data centres, lighting fixtures and ventilation exhaust air.",
       "RELATIONS": [
-        "Waste Heat Boiler",
-        "Active Solar"
+        "ACS-RES-0071",
+        "ACS-RES-0001"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181213,8 +181205,8 @@
       "DEFINITION_AR": "مرقدم يتلقى كامل مدخله من الطاقة أو جزءًا كبيرًا منها من غازات العادم القابلة للاحتراق الناتجة عن عملية حرق وقود منفصلة.",
       "DEFINITION_EN": "A boiler that receives all or a substantial portion of its energy input from the combustible exhaust gases of a separate fuel-burning process.",
       "RELATIONS": [
-        "Waste Heat Recovery",
-        "Biomass Gas"
+        "ACS-RES-0070",
+        "ACS-RES-0011"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181228,8 +181220,8 @@
       "DEFINITION_AR": "مواد قابلة للحرق كانت ستُطرح لولا ذلك، وتُنتج الطاقة عند حرقها لأغراض مثل تدفئة المساحات وتوليد الكهرباء، وقد يُقلَّص حجمها بالتمازيق أو الطواحن وتُزال المواد غير القابلة للاحتراق.",
       "DEFINITION_EN": "Otherwise discarded combustible materials that, when burned, produce energy for purposes such as space heating and electric power generation; the size may be reduced by shredders or grinders, and noncombustible material may be removed.",
       "RELATIONS": [
-        "Waste Energy",
-        "Municipal Solid Waste (MSW)"
+        "ACS-RES-0069",
+        "ACS-RES-0036"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181243,8 +181235,7 @@
       "DEFINITION_AR": "مواد عازلة داخل الجدران أو عليها تفصل بين المناطق المدفأة في المبنى والمناطق غير المدفأة أو الخارج، وقد تفصل الجدران بين المناطق المكيَّفة والمناطق غير المكيَّفة.",
       "DEFINITION_EN": "Insulating materials within or on the walls between heated areas of a building and unheated areas or the outside; walls may separate air-conditioned areas from areas that are not air-conditioned.",
       "RELATIONS": [
-        "Zero Energy Building (ZEB)",
-        "Active Solar"
+        "ACS-RES-0001"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181258,8 +181249,7 @@
       "DEFINITION_AR": "برامج إدارة الطلب المصممة لرفع كفاءة تسخين المياه، ومنها أغطية عزل سخانات المياه.",
       "DEFINITION_EN": "Demand-side management programs designed to promote increased efficiency in water heating, including water heater insulation wraps.",
       "RELATIONS": [
-        "Wall Insulation",
-        "Zero Energy Building (ZEB)"
+        "ACS-RES-0073"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181273,8 +181263,8 @@
       "DEFINITION_AR": "مبلغ تفرضه منظومة كهربائية واحدة مقابل نقل طاقة منظومة أخرى نيابةً عنها.",
       "DEFINITION_EN": "An amount charged by one electrical system to transmit the energy of, and for, another system.",
       "RELATIONS": [
-        "Wheeling Service",
-        "Wires Charge"
+        "ACS-RES-0076",
+        "ACS-RES-0078"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181288,8 +181278,8 @@
       "DEFINITION_AR": "نقل الكهرباء من منظومة إلى أخرى عبر منشآت النقل في المنظومات المترابطة، ويمكن إبرام عقود لهذه الخدمة بين منظومتين أو أكثر.",
       "DEFINITION_EN": "The movement of electricity from one system to another over the transmission facilities of interconnecting systems; contracts for this service can be established between two or more systems.",
       "RELATIONS": [
-        "Wheeling Charge",
-        "Wholesale Electric Power Market"
+        "ACS-RES-0075",
+        "ACS-RES-0077"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181303,8 +181293,8 @@
       "DEFINITION_AR": "شراء وبيع الكهرباء من المولدات إلى تجار الجملة، مع الخدمات المساندة اللازمة للحفاظ على الموثوقية وجودة القدرة عند مستوى النقل.",
       "DEFINITION_EN": "The purchase and sale of electricity from generators to resellers, along with the ancillary services needed to maintain reliability and power quality at the transmission level.",
       "RELATIONS": [
-        "Wheeling Service",
-        "Capacity Factor"
+        "ACS-RES-0076",
+        "ACS-RES-0082"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181318,7 +181308,7 @@
       "DEFINITION_AR": "مصطلح عام يشير إلى الرسوم المفروضة على موردي الكهرباء أو عملائهم مقابل استخدام أسلاك النقل أو التوزيع.",
       "DEFINITION_EN": "A broad term referring to fees levied on power suppliers or their customers for the use of transmission or distribution wires.",
       "RELATIONS": [
-        "Wheeling Charge"
+        "ACS-RES-0075"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181332,8 +181322,8 @@
       "DEFINITION_AR": "معدات كهربائية تقع في جهة المستهلك من عدّاد الكهرباء وتكون عادةً تحت سيطرته، وتشمل الألواح الشمسية على أسطح المباني والبطاريات أو المولدات السكنية والصناعية وأنظمة إدارة الطاقة وضوابط الاستجابة للطلب، ومحللات التحليل الكهربائي في الموقع.",
       "DEFINITION_EN": "Electrical equipment situated on the consumer's side of an electricity meter and usually under the consumer's control; it includes rooftop solar PV, residential and industrial batteries or generators, energy management systems and demand response controls, and on-site electrolysers.",
       "RELATIONS": [
-        "Distributed energy resources (DER)",
-        "Capacity"
+        "ACS-RES-0062",
+        "ACS-GEN-0354"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181347,8 +181337,8 @@
       "DEFINITION_AR": "تُسمى أيضًا القدرة المصنَّفة أو الاسمية أو المثبتة أو الإجمالية أو مقدار الأثر الأقصى، وتشير عادةً إلى تشغيل الحمل الكامل الذي صممه المصمم وضمانته الشركة المصنّعة، مع إمكانية تجاوزها فعليًا لفترات قصيرة.",
       "DEFINITION_EN": "Also called rated, nominal, installed, gross or maximum effect capacity; it typically refers to the full-load operation intended by the designer and guaranteed by the equipment manufacturer, although actual operation can usually exceed it over short periods.",
       "RELATIONS": [
-        "Capacity",
-        "Capacity Factor"
+        "ACS-GEN-0354",
+        "ACS-RES-0082"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181362,8 +181352,8 @@
       "DEFINITION_AR": "نسبة القدرة التوليدية الاسمية لمولد كهربائي يمكن الاعتماد بثبات على إنتاج الكهرباء بها في أوقات ذروة الطلب على الشبكة المتصل بها.",
       "DEFINITION_EN": "The proportion of the nameplate generating capacity of an electrical generator that can be reliably expected to generate electricity during times of peak demand on the grid to which it is connected.",
       "RELATIONS": [
-        "Nameplate Capacity",
-        "Capacity Factor"
+        "ACS-RES-0080",
+        "ACS-RES-0082"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181377,8 +181367,8 @@
       "DEFINITION_AR": "نسبة متوسط إنتاج منشأة إلى قدرتها القصوى الاسمية خلال فترة زمنية محددة، وتُعبَّر بالنسبة المئوية، وتُطبق على محطات التوليد ومنشآت إنتاج الوقود والمصانع والتركيبات الأخرى، وتُعرف أيضًا باسم معامل الحمل.",
       "DEFINITION_EN": "The ratio of the average output of a plant to its nameplate maximum capacity during a prescribed period of time, expressed as a percentage; it can be applied to generating plants, fuel production facilities, factories and other installations, and is also known as the load factor.",
       "RELATIONS": [
-        "Nameplate Capacity",
-        "Capacity"
+        "ACS-RES-0080",
+        "ACS-GEN-0354"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181392,8 +181382,8 @@
       "DEFINITION_AR": "تكلفة تطوير إنشاء أصل ثابت مثل محطة توليد كهرباء أو بنية تحتية للشبكة.",
       "DEFINITION_EN": "The cost of developing and constructing a fixed asset such as a power plant or grid infrastructure.",
       "RELATIONS": [
-        "Capacity",
-        "Wholesale Electric Power Market"
+        "ACS-GEN-0354",
+        "ACS-RES-0077"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181407,8 +181397,8 @@
       "DEFINITION_AR": "تسخين سائل أو غاز ناقل للحرارة، عادةً الهواء، وسيلة لنقل الإشعاع الشمسي لأغراض تدفئة المساحات، وغالبًا ما يقترن بتدفئة مركزية وتخزين للحرارة في خزان أو بناء حجري.",
       "DEFINITION_EN": "Heating of a heat transfer liquid or gas, typically air, as a means of transferring solar radiation for space heating, often coupled with central heating and heat storage in a tank or masonry.",
       "RELATIONS": [
-        "Active Solar",
-        "Solar Thermal Collector"
+        "ACS-RES-0001",
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181422,8 +181412,8 @@
       "DEFINITION_AR": "جهاز يتكون من خلية كهروكيميائية واحدة أو أكثر لتخزين الكهرباء وتشغيل الأجهزة الكهربائية، ويتكون من قطب كهربائي (مثبت وسالب) ومحلول كهروليتي، ويمكن شحن البطاريات القابلة لدورات شحن وتفريغ متعددة من مصدر طاقة خارجي.",
       "DEFINITION_EN": "A device consisting of one or more electrochemical cells for storing electricity and powering electrical devices; it comprises an electrode (an anode and a cathode) and an electrolyte, and batteries capable of multiple charge-discharge cycles can be recharged from an external power source.",
       "RELATIONS": [
-        "Distributed energy resources (DER)",
-        "Capacity"
+        "ACS-RES-0062",
+        "ACS-GEN-0354"
       ],
       "STATUS": "Approved",
       "SOURCE": "International Energy Agency (IEA) Glossary",
@@ -181437,7 +181427,7 @@
       "DEFINITION_AR": "متوسط كمية الإشعاع الشمسي التي تصل إلى الغلاف الجوي الخارجي للأرض على سطح عمودي على أشعة الشمس، وتساوي 1353 وات لكل متر مربع.",
       "DEFINITION_EN": "The average amount of solar radiation that reaches the outer atmosphere of the earth on a surface perpendicular to the sun's rays; equal to 1353 watts per square meter or 492 Btu per square foot.",
       "RELATIONS": [
-        "Solar Radiation"
+        "ACS-RES-0087"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181451,8 +181441,8 @@
       "DEFINITION_AR": "إشعاع كهرومغناطيسي مرئي وقريب من المرئي (الأشعة فوق البنفسجية وقرب الأشعة تحت الحمراء) يصدر من الشمس، وله توزيع طيفي أو توزيع حسب الطول الموجي يقابل مستويات طاقة مختلفة، وتحمل الإشعاعات ذات الطول الموجي القصير طاقة أكبر من الإشعاعات ذات الطول الموجي الطويل.",
       "DEFINITION_EN": "Electromagnetic radiation, visible and near visible (ultraviolet and near-infrared), emitted by the sun; it has a spectral or wavelength distribution that corresponds to different energy levels, and short wavelength radiation carries more energy than long wavelength radiation.",
       "RELATIONS": [
-        "Solar Constant",
-        "Photovoltaic Module"
+        "ACS-RES-0086",
+        "ACS-RES-0044"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181466,8 +181456,8 @@
       "DEFINITION_AR": "الزاوية الظاهرية للشمس شمال أو جنوب المستوي الاستوائي للأرض، ويؤدي دوران الأرض حول محورها إلى تغير يومي في هذا الميل.",
       "DEFINITION_EN": "The apparent angle of the sun north or south of the earth's equatorial plane; the earth's rotation on its axis causes a daily change in the declination.",
       "RELATIONS": [
-        "Solar Radiation",
-        "Solar Constant"
+        "ACS-RES-0087",
+        "ACS-RES-0086"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181481,7 +181471,7 @@
       "DEFINITION_AR": "سطح ممتص شمسي يمتاز بارتفاع معامل الامتصاص عند الأطوال الموجية المقابلة للطيف الشمسي وانخفاض الانبعاثية في نطاق الأشعة تحت الحمراء.",
       "DEFINITION_EN": "A solar absorber surface that has high absorptance at the wavelengths corresponding to the solar spectrum and low emittance in the infrared range.",
       "RELATIONS": [
-        "Solar Thermal Collector"
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181495,8 +181485,8 @@
       "DEFINITION_AR": "عاكس ذو خصائص تشبه المرآة، وأكثر المواد شيوعًا في مقاومات مصابيح اللهب المتوهجة هي الألومنيوم والفضة، حيث تتميز الفضة بأعلى درجة انعكاس والألومنيوم بأقل تكلفة، ويُصمم شكل العاكس لتقليل امتصاص الضوء داخل الحاوية.",
       "DEFINITION_EN": "A reflector having mirror-like characteristics; the most common materials used in fluorescent lamp ballasts are aluminum and silver, where silver has the highest reflectivity and aluminum the lowest cost, and the shape of the reflector is designed to reduce light absorption within the fixture.",
       "RELATIONS": [
-        "Selective Absorber",
-        "Solar Radiation"
+        "ACS-RES-0089",
+        "ACS-RES-0087"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181510,8 +181500,8 @@
       "DEFINITION_AR": "جهاز مصمم لاستقبال الإشعاع الشمسي وتحويله إلى طاقة حرارية، ويتكون عادةً من إطار وزجاج وممتص مع عزل مناسب، وقد تُستخدم الحرارة المجمَّعة فورًا أو تُخزَّن لاستخدام لاحق.",
       "DEFINITION_EN": "A device designed to receive solar radiation and convert it to thermal energy; it normally includes a frame, glazing, and an absorber, together with appropriate insulation, and the heat collected may be used immediately or stored for later use.",
       "RELATIONS": [
-        "Selective Absorber",
-        "Active Solar Thermal"
+        "ACS-RES-0089",
+        "ACS-RES-0084"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181525,8 +181515,8 @@
       "DEFINITION_AR": "مجمّع حراري شمسي يعمل عادةً عند درجات حرارة تتجاوز 180 درجة فهرنهايت.",
       "DEFINITION_EN": "A solar thermal collector that generally operates at temperatures above 180 degrees Fahrenheit.",
       "RELATIONS": [
-        "Solar Thermal Collector",
-        "Solar Power Tower"
+        "ACS-RES-0091",
+        "ACS-RES-0098"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181540,8 +181530,8 @@
       "DEFINITION_AR": "مجمّع حراري شمسي يعمل عادةً دون 110 درجة فهرنهايت، ولا يحمل عادةً زجاجًا أو عزلًا، ويُصنع من البلاستيك أو المطاط مع وجود نماذج مصنوعة من المعدن.",
       "DEFINITION_EN": "A solar thermal collector that generally operates below 110 degrees Fahrenheit; it typically has no glazing or insulation and is made of plastic or rubber, although some are made of metal.",
       "RELATIONS": [
-        "Solar Thermal Collector",
-        "Solar Pond"
+        "ACS-RES-0091",
+        "ACS-RES-0099"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181555,8 +181545,8 @@
       "DEFINITION_AR": "مجمّع حراري شمسي يعمل عادةً عند درجات حرارة تتراوح بين 140 و180 درجة فهرنهايت، وقد يعمل حتى عند 110 درجة فهرنهايت، ويحمل عادةً طبقة زجاجية واحدة أو اثنتين وإطارًا معدنيًا ولوح ممتص معدنيًا ذو قنوات تدفق أو أنابيب ملحقة، مع عزل على الجانبين والخلف.",
       "DEFINITION_EN": "A solar thermal collector that generally operates at temperatures of 140 to 180 degrees Fahrenheit but can also operate as low as 110 degrees Fahrenheit; it typically has one or two glazings, a metal frame, a metal absorber panel with integral flow channels or attached tubing, and insulation on the sides and back.",
       "RELATIONS": [
-        "Solar Thermal Collector",
-        "Active Solar Thermal"
+        "ACS-RES-0091",
+        "ACS-RES-0084"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181570,7 +181560,7 @@
       "DEFINITION_AR": "مجمّع بأنبوب مفرغ أو مجمّع مُركّيز للضوء، وتعمل المجمعات الخاصة ضمن نطاق حراري يمتد من درجة أعلى قليلًا من درجة الحرارة المحيطة للتسخين منخفض التركيز لأحواض السباحة حتى مئات الدرجات الفهرنهايتية للتبريد عالي التركيز والعمليات الصناعية التخصصية.",
       "DEFINITION_EN": "An evacuated tube collector or a concentrating collector; special collectors operate in the temperature range from just above ambient temperature for low concentration pool heating to several hundred degrees Fahrenheit for high concentration air conditioning and specialized industrial processes.",
       "RELATIONS": [
-        "Solar Thermal Collector"
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181584,8 +181574,8 @@
       "DEFINITION_AR": "نظام يركّز الطاقة الحرارية من الشمس بشكل نشط عبر ألواح مجمّعات شمسية، تتكون عادةً من صناديق مسطحة موجهة نحو الشمس بأغطية شفافة، تحتوي أنابيب مياه أو موجهات هوائية تحت لوحة سوداء ممتصة للحرارة، وتُستخدم الطاقة عادةً في تدفئة المساحات وتسخين المياه وتسخين أحواض السباحة.",
       "DEFINITION_EN": "A system that actively concentrates thermal energy from the sun by means of solar collector panels consisting typically of flat, sun-oriented boxes with transparent covers, containing water tubes or air baffles under a blackened heat absorbent panel; the energy is usually used for space heating, water heating, and pool heating.",
       "RELATIONS": [
-        "Solar Thermal Collector",
-        "Active Solar"
+        "ACS-RES-0091",
+        "ACS-RES-0001"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181599,8 +181589,8 @@
       "DEFINITION_AR": "حرارة من الشمس تُجمع وتُستهلك عند نقطة الاستخدام النهائية، كما في أنظمة التسخين المائي الحرارية الشمسية.",
       "DEFINITION_EN": "Heat from the sun that is collected and consumed at the final point of use, such as in solar thermal water heating systems.",
       "RELATIONS": [
-        "Solar Thermal Collector",
-        "Active Solar Thermal"
+        "ACS-RES-0091",
+        "ACS-RES-0084"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181614,8 +181604,8 @@
       "DEFINITION_AR": "نظام تحويل للطاقة الشمسية يستخدم حقلًا كبيرًا من المرايا القابلة للضبط المستقلة لتركيز أشعة الشمس على نقطة واحدة في قمة برج ثابت، وقد تُستخدم الطاقة المركزة لتسخين سائل العمل في محرك دورة رانكن أو لتسخين مادة تخزين حراري وسيطة مثل ملح الذوبان.",
       "DEFINITION_EN": "A solar energy conversion system that uses a large field of independently adjustable mirrors called heliostats to focus solar rays on a near single point at the top of a fixed tower; the concentrated energy may be used to heat the working fluid of a Rankine cycle engine or an intermediary thermal storage medium such as a molten salt.",
       "RELATIONS": [
-        "Solar Thermal Collector",
-        "Solar Thermal Collector, high temperature"
+        "ACS-RES-0091",
+        "ACS-RES-0092"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181629,8 +181619,8 @@
       "DEFINITION_AR": "كتلة من المياه الشروب أو شديدة الملوحة تتكون منها طبقات بملوحة مختلفة تمتص الإشعاع الشمسي وتحبسه، ويمكن أن توفر البرك الشمسية حرارة للعمليات الصناعية أو الزراعية ولتدفئة المباني وتبريدها ولتوليد الكهرباء.",
       "DEFINITION_EN": "A body of water containing brackish or highly saline water that forms layers of differing salinity and absorbs and traps solar energy; solar ponds can provide heat for industrial or agricultural processes, building heating and cooling, and electricity generation.",
       "RELATIONS": [
-        "Salt gradient solar pond",
-        "Solar Thermal Collector, low-temperature"
+        "ACS-RES-0100",
+        "ACS-RES-0093"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181644,8 +181634,8 @@
       "DEFINITION_AR": "بركة شمسية تتكون من ثلاث طبقات رئيسية: طبقة عليا قريبة من درجة الحرارة المحيطة منخفضة الملوحة، وطبقة سفلية ساخنة تتراوح عادةً بين 160 و212 درجة فهرنهايت شديدة الملوحة، ومنطقة تدرج مهمة تعمل كعازل شفاف يسمح بمحبس ضوء الشمس في الطبقة الساخنة السفلية التي تُسحب منها الحرارة المفيدة.",
       "DEFINITION_EN": "A solar pond consisting of three main layers: a top layer near ambient temperature with low salt content, a hot bottom layer typically between 160 and 212 degrees Fahrenheit that is very salty, and an important gradient zone that acts as a transparent insulator, permitting sunlight to be trapped in the hot bottom layer from which useful heat is withdrawn.",
       "RELATIONS": [
-        "Solar Pond",
-        "Solar Thermal Collector, low-temperature"
+        "ACS-RES-0099",
+        "ACS-RES-0093"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181659,7 +181649,7 @@
       "DEFINITION_AR": "أنظمة الطاقة الشمسية الكهروضوئية الأصغر من ميغاواط واحد، مقاسة بالتيار المتردد.",
       "DEFINITION_EN": "Solar photovoltaic systems smaller than one megawatt, as measured in alternating current.",
       "RELATIONS": [
-        "Distributed Energy Resources (DER)"
+        "ACS-RES-0062"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181673,8 +181663,8 @@
       "DEFINITION_AR": "استخدام الطاقة الحرارية الشمسية أو الكهرباء الشمسية لتشغيل جهاز تبريد، وأبرز الأنواع التبريد بالامتصاص، والتبريد بالمجففات، والتبريد بالضغط البخاري، والمبردات التبخيرية، والمضخات الحرارية ومكيفات الهواء التي تعمل بأنظمة شمسية كهروضوئية.",
       "DEFINITION_EN": "The use of solar thermal energy or solar electricity to power a cooling appliance; the main types are absorption cooling, desiccant cooling, vapor compression cooling, evaporative coolers, and heat pumps and air conditioners powered by solar photovoltaic systems.",
       "RELATIONS": [
-        "Active Solar",
-        "Active Solar Thermal"
+        "ACS-RES-0001",
+        "ACS-RES-0084"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181688,8 +181678,8 @@
       "DEFINITION_AR": "تقنية حرارية شمسية تستخدم نظام مرايا معياريًا يقارب قطعًا مكافئًا وتتبع محورين لتركيز ضوء الشمس على مستقبلات عند البؤرة لكل طبق، وقد تُشغل الشمس المركزة محرك دورة ستيرلنغ أو رانكن أو بريتون عند البؤرة أو تسخن سائل عمل يُنقل عبر أنابيب إلى محرك مركزي.",
       "DEFINITION_EN": "A solar thermal technology using a modular mirror system that approximates a parabola and incorporates two-axis tracking to focus sunlight onto receivers at the focal point of each dish; the concentrated sunlight may drive a Stirling, Rankine, or Brayton cycle engine at the focal point or heat a working fluid piped to a central engine.",
       "RELATIONS": [
-        "Solar Power Tower",
-        "Solar Thermal Collector, special"
+        "ACS-RES-0098",
+        "ACS-RES-0095"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181703,7 +181693,7 @@
       "DEFINITION_AR": "قدرة توليد احتياطية تعمل عند حمل صفري وتكون متزامنة مع النظام الكهربائي.",
       "DEFINITION_EN": "Reserve generating capacity that is running at zero load and synchronized to the electric system.",
       "RELATIONS": [
-        "Standby Facility"
+        "ACS-RES-0106"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181717,7 +181707,7 @@
       "DEFINITION_AR": "مصدر طاقة أو مولّد يعمل بمعزل عن شبكة النقل والتوزيع الكهربائية أو غير متصل بها، ويُستخدم لتلبية الأحمال القريبة منه جغرافيًا.",
       "DEFINITION_EN": "A power source or generator that operates independently of, or is not connected to, an electric transmission and distribution network; it is used to meet loads physically close to the generator.",
       "RELATIONS": [
-        "Distributed Energy Resources (DER)"
+        "ACS-RES-0062"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181731,8 +181721,8 @@
       "DEFINITION_AR": "منشأة تدعم نظام خدمة عامة وتعمل عادةً دون حمل، ومتاحة للاستبدال أو لتعزيز منشأة تعمل بصورة اعتيادية.",
       "DEFINITION_EN": "A facility that supports a utility system and is generally running under no load; it is available to replace or supplement a facility normally in service.",
       "RELATIONS": [
-        "Spinning Reserve",
-        "Standby Service"
+        "ACS-RES-0104",
+        "ACS-RES-0107"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181746,7 +181736,7 @@
       "DEFINITION_AR": "خدمة مساندة متاحة عند الحاجة لدعم عميل أو نظام خدمة عامة أو مزود آخر متى سمح جدول أو اتفاقية بذلك، وهي خدمة لا تُستخدم بصورة اعتيادية.",
       "DEFINITION_EN": "A support service that is available as needed to supplement a customer, a utility system, or another utility if a schedule or an agreement authorizes the transaction; the service is not regularly used.",
       "RELATIONS": [
-        "Standby Facility"
+        "ACS-RES-0106"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181760,7 +181750,7 @@
       "DEFINITION_AR": "كمية الطاقة التي يكون جهاز أو نظام تخزين الطاقة قادرًا على الاحتفاظ بها.",
       "DEFINITION_EN": "The amount of energy that an energy storage device or system is able to store.",
       "RELATIONS": [
-        "Battery (electrochemical)"
+        "ACS-RES-0085"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181774,8 +181764,8 @@
       "DEFINITION_AR": "وقود متجدد يتكون من إسترات أحادي الألكيل (أحماض دهنية ذات سلاسل طويلة) تُنتج عبر تحويل مواد أولية من الدهون الحيوانية والزيوت النباتية والشحم المعاد تدويره (التحويل الاستيري) لإنتاج الديزل الحيوي. ويُخلط الديزل الحيوي عادةً مع الديزل البترالي بتركيزات تتراوح من 2% إلى 20% من الديزل الحيوي، أي من B2 إلى B20.",
       "DEFINITION_EN": "Renewable fuel consisting of mono alkyl esters (long chain fatty acids) that are produced through the conversion of animal fats, vegetable oils, and recycled grease feedstocks (transesterification) to produce biodiesel.  Biodiesel is typically blended with petroleum diesel in concentrations of 2% to 20% biodiesel, or B2 to B20.",
       "RELATIONS": [
-        "Biofuels",
-        "Biomass"
+        "ACS-RES-0009",
+        "ACS-BIO-0663"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181789,8 +181779,8 @@
       "DEFINITION_AR": "يُنتَج عن عمليات بيولوجية للكائنات الحية. ملاحظة: تستخدم EIA مصطلح حيوي المنشأ للإشارة فقط إلى المواد العضوية غير الأحفورية ذات الأصل البيولوجي.",
       "DEFINITION_EN": "Produced by biological processes of living organisms. Note: EIA uses the term \"biogenic\" to refer only to organic nonfossil material of biological origin.",
       "RELATIONS": [
-        "Biomass",
-        "Carbon cycle"
+        "ACS-BIO-0663",
+        "ACS-BIO-0686"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181804,7 +181794,7 @@
       "DEFINITION_AR": "وقود حيوي سيُعالَج لاحقًا ليُحوَّل إلى منتج مصفَّر في مصافي النفط أو في منشآت أخرى. ولا يُعد زيت التسخين المتجدد وسيطًا حيويًا في النموذج EIA-819، التقرير الشهري للوقود الحيوي، ووقود النفايات غير المولوجة حيويًا، وأكسجينيات الوقود، والأيزوكتان، والأيزوكتين.",
       "DEFINITION_EN": "Biofuels that will be further processed into a refined product at petroleum refineries or other facilities. Renewable heating oil is not considered a biointermediate on Form EIA-819, Monthly Report of Biofuels, Fuels from Non-Biogenic Wastes, Fuel Oxygenates, Isooctane, and Isooctene.",
       "RELATIONS": [
-        "Biofuels"
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181818,8 +181808,8 @@
       "DEFINITION_AR": "يُعيد مرجل استرجاع الحرارة المهدرة التقاط الطاقة غير المستغنى عنها واستخدامها لإنتاج بخار يُشغّل مولّدًا بتوربين بخاري لإنتاج الكهرباء.",
       "DEFINITION_EN": "A waste-heat recovery boiler recaptures the unused energy and uses it to produce steam to drive a steam turbine generator to produce electricity.",
       "RELATIONS": [
-        "Combined-heat-and-power (CHP) plant",
-        "Cogeneration system"
+        "ACS-RES-0123",
+        "ACS-RES-0121"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181833,8 +181823,8 @@
       "DEFINITION_AR": "رصيد عمليات التبادل (المكاسب والخسائر) للكربون بين مخازن الكربون (مثل الغلاف الجوي والحوض الحيوي الأرضي) في دورة الكربون. انظر أيضًا دورة الكربون ومخزن الكربون.",
       "DEFINITION_EN": "The balance of the exchanges (incomes and losses) of carbon between carbon sinks (e.g., atmosphere and biosphere) in the carbon cycle. Also see Carbon cycle and Carbon sink.",
       "RELATIONS": [
-        "Greenhouse gases",
-        "Global warming potential (GWP)"
+        "ACS-RES-0136",
+        "ACS-RES-0135"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181848,8 +181838,8 @@
       "DEFINITION_AR": "كمية ثاني أكسيد الكربون بالوزن المنبعثة إلى الغلاف الجوي التي تنتج نفس القوة الإشعاعية المقدَّرة لأي وزن معطى من غاز آخر نشط إشعاعيًا. وتُحسب مكافئات ثاني أكسيد الكربون بضرب وزن الغاز الجاري قياسه (مثل الميثان) في إمكانات الاحتباس الحراري العالمية المقدَّرة له (وهي 21 للميثان). وتُعرَّف وحدات الكربون المكافئة بأنها مكافئات ثاني أكسيد الكربون مضروبة في محتوى الكربون في ثاني أكسيد الكربون (أي 12/44).",
       "DEFINITION_EN": "The amount of carbon dioxide by weight emitted into the atmosphere that would produce the same estimated radiative forcing as a given weight of another radiatively active gas. Carbon dioxide equivalents are computed by multiplying the weight of the gas being measured (for example, methane)by its estimated global warming potential (which is 21 for methane).\"Carbon equivalent units\" are defined as carbon dioxide equivalents multiplied by the carbon content of carbon dioxide (i.e., 12/44).",
       "RELATIONS": [
-        "Greenhouse gases",
-        "Global warming potential (GWP)"
+        "ACS-RES-0136",
+        "ACS-RES-0135"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181863,8 +181853,8 @@
       "DEFINITION_AR": "كمية الكربون بالوزن المنبعثة لكل وحدة من الطاقة المستهلكة. ومن المقاييس الشائعة لكثافة الكربون وزن الكربون لكل وحدة حرارية بريطانية (Btu) من الطاقة. وحين يكون وقود أحفوري واحد فقط هو محل النظر، تتساوى كثافة الكربون مع معامل الانبعاثات. وعند وجود عدة وقود، تستند كثافة الكربون إلى معاملات انبعاثاتها المدمجة مرجَّحةً بمستويات استهلاكها من الطاقة. انظر أيضًا معامل الانبعاثات ومعدل إخراج الكربون.",
       "DEFINITION_EN": "The amount of carbon by weight emitted per unit of energy consumed. A common measure of carbon intensity is weight of carbon per British thermal unit (Btu) of energy. When there is only one fossil fuel under consideration, the carbon intensity and the emissions coefficient are identical. When there are several fuels, carbon intensity is based on their combined emissions coefficients weighted by their energy consumption levels. Also see Emissions coefficient and Carbon output rate.",
       "RELATIONS": [
-        "Carbon output rate",
-        "Carbon sequestration"
+        "ACS-RES-0116",
+        "ACS-RES-0117"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181878,8 +181868,8 @@
       "DEFINITION_AR": "كمية الكربون بالوزن لكل كيلوواط ساعي من الكهرباء المُنتَجة.",
       "DEFINITION_EN": "The amount of carbon by weight per kilowatthour of electricity produced.",
       "RELATIONS": [
-        "Carbon intensity",
-        "Carbon sequestration"
+        "ACS-RES-0115",
+        "ACS-RES-0117"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181893,8 +181883,8 @@
       "DEFINITION_AR": "تثبيت ثاني أكسيد الكربون الجوي في مخزن الكربون عبر عمليات بيولوجية أو فيزيائية.",
       "DEFINITION_EN": "The fixation of atmospheric carbon dioxide in a carbon sink through biological or physical processes.",
       "RELATIONS": [
-        "Carbon sink",
-        "Carbon output rate"
+        "ACS-RES-0118",
+        "ACS-RES-0116"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181908,8 +181898,8 @@
       "DEFINITION_AR": "خزان يمتص الكربون المُطلق أو يستقبله من جزء آخر من دورة الكربون. والمخازن الأربعة، وهي مناطق من الأرض داخلها يتصرف الكربون بطريقة منتظمة، هي الغلاف الجوي، والحوض الحيوي الأرضي (ويتضمن عادةً النظم المائية العذبة)، والمحيطات، والرواسب (بما في ذلك الوقود الأحفوري).",
       "DEFINITION_EN": "A reservoir that absorbs or takes up released carbon from another part of the carbon cycle. The four sinks, which are regions of the Earth within which carbon behaves in a systematic manner, are the atmosphere, terrestrial biosphere (usually including freshwater systems), oceans, and sediments (including fossil fuels).",
       "RELATIONS": [
-        "Carbon sequestration",
-        "Greenhouse gases"
+        "ACS-RES-0117",
+        "ACS-RES-0136"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181923,8 +181913,8 @@
       "DEFINITION_AR": "إيثانول وقود يُنتج من مكوّنات الكتلة الحيوية: السليلوز أو الهيميسسلوز أو اللين، كما يصنّفها معيار الوقود المتجدد (RFS). وتشمل المواد الأولية مخلفات الزراعة والغابات، ومحاصيل الطاقة المخصصة.",
       "DEFINITION_EN": "Fuel ethanol produced from the cellulose, hemicellulose, or lignin components of biomass, as classified by the Renewable Fuel Standard (RFS). Feedstocks include  agricultural and forestry residues  and  dedicated energy crops .",
       "RELATIONS": [
-        "Biofuels",
-        "Crop residue"
+        "ACS-RES-0009",
+        "ACS-RES-0130"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181938,8 +181928,8 @@
       "DEFINITION_AR": "برنامج ضمن بروتوكول كيوتو يتيح للدول الصناعية تمويل مشاريع في الدول النامية تتفادى الانبعاثات، والحصول على رصيد مقابل خفضات تحققت مقارنةً بأهداف الحد من انبعاثاتها الخاصة. انظر أيضًا بروتوكول كيوتو.",
       "DEFINITION_EN": "A Kyoto Protocol program that enables industrialized countries to finance emissions-avoiding projects in developing countries and receive credit for reductions achieved against their own emissions limitation targets. Also see Kyoto Protocol.",
       "RELATIONS": [
-        "Conference of the parties (COP)",
-        "Greenhouse gases"
+        "ACS-RES-0124",
+        "ACS-RES-0136"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181953,8 +181943,8 @@
       "DEFINITION_AR": "نظام يستخدم مصدر طاقة مشتركًا لإنتاج الكهرباء والبخار معًا لاستخدامات أخرى، مما يؤدي إلى زيادة كفاءة الوقود.",
       "DEFINITION_EN": "A system using a common energy source to produce both electricity and steam for other uses, resulting in increased fuel efficiency.",
       "RELATIONS": [
-        "Cogenerator",
-        "Combined-heat-and-power (CHP) plant"
+        "ACS-RES-0122",
+        "ACS-RES-0123"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181965,11 +181955,11 @@
       "AR_TERM": "المولّد المشترك",
       "EN_TERM": "Cogenerator",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "منشأة توليد تنتج الكهرباء وشكلًا آخر من الطاقة الحرارية المفيدة (مثل الحرارة أو البخار)، وتُستخدم لأغراض صناعية أو تجارية أو للتدفئة أو التبريد. ولأن تُمنح هذه المنشأة صفة منشأة مؤهلة (QF) بموجب قانون سياسات تنظيم المرافق العامة (PURPA)، فيجب أن تنتج طاقة كهربائية، وأن تُنتج شكلًا آخر من الطاقة الحرارية المفيدة عبر الاستخدام التسلسلي للطاقة، وأن تستوفي معايير معينة للملكية والتشغيل والكفاءة التي تضعها لجنة تنظيم الطاقة الفيدرالية (FERC). (راجع Code of Federal Regulations, Title 18, Part 292.)",
+      "DEFINITION_AR": "منشأة توليد تنتج الكهرباء وشكلًا آخر من الطاقة الحرارية المفيدة (مثل الحرارة أو البخار)، وتُستخدم لأغراض صناعية أو تجارية أو للتدفئة أو التبريد. ولأن تُمنح هذه المنشأة صفة منشأة مؤهلة (QF) بموجب قانون سياسات تنظيم المرافق العامة (PURPA)، فيجب أن تنتج طاقة كهربائية، وأن تُنتج شكلًا آخر من الطاقة الحرارية المفيدة عبر الاستخدام التسلسلي للطاقة، وأن تستوفي معايير معينة للملكية والتشغيل والكفاءة التي تضعها لجنة تنظيم الطاقة الفيدرالية (FERC). (راجع اللوائح الفيدرالية، الباب 18، الجزء 292).",
       "DEFINITION_EN": "A generating facility that produces electricity and another form of useful thermal energy (such as heat or steam), used for industrial, commercial, heating, or cooling purposes. To receive status as a qualifying facility (QF) under the Public Utility Regulatory Policies Act (PURPA), the facility must produce electric energy and \"another form of useful thermal energy through the sequential use of energy\" and meet certain ownership, operating, and efficiency criteria established by the Federal Energy Regulatory Commission (FERC).(See the Code of Federal Regulations, Title 18, Part 292.)",
       "RELATIONS": [
-        "Cogeneration system",
-        "Combined-heat-and-power (CHP) plant"
+        "ACS-RES-0121",
+        "ACS-RES-0123"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181983,8 +181973,8 @@
       "DEFINITION_AR": "محطة مصمَّمة لإنتاج الحرارة والكهرباء معًا من مصدر حرارة واحد. ملاحظة: يُستخدم هذا المصطلح بدلًا من مصطلح المولّد المشترك الذي كان تستخدمه EIA في الماضي. وتُعد CHP وصفًا أدق للمنشآت، لأن بعض المحطات المدرجة لا تُنتج الحرارة والكهرباء بتسلسل، وبالتالي لا تستوفي التعريف القانوني للتوليد المشترك المنصوص عليه في قانون سياسات تنظيم المرافق العامة (PURPA).",
       "DEFINITION_EN": "A plant designed to produce both heat and electricity from a single heat source. Note: This term is being used in place of the term \"cogenerator\" that was used by EIA in the past. CHP better describes the facilities because some of the plants included do not produce heat and power in a sequential fashion and, as a result, do not meet the legal definition of cogeneration specified in the Public Utility Regulatory Policies Act (PURPA).",
       "RELATIONS": [
-        "Cogeneration system",
-        "Bottoming cycle"
+        "ACS-RES-0121",
+        "ACS-RES-0112"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -181998,8 +181988,8 @@
       "DEFINITION_AR": "مجموعة الدول التي صادقت على اتفاقية الإطار بشأن تغير المناخ (FCCC). والدور الأساسي لمؤتمر الأطراف هو متابعة تنفيذ الاتفاقية ومراجعة القرارات اللازمة لتطبيقها الفعال. انظر أيضًا اتفاقية الإطار بشأن تغير المناخ (FCCC).",
       "DEFINITION_EN": "The collection of nations that have ratified the Framework Convention on Climate Change(FCCC). The primary role of the COP is to keep implementation of the FCCC under review and make the decisions necessary for its effective implementation. Also see Framework Convention on Climate Change (FCCC).",
       "RELATIONS": [
-        "Clean Development Mechanism (CDM)",
-        "Greenhouse gases"
+        "ACS-RES-0120",
+        "ACS-RES-0136"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182013,8 +182003,8 @@
       "DEFINITION_AR": "إيثانول وقود يُنتج بتخمر نشا الذرة. ويُخلط إيثانول الوقود عادةً مع بنزين المحركات كمؤكسِّن أو محسِّن لرقم الأوكتان بتركيز 10% إيثانول، لكنه يمكن خلطه حتى تركيز 15% في بعض الأسواق لمركبات مصنَّمة لاستخدام E15. وعند التركيزات الأعلى، من 51% إلى 83% من إيثانول الوقود، يُستخدم في المركبات البديلة أو المركبات مرنة الوقود.",
       "DEFINITION_EN": "Fuel ethanol produced by fermenting cornstarch. Fuel ethanol is typically blended with motor gasoline as an oxygenate or octane enhancer in concentrations of 10% ethanol, but it can be blended up to a 15% concentration in some markets for vehicle models manufactured to use E15. In higher concentrations of 51%-83% fuel ethanol, it is used in alternative or flex-fuel vehicles.",
       "RELATIONS": [
-        "Biofuels",
-        "Cellulosic fuel ethanol"
+        "ACS-RES-0009",
+        "ACS-RES-0119"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182028,8 +182018,8 @@
       "DEFINITION_AR": "مركبة صُمِّمت في الأصل للعمل بالبنزين/الديزل، ثم جُرِّدت أو عُدِّلت لتعمل بوقود بديل بعد تسليمها أول مرة إلى المستخدم النهائي.",
       "DEFINITION_EN": "A vehicle originally designed to operate on gasoline/diesel that was modified or altered to run on an alternative fuel after its initial delivery to an end-user.",
       "RELATIONS": [
-        "Biofuels",
-        "Biodiesel (B100)"
+        "ACS-RES-0009",
+        "ACS-RES-0109"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182043,8 +182033,8 @@
       "DEFINITION_AR": "مقياس لمدى دفء موقع ما خلال فترة زمنية مقارنةً بدرجة حرارة أساس، تُحدَّد عادةً بـ 65 درجة فهرنهايت. يُحسب المقياس لكل يوم بطرح درجة حرارة الأساس (65 درجة) من متوسط أعلى درجات حرارة اليوم وأدناها، مع اعتبار القيم السالبة مساوية للصفر. وتُجمع أيام درجة التبريد الخاصة بكل يوم لتكوين مقياس لأيام درجة التبريد خلال فترة مرجعية محددة. وتُستخدم أيام درجة التبريد في تحليل الطاقة كمؤشر على متطلبات طاقة التكييف أو استخدامها.",
       "DEFINITION_EN": "A measure of how warm a location is over a period of time relative to a base temperature, most commonly specified as 65 degrees Fahrenheit. The measure is computed for each day by subtracting the base temperature (65 degrees) from the average of the day's high and low temperatures, with negative values set equal to zero. Each day's cooling degree days are summed to create a cooling degree day measure for a specified reference period. Cooling degree days are used in energy analysis as an indicator of air conditioning energy requirements or use.",
       "RELATIONS": [
-        "Cooling pond",
-        "HVAC DSM program"
+        "ACS-RES-0128",
+        "ACS-RES-0146"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182058,8 +182048,8 @@
       "DEFINITION_AR": "جسم مائي طبيعي أو من صنع الإنسان يُستخدم لتبديد الحرارة المهدرة من محطات توليد الكهرباء.",
       "DEFINITION_EN": "A natural or manmade body of water that is used for dissipating waste heat from power plants.",
       "RELATIONS": [
-        "Cooling Degree Days (CDD)",
-        "Geothermal plant"
+        "ACS-RES-0127",
+        "ACS-RES-0134"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182073,8 +182063,8 @@
       "DEFINITION_AR": "ملوث ثبت أنه ضار بصحة الإنسان ويخضع للرقابة بموجب معايير جودة الهواء الوطنية التابعة لـ EPA. وتتطلب تعديلات عام 1970 على قانون الهواء النظيف من EPA وصف الآثار الصحية والرفاهية للملوث باعتبارها المعايير المشترطة لإدراجه في النظام التنظيمي.",
       "DEFINITION_EN": "A pollutant determined to behazardous to human health and regulated under EPA's National Ambient Air Quality Standards. The 1970 amendments to the Clean Air Act require EPA to describe the health and welfare impacts of a pollutant as the \"criteria\" for inclusion in the regulatory regime.",
       "RELATIONS": [
-        "Greenhouse gases",
-        "Carbon output rate"
+        "ACS-RES-0136",
+        "ACS-RES-0116"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182088,8 +182078,8 @@
       "DEFINITION_AR": "المخلفات العضوية المتبقية بعد حصاد المحصول ومعالجته.",
       "DEFINITION_EN": "Organic residue remaining after the harvesting and processing of a crop.",
       "RELATIONS": [
-        "Biofuels",
-        "Biomass"
+        "ACS-RES-0009",
+        "ACS-BIO-0663"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182103,8 +182093,8 @@
       "DEFINITION_AR": "جذوع أو رقائق أو منتجات خشبية تُحرق.",
       "DEFINITION_EN": "Wood logs, chips, or wood products that are burned.",
       "RELATIONS": [
-        "Biomass",
-        "Pulp wood"
+        "ACS-BIO-0663",
+        "ACS-RES-0157"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182118,8 +182108,8 @@
       "DEFINITION_AR": "طريقة لتحويل الفحم أو النفط أو الكتلة الحيوية أو النفايات أو المواد المحتوية على الكربون الأخرى إلى غاز يمكن حرقه لتوليد الطاقة أو معالجته لإنتاج مواد كيميائية ووقود.",
       "DEFINITION_EN": "A method for converting coal, petroleum, biomass, wastes, or other carbon-containing materials into a gas that can be burned to generate power or processed into chemicals and fuels.",
       "RELATIONS": [
-        "Biomass",
-        "Biofuels"
+        "ACS-BIO-0663",
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182133,7 +182123,7 @@
       "DEFINITION_AR": "نوع من الموارد الحرارية الأرضية يقع في أحواض عميقة يكون فيها السائل تحت ضغط مرتفع للغاية.",
       "DEFINITION_EN": "A type of geothermal resource occurring in deep basins in which the fluid is under very high pressure.",
       "RELATIONS": [
-        "Geothermal plant"
+        "ACS-RES-0134"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182147,8 +182137,8 @@
       "DEFINITION_AR": "محطة يكون فيها المحرك الأولي عنفة بخارية. وتُدار العنفة إما ببخار مُنتَج من مياه ساخنة أو ببخار طبيعي يستمد طاقته من حرارة موجودة في الصخور.",
       "DEFINITION_EN": "A plant in which the prime mover is a steam turbine. The turbine is driven either by steam produced from hot water or by natural steam that derives its energy from heat found in rock.",
       "RELATIONS": [
-        "Geopressured",
-        "Heat pump (air source)"
+        "ACS-RES-0133",
+        "ACS-RES-0138"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182162,8 +182152,8 @@
       "DEFINITION_AR": "مؤشر يُستخدم لمقارنة التأثير الإشعاعي النسبي للغازات المختلفة دون حساب مباشر للتغيرات في تركيزاتها في الغلاف الجوي. وتُحسب احتمالية الاحتباس الحراري كنسبة التأثير الإشعاعي الذي ينتج عن إطلاق كيلوجرام واحد من غاز دفيء إلى التأثير الذي ينتج عن إطلاق كيلوجرام واحد من ثاني أكسيد الكربون خلال فترة زمنية ثابتة، مثل 100 سنة.",
       "DEFINITION_EN": "An index used to compare the relative radiative forcing of different gases without directly calculating the changes in atmospheric concentrations. GWPs are calculated as the ratio of the radiative forcing that would result from the emission of one kilogram of a greenhouse gas to that from the emission of one kilogram of carbon dioxide over a fixed period of time, such as 100 years.",
       "RELATIONS": [
-        "Greenhouse gases",
-        "Carbon dioxide equivalent"
+        "ACS-RES-0136",
+        "ACS-RES-0114"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182177,8 +182167,8 @@
       "DEFINITION_AR": "الغازات، مثل بخار الماء وثاني أكسيد الكربون وأكسيد النيتروز والميتان والهيدروفلوروكربونات (HFCs) والبيرفلوروكربونات (PFCs) وسداسي فلوريد الكبريت، التي تكون شفافة أمام الإشعاع الشمسي (الموجات القصيرة) لكنها معتمة أمام الإشعاع طويل الموجة (الأشعة تحت الحمراء)، مما يمنع الطاقة الإشعاعية طويلة الموجة من مغادرة الغلاف الجوي للأرض. ويتمثل الأثر الصافي في حبس الإشعاع الممتص والميل إلى تسخين سطح الكوكب.",
       "DEFINITION_EN": "Those gases, such as water vapor, carbon dioxide, nitrous oxide, methane, hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) and sulfur hexafluoride, that are transparent to solar (short-wave) radiation but opaque to long-wave (infrared) radiation, thus preventing long-wave radiant energy from leaving Earth's atmosphere. The net effect is a trapping of absorbed radiation and a tendency to warm the planet's surface.",
       "RELATIONS": [
-        "Global warming potential (GWP)",
-        "Carbon dioxide equivalent"
+        "ACS-RES-0135",
+        "ACS-RES-0114"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182192,8 +182182,8 @@
       "DEFINITION_AR": "تكوين نظام توزيع الكهرباء. انظر شبكة الطاقة الكهربائية.",
       "DEFINITION_EN": "The layout of an electrical distribution system. See electric power grid.",
       "RELATIONS": [
-        "Power pool",
-        "Hybrid transmission line"
+        "ACS-RES-0153",
+        "ACS-RES-0143"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182207,8 +182197,8 @@
       "DEFINITION_AR": "مضخة الحرارة ذات مصدر الهواء هي أكثر أنواع مضخات الحرارة شيوعًا. تمتص مضخة الحرارة الحرارة من الهواء الخارجي وتنقلها إلى المساحة المطلوب تدفئتها في وضع التدفئة. وفي وضع التبريد تمتص مضخة الحرارة الحرارة من المساحة المطلوب تبريدها وتطرح الحرارة إلى الهواء الخارجي. وفي وضع التدفئة، عندما يقترب الهواء الخارجي من 32 درجة فهرنهايت أو يقل عن ذلك، تفقد مضخات الحرارة ذات مصدر الهواء كفاءتها وتحتاج عمومًا إلى نظام تدفئة احتياطي (بالمقاومة).",
       "DEFINITION_EN": "An air-source heat pump is the most common type of heat pump. The heat pump absorbs heat from the outside air and transfers the heat to the space to be heated in the heating mode. In the cooling mode the heat pump absorbs heat from the space to be cooled and rejects the heat to the outside air. In the heating mode when the outside air approaches 32o F or less, air-source heat pumps loose efficiency and generally require a back-up (resistance) heating system.",
       "RELATIONS": [
-        "Heat pump efficiency",
-        "Geothermal plant"
+        "ACS-RES-0139",
+        "ACS-RES-0134"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182222,8 +182212,8 @@
       "DEFINITION_AR": "كفاءة مضخة الحرارة، أي الطاقة الكهربائية اللازمة لتشغيلها، ترتبط مباشرة بدرجتي الحرارة بين تعمل بينهما. وتعد مضخات الحرارة الحرارية الأرضية أكثر كفاءة من مضخات الحرارة التقليدية أو مكيفات الهواء التي تستخدم الهواء الخارجي، لأن الأرض أو المياه الجوفية على بعد عدة أقدام أسفل سطح الأرض تبقى ثابتة نسبيًا طوال العام. وفي الشتاء يكون سحب الحرارة من الأرض الدافئة نسبيًا أكثر كفاءة من سحبها من الغلاف الجوي حيث تكون حرارة الهواء أبرد بكثير، وفي الصيف يكون تحويل الحرارة المهدرة إلى الأرض الأبرد نسبيًا أكثر كفاءة من تحويلها إلى الهواء الأكثر حرارة. وتعد مضخات الحرارة الحرارية الأرضية عمومًا أكثر تكلفة في التركيب (من 2,000 إلى 5,000 دولار) من مضخات الحرارة ذات الهواء الخارجي. غير أنه، وبحسب الموقع، يمكن لمضخات الحرارة الحرارية الأرضية خفض استهلاك الطاقة (تكلفة التشغيل) وبالتالي الانبعاثات بنسبة تزيد على 20 في المئة مقارنة بمضخات الحرارة عالية الكفاءة ذات الهواء الخارجي. كما تستخدم مضخات الحرارة الحرارية الأرضية الحرارة المهدرة الناتجة عن التكييف لتوفير تسخين مجاني للمياه الساخنة في الصيف.",
       "DEFINITION_EN": "The efficiency of a heat pump, that is, the electrical energy to operate it, is directly related to temperatures between which it operates. Geothermal heat pumps are more efficient than conventional heat pumps or air conditioners that use the outdoor air since the ground or ground water a few feet below the earth's surface remains relatively constant throughout the year. It is more efficient in the winter to draw heat from the relatively warm ground than from the atmosphere where the air temperature is much colder, and in summer transfer waste heat to the relatively cool ground than to hotter air. Geothermal heat pumps are generally more expensive ($2,000-$5,000) to install than outside air heat pumps. However, depending on the location geothermal heat pumps can reduce energy consumption (operating cost) and correspondingly, emissions by more than 20 percent compared to high-efficiency outside air heat pumps. Geothermal heat pumps also use the waste heat from air-conditioning to provide free hot water heating in the summer.",
       "RELATIONS": [
-        "Heat pump (air source)",
-        "HVAC conservation feature"
+        "ACS-RES-0138",
+        "ACS-RES-0145"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182237,8 +182227,8 @@
       "DEFINITION_AR": "مرآة تعكس الأشعة الشمسية نحو مستقبل مركزي. ويضبط الهيليوستات موضعه تلقائيًا لتتبع التغيرات اليومية أو الموسمية في موقع الشمس. وتسمى ترتيبات الهيليوستات حول مستقبل مركزي أيضًا حقل المجمعات الشمسية.",
       "DEFINITION_EN": "A mirror that reflects solar rays onto a central receiver. A heliostat automatically adjusts its position to track daily or seasonal changes in the sun's position. The arrangement of heliostats around a central receiver is also called a solar collector field.",
       "RELATIONS": [
-        "High-temperature collector",
-        "Solar power tower"
+        "ACS-RES-0141",
+        "ACS-RES-0098"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182252,8 +182242,8 @@
       "DEFINITION_AR": "جامع حراري شمسي مصمم للعمل عند درجة حرارة 180 درجة فهرنهايت أو أعلى.",
       "DEFINITION_EN": "A solar thermal collector designed to operate at a temperature of 180 degrees Fahrenheit or higher.",
       "RELATIONS": [
-        "Heliostat",
-        "Solar thermal collector"
+        "ACS-RES-0140",
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182267,8 +182257,8 @@
       "DEFINITION_AR": "أكثر أنواع توربينات الرياح شيوعًا، حيث يكون محور الدوران أفقيًا. انظر أيضًا توربين الرياح.",
       "DEFINITION_EN": "The most common type of wind turbine where the axis of rotation is oriented horizontally. Also see Wind turbine.",
       "RELATIONS": [
-        "Wind Turbine",
-        "Grid"
+        "ACS-ENG-0634",
+        "ACS-RES-0137"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182282,8 +182272,8 @@
       "DEFINITION_AR": "خط ثنائي الدوائر يضم دائرة تيار متردد واحدة ودائرة تيار مستمر واحدة. وتخدم دائرة التيار المتردد عادةً الأحمال المحلية الموزعة على امتداد الخط.",
       "DEFINITION_EN": "A double-circuit line that has one alternating current and one direct circuit. The AC circuit usually serves local loads along the line.",
       "RELATIONS": [
-        "Grid",
-        "Power exchange"
+        "ACS-RES-0137",
+        "ACS-RES-0152"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182297,8 +182287,8 @@
       "DEFINITION_AR": "مجموعة من المواد الكيميائية المصنّعة التي تتكوّن من ذرة كربون واحدة أو ذرتين وبأعداد متفاوتة من ذرات الهيدروجين والفلور. وتمتلك معظم مركبات HFCs قدرات احتباس حراري عالمية على مدى 100 عام تبلغ الآلاف.",
       "DEFINITION_EN": "A group of man-made chemicals composed of one or two carbon atoms and varying numbers of hydrogen and fluorine atoms. Most HFCs have 100-year Global Warming Potentials in the thousands.",
       "RELATIONS": [
-        "Greenhouse gases",
-        "Global warming potential (GWP)"
+        "ACS-RES-0136",
+        "ACS-RES-0135"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182312,8 +182302,8 @@
       "DEFINITION_AR": "خاصية في المبنى مصمّمة لتقليل كمية الطاقة المستهلكة في معدات التدفئة والتبريد والتهوية.",
       "DEFINITION_EN": "A building feature designed to reduce the amount of energy consumed by the heating, cooling, and ventilating equipment.",
       "RELATIONS": [
-        "HVAC DSM program",
-        "Heat pump efficiency"
+        "ACS-RES-0146",
+        "ACS-RES-0139"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182327,8 +182317,8 @@
       "DEFINITION_AR": "برنامج لإدارة الطلب (DSM) مصمّم لتعزيز كفاءة نظام توزيع التدفئة أو التبريد، بما في ذلك الاستبدال. ويشمل التهوية (الموفّرات؛ استرداد الحرارة من هواء العادم)، والتبريد (التبريد بالتبخير؛ التخزين البارد؛ استرداد الحرارة من المبردات؛ التكييف عالي الكفاءة)، والتدفئة، وأنظمة إدارة الطاقة الآلية.",
       "DEFINITION_EN": "A DSM (demand-side management)program designed to promote the efficiency of the heating or cooling delivery system, including replacement. Includes ventilation (economizers; heat recovery from exhaust air), cooling (evaporative cooling, cool storage; heat recovery from chillers; high-efficiency air conditioning), heating, and automatic energy management systems.",
       "RELATIONS": [
-        "HVAC conservation feature",
-        "Cooling Degree Days (CDD)"
+        "ACS-RES-0145",
+        "ACS-RES-0127"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182342,8 +182332,8 @@
       "DEFINITION_AR": "بكتيريا تصنع الميثان، وتتطلب للنمو ظروفًا لا هوائية تمامًا.",
       "DEFINITION_EN": "Bacteria that synthesize methane, requiring completely anaerobic conditions for growth.",
       "RELATIONS": [
-        "Methanotrophs",
-        "Biogas"
+        "ACS-RES-0148",
+        "ACS-AGR-0685"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182357,8 +182347,8 @@
       "DEFINITION_AR": "بكتيريات تستخدم الميثان كغذاء وتؤكسده إلى ثاني أكسيد الكربون.",
       "DEFINITION_EN": "Bacteria that use methane as food and oxidize it into carbon dioxide.",
       "RELATIONS": [
-        "Methanogens",
-        "Biogas"
+        "ACS-RES-0147",
+        "ACS-AGR-0685"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182372,8 +182362,8 @@
       "DEFINITION_AR": "منشأة تنتج الوقود أو الطاقة من النفايات البلدية الصلبة.",
       "DEFINITION_EN": "A facility that produces fuel or energy from municipal solid waste.",
       "RELATIONS": [
-        "Biomass",
-        "Waste energy"
+        "ACS-BIO-0663",
+        "ACS-RES-0069"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182387,8 +182377,8 @@
       "DEFINITION_AR": "أقصى الحمل خلال فترة زمنية محددة.",
       "DEFINITION_EN": "The maximum load during a specified period of time.",
       "RELATIONS": [
-        "Power exchange",
-        "Grid"
+        "ACS-RES-0152",
+        "ACS-RES-0137"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182402,8 +182392,8 @@
       "DEFINITION_AR": "الطاقة التي تبثّها الشمس على شكل موجات كهرومغناطيسية (إشعاع كهرومغناطيسي)، والتي تحوّلها شركات الكهرباء إلى كهرباء بواسطة الخلايا الشمسية (الكهروضوئية) أو المجمّعات المركزة (البؤرية).",
       "DEFINITION_EN": "Energy radiated by the sun as electromagnetic waves (electromagnetic radiation) that is converted at electric utilities into electricity by means of solar (photovoltaic) cells or concentrating (focusing) collectors.",
       "RELATIONS": [
-        "Photovoltaic Module",
-        "Solar thermal collector"
+        "ACS-RES-0044",
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182417,8 +182407,8 @@
       "DEFINITION_AR": "كيان يوفر سوقًا فوريًا تنافسيًا للطاقة الكهربائية عبر مزاد يوم و/أو بالساعة لعروض التوليد والطلب.",
       "DEFINITION_EN": "An entity providing a competitive spot market for electric power through day- and/or hour-ahead auction of generation and demand bids.",
       "RELATIONS": [
-        "Power pool",
-        "Grid"
+        "ACS-RES-0153",
+        "ACS-RES-0137"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182432,8 +182422,8 @@
       "DEFINITION_AR": "تجمّع لنظامين كهربائيين أو أكثر مترابطين، يوقّعان اتفاقًا لتنسيق التشغيل والتخطيط بهدف تحسين الموثوقية والكفاءة.",
       "DEFINITION_EN": "An association of two or more interconnected electric systems having an agreement to coordinate operations and planning for improved reliability and efficiencies.",
       "RELATIONS": [
-        "Grid",
-        "Power exchange"
+        "ACS-RES-0137",
+        "ACS-RES-0152"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182447,7 +182437,7 @@
       "DEFINITION_AR": "تصريح لموقع واحد تمنحه FERC، ويمنح الحاصل عليه أولوية على أي طرف آخر في طلب ترخيص توليد كهرومائي. ويتيح التصريح الأولي للحاصل عليه إعداد طلب الترخيص وإجراء دراسات متعددة بشأن الجدوى الاقتصادية والآثار البيئية. وقد تمتد مدة التصريح الأولي إلى 3 سنوات.",
       "DEFINITION_EN": "A single site permit granted by the FERC (Federal Energy Regulatory Commission), which gives the recipient priority over anyone else to apply for a hydroelectric license. The preliminary permit enables the recipient to prepare a license application and conduct various studies for economic feasibility and environmental impacts. The period for a preliminary permit may extend to 3 years.",
       "RELATIONS": [
-        "Pumped-storage hydroelectric plant"
+        "ACS-RES-0155"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182461,8 +182451,8 @@
       "DEFINITION_AR": "محطة تولّد الطاقة الكهربائية عادةً خلال فترات الحمل الأقصى مستخدِمةً المياه التي ضُخّت مسبقًا إلى خزان تخزين مرتفع في فترات الحمل الأدنى، عندما تتوفر قدرة توليد زائدة للقيام بذلك. وعند الحاجة إلى قدرة توليد إضافية، يمكن تصريف المياه من الخزان عبر قناة إلى مولدات توربينية تقع في محطة على مستوى أدنى.",
       "DEFINITION_EN": "A plant that usually generates electric energy during peak load periods by using water previously pumped into an elevated storage reservoir during off-peak periods when excess generating capacity is available to do so. When additional generating capacity is needed, the water can be released from the reservoir through a conduit to turbine generators located in a power plant at a lower level.",
       "RELATIONS": [
-        "Storage capacity",
-        "Preliminary permit (hydroelectric power)"
+        "ACS-RES-0108",
+        "ACS-RES-0154"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182476,8 +182466,8 @@
       "DEFINITION_AR": "محطة تنتج الطاقة من مياه ضُخّت مسبقًا إلى خزان علوي فحسب.",
       "DEFINITION_EN": "A plant that produces power only from water that has previously been pumped to an upper reservoir.",
       "RELATIONS": [
-        "Pumped-storage hydroelectric plant",
-        "Storage capacity"
+        "ACS-RES-0155",
+        "ACS-RES-0108"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182491,8 +182481,8 @@
       "DEFINITION_AR": "الأخشاب المستديرة أو رقائق الشجر الكامل أو مخلفات الخشب.",
       "DEFINITION_EN": "Roundwood, whole-tree chips, or wood residues.",
       "RELATIONS": [
-        "Biomass",
-        "Cull wood"
+        "ACS-BIO-0663",
+        "ACS-RES-0131"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182506,7 +182496,7 @@
       "DEFINITION_AR": "قانون سياسات تنظيم الخدمات العامة لعام 1978، الذي أقره الكونغرس الأمريكي. ويتطلب هذا التشريع من الولايات تنفيذ برامج ترشيد استهلاك الطاقة في شركات الخدمات العامة، وإنشاء أسواق خاصة لمولدات الطاقة المشتركة والمنتجين الصغار الذين يستوفون معايير معينة، بما في ذلك اشتراط أن تحدد الولايات أسعار وكميات الطاقة التي يجب أن تشتريها شركات الخدمات العامة من تلك المنشآت.",
       "DEFINITION_EN": "The Public Utility Regulatory Policies Act of1978, passed by the U.S. Congress. This statute requires States to implement utility conservation programs and create special markets for co-generators and small producers who meet certain standards, including the requirement that States set the prices and quantities of power the utilities must buy from such facilities.",
       "RELATIONS": [
-        "Green pricing"
+        "ACS-RES-0023"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182520,8 +182510,8 @@
       "DEFINITION_AR": "مقدار ما يتغير به الجهد والتيار و/أو القدرة الإنتاجية لخلية شمسية نتيجة لتغير في درجة حرارة الخلية.",
       "DEFINITION_EN": "The amount that the voltage, current, and/or power output of a solar cell changes due to a change in the cell temperature.",
       "RELATIONS": [
-        "Photovoltaic Module",
-        "Thermophotovoltaic cell"
+        "ACS-RES-0044",
+        "ACS-RES-0163"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182535,8 +182525,8 @@
       "DEFINITION_AR": "احتجاز الكربون الحيوي في الكتلة الحيوية فوق سطح الأرض وتحتها وفي التربة.",
       "DEFINITION_EN": "Biotic sequestration of carbon in above- and below-ground biomass and soils.",
       "RELATIONS": [
-        "Carbon sequestration",
-        "Carbon sink"
+        "ACS-RES-0117",
+        "ACS-RES-0118"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182550,8 +182540,8 @@
       "DEFINITION_AR": "تخزين طاقة الحرارة في ساعات الليل خارج الذروة لدى شركة المرافق، لاستخدامه في اليوم التالي دون تحمل تعرفة الكهرباء في ذروة النهار.",
       "DEFINITION_EN": "The storage of heat energy during utility off-peak times at night, for use during the next day without incurring daytime peak electric rates.",
       "RELATIONS": [
-        "Thermal storage",
-        "Pumped-storage hydroelectric plant"
+        "ACS-RES-0162",
+        "ACS-RES-0155"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182565,8 +182555,8 @@
       "DEFINITION_AR": "تخزين الحرارة أو البرودة (مصدر تبريد الحرارة) لاستخدامها لاحقًا في التسخين أو التبريد. ومن أمثلته تخزين الطاقة الشمسية للتسخين الليلي، وتخزين حرارة الصيف لاستخدامها في الشتاء، وتخزين ثلج الشتاء لتبريد المساحات في الصيف، وتخزين الحرارة أو البرودة المولدة كهربائيًا حين يكون سعر الكهرباء أقل، وذلك لتحريرها لاحقًا تفاديًا لاستخدام الكهرباء حين تكون التعرفة أعلى. وهناك أربعة أنواع أساسية من أنظمة التخزين الحراري: تخزين الجليد، وتخزين الماء، والتخزين في الصخور أو التربة أو غيرها من أنواع الكتل الحرارية الصلبة، والتخزين في مواد أخرى مثل الجلايكول (سائل مانع للتجمّد).",
       "DEFINITION_EN": "Storage of heat or heat sinks (coldness) for later heating or cooling. Examples are the storage of solar energy for night heating; the storage of summer heat for winter use; the storage of winter ice for space cooling in the summer; and the storage of electrically-generated heat or coolness when electricity is less expensive, to be released in order to avoid using electricity when the rates are higher. There are four basic types of thermal storage systems: ice storage; water storage; storage in rock, soil or other types of solid thermal mass; and storage in other materials, such as glycol (antifreeze).",
       "RELATIONS": [
-        "Thermal energy storage",
-        "Solar thermal direct-use energy"
+        "ACS-RES-0161",
+        "ACS-RES-0097"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182580,8 +182570,8 @@
       "DEFINITION_AR": "جهاز تُركَّز فيه أشعة الشمس على ممتص فيسخنه إلى درجة حرارة عالية، ويُستخدم الإشعاع الحراري الذي يبثه الممتص مصدرًا للطاقة لخلية كهروضوئية مصممة لتحقيق أقصى كفاءة في التحويل عند طول موجة الإشعاع الحراري.",
       "DEFINITION_EN": "A device where sunlight concentrated onto a absorber heats it to a high temperature, and the thermal radiation emitted by the absorber is used as the energy source for a photovoltaic cell that is designed to maximize conversion efficiency at the wavelength of the thermal radiation.",
       "RELATIONS": [
-        "Photovoltaic Module",
-        "Temperature coefficient (of a solar photovoltaic cell)"
+        "ACS-RES-0044",
+        "ACS-RES-0159"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182595,8 +182585,8 @@
       "DEFINITION_AR": "نظام جامع شمسي لتسخين المياه، يقوم دوران سوائل الجمع عبر حلقة التخزين وكثافتها بين السائل الساخن والبارد وحدهما.",
       "DEFINITION_EN": "A solar collector system for water heating in which circulation of the collection fluid through the storage loop is provided solely by the temperature and density difference between the hot and cold fluids.",
       "RELATIONS": [
-        "Evacuated-tube collector",
-        "Solar thermal collector"
+        "ACS-RES-0204",
+        "ACS-RES-0091"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182610,8 +182600,8 @@
       "DEFINITION_AR": "يُنتج مرجل بخارًا لتشغيل مولد-توربين لإنتاج الكهرباء. ويُستخدم البخار الخارج من التوربين في تطبيقات حرارية مثل تدفئة المساحات و/أو تبريدها، أو يُسلَّم إلى مستخدمين نهائيين آخرين.",
       "DEFINITION_EN": "A boiler produces steam to power a turbine-generator to produce electricity. The steam leaving the turbine is used in thermal applications such as space heating and/or cooling or delivered to other end user(s).",
       "RELATIONS": [
-        "Bottoming cycle",
-        "Cogeneration system"
+        "ACS-RES-0112",
+        "ACS-RES-0121"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182625,8 +182615,8 @@
       "DEFINITION_AR": "القدرة الكلية لخطوط الكهرباء بين المناطق أو الدولية، إلى جانب المنشآت المرتبطة بالشبكة الكهربائية، على نقل القدرة والطاقة من نظام كهربائي إلى آخر.",
       "DEFINITION_EN": "The overall capacity of interregional or international power lines, together with the associated electrical system facilities, to transfer power and energy from one electrical system to another.",
       "RELATIONS": [
-        "Transmission constraint (electric)",
-        "Transmission network"
+        "ACS-RES-0171",
+        "ACS-RES-0172"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182637,11 +182627,11 @@
       "AR_TERM": "النقل (الكهربائي)",
       "EN_TERM": "Transmission (electric)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "مجموعة مترابطة من الخطوط والمعدات المرتبطة، لنقل أو تحويل الطاقة الكهربائية بين نقاط التغذية والنقاط التي يُحوَّل عندها للتسليم إلى العملاء أو لتُسلَّم إلى نظم كهربائية أخرى. تعريف NERC",
+      "DEFINITION_AR": "مجموعة مترابطة من الخطوط والمعدات المرتبطة، لنقل أو تحويل الطاقة الكهربائية بين نقاط التغذية والنقاط التي يُحوَّل عندها للتسليم إلى العملاء أو لتُسلَّم إلى نظم كهربائية أخرى. تعريف صادر عن NERC.",
       "DEFINITION_EN": "An interconnected group of lines and associated equipment for the movement or transfer of electric energy between points of supply and points at which it is transformed for delivery to customers or is delivered to other electric systems. NERC definition",
       "RELATIONS": [
-        "Transmission network",
-        "Transmission system (electric)"
+        "ACS-RES-0172",
+        "ACS-RES-0176"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182655,8 +182645,8 @@
       "DEFINITION_AR": "حركة أو نقل الطاقة الكهربائية عبر مجموعة مترابطة من الخطوط والمعدات المرتبطة، بين نقاط التغذية والنقاط التي يُحوَّل عندها للتسليم إلى المستهلكين أو لتُسلَّم إلى نظم كهربائية أخرى. ويُعتبر النقل قد انتهى عندما تُحوَّل الطاقة للتوزيع على المستهلك.",
       "DEFINITION_EN": "The movement or transfer of electric energy over an interconnected group of lines and associated equipment between points of supply and points at which it is transformed for delivery to consumers or is delivered to other electric systems. Transmission is considered to end when the energy is transformed for distribution to the consumer.",
       "RELATIONS": [
-        "Transmission (electric)",
-        "Transmission network"
+        "ACS-RES-0167",
+        "ACS-RES-0172"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182670,8 +182660,8 @@
       "DEFINITION_AR": "الطاقة الكهربائية المفقودة نتيجة لنقل الكهرباء وتوزيعها. وجزء كبير من هذه الفواقد ذات طبيعة حرارية.",
       "DEFINITION_EN": "Electric energy lost due to the transmission and distribution of electricity. Much of the loss is thermal in nature.",
       "RELATIONS": [
-        "Line loss",
-        "Feeder line"
+        "ACS-RES-0213",
+        "ACS-RES-0205"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182685,8 +182675,8 @@
       "DEFINITION_AR": "موصل يُستخدم لنقل الكهرباء من محطات التوليد إلى الأحمال.",
       "DEFINITION_EN": "A conductor used to transport electricity from generating stations to load.",
       "RELATIONS": [
-        "Transmission network",
-        "Transmission system (electric)"
+        "ACS-RES-0172",
+        "ACS-RES-0176"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182697,11 +182687,11 @@
       "AR_TERM": "قيد النقل (الكهربائي)",
       "EN_TERM": "Transmission constraint (electric)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "قيد على عنصر واحد أو أكثر من عناصر النقل، قد يُبلغ خلال التشغيل العادي للشبكة أو أثناء الطوارئ. تعريف NERC",
+      "DEFINITION_AR": "قيد على عنصر واحد أو أكثر من عناصر النقل، قد يُبلغ خلال التشغيل العادي للشبكة أو أثناء الطوارئ. تعريف صادر عن NERC.",
       "DEFINITION_EN": "A limitation on one or more transmission elements that may be reached during normal or contingency system operations. NERC definition",
       "RELATIONS": [
-        "Transmission network",
-        "Transfer capability"
+        "ACS-RES-0172",
+        "ACS-RES-0166"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182715,8 +182705,8 @@
       "DEFINITION_AR": "نظام من خطوط النقل أو التوصيل مترابطة التشغيل ومدارة بحيث تسمح بتغذية كهربائية متعددة لأي نقطة رئيسية.",
       "DEFINITION_EN": "A system of transmission or distribution lines so cross-connected and operated as to permit multiple power supply to any principal point.",
       "RELATIONS": [
-        "Transmission operator (electric)",
-        "Transmission owner (electric)"
+        "ACS-RES-0173",
+        "ACS-RES-0174"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182727,11 +182717,11 @@
       "AR_TERM": "مشغّل النقل (الكهربائي)",
       "EN_TERM": "Transmission operator (electric)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "الجهة المسؤولة عن موثوقية نظام النقل المحلي الخاص بها، والتي تشغّل منشآت النقل أو توجه عملياتها. تعريف NERC",
+      "DEFINITION_AR": "الجهة المسؤولة عن موثوقية نظام النقل المحلي الخاص بها، والتي تشغّل منشآت النقل أو توجه عملياتها. تعريف صادر عن NERC.",
       "DEFINITION_EN": "The entity responsible for the reliability of its localized transmission system, and that operates or directs the operations of the transmission facilities. NERC definition",
       "RELATIONS": [
-        "Transmission owner (electric)",
-        "Transmission Service Provider (electric)"
+        "ACS-RES-0174",
+        "ACS-RES-0175"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182745,8 +182735,8 @@
       "DEFINITION_AR": "الجهة التي تملك منشآت النقل وتصونها. تعريف NERC",
       "DEFINITION_EN": "The entity that owns and maintains transmission facilities. NERC definition",
       "RELATIONS": [
-        "Transmission operator (electric)",
-        "Transmission network"
+        "ACS-RES-0173",
+        "ACS-RES-0172"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182757,11 +182747,11 @@
       "AR_TERM": "مزوّد خدمة النقل (الكهربائي)",
       "EN_TERM": "Transmission Service Provider (electric)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "الجهة التي تُدير تعرفة النقل وتقدم خدمة النقل إلى عملاء النقل بموجب اتفاقيات خدمة النقل السارية. تعريف NERC",
+      "DEFINITION_AR": "الجهة التي تُدير تعرفة النقل وتقدم خدمة النقل إلى عملاء النقل بموجب اتفاقيات خدمة النقل السارية. تعريف صادر عن NERC.",
       "DEFINITION_EN": "The entity that administers the transmission tariff and provides Transmission Service to Transmission Customers under applicable transmission service agreements. NERC definition",
       "RELATIONS": [
-        "Transmission operator (electric)",
-        "Transmission system (electric)"
+        "ACS-RES-0173",
+        "ACS-RES-0176"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182775,8 +182765,8 @@
       "DEFINITION_AR": "مجموعة مترابطة من خطوط النقل الكهربائية والمعدات المرتبطة، لنقل أو تحويل الطاقة الكهربائية بالجملة بين نقاط التغذية والنقاط التي يُحوَّل عندها للتسليم عبر خطوط نظام التوزيع إلى المستهلكين أو لتُسلَّم إلى نظم كهربائية أخرى.",
       "DEFINITION_EN": "An interconnected group of electric transmission lines and associated equipment for moving or transferring electric energy in bulk between points of supply and points at which it is transformed for delivery over the distribution system lines to consumers or is delivered to other electric systems.",
       "RELATIONS": [
-        "Transmission network",
-        "Transmission circuit"
+        "ACS-RES-0172",
+        "ACS-RES-0170"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182790,8 +182780,8 @@
       "DEFINITION_AR": "نموذج تصوري لنظام حراري مائي يسود فيه البخار الصخر، فيكون هو الطور السائل الذي يتحكم في الضغط.",
       "DEFINITION_EN": "A conceptual model of a hydrothermal system where steam pervades the rock and is the pressure-controlling fluid phase.",
       "RELATIONS": [
-        "Geothermal plant",
-        "Geopressured"
+        "ACS-RES-0134",
+        "ACS-RES-0133"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182805,8 +182795,8 @@
       "DEFINITION_AR": "توربينات تزداد سرعة دورانها أو تنخفض مع تغير سرعة الرياح، فتنتج كهرباء بتردد متغير.",
       "DEFINITION_EN": "Turbines in which the rotor speed increases and decreases with changing wind speed, producing electricity with a variable frequency.",
       "RELATIONS": [
-        "Horizontal axis wind turbine",
-        "Vertical-axis wind turbine (VAWT)"
+        "ACS-RES-0142",
+        "ACS-RES-0179"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182820,8 +182810,8 @@
       "DEFINITION_AR": "نوع من توربينات الرياح يكون محور دورانه فيه عموديًا على تيار الهواء وعلى سطح الأرض.",
       "DEFINITION_EN": "A type of wind turbine in which the axis of rotation is perpendicular to the windstream and the ground.",
       "RELATIONS": [
-        "Horizontal axis wind turbine",
-        "Variable-speed wind turbines"
+        "ACS-RES-0142",
+        "ACS-RES-0178"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182835,8 +182825,8 @@
       "DEFINITION_AR": "نظام من الحساسات يقيّم مقدار ضوء النهار ويتحكم في أجهزة الإضاءة أو أجهزة التعتيم للحفاظ على مستوى إضاءة محدد. وتُشار إلى هذه الحساسات أحيانًا باسم الخلايا الكهروضوئية.",
       "DEFINITION_EN": "A system of sensors that assesses the amount of daylight and controls lighting or shading devices to maintain a specified lighting level. The sensors are sometimes referred to as \"photocells.\"",
       "RELATIONS": [
-        "Lighting conservation feature",
-        "Energy efficient motors"
+        "ACS-RES-0212",
+        "ACS-RES-0197"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182850,8 +182840,8 @@
       "DEFINITION_AR": "موارد الكتلة الحيوية الأولية العشبية (الأجزاء غير الخشبية من النبات: البتلات والأوراق والثمار) والخشبية، التي تزرع على الأراضي الزراعية، ومنها عشب المفاتيح والميكانثوس وقصب الطاقة والذرة الرفيعة غير المنتجة للحبوب والصفصاف والأوكالبتوس والحور والصنوبر.",
       "DEFINITION_EN": "The herbaceous (non-woody parts of the plant-the petals, leaves, fruit) and woody primary biomass resources planted on agricultural land, which include switchgrass, miscanthus, energy cane, non-grain sorghum, willow, eucalyptus, poplar, and pine.",
       "RELATIONS": [
-        "Biomass",
-        "Crop residue"
+        "ACS-BIO-0663",
+        "ACS-RES-0130"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182865,8 +182855,7 @@
       "DEFINITION_AR": "الكتلة الحيوية الخام، وهي في معظمها خشب، وقد جُمعت في منتج متجانس الأبعاد كثيف الطاقة، مثل حبيبات الخشب، لاستخدامه كوقود. وهي تُستخدم أساسًا في تدفئة المساحات السكنية والتجارية وفي توليد الكهرباء.",
       "DEFINITION_EN": "Raw biomass, primarily wood, that has been condensed into a homogenously sized, energy-dense product, such as wood pellets, intended for use as fuel. It is mainly used for residential and commercial space heating and electricity generation.",
       "RELATIONS": [
-        "Biomass",
-        "Densified biomass fuel"
+        "ACS-BIO-0663"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182880,8 +182869,8 @@
       "DEFINITION_AR": "برامج الاستجابة للطلب هي برامج قائمة على الحوافز تشجع عملاء الطاقة الكهربائية على خفض طلبهم مؤقتًا من الكهرباء في أوقات معينة مقابل خفض في فواتير الكهرباء. وتسمح بعض برامج الاستجابة للطلب لمشغلي نظام الطاقة الكهربائية بتخفيض الأحمال مباشرة، بينما يحتفظ العملاء بالتحكم في برامج أخرى. وقد تتضمن عمليات خفض الطلب التي يتحكم فيها العملاء إجراءات مثل تخفيض الأحمال، أو تشغيل التوليد في موقع المنشأة، أو نقل استخدام الكهرباء إلى فترة زمنية أخرى. وبرامج الاستجابة للطلب هي أحد أنواع إدارة الطلب، التي تشمل أيضًا برامج عامة أقلّ فورية مثل الترويج للمعدات الموفّرة للطاقة في القطاعين السكني والتجاري.",
       "DEFINITION_EN": "Demand response programs are incentive-based programs that encourage electric power customers to temporarily reduce their demand for power at certain times in exchange for a reduction in their electricity bills. Some demand response programs allow electric power system operators to directly reduce load, while in others, customers retain control. Customer-controlled reductions in demand may involve actions such as curtailing load, operating onsite generation, or shifting electricity use to another time period. Demand response programs are one type of demand-side management, which also covers broad, less immediate programs such as the promotion of energy-efficient equipment in residential and commercial sectors.",
       "RELATIONS": [
-        "Demand-side management (DSM)",
-        "Energy management and control system(EMCS)"
+        "ACS-RES-0184",
+        "ACS-RES-0200"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182895,8 +182884,8 @@
       "DEFINITION_AR": "إجراء من إجراءات شركة الخدمات يقلّل استهلاك معدات أو عمليات الاستخدام النهائي أو يحدّ منه. وتُستخدم إدارة الطلب غالبًا لتقليل حمل العملاء أثناء ذروة الطلب و/أو في أوقات قيود الإمداد. وتشمل إدارة الطلب برامج مركّزة وعميقة وفورية مثل الخفض المؤقت للعمليات كثيفة الاستهلاك للطاقة التي يستخدمها أكثر العملاء الصناعيين استهلاكًا لدى شركة الخدمات، وبرامج عامة وسطحية وأقلّ فورية مثل الترويج للمعدات الموفّرة للطاقة في القطاعين السكني والتجاري.",
       "DEFINITION_EN": "A utility action that reduces or curtails end-use equipment or processes. DSM is often used in order to reduce customer load during peak demand and/or in times of supply constraint. DSM includes programs that are focused, deep, and immediate such as the brief curtailment of energy-intensive processes used by a utility's most demanding industrial customers, and programs that are broad, shallow, and less immediate such as the promotion of energy-efficient equipment in residential and commercial sectors.",
       "RELATIONS": [
-        "Demand response programs",
-        "Energy conservation features"
+        "ACS-RES-0183",
+        "ACS-RES-0195"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182910,8 +182899,8 @@
       "DEFINITION_AR": "التكاليف التي يتحمّلها شركة الخدمات لتحقيق وفر القدرة والطاقة من برنامج إدارة الطلب. وتُستبعد التكاليف التي يتحمّلها العملاء أو الأطراف الثالثة. وينبغي الإبلاغ عن التكاليف بالآلاف من الدولارات (بالقيمة الاسمية) في السنة التي يتحمَّل فيها هذه التكاليف، بغض النظر عن موعد تحقق الوفر. وتتمثل تكاليف شركة الخدمات جميع النفقات السنوية (الأجور، والإدارية، والمعدات، والحوافز، والتسويق، والرصد والتقييم، وأي نفقات أخرى تتحمّلها شركة الخدمات لتشغيل برنامج إدارة الطلب)، سواء كانت مصنّفة كمصروفات أم مرحَّلة في الميزانية. ولا يُبلَّغ عن تكاليف رأس المال المجمّعة (والتي تُرصَد عادةً على مدى عدة سنوات قبل بدء التشغيل). كما تُستبعد تكاليف البرنامج المرتبطة بأنشطة النمو الاستراتيجي للأحمال.",
       "DEFINITION_EN": "The costs incurred by the utility to achieve the capacity and energy savings from the Demand-Side Management Program. Costs incurred by customers or third parties are to be excluded. The costs are to be reported in thousands of dollars (nominal) in the year in which they are incurred, regardless of when the savings occur. The utility costs are all the annual expenses (labor, administrative, equipment, incentives, marketing, monitoring and evaluation, and other incurred by the utility for operation of the DSM Program), regardless of whether the costs are expensed or capitalized. Lump sum capital costs (typically accrued over several years prior to start up) are not to be reported. Program costs associated with strategic load growth activities are also to be excluded.",
       "RELATIONS": [
-        "Demand-side management (DSM)",
-        "Energy audit"
+        "ACS-RES-0184",
+        "ACS-RES-0194"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182925,8 +182914,8 @@
       "DEFINITION_AR": "الطاقة، وهي عادةً على شكل حرارة، التي تُنتَج وتُستهلك في نقطة الاستخدام النهائية. وتشمل الأمثلة الطاقة الحرارية الأرضية المستخدمة في تسخين مبنى مباشرة، والطاقة الحرارية الشمسية المستخدمة في تسخين المياه مباشرة.",
       "DEFINITION_EN": "Energy, usually in the form of heat, that is produced and consumed at the final point of use. Examples include geothermal energy used to directly heat a building and solar thermal energy used to directly heat water.",
       "RELATIONS": [
-        "District energy",
-        "Solar thermal direct-use energy"
+        "ACS-RES-0189",
+        "ACS-RES-0097"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182940,8 +182929,8 @@
       "DEFINITION_AR": "مولد يقع قريبًا من الحمل المحدد الذي يُقصد خدمته. وتشمل الخصائص العامة، على سبيل المثال لا الحصر، لهذه المولدات: استراتيجية تشغيل تدعم الحمل المخدوم؛ والربط مع نظام توزيع أو نظام نقل فرعي (138 kV أو أقل).",
       "DEFINITION_EN": "A generator that is located close to the particular load that it is intended to serve. General, but non-exclusive, characteristics of these generators include: an operating strategy that supports the served load; and interconnection to a distribution or sub-transmission system (138 kV or less).",
       "RELATIONS": [
-        "Electric power grid",
-        "Distributed energy resources (DER)"
+        "ACS-RES-0193",
+        "ACS-RES-0062"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182955,8 +182944,8 @@
       "DEFINITION_AR": "مياه مبرَّدة من مصدر خارجي تُستخدم كمصدر طاقة للتبريد في مبنى. وتُبرَّد هذه المياه في محطة مركزية ثم تُوصَّل عبر أنابيب إلى المبنى. وقد تُشترى المياه المبرَّدة من شركة خدمات، أو توفّرها محطة فيزيائية مركزية في مبنى منفصل يقع ضمن المرافق متعددة المباني نفسها (مثل مجمّع مستشفيات أو جامعة).",
       "DEFINITION_EN": "Chilled water from an outside source used as an energy source for cooling in a building. The water is chilled in a central plant and piped into the building. Chilled water may be purchased from a utility or provided by a central physical plant in a separate building that is part of the same multibuilding facility (for example, a hospital complex or university).",
       "RELATIONS": [
-        "District energy",
-        "District heat"
+        "ACS-RES-0189",
+        "ACS-RES-0190"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182970,8 +182959,8 @@
       "DEFINITION_AR": "الطاقة المنتَجة في محطة مركزية، وليست في محطة توليد كهرباء، والتي تُستهلك أو تُخزَّن على شكل بخار أو ماء ساخن أو ماء مبرَّد. وتُوزَّع هذه الطاقة عبر شبكة من الأنابيب لتلبية الطلب على البخار الصناعي أو الحرارة أو التبريد داخل مبنى تجاري أو سكني، أو مرافق متعددة المباني، أو مجموعة مبانٍ، أو منشأة صناعية.",
       "DEFINITION_EN": "Energy produced in a centralized plant, other than in an electric power plant, that is consumed or stored as steam, hot water, or chilled water. This energy is distributed through a network of pipes to meet demand for process steam, heat, or cooling within a commercial or residential building, multibuilding facility, group of buildings, or an industrial facility.",
       "RELATIONS": [
-        "District heat",
-        "Direct-use energy"
+        "ACS-RES-0190",
+        "ACS-RES-0186"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -182985,8 +182974,8 @@
       "DEFINITION_AR": "بخار أو ماء ساخن من مصدر خارجي يُستخدم كمصدر طاقة في مبنى. ويُنتَج البخار أو الماء الساخن في محطة مركزية ثم يُوصَّل عبر أنابيب إلى المبنى. وقد تُشترى التدفئة المركزية من شركة خدمات، أو توفّرها محطة فيزيائية في مبنى منفصل يقع ضمن المرافق نفسها (مثل مجمّع مستشفيات أو جامعة).",
       "DEFINITION_EN": "Steam or hot water from an outside source used as an energy source in a building. The steam or hot water is produced in a central plant and piped into the building. The district heat may be purchased from a utility or provided by a physical plant in a separate building that is part of the same facility (for example, a hospital complex or university).",
       "RELATIONS": [
-        "District energy",
-        "Cogeneration system"
+        "ACS-RES-0189",
+        "ACS-RES-0121"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183000,8 +182989,8 @@
       "DEFINITION_AR": "خليط مرتفع المستوى من الإيثانول والبنزين يحتوي على 51 إلى 83 حجمًا في المئة إيثانول، بحسب المنطقة والموسم. ويشمل أيضًا خلطات الإيثانول والبنزين التي تحتوي على أكثر من 83 حجمًا في المئة ولا تتجاوز 85 حجمًا في المئة إيثانول، حيثما تتوفر هذه الخلطات.",
       "DEFINITION_EN": "High-level ethanol-gasoline blend containing 51 to 83 volume percent ethanol, depending on geography and season. Also includes ethanol-gasoline blends containing greater than 83 volume percent and not greater than 85 volume percent ethanol where such blends exist.",
       "RELATIONS": [
-        "Fuel ethanol",
-        "Ethanol (C2H5OH)"
+        "ACS-RES-0210",
+        "ACS-RES-0203"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183015,8 +183004,8 @@
       "DEFINITION_AR": "وقود يحتوي على خليط من 95 في المئة إيثانول و5 في المئة بنزين",
       "DEFINITION_EN": "A fuel containing a mixture of 95 percent ethanol and 5 percent gasoline",
       "RELATIONS": [
-        "Fuel ethanol",
-        "Ethanol (C2H5OH)"
+        "ACS-RES-0210",
+        "ACS-RES-0203"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183030,8 +183019,8 @@
       "DEFINITION_AR": "نظام من مزوّدي الطاقة والمستهلكين المتزامنين، يربطهم خطوط النقل والتوزيع، وتديره مركز تحكم واحد أو أكثر. وفي الولايات المتحدة المتصلة، تتألف شبكة الطاقة الكهربائية من ثلاثة أنظمة هي النظام الشرقية المترابط، والنظام الغربي المترابط، ونظام تكساس المترابط. وفي ألاسكا وهايي، تضم أنظمة متعددة مناطق أصغر من حدود الولاية (مثل النظام المترابط الذي يخدم أنشوراج وفيربانس وشبه جزيرة كيناي، والجزائر المفردة).",
       "DEFINITION_EN": "A system of synchronized power providers and consumers connected by transmission and distribution lines and operated by one or more control centers. In the continental United States, the electric power grid consists of three systems the Eastern Interconnect, the Western Interconnect, and the Texas Interconnect. In Alaska and Hawaii, several systems encompass areas smaller than the State (e.g., the interconnect serving Anchorage, Fairbanks, and the Kenai Peninsula; individual islands).",
       "RELATIONS": [
-        "Grid",
-        "Transmission network"
+        "ACS-RES-0137",
+        "ACS-RES-0172"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183045,8 +183034,8 @@
       "DEFINITION_AR": "برنامج تنفّذه شركة خدمات، يقوم فيه مدقّق بفحص منزل واقتراح طرق يمكن توفير الطاقة من خلالها.",
       "DEFINITION_EN": "A program carried out by a utility company in which an auditor inspects a home and suggests ways energy can be saved.",
       "RELATIONS": [
-        "Energy conservation features",
-        "Energy management practices"
+        "ACS-RES-0195",
+        "ACS-RES-0201"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183060,8 +183049,8 @@
       "DEFINITION_AR": "يشمل ذلك ميزات الحفاظ على الطاقة في غلاف المبنى، وميزات الحفاظ على الطاقة في التكييف والتهوية وتكييف الهواء، وميزات الحفاظ على الطاقة في الإضاءة، وأي ميزات أخرى للحفاظ على الطاقة، وغيرها من ميزات الحفاظ على الطاقة التي يدمجها المبنى. غير أن هذه الفئة لا تشمل أي مشاركة للمبنى في برامج إدارة الطلب (DSM). وتُدرَج أي مشاركة في برامج إدارة الطلب ضمن برامج إدارة الطلب.",
       "DEFINITION_EN": "This includes building shell conservation features, HVAC conservation features, lighting conservation features, any conservation features, and other conservation features incorporated by the building. However, this category does not include any demand-side management (DSM) program participation by the building. Any DSM program participation is included in the DSM Programs.",
       "RELATIONS": [
-        "Energy audit",
-        "Energy efficient motors"
+        "ACS-RES-0194",
+        "ACS-RES-0197"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183075,8 +183064,8 @@
       "DEFINITION_AR": "تشير إلى البرامج التي تهدف إلى تقليل الطاقة المستخدمة في أجهزة وأنظمة الاستخدام النهائي المحددة، عادةً دون التأثير في الخدمات المقدمة. وتُقلل هذه البرامج استهلاك الكهرباء الكلي (المُبلَّغ عنه بالميغاواط ساعي)، في الغالب دون اعتبار صريح لتوقيت الوفر الناتج عن البرامج. وتحقق هذه الوفرات عمومًا من خلال استبدال معدات أكثر تطورًا تكنولوجيًا لإنتاج المستوى نفسه من خدمات الاستخدام النهائي (مثل الإضاءة والتدفئة وتشغيل المحركات) باستخدام كهرباء أقل. وتشمل الأمثلة الأجهزة عالية الكفاءة، وبرامج الإضاءة الموفّرة، وأنظمة التدفئة والتهوية وتكييف الهواء عالية الكفاءة أو تعديلات التحكم، والتصميم الموفّر للمباني، ومشغّلات المحركات الكهربائية المتقدمة، وأنظمة استرداد الحرارة.",
       "DEFINITION_EN": "Refers to programs that are aimed at reducing the energy used by specific end-use devices and systems, typically without affecting the services provided. These programs reduce overall electricity consumption (reported in megawatthours), often without explicit consideration for the timing of program-induced savings. Such savings are generally achieved by substituting technologically more advanced equipment to produce the same level of end-use services (e.g. lighting, heating, motor drive) with less electricity. Examples include high-efficiency appliances, efficient lighting programs, high-efficiency heating, ventilating and air conditioning (HVAC) systems or control modifications, efficient building design, advanced electric motor drives, and heat recovery systems.",
       "RELATIONS": [
-        "Energy conservation features",
-        "Energy savings"
+        "ACS-RES-0195",
+        "ACS-RES-0202"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183090,8 +183079,8 @@
       "DEFINITION_AR": "تُعرف أيضًا بالمحركات عالية الكفاءة أو المحركات الممتازة. وهي قابلة للاستبدال عمليًا بالمحركات القياسية، لكن الفروق في بنائها تجعلها أكثر كفاءة في استهلاك الطاقة.",
       "DEFINITION_EN": "Are also known as \"high-efficiency motors\" or \"premium motors.\" They are virtually interchangeable with standard motors, but differences in construction make them more energy efficient.",
       "RELATIONS": [
-        "Energy conservation features",
-        "Energy efficiency, Electricity"
+        "ACS-RES-0195",
+        "ACS-RES-0196"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183105,8 +183094,8 @@
       "DEFINITION_AR": "نسبة استهلاك الطاقة إلى مقياس آخر، وهو عادةً الناتج المحلي الإجمالي الوطني في حالة كثافة استهلاك طاقة البلد. وقد تشير الكثافات الخاصة بالقطاعات إلى استهلاك الطاقة لكل أسرة، أو لكل وحدة من المساحات التجارية، أو لكل قيمة من قيم الشحنات الصناعية، أو إلى مقياس آخر يدل على القطاع. وتشمل تحسينات كثافة استهلاك الطاقة كفاءة الطاقة والحفاظ عليها، وكذلك العوامل البنيوية غير المرتبطة بالتكنولوجيا أو السلوك.",
       "DEFINITION_EN": "A ratio of energy consumption to another metric, typically national gross domestic product in the case of a country's energy intensity. Sector-specific intensities may refer to energy consumption per household, per unit of commercial floorspace, per dollar value industrial shipment, or another metric indicative of a sector. Improvements in energy intensity include energy efficiency and conservation as well as structural factors not related to technology or behavior.",
       "RELATIONS": [
-        "Energy intensity (Commercial Buildings Energy Consumption Survey)",
-        "Energy savings"
+        "ACS-RES-0199",
+        "ACS-RES-0202"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183117,11 +183106,11 @@
       "AR_TERM": "كثافة استهلاك الطاقة (مسح استهلاك الطاقة في المباني التجارية)",
       "EN_TERM": "Energy intensity (Commercial Buildings Energy Consumption Survey)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "نسبة الاستهلاك إلى المساحة الأرضية.",
+      "DEFINITION_AR": "نسبة الاستهلاك إلى المساحة المبنية.",
       "DEFINITION_EN": "The ratio of consumption to floor space.",
       "RELATIONS": [
-        "Energy Intensity",
-        "Energy audit"
+        "ACS-RES-0198",
+        "ACS-RES-0194"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183135,8 +183124,8 @@
       "DEFINITION_AR": "ميزة للحفاظ على الطاقة تستخدم حواسيب مصغّرة وأجهزة قياس ومعدات تحكم وبرمجيات لإدارة استخدام المبنى للطاقة في التدفئة والتهوية وتكييف الهواء والإضاءة و/أو العمليات المتعلقة بالأعمال. ويمكن لهذه الأنظمة أيضًا إدارة مكافحة الحريق والسلامة والأمن. ولا تُعدّ المؤقتات الحرارية ذات المؤقت الزمني ضمن أنظمة إدارة والتحكم في الطاقة.",
       "DEFINITION_EN": "An energy conservation feature that uses mini/microcomputers, instrumentation, control equipment, and software to manage a building's use of energy for heating, ventilation, air conditioning, lighting, and/or business-related processes. These systems can also manage fire control, safety, and security. Not included as EMCS are time-clock thermostats.",
       "RELATIONS": [
-        "Energy management practices",
-        "Demand response programs"
+        "ACS-RES-0201",
+        "ACS-RES-0183"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183150,8 +183139,8 @@
       "DEFINITION_AR": "المشاركة، بوصفها جزءًا من العمليات المعتادة للمبنى، في برامج كفاءة الطاقة المصممة لتقليل الطاقة المستخدمة في أنظمة الاستخدام النهائي المحددة. ويشمل ذلك أنظمة إدارة والتحكم في الطاقة (EMCS)، والمشاركة في برنامج إدارة الطلب (DSM)، وتدقيق الطاقة، ومدير طاقة المبنى.",
       "DEFINITION_EN": "Involvement, as a part of the building's normal operations, in energy efficiency programs that are designed to reduce the energy used by specific end-use systems. This includes the following EMCS, DSM Program Participation, Energy Audit, and a Building Energy Manager.",
       "RELATIONS": [
-        "Energy audit",
-        "Energy management and control system(EMCS)"
+        "ACS-RES-0194",
+        "ACS-RES-0200"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183165,8 +183154,8 @@
       "DEFINITION_AR": "انخفاض في كمية الكهرباء التي يستخدمها المستخدمون النهائيون نتيجة المشاركة في برامج كفاءة الطاقة وبرامج إدارة الحمل.",
       "DEFINITION_EN": "A reduction in the amount of electricity used by end users as a result of participation in energy efficiency programs and load management programs.",
       "RELATIONS": [
-        "Energy audit",
-        "Energy efficiency, Electricity"
+        "ACS-RES-0194",
+        "ACS-RES-0196"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183180,8 +183169,8 @@
       "DEFINITION_AR": "كحول شفاف وعديم اللون وقابل للاشتعال. ويُنتَج الإيثانول عادةً حيويًا من مصادر تغذية من الكتلة الحيوية مثل المحاصيل الزراعية ومخلفات السليلوز المأخوذة من المحاصيل الزراعية أو الخشب. ويمكن أيضًا إنتاج الإيثانول كيميائيًا من الإيثيلين. انظر: الكتلة الحيوية، وقود الإيثانول، وقود الإيثانول منزوع النكهة.",
       "DEFINITION_EN": "A clear, colorless, flammable alcohol. Ethanol is typically produced biologically from biomass feedstocks such as agricultural crops and cellulosic residues from agricultural crops or wood. Ethanol can also be produced chemically from ethylene. See Biomass, Fuel Ethanol, and Fuel Ethanol Minus Denaturant.",
       "RELATIONS": [
-        "Fuel ethanol",
-        "Biofuels"
+        "ACS-RES-0210",
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183195,8 +183184,8 @@
       "DEFINITION_AR": "مجمّع تُلتقط فيه الحرارة الحرارية الشمسية باستخدام سائل تجميع يتدفق عبر أنبوب امتصاص موجود داخل أنبوب زجاجي مفرَّغ.",
       "DEFINITION_EN": "A collector in which solar thermal heat is captured by use of a collector fluid that flows through an absorber tube contained inside an evacuated glass tube.",
       "RELATIONS": [
-        "Solar thermal collector",
-        "Solar thermal collector, special"
+        "ACS-RES-0091",
+        "ACS-RES-0095"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183210,8 +183199,8 @@
       "DEFINITION_AR": "خط كهربائي يمتد شعاعيًا من محطة تحويل التوزيع لتزويد الطاقة الكهربائية داخل منطقة كهربائية أو منطقة فرعية منها.",
       "DEFINITION_EN": "An electrical line that extends radially from a distribution substation to supply electrical energy within an electric area or sub-area.",
       "RELATIONS": [
-        "Distribution system",
-        "Line loss"
+        "ACS-NET-0663",
+        "ACS-RES-0213"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183225,8 +183214,8 @@
       "DEFINITION_AR": "جامع حراري شمسي متوسط الحرارة، يتكون عادةً من إطار معدني وألواح تغطية وماصات (غالبًا معدنية) وعزل، ويستخدم سائلًا يُضخ كوسيط لنقل الحرارة، وهو مُستخدم أساسًا في تطبيقات تسخين المياه.",
       "DEFINITION_EN": "A medium-temperature solar thermal collector that typically consists of a metal frame, glazing, absorbers (usually metal), and insulation and that uses a pumped liquid as the heat-transfer medium predominant use is in water-heating applications.",
       "RELATIONS": [
-        "Solar thermal collector",
-        "Active Solar"
+        "ACS-RES-0091",
+        "ACS-RES-0001"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183240,8 +183229,8 @@
       "DEFINITION_AR": "في المصابيح الفلورية، تُحوَّل الطاقة إلى ضوء باستخدام شحنة كهربائية لتنشيط ذرات الغاز داخل الأنبوب الفلوري. ومن الأنواع الشائعة الأبيض البارد والأبيض الدافئ وغيرها. وقد طُوّرت مصابيح فلورية خاصة موفّرة للطاقة تُنتج المقدار نفسه من الضوء مع استهلاك طاقة أقل. ملاحظة: لتعريف المصابيح الفلورية المدمجة، انتقل إلى المصابيح الفلورية المدمجة.",
       "DEFINITION_EN": "In fluorescent lamps, energy is converted to light by using an electric charge to \"excite\" gaseous atoms within a fluorescent tube. Common types are \"cool white,\" \"warm white,\" etc. Special energy efficient fluorescent lights have been developed that produce the same amount of light while consuming less energy. Note: for definition of compact fluorescent bulbs, go to compact fluorescent bulbs.",
       "RELATIONS": [
-        "Lighting conservation feature",
-        "Energy efficient motors"
+        "ACS-RES-0212",
+        "ACS-RES-0197"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183255,8 +183244,8 @@
       "DEFINITION_AR": "مركبة كهربائية تولّد الكهرباء على متنها بواسطة خلية وقود تعمل بالهيدروجين، بدلاً من الاعتماد على الكهرباء من بطارية عالية السعة.",
       "DEFINITION_EN": "An electric vehicle that generates on-board electricity with a fuel cell powered by hydrogen rather than relying on electricity from a high capacity battery.",
       "RELATIONS": [
-        "Fuel cell",
-        "Biofuels"
+        "ACS-CHEM-0608",
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183270,8 +183259,8 @@
       "DEFINITION_AR": "المجموعة الكاملة من العمليات أو المراحل المتتابعة المشمولة في استخدام الوقود، بما في ذلك الاستخلاص والتحويل والنقل والحرق. وتحدث الانبعاثات عمومًا في كل مرحلة من مراحل دورة الوقود.",
       "DEFINITION_EN": "The entire set of sequential processes or stages involved in the utilization of fuel, including extraction, transformation, transportation, and combustion. Emissions generally occur at each stage of the fuel cycle.",
       "RELATIONS": [
-        "Fuel ethanol",
-        "Biofuels"
+        "ACS-RES-0210",
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183285,8 +183274,8 @@
       "DEFINITION_AR": "كحول إيثيلي يُستخدم كوقود ويُنتج بتخمر السكريات. ويُجرَّد إيثانول الوقود بخلطه بمنتجات نفطية (مثل البنزين الطبيعي) بحيث يصبح غير صالح للاستهلاك البشري.",
       "DEFINITION_EN": "Ethyl alcohol for fuel use that is produced by the fermentation of sugars. Fuel ethanol is denatured with petroleum products (for example, natural gasoline) to render it unfit for human consumption.",
       "RELATIONS": [
-        "Ethanol (C2H5OH)",
-        "Biofuels"
+        "ACS-RES-0203",
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183300,8 +183289,8 @@
       "DEFINITION_AR": "مساعدة برنامج إدارة الطلب على الطاقة التي يشجع فيها الراعي المستهلكين على الانتقال من وقود إلى آخر لخدمة استخدام نهائي محددة. على سبيل المثال، قد تشجع شركات المرافق المستهلكين على استبدال سخانات الماء الكهربائية بوحدات تعمل بالغاز، أو تشجع المستهلكين الصناعيين على استخدام سخانات كهربائية بدلًا من سخانات الغاز الطبيعي.",
       "DEFINITION_EN": "DSM program assistance where the sponsor encourages consumers to change from one fuel to another for a particular end-use service. For example, utilities might encourage consumers to replace electric water heaters with gas units or encourage industrial consumers to use electric microwave heaters instead of natural gas-heaters.",
       "RELATIONS": [
-        "Demand-side management (DSM)",
-        "Fuel ethanol"
+        "ACS-RES-0184",
+        "ACS-RES-0210"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183315,8 +183304,8 @@
       "DEFINITION_AR": "خاصية أو ممارسة في المبنى مصممة للحد من كمية الطاقة المستهلكة في نظام الإنارة.",
       "DEFINITION_EN": "A building feature or practice designed to reduce the amount of energy consumed by the lighting system.",
       "RELATIONS": [
-        "Energy conservation features",
-        "Daylighting controls"
+        "ACS-RES-0195",
+        "ACS-RES-0180"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183330,8 +183319,8 @@
       "DEFINITION_AR": "الطاقة الكهربائية المفقودة نتيجة لنقل الكهرباء. وجانب كبير من هذه الفواقد ذات طبيعة حرارية.",
       "DEFINITION_EN": "Electric energy lost because of the transmission of electricity. Much of the loss is thermal in nature.",
       "RELATIONS": [
-        "Transmission and distribution loss",
-        "Feeder line"
+        "ACS-RES-0169",
+        "ACS-RES-0205"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183345,8 +183334,8 @@
       "DEFINITION_AR": "تعريفات أو برامج فوترة تتيح لبعض أنواع العملاء خفض حجم الكهرباء المفوترة والموردة من الشبكة خلال فترة فوترة محددة. ويأخذ حجم الكهرباء المفوترة المخفَّض في الحسبان كمية الكهرباء التي أعادها العميل إلى الشبكة في الأوقات التي تجاوز فيها التوليد الذاتي (عادةً ما يكون مصدره طاقة متجددة) حجم الاستهلاك.",
       "DEFINITION_EN": "Utility tariffs or billing programs that allow certain types of customers to reduce the volume of billed electricity supplied by the grid within a defined billing period. The reduced volume of billed electricity takes into account the amount of electricity that the customer sold back to the grid during times when self-generation (typically powered by a renewable energy source) exceeded consumption.",
       "RELATIONS": [
-        "Electric power grid",
-        "Distributed generator"
+        "ACS-RES-0193",
+        "ACS-RES-0187"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183360,8 +183349,8 @@
       "DEFINITION_AR": "تغير في صافي الإشعاع المتوسط عند قمة التروبوسفير (المعروفة باسم طبقة التروبوباز) بسبب تغير في الإشعاع الشمسي الوارد أو في الإشعاع بالأشعة تحت الحمراء الصادر. ويميل التأثير الإشعاعي الموجب في المتوسط إلى رفع حرارة سطح الأرض، ويميل التأثير الإشعاعي السالب في المتوسط إلى تبريد سطح الأرض. وتحبس غازات الدفء، عند إطلاقها في الغلاف الجوي، الطاقة بالأشعة تحت الحمراء المشعة من سطح الأرض، ومن ثم تميل إلى إحداث تأثير إشعاعي موجب. انظر أيضًا غازات الدفء.",
       "DEFINITION_EN": "A change in average net radiation at the top of the troposphere (known as the tropopause) because of a change in either incoming solar or exiting infrared radiation. A positive radiative forcing tends on average to warm the earth's surface; a negative radiative forcing on average tends to cool the earth's surface. Greenhouse gases, when emitted into the atmosphere, trap infrared energy radiated from the earth's surface and therefore tend to produce positive radiative forcing. Also see Greenhouse gases.",
       "RELATIONS": [
-        "Greenhouse gases",
-        "Global warming potential (GWP)"
+        "ACS-RES-0136",
+        "ACS-RES-0135"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183375,8 +183364,8 @@
       "DEFINITION_AR": "غازات تمتص الإشعاع الشمسي الوارد أو الإشعاع بالأشعة تحت الحمراء الصادر، مما يؤثر في التوزيع الرأسي لحرارة الغلاف الجوي. انظر أيضًا التأثير الإشعاعي.",
       "DEFINITION_EN": "Gases that absorb incoming solar radiation or outgoing infrared radiation, affecting the vertical temperature profile of the atmosphere. Also see Radiative forcing.",
       "RELATIONS": [
-        "Radiative forcing",
-        "Greenhouse gases"
+        "ACS-RES-0215",
+        "ACS-RES-0136"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183390,8 +183379,8 @@
       "DEFINITION_AR": "تمثيل رياضي للتكرار أو للنسبة التي تحدث بها سرعات رياح محددة خلال فترة زمنية محددة.",
       "DEFINITION_EN": "A mathematical representation of the frequency or ratio that specific wind speeds occur within a specified time interval.",
       "RELATIONS": [
-        "Variable-speed wind turbines",
-        "Horizontal axis wind turbine"
+        "ACS-RES-0178",
+        "ACS-RES-0142"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183405,8 +183394,8 @@
       "DEFINITION_AR": "برنامج ترشيد برعاية شركة مرافق، تُعيد فيه شركة المرافق جزءًا من تكلفة سعر الشراء عند شراء ثلاجة أو سخان ماء أو مكيف هواء أو جهاز آخر أكثر كفاءة في استهلاك الطاقة.",
       "DEFINITION_EN": "A utility company-sponsored conservation program whereby the utility company returns a portion of the purchase price cost when a more energy-efficient refrigerator, water heater, air conditioner, or other appliance is purchased.",
       "RELATIONS": [
-        "Energy conservation features",
-        "Energy audit"
+        "ACS-RES-0195",
+        "ACS-RES-0194"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183420,8 +183409,8 @@
       "DEFINITION_AR": "وقود يُنتج بتقطيع النفايات الصلبة البلدية. وتُفصل عادةً المواد غير القابلة للاحتراق مثل الزجاج والمعادن قبل تصنيع RDF. وتُباع المادة المتبقية كما هي أو تُضغط على شكل حبيبات أو طوب أو قوائم. وتقع منشآت معالجة RDF عادةً بالقرب من مصدر للنفايات الصلبة البلدية، في حين يمكن أن تقع منشأة حرق RDF في مكان آخر.",
       "DEFINITION_EN": "A fuel produced by shredding municipal solid waste (MSW). Noncombustible materials such as glass and metals are generally removed prior to making RDF. The residual material is sold as-is or compressed into pellets, bricks, or logs. RDF processing facilities are typically located near a source of MSW, while the RDF combustion facility can be located elsewhere.",
       "RELATIONS": [
-        "Municipal waste to energy project or plant",
-        "Waste energy"
+        "ACS-RES-0149",
+        "ACS-RES-0069"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183435,8 +183424,8 @@
       "DEFINITION_AR": "تؤدي لجنة المرافق وظائفها التنظيمية من خلال وضع القواعد والحكم. وبموجب وضع القواعد، يجوز للجنة المرافق اقتراح قاعدة عامة لتغيير تنظيمي. وبموجب القانون، عليها إصدار إشعار بالقاعدة المقترحة، كما يُطلب أيضًا تقديم تعليقات؛ وتَنشر لجنة الطاقة الفيدرالية هذا الإشعار في السجل الفيدرالي. ويجب نشر القرار النهائي. وقد تعمل لجنة المرافق أيضًا على أساس كل حالة على حدة، بناءً على مقدمات من الشركات الخاضعة للرقابة أو من غيرها. وقد تأتي الاعتراضات على أي مقترح من اللجنة أو من المتدخلين، وعندئذٍ يجب عرض المقترح على جلسة استماع يرأسها قاضٍ إداري. وقد يُعتمد قرار القاضي أو يُعدَّل أو يُنقض من قِبل مفوضي المرافق، وعندئذٍ يمكن للأطراف المعنية تقديم التماس بإعادة النظر، ويمكنها استئناف القرار عبر النظام القضائي إلى المحكمة العليا في الولايات المتحدة.",
       "DEFINITION_EN": "A utility commission carries out its regulatory functions through rulemaking and adjudication. Under rulemaking, the utility commission may propose a general rule of regulation change. By law, it must issue a notice of the proposed rule and a request for comments is also made; the Federal Energy Regulatory Commission publishes this in the Federal Register. The final decision must be published. A utility commission may also work on a case-by-case basis from submissions from regulated companies or others. Objections to a proposal may come from the commission or intervenors, in which case the proposal must be presented to a hearing presided over by an administrative law judge. The judge's decision may be adopted, modified, or reversed by the utility commissioners, in which case those involved can petition for a rehearing and may appeal a decision through the courts system to the U.S. Supreme Court.",
       "RELATIONS": [
-        "Rebate program",
-        "Energy audit"
+        "ACS-RES-0218",
+        "ACS-RES-0194"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183450,8 +183439,8 @@
       "DEFINITION_AR": "وقود متجدد يتكون من جزيئات هيدروكربونية، يُستخدم بديلًا عن زيت التسخين المعتمد على النفط. وقد يُباع هذا الوقود أيضًا كمنتج وسيط يُكرَّر لاحقًا إلى منتج نفطي آخر.",
       "DEFINITION_EN": "Renewable fuel consisting of hydrocarbon molecules used as a replacement for petroleum-based heating oil. This fuel may also be sold as an intermediate product to be refined further into another petroleum product.",
       "RELATIONS": [
-        "Biointermediates",
-        "Biofuels"
+        "ACS-RES-0111",
+        "ACS-RES-0009"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183465,8 +183454,8 @@
       "DEFINITION_AR": "سيليكون بلوري يُستخدم في الخلايا الكهروضوئية. ويُصنع السيليكون الشريطي بمجموعة متنوعة من طرائق التجميد (التبلور) التي تسحب ألواح سيليكون رقيقة من أحواض سيليكون منصهر نقي نسبيًا.",
       "DEFINITION_EN": "Crystalline silicon that is used in photovoltaic cells. Ribbon silicon is fabricated by a variety of solidification (crystallization) methods that withdraw thin silicon sheets from pools of relatively pure molten silicon.",
       "RELATIONS": [
-        "Photovoltaic Module",
-        "Thermophotovoltaic cell"
+        "ACS-RES-0044",
+        "ACS-RES-0163"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183480,8 +183469,8 @@
       "DEFINITION_AR": "موقع محطة كانت تنتج في السابق طاقة كهربائية أو ميكانيكية، لكنها الآن خارج الخدمة. ويشمل ذلك المحطات التي تم التخلّي عنها، أو تضررت من فيضان أو حريق، أو غمرتها خزانات جديدة، أو فُكّكت.",
       "DEFINITION_EN": "The site of a plant that formerly produced electrical or mechanical power but is now out of service. Includes plants that have been abandoned, damaged by flood or fire, inundated by new reservoirs, or dismantled.",
       "RELATIONS": [
-        "Run-of-river hydroelectric plant",
-        "Pumped-storage hydroelectric plant"
+        "ACS-RES-0225",
+        "ACS-RES-0155"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183495,8 +183484,8 @@
       "DEFINITION_AR": "جهاز لجمع الطاقة الشمسية يتكون من حاويات ماء موجودة على سطح سقف تمتص الطاقة الشمسية أثناء النهار، بحيث يمكن استخدام الحرارة ليلًا، أو يتم تبريد المبنى بالتبخر ليلًا.",
       "DEFINITION_EN": "A solar energy collection device consisting of containers of water located on a roof that absorb solar energy during the day so that the heat can be used at night or that cools a building by evaporation at night.",
       "RELATIONS": [
-        "Solar Pond",
-        "Solar thermal collector, low-temperature"
+        "ACS-RES-0099",
+        "ACS-RES-0093"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183510,8 +183499,8 @@
       "DEFINITION_AR": "محطة منخفضة الارتفاع تستخدم جريان مجرى مائي على حالته، وتكون لها قدرة خزنية قليلة أو معدومة.",
       "DEFINITION_EN": "A low-head plant using the flow of a stream as it occurs and having little or no reservoir capacity for storage.",
       "RELATIONS": [
-        "Pumped-storage hydroelectric plant",
-        "Preliminary permit (hydroelectric power)"
+        "ACS-RES-0155",
+        "ACS-RES-0154"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183525,8 +183514,8 @@
       "DEFINITION_AR": "محطة كهرومائية متعددة الأغراض. ومن أمثلتها سد يخزّن المياه لأغراض التحكم في الفيضانات وإنتاج الطاقة في آنٍ واحد.",
       "DEFINITION_EN": "A multiple-purpose hydroelectric plant. An example is a dam that stores water for both flood control and power production.",
       "RELATIONS": [
-        "Qualifying facility (QF)",
-        "Cogeneration system"
+        "ACS-RES-0227",
+        "ACS-RES-0121"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -183540,8 +183529,8 @@
       "DEFINITION_AR": "منشأة توليد مشترك أو إنتاج طاقة صغيرة تستوفي معايير معينة تتعلق بالملكية والتشغيل والكفاءة، وضعتها لجنة الطاقة الفيدرالية (FERC) بموجب قانون سياسات تنظيم المرافق العامة (PURPA).",
       "DEFINITION_EN": "A cogeneration or small power production facility that meets certain ownership, operating, and efficiency criteria established by the Federal Energy Regulatory Commission (FERC) pursuant to the Public Utility Regulatory Policies Act (PURPA).",
       "RELATIONS": [
-        "Cogenerator",
-        "Joint-use facility"
+        "ACS-RES-0122",
+        "ACS-RES-0226"
       ],
       "STATUS": "Approved",
       "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
@@ -184136,7 +184125,7 @@
       "AR_TERM": "الانبعاثات في المصب",
       "EN_TERM": "Downstream emissions",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "إجمالي انبعاثات غازات الدفينة التي تحدث في المصب من السد، بما في ذلك انبعاثات إزالة الغاز والانبعاث الانتشاري على حد سواء",
+      "DEFINITION_AR": "إجمالي انبعاثات غازات الدفينة التي تحدث في المصب من السد، بما في ذلك انبعاثات إزالة الغاز والانبعاث الانتشاري على حد سواء.",
       "DEFINITION_EN": "The total greenhouse gas emissions that occur downstream of a dam including both degassing emissions and the diffusive emission",
       "RELATIONS": [
         "ACS-LAW-0236",
