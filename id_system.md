@@ -30,6 +30,7 @@
 | ASTR  | Astronomy |
 | GEO   | Geology |
 | STAT  | Statistics |
+| RES   | Renewable Energy and Sustainability |
 
 ## أمثلة:
 
@@ -40,6 +41,7 @@
 - `ACS-GEN-0001` → General Knowledge
 - `ACS-LAW-0001` → Law
 - `ACS-ASTR-0001` → Astronomy
+- `ACS-RES-0001` → Renewable Energy and Sustainability
 
 ## قواعد:
 - لا يسمح بالتكرار (كل ID فريد عالمياً)
