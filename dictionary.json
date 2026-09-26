@@ -181628,7 +181628,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0100",
-      "AR_TERM": "البركة الشمسية مملحة متدرجة الملوحة",
+      "AR_TERM": "بركة شمسية مملحة متدرجة الملوحة",
       "EN_TERM": "Salt gradient solar pond",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "بركة شمسية تتكون من ثلاث طبقات رئيسية: طبقة عليا قريبة من درجة الحرارة المحيطة منخفضة الملوحة، وطبقة سفلية ساخنة تتراوح عادةً بين 160 و212 درجة فهرنهايت شديدة الملوحة، ومنطقة تدرج مهمة تعمل كعازل شفاف يسمح بمحبس ضوء الشمس في الطبقة الساخنة السفلية التي تُسحب منها الحرارة المفيدة.",
@@ -181672,10 +181672,10 @@
     },
     {
       "ACS_ID": "ACS-RES-0103",
-      "AR_TERM": "الأطباق الشمسية الحرارية المكافئة",
+      "AR_TERM": "الأطباق الشمسية الحرارية المقعرة",
       "EN_TERM": "Solar thermal parabolic dishes",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "تقنية حرارية شمسية تستخدم نظام مرايا معياريًا يقارب قطعًا مكافئًا وتتبع محورين لتركيز ضوء الشمس على مستقبلات عند البؤرة لكل طبق، وقد تُشغل الشمس المركزة محرك دورة ستيرلنغ أو رانكن أو بريتون عند البؤرة أو تسخن سائل عمل يُنقل عبر أنابيب إلى محرك مركزي.",
+      "DEFINITION_AR": "تقنية حرارية شمسية تستخدم نظام مرايا معياريًا يقارب قطعًا مقعّرًا وتتبع محورين لتركيز ضوء الشمس على مستقبلات عند البؤرة لكل طبق، وقد تُشغل الشمس المركزة محرك دورة ستيرلنغ أو رانكن أو بريتون عند البؤرة أو تسخن سائل عمل يُنقل عبر أنابيب إلى محرك مركزي.",
       "DEFINITION_EN": "A solar thermal technology using a modular mirror system that approximates a parabola and incorporates two-axis tracking to focus sunlight onto receivers at the focal point of each dish; the concentrated sunlight may drive a Stirling, Rankine, or Brayton cycle engine at the focal point or heat a working fluid piped to a central engine.",
       "RELATIONS": [
         "ACS-RES-0098",
@@ -181985,7 +181985,7 @@
       "AR_TERM": "مؤتمر الأطراف (COP)",
       "EN_TERM": "Conference of the parties (COP)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "مجموعة الدول التي صادقت على اتفاقية الإطار بشأن تغير المناخ (FCCC). والدور الأساسي لمؤتمر الأطراف هو متابعة تنفيذ الاتفاقية ومراجعة القرارات اللازمة لتطبيقها الفعال. انظر أيضًا اتفاقية الإطار بشأن تغير المناخ (FCCC).",
+      "DEFINITION_AR": "مجموعة الدول التي صادقت على اتفاقية الإطار بشأن تغير المناخ (UNFCCC). والدور الأساسي لمؤتمر الأطراف هو متابعة تنفيذ الاتفاقية ومراجعة القرارات اللازمة لتطبيقها الفعال. انظر أيضًا اتفاقية الإطار بشأن تغير المناخ (UNFCCC).",
       "DEFINITION_EN": "The collection of nations that have ratified the Framework Convention on Climate Change(FCCC). The primary role of the COP is to keep implementation of the FCCC under review and make the decisions necessary for its effective implementation. Also see Framework Convention on Climate Change (FCCC).",
       "RELATIONS": [
         "ACS-RES-0120",
@@ -182087,7 +182087,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0131",
-      "AR_TERM": "خشب التالف",
+      "AR_TERM": "الخشب المتبقي",
       "EN_TERM": "Cull wood",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "جذوع أو رقائق أو منتجات خشبية تُحرق.",
@@ -182164,7 +182164,7 @@
       "AR_TERM": "غازات الدفينة",
       "EN_TERM": "Greenhouse gases",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "الغازات، مثل بخار الماء وثاني أكسيد الكربون وأكسيد النيتروز والميتان والهيدروفلوروكربونات (HFCs) والبيرفلوروكربونات (PFCs) وسداسي فلوريد الكبريت، التي تكون شفافة أمام الإشعاع الشمسي (الموجات القصيرة) لكنها معتمة أمام الإشعاع طويل الموجة (الأشعة تحت الحمراء)، مما يمنع الطاقة الإشعاعية طويلة الموجة من مغادرة الغلاف الجوي للأرض. ويتمثل الأثر الصافي في حبس الإشعاع الممتص والميل إلى تسخين سطح الكوكب.",
+      "DEFINITION_AR": "الغازات، مثل بخار الماء وثاني أكسيد الكربون وأكسيد النيتروز والميثان والهيدروفلوروكربونات (HFCs) والبيرفلوروكربونات (PFCs) وسداسي فلوريد الكبريت، التي تكون شفافة أمام الإشعاع الشمسي (الموجات القصيرة) لكنها معتمة أمام الإشعاع طويل الموجة (الأشعة تحت الحمراء)، مما يمنع الطاقة الإشعاعية طويلة الموجة من مغادرة الغلاف الجوي للأرض. ويتمثل الأثر الصافي في حبس الإشعاع الممتص والميل إلى تسخين سطح الكوكب.",
       "DEFINITION_EN": "Those gases, such as water vapor, carbon dioxide, nitrous oxide, methane, hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) and sulfur hexafluoride, that are transparent to solar (short-wave) radiation but opaque to long-wave (infrared) radiation, thus preventing long-wave radiant energy from leaving Earth's atmosphere. The net effect is a trapping of absorbed radiation and a tendency to warm the planet's surface.",
       "RELATIONS": [
         "ACS-RES-0135",
@@ -182224,7 +182224,7 @@
       "AR_TERM": "الهيليوستات",
       "EN_TERM": "Heliostat",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "مرآة تعكس الأشعة الشمسية نحو مستقبل مركزي. ويضبط الهيليوستات موضعه تلقائيًا لتتبع التغيرات اليومية أو الموسمية في موقع الشمس. وتسمى ترتيبات الهيليوستات حول مستقبل مركزي أيضًا حقل المجمعات الشمسية.",
+      "DEFINITION_AR": "مرآة تعكس الأشعة الشمسية نحو مستقبل مركزي. وضبط الهيليوستات مواضعها تلقائيًا لتتبع التغيرات اليومية أو الموسمية في موقع الشمس. وتسمى ترتيبات الهيليوستات حول مستقبل مركزي أيضًا حقل المجمعات الشمسية.",
       "DEFINITION_EN": "A mirror that reflects solar rays onto a central receiver. A heliostat automatically adjusts its position to track daily or seasonal changes in the sun's position. The arrangement of heliostats around a central receiver is also called a solar collector field.",
       "RELATIONS": [
         "ACS-RES-0141",
@@ -182236,7 +182236,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0141",
-      "AR_TERM": "المجمّع الحراري عالي الحراة",
+      "AR_TERM": "المجمّع الحراري عالي الحرارة",
       "EN_TERM": "High-temperature collector",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "جامع حراري شمسي مصمم للعمل عند درجة حرارة 180 درجة فهرنهايت أو أعلى.",
@@ -182251,7 +182251,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0142",
-      "AR_TERM": "توربين رياح أفقي المحور",
+      "AR_TERM": "توربين رياح ذو محور أفقي",
       "EN_TERM": "Horizontal axis wind turbine",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "أكثر أنواع توربينات الرياح شيوعًا، حيث يكون محور الدوران أفقيًا. انظر أيضًا توربين الرياح.",
@@ -182341,10 +182341,10 @@
     },
     {
       "ACS_ID": "ACS-RES-0148",
-      "AR_TERM": "بكتيريات مؤكسدة الميثان",
+      "AR_TERM": "بكتيريا مؤكسدة الميثان",
       "EN_TERM": "Methanotrophs",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "بكتيريات تستخدم الميثان كغذاء وتؤكسده إلى ثاني أكسيد الكربون.",
+      "DEFINITION_AR": "بكتيريا تستخدم الميثان كغذاء وتؤكسده إلى ثاني أكسيد الكربون.",
       "DEFINITION_EN": "Bacteria that use methane as food and oxidize it into carbon dioxide.",
       "RELATIONS": [
         "ACS-RES-0147",
@@ -182445,7 +182445,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0155",
-      "AR_TERM": "محطة كهرومائية بالتخزين المضغوط",
+      "AR_TERM": "محطة كهرومائية بالتخزين عبر الضخ",
       "EN_TERM": "Pumped-storage hydroelectric plant",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "محطة تولّد الطاقة الكهربائية عادةً خلال فترات الحمل الأقصى مستخدِمةً المياه التي ضُخّت مسبقًا إلى خزان تخزين مرتفع في فترات الحمل الأدنى، عندما تتوفر قدرة توليد زائدة للقيام بذلك. وعند الحاجة إلى قدرة توليد إضافية، يمكن تصريف المياه من الخزان عبر قناة إلى مولدات توربينية تقع في محطة على مستوى أدنى.",
@@ -182460,7 +182460,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0156",
-      "AR_TERM": "محطة كهرومائية بالتخزين المضغوط الخالص",
+      "AR_TERM": "محطة كهرومائية بالتخزين عبر الضخ الخالص",
       "EN_TERM": "Pure pumped-storage hydroelectric plant",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "محطة تنتج الطاقة من مياه ضُخّت مسبقًا إلى خزان علوي فحسب.",
@@ -182519,7 +182519,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0160",
-      "AR_TERM": "العزل الأرضي",
+      "AR_TERM": "الاحتجاز الأرضي",
       "EN_TERM": "Terrestrial sequestration",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "احتجاز الكربون الحيوي في الكتلة الحيوية فوق سطح الأرض وتحتها وفي التربة.",
@@ -182732,7 +182732,7 @@
       "AR_TERM": "مالك النقل (الكهربائي)",
       "EN_TERM": "Transmission owner (electric)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "الجهة التي تملك منشآت النقل وتصونها. تعريف NERC",
+      "DEFINITION_AR": "الجهة التي تملك منشآت النقل وتصونها. تعريف صادر عن NERC.",
       "DEFINITION_EN": "The entity that owns and maintains transmission facilities. NERC definition",
       "RELATIONS": [
         "ACS-RES-0173",
@@ -183001,7 +183001,7 @@
       "AR_TERM": "وقود E95",
       "EN_TERM": "E95",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "وقود يحتوي على خليط من 95 في المئة إيثانول و5 في المئة بنزين",
+      "DEFINITION_AR": "وقود يحتوي على خليط من 95 في المئة إيثانول و5 في المئة بنزين.",
       "DEFINITION_EN": "A fuel containing a mixture of 95 percent ethanol and 5 percent gasoline",
       "RELATIONS": [
         "ACS-RES-0210",
@@ -183283,7 +183283,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0211",
-      "AR_TERM": "مساعدة برنامج إدارة الطلب لتغيير الوقود",
+      "AR_TERM": "مساعدة برنامج إدارة الطلب لتبديل الوقود",
       "EN_TERM": "Fuel-switching DSM program assistance",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "مساعدة برنامج إدارة الطلب على الطاقة التي يشجع فيها الراعي المستهلكين على الانتقال من وقود إلى آخر لخدمة استخدام نهائي محددة. على سبيل المثال، قد تشجع شركات المرافق المستهلكين على استبدال سخانات الماء الكهربائية بوحدات تعمل بالغاز، أو تشجع المستهلكين الصناعيين على استخدام سخانات كهربائية بدلًا من سخانات الغاز الطبيعي.",
@@ -183373,7 +183373,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0217",
-      "AR_TERM": "توزيع رايلي الترددي",
+      "AR_TERM": "توزيع رايلي التكراري",
       "EN_TERM": "Rayleigh frequency distribution",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "تمثيل رياضي للتكرار أو للنسبة التي تحدث بها سرعات رياح محددة خلال فترة زمنية محددة.",
@@ -183807,7 +183807,7 @@
     },
     {
       "ACS_ID": "ACS-RES-0246",
-      "AR_TERM": "الانبعاث المتوسَّط بالنبات",
+      "AR_TERM": "الانبعاث الوسيط بالنبات",
       "EN_TERM": "Plant-mediated emission",
       "DOMAIN": "Renewable Energy and Sustainability",
       "DEFINITION_AR": "تدفقات من انبعاثات غازات الدفينة إلى الغلاف الجوي تتأثر بالنباتات، مثل إنتاج الميثان ونقله وأكسدته في تربة الأراضي الرطبة.",
@@ -184110,7 +184110,7 @@
       "AR_TERM": "الانبعاث الانتشاري",
       "EN_TERM": "Diffusive emission",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "تدفق الغاز عبر الواجهة بين الهواء والماء الذي يحكمه الانتشار. ولقياس التدفقات الانتشارية، تُعد أكثر الطرق شيوعا استخدام الغرف العائمة. وكثيرا ما يتم التقدير باستخدام نموذج الطبقة الحدية الرقيقة في انتقال الغاز.",
+      "DEFINITION_AR": "تدفق الغاز عبر الواجهة بين الهواء والماء الذي يحكمه الانتشار. ولقياس التدفقات الانتشارية، تُعد أكثر الطرق شيوعًا استخدام الغرف العائمة. وكثيرًا ما يتم التقدير باستخدام نموذج الطبقة الحدية الرقيقة في انتقال الغاز.",
       "DEFINITION_EN": "The gas flux across the air-water interface governed by diffusion. For measuring diffusive fluxes, the most popular method employs floating chambers. Frequently estimated using the Thin Boundary Layer model of gas transfer.",
       "RELATIONS": [
         "ACS-LAW-0236",
@@ -184170,7 +184170,7 @@
       "AR_TERM": "المركبات العضوية المتطايرة غير الميثانية (NMVOCs)",
       "EN_TERM": "Non-Methane Volatile Organic Compounds (NMVOCs)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "فئة من الانبعاثات تشمل نطاقا واسعا من المواد الكيميائية العضوية المحددة. وتلعب المركبات العضوية المتطايرة غير الميثانية دورا رئيسيا في تكوّن الأوزون في التروبوسفير، أي الغلاف الجوي السفلي. والأوزون في التروبوسفير غاز من غازات الدفينة. وهو أيضا ملوث هواء محلي وإقليمي رئيسي يسبب أضرارا كبيرة للصحة والبيئة. ولأنها تسهم في تكوّن الأوزون، تُعد هذه المركبات غازات دفينة سابقة لتكوّن الأوزون. ومتى تم تأكسلها في الغلاف الجوي، أنتجت ثاني أكسيد الكربون.",
+      "DEFINITION_AR": "فئة من الانبعاثات تشمل نطاقًا واسعًا من المواد الكيميائية العضوية المحددة. وتلعب المركبات العضوية المتطايرة غير الميثانية دورًا رئيسيًا في تكوّن الأوزون في التروبوسفير، أي الغلاف الجوي السفلي. والأوزون في التروبوسفير غاز من غازات الدفينة. وهو أيضا ملوث هواء محلي وإقليمي رئيسي يسبب أضرارا كبيرة للصحة والبيئة. ولأنها تسهم في تكوّن الأوزون، تُعد هذه المركبات غازات دفينة سابقة لتكوّن الأوزون. ومتى تم تأكسلها في الغلاف الجوي، أنتجت ثاني أكسيد الكربون.",
       "DEFINITION_EN": "A class of emissions which includes a wide range of specific organic chemical substances. Non-Methane Volatile Organic Compounds (NMVOCs) play a major role in the formation of ozone in the troposphere (lower atmosphere). Ozone in the troposphere is a greenhouse gas. It is also a major local and regional air pollutant, causing significant health and environmental damage. Because they contribute to ozone formation, NMVOCs are considered \"precursor\" greenhouse gases. NMVOCs, once oxidized in the atmosphere, produce carbon dioxide.",
       "RELATIONS": [
         "ACS-LAW-0236",
@@ -184200,7 +184200,7 @@
       "AR_TERM": "وكيل النفخ (لإنتاج الرغوة)",
       "EN_TERM": "Blowing agent (for foam production)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "غاز أو سائل متطاير أو مادة كيميائية تولّد غازا أثناء عملية نفخ الرغوة. ويُنشئ الغاز فقاعات أو خلايا في البنية البلاستيكية للرغوة.",
+      "DEFINITION_AR": "غاز أو سائل متطاير أو مادة كيميائية تولّد غازًا أثناء عملية نفخ الرغوة. ويُنشئ الغاز فقاعات أو خلايا في البنية البلاستيكية للرغوة.",
       "DEFINITION_EN": "A gas, volatile liquid, or chemical that generates gas during the foaming process. The gas creates bubbles or cells in the plastic structure of a foam.",
       "RELATIONS": [
         "ACS-ENG-0103",
@@ -184288,7 +184288,7 @@
       "AR_TERM": "البارفلوروكربونات (PFCs)",
       "EN_TERM": "Perfluorocarbons (PFCs)",
       "DOMAIN": "Renewable Energy and Sustainability",
-      "DEFINITION_AR": "هالوكربونات منتجة صناعيا تحتوي على ذرات الكربون والفلور فقط. وتتميز بثباتها الشديد وغياب قابلية الاشتعال وانخفاض سميتها واحتماليتها الصفرية لاستنفاد الأوزون وقدرتها العالية على الاحتباس الحراري.",
+      "DEFINITION_AR": "هالوكربونات منتجة صناعيًا تحتوي على ذرات الكربون والفلور فقط. وتتميز بثباتها الشديد وغياب قابلية الاشتعال وانخفاض سميتها واحتماليتها الصفرية لاستنفاد الأوزون وقدرتها العالية على الاحتباس الحراري.",
       "DEFINITION_EN": "Synthetically produced halocarbons containing only carbon and fluorine atoms. They are characterized by extreme stability, non-flammability, low toxicity, zero ozone depleting potential, and high global warming potential.",
       "RELATIONS": [
         "ACS-RES-0309"
