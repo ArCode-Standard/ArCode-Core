@@ -53,6 +53,7 @@
     "AGR":  "Agriculture",
     "ASTR": "Astronomy",
     "GEO":  "Geology",
-    "STAT": "Statistics"
+    "STAT": "Statistics",
+    "RES":  "Renewable Energy and Sustainability"
   }
 }

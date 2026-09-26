@@ -180154,6 +180154,828 @@
       "STATUS": "Approved",
       "SOURCE": "IEEE Transactions on AI",
       "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0001",
+      "AR_TERM": "الطاقة الشمسية النشطة",
+      "EN_TERM": "Active solar",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "طاقة شمسية تُجمع وتُخزَّن باستخدام مضخات أو مراوح ميكانيكية تُدير سوائل أو هواءً محمّلًا بالحرارة بين المجمّعات الشمسية والمبنى.",
+      "DEFINITION_EN": "Solar energy collected and stored using mechanical pumps or fans that circulate heat-laden fluids or air between solar collectors and a building.",
+      "RELATIONS": [
+        "Photovoltaic Cell (PVC)",
+        "Solar Thermal Collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0002",
+      "AR_TERM": "ظروف المياه غير المواتية",
+      "EN_TERM": "Adverse water conditions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "انخفاض تصريف المجرى أو نقص هطول الأمطار في حوض التصريف أو انخفاض منسوب المياه خلف السد، مما يخفض الفارق الإجمالي في المنسوب ويحدّ من إنتاج الطاقة الكهرومائية.",
+      "DEFINITION_EN": "Reduced streamflow, insufficient rainfall in the drainage basin, or low water supply behind a dam, which reduce the gross head and limit hydroelectric power production.",
+      "RELATIONS": [
+        "Hydraulic Head",
+        "Dam"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0003",
+      "AR_TERM": "السيليكون غير البلوري",
+      "EN_TERM": "Amorphous silicon",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "سبيكة من السيليكون والهيدروجين ذات بني ذري غير منظم وغير بلوري، تُرسَّب في طبقات رقيقة لإنتاج خلايا كهروضوئية بأغشية رقيقة.",
+      "DEFINITION_EN": "An alloy of silicon and hydrogen with a disordered, noncrystalline atomic structure that can be deposited in thin-film layers to produce thin-film photovoltaic cells.",
+      "RELATIONS": [
+        "Photovoltaic Cell (PVC)",
+        "Ribbon Silicon"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0004",
+      "AR_TERM": "التحلل اللاهوائي",
+      "EN_TERM": "Anaerobic decomposition",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تحلل في غياب الأكسجين، كما يحدث في البركة اللاهوائية أو الهاضم، وينتج غازي ثاني أكسيد الكربون والميثان.",
+      "DEFINITION_EN": "Decomposition in the absence of oxygen, as in an anaerobic lagoon or digester, which produces carbon dioxide and methane.",
+      "RELATIONS": [
+        "Anaerobic Lagoon",
+        "Landfill Gas",
+        "Biomass Waste"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0005",
+      "AR_TERM": "البركة اللاهوائية",
+      "EN_TERM": "Anaerobic lagoon",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منشأة لإدارة المخلفات العضوية السائلة تبقى فيها المخلفات في الماء بعمق لا يقل عن ستة أقدام ولمدة تتراوح بين 30 و200 يوم.",
+      "DEFINITION_EN": "A liquid-based organic waste management installation in which waste remains in water at a depth of at least 6 feet for periods of 30 to 200 days.",
+      "RELATIONS": [
+        "Anaerobic Decomposition",
+        "Municipal Solid Waste (MSW)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0006",
+      "AR_TERM": "ظروف المياه المتوسطة",
+      "EN_TERM": "Average water conditions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية وتوزيع هطول الأمطار داخل حوض التصريف وظروف الجريان السطحي، على النحو الذي يُحدد من سجلات إمداد المياه طويلة الأجل.",
+      "DEFINITION_EN": "The amount and distribution of precipitation within a drainage basin and the runoff conditions present, as determined from long-term water supply records.",
+      "RELATIONS": [
+        "Median water condition",
+        "Regulated Streamflow"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0007",
+      "AR_TERM": "زاوية السمت",
+      "EN_TERM": "Azimuth angle",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "زاوية توجيه اللوح الشمسي المائل بالنسبة إلى الشمال: صفر درجة نحو الشمال، وتسعون درجة نحو الشرق، ومئة وثمانين درجة نحو الجنوب، ومئتان وسبعون درجة نحو الغرب.",
+      "DEFINITION_EN": "The orientation angle of a tilted solar panel relative to north: 0 degrees is north, 90 degrees is east, 180 degrees is south, and 270 degrees is west.",
+      "RELATIONS": [
+        "Solar Thermal Collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0008",
+      "AR_TERM": "البيوبيوتانول",
+      "EN_TERM": "Biobutanol",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أيزوميرات البوتانول المستخدمة كوقود ومستخرجة من مواد خام متجددة مثل الذرة أو السورغوم.",
+      "DEFINITION_EN": "Butanol isomers used as fuel and derived from renewable feedstocks such as corn or sorghum.",
+      "RELATIONS": [
+        "Biofuels",
+        "Renewable Naphtha"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0009",
+      "AR_TERM": "الوقود الحيوي",
+      "EN_TERM": "Biofuels",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود سائل ومكونات مزج منتَجة من مواد خام من الكتلة الحيوية، تُستخدم أساسًا في النقل.",
+      "DEFINITION_EN": "Liquid fuels and blending components produced from biomass feedstocks and used primarily for transportation.",
+      "RELATIONS": [
+        "Biomass Waste",
+        "Biobutanol"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0010",
+      "AR_TERM": "الانبعاثات الحيوية المنشأ",
+      "EN_TERM": "Biogenic emissions",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "انبعاثات تنشأ طبيعيًا ولا تتأثر بصورة معتبرة بالأفعال أو الأنشطة البشرية.",
+      "DEFINITION_EN": "Emissions that arise naturally and are not significantly affected by human actions or activity.",
+      "RELATIONS": [
+        "Carbon Stocks",
+        "Terrestrial Sequestration"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0011",
+      "AR_TERM": "غاز الكتلة الحيوية",
+      "EN_TERM": "Biomass gas",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "غاز متوسط القيمة الحرارية يحتوي على الميثان وثاني أكسيد الكربون، ينتج عن نشاط الكائنات الدقيقة على المواد العضوية مثل نفايات المكبات.",
+      "DEFINITION_EN": "A medium-Btu gas containing methane and carbon dioxide that results from the action of microorganisms on organic materials such as landfill waste.",
+      "RELATIONS": [
+        "Landfill Gas",
+        "Anaerobic Decomposition"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0012",
+      "AR_TERM": "نفايات الكتلة الحيوية",
+      "EN_TERM": "Biomass waste",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مادة عضوية غير أحفورية ذات أصل بيولوجي تنتج كمنتج ثانوي أو كمنتج متخلَّى عنه، وتشمل النفايات الصلبة البلدية ذات المصدر الحيوي وغاز المكبات والحمأة ومخلفات المحاصيل الزراعية.",
+      "DEFINITION_EN": "Organic non-fossil material of biological origin that is a byproduct or a discarded product, including municipal solid waste from biogenic sources, landfill gas, sludge, and agricultural crop byproducts.",
+      "RELATIONS": [
+        "Non-biomass Waste",
+        "Biofuels",
+        "Municipal Solid Waste (MSW)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0013",
+      "AR_TERM": "وقود الديزيل المشتق من الكتلة الحيوية",
+      "EN_TERM": "Biomass-based diesel fuel",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الديزل الحيوي ووقود الديزيل المتجدد الآخر ومكونات مزج الديزيل المشتقة من الكتلة الحيوية، باستثناء وقود الديزيل المتجدد المعالَج مع مواد خام نفطية.",
+      "DEFINITION_EN": "Biodiesel and other renewable diesel fuel or diesel blending components derived from biomass, excluding renewable diesel co-processed with petroleum feedstocks.",
+      "RELATIONS": [
+        "Renewable Diesel Fuel",
+        "Biomass Waste"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0014",
+      "AR_TERM": "السائل الأسود",
+      "EN_TERM": "Black liquor",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منتج ثانوي لعملية صناعة الورق: سائل قلوي مستنفد يُزال من الهاضمات أثناء استخلاص ألياف الخشب، ثم يُبخر ويُحرق وقودًا في فرن الاسترجاع.",
+      "DEFINITION_EN": "A byproduct of the paper production process: alkaline spent liquor removed from digesters during wood pulping, which is evaporated and burned as fuel in a recovery furnace.",
+      "RELATIONS": [
+        "Pulp Chips",
+        "Wood Energy"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0015",
+      "AR_TERM": "مخزون الكربون",
+      "EN_TERM": "Carbon stocks",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية الكربون المخزَّنة في الأنظمة البيولوجية والمادية، بما في ذلك الأشجار ومنتجات حصادها والمحاصيل الزراعية والتربة والمحيطات والطبقات الجيولوجية.",
+      "DEFINITION_EN": "The quantity of carbon stored in biological and physical systems, including trees, harvested products, agricultural crops, soils, oceans, and geological sinks.",
+      "RELATIONS": [
+        "Terrestrial Sequestration",
+        "Geologic Sequestration",
+        "Reforestation"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0016",
+      "AR_TERM": "المحطة الكهرومائية المجمَّعة",
+      "EN_TERM": "Combined hydroelectric plant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "محطة كهرومائية تستخدم المياه المحلوجة والمجرى الطبيعي معًا في إنتاج الطاقة.",
+      "DEFINITION_EN": "A hydroelectric plant that uses both pumped water and natural streamflow for power production.",
+      "RELATIONS": [
+        "Conventional Hydroelectric Plant",
+        "Run-of-river Hydroelectric Plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0017",
+      "AR_TERM": "الطاقة الشمسية المركَّزة",
+      "EN_TERM": "Concentrating solar power",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نظام تحويل طاقة شمسية يركّز الأشعة الشمسية بصريًا باستخدام المرايا لتوليد سائل عامل عالي الحرارة.",
+      "DEFINITION_EN": "A solar energy conversion system that optically concentrates solar rays with mirrors to generate a high-temperature working fluid.",
+      "RELATIONS": [
+        "Concentrator",
+        "Solar Power Tower",
+        "Parabolic Trough"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0018",
+      "AR_TERM": "مُركِّز الأشعة",
+      "EN_TERM": "Concentrator",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "جهاز عاكس أو مُثبِّن يفوّز الإشعاع الساقط على مساحة أصغر من سطحه، مما يزيد كثافة الإشعاع عند نقطة التركيز.",
+      "DEFINITION_EN": "A reflective or refractive device that focuses incident insolation onto an area smaller than its own surface, increasing irradiance at the focus.",
+      "RELATIONS": [
+        "Concentrating Solar Power",
+        "Parabolic Dish"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0019",
+      "AR_TERM": "المحطة الكهرومائية التقليدية",
+      "EN_TERM": "Conventional hydroelectric plant",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "محطة تُنتج فيها كامل الطاقة من التصريف الطبيعي للمجرى بحسب ما تسمح به المخزون المتاحة.",
+      "DEFINITION_EN": "A plant in which all of the power is produced from natural streamflow as regulated by available storage.",
+      "RELATIONS": [
+        "Run-of-river Hydroelectric Plant",
+        "Multiple Purpose Reservoir"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0020",
+      "AR_TERM": "حزمة الحطب",
+      "EN_TERM": "Cord of wood",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وحدة من حطب الوقود بأبعاد أربعة أقدام في أربعة أقدام في ثمانية أقدام، أي ما يعادل مئة وثمانين قدمًا مكعبًا.",
+      "DEFINITION_EN": "A unit of firewood measuring 4 feet by 4 feet by 8 feet, equivalent to 128 cubic feet.",
+      "RELATIONS": [
+        "Fuel Wood",
+        "Wood Energy"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0021",
+      "AR_TERM": "حطب الوقود",
+      "EN_TERM": "Fuel wood",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الخشب ومنتجات الخشب، وقد تشمل الشجيرات والأغصان، التي تُجمع أو تُشترى وتُستخدم للحرق المباشر.",
+      "DEFINITION_EN": "Wood and wood products, possibly including shrubs and branches, that are gathered or purchased and used for direct combustion.",
+      "RELATIONS": [
+        "Cord of Wood",
+        "Wood Energy"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0022",
+      "AR_TERM": "التحزين الجيولوجي",
+      "EN_TERM": "Geologic sequestration",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تحزين هندسي يُحقن فيه ثاني أكسيد الكربون المُلتقط للتخزين الدائم في خزانات جيولوجية تحت الأرض مثل الطبقات الجوفية المالحة وحقول النفط والغاز أو مناجم الفحم المهجورة.",
+      "DEFINITION_EN": "Engineered sequestration in which captured carbon dioxide is injected for permanent storage into underground geologic reservoirs such as saline aquifers, oil and gas fields, or abandoned coal mines.",
+      "RELATIONS": [
+        "Carbon Stocks",
+        "Terrestrial Sequestration"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0023",
+      "AR_TERM": "التسعير الأخضر",
+      "EN_TERM": "Green pricing",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حل سوقي يدفع فيه عملاء الكهرباء رسومًا إضافية على فواتيرهم لدعم تطوير الطاقة المتجددة.",
+      "DEFINITION_EN": "A market solution in which electricity customers pay a premium on their utility bills to support renewable energy development.",
+      "RELATIONS": [
+        "Renewable Energy Resources"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0024",
+      "AR_TERM": "المضخة الحرارية الجوفية",
+      "EN_TERM": "Heat pump (geothermal)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مضخة حرارية يتبادل فيها وسيط التبريد الحرارة مع سائل يدور في وسيط متصل بالأرض مثل التربة أو المياه الجوفية، وتُركَّب في حلقات أفقية أو رأسية.",
+      "DEFINITION_EN": "A heat pump whose refrigerant exchanges heat with a fluid circulating through an earth connection medium such as ground or groundwater, installed in horizontal or vertical loops.",
+      "RELATIONS": [
+        "Hot Dry Rock"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0025",
+      "AR_TERM": "الصخور الجافة الساخنة",
+      "EN_TERM": "Hot dry rock",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "طاقة حرارية كامنة في صخور بلورية غير منفذة، وقد يُستخدم التكسير الهيدروليكي لخلق نفاذية تسمح بدوران الماء وسحب الحرارة.",
+      "DEFINITION_EN": "Heat energy residing in impermeable crystalline rock; hydraulic fracturing may be used to create permeability so that water can circulate and remove the heat.",
+      "RELATIONS": [
+        "Heat Pump (Geothermal)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0026",
+      "AR_TERM": "ارتفاع المحور",
+      "EN_TERM": "Hub height",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "في توربين الرياح ذي المحور الأفقي، المسافة من منصة التوربين إلى محور الدوران.",
+      "DEFINITION_EN": "In a horizontal-axis wind turbine, the distance from the turbine platform to the rotor shaft.",
+      "RELATIONS": [
+        "Wind Turbine",
+        "Variable-speed Wind Turbine"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0027",
+      "AR_TERM": "ارتفاع السقوط المائي",
+      "EN_TERM": "Hydraulic head",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الفارق الرأسي بين منسوب المياه في المصب الأعلى (مياه الرأس) ومنسوب المياه في المصب الأدنى (مياه الذيل) عند محطة كهرومائية.",
+      "DEFINITION_EN": "The vertical distance between the upstream water surface (headwater) and the downstream water surface (tailwater) at a hydroelectric plant.",
+      "RELATIONS": [
+        "Net Head",
+        "Low Head",
+        "Dam"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0028",
+      "AR_TERM": "المولد الكهربائي المتقطع",
+      "EN_TERM": "Intermittent electric generator",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منشأة توليد كهربائي يتحكم في إنتاجها التغير الطبيعي في مورد الطاقة لا أوامر تشغيل الشبكة، وهي غالبًا تحوّل الطاقة الشمسية أو الرياح أو طاقة الأنهار المجارية.",
+      "DEFINITION_EN": "An electric generating plant whose output is controlled by the natural variability of the energy resource rather than by system dispatch, typically converting solar, wind, or run-of-river hydro.",
+      "RELATIONS": [
+        "Renewable Energy Resources",
+        "Run-of-river Hydroelectric Plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0029",
+      "AR_TERM": "توربين كابلان",
+      "EN_TERM": "Kaplan turbine",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "توربين تفاعلي ذو ريشتين قابلتين لتغيير زاوية الميل، وقد تتحكم البوابات في زاوية تدفق السائل إلى الريش.",
+      "DEFINITION_EN": "A reaction turbine with two adjustable-pitch blades; gates may control the angle of fluid flow into the blades.",
+      "RELATIONS": [
+        "Water Turbine",
+        "Net Head"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0030",
+      "AR_TERM": "غاز المكبات",
+      "EN_TERM": "Landfill gas",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "غاز ينتج عن تحلل المواد العضوية في مواقع المكبات، ويحتوي في المتوسط على نحو خمسين بالمئة ميثان وخمسين بالمئة ثاني أكسيد الكربون وبخار ماء بالحجم.",
+      "DEFINITION_EN": "Gas generated by decomposition of organic material at landfill sites, averaging about 50 percent methane and 50 percent carbon dioxide and water vapor by volume.",
+      "RELATIONS": [
+        "Biomass Gas",
+        "Anaerobic Decomposition"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0031",
+      "AR_TERM": "السقوط المنخفض",
+      "EN_TERM": "Low head",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "فارق رأسي لا يتجاوز مئة قدم بين منسوب المياه في المصب الأعلى ومنسوبها في المصب الأدنى عند السد.",
+      "DEFINITION_EN": "A vertical difference of 100 feet or less between the upstream and downstream water surface elevations at a dam.",
+      "RELATIONS": [
+        "Hydraulic Head",
+        "Run-of-river Hydroelectric Plant"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0032",
+      "AR_TERM": "منشأة الحرق الجماعي",
+      "EN_TERM": "Mass burn facility",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "منشأة لحرق النفايات الصلبة البلدية تُحرق فيها النفايات بفرز أولي طفيف فقط لإزالة المواد الكبيرة أو الخطرة أو المتفجرة.",
+      "DEFINITION_EN": "A municipal solid waste incineration facility in which waste is burned with only minor presorting to remove oversize, hazardous, or explosive materials.",
+      "RELATIONS": [
+        "Municipal Solid Waste (MSW)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0033",
+      "AR_TERM": "الحالة المائية الوسطى",
+      "EN_TERM": "Median water condition",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "حالة الهطول والجريان الوسطى ضمن توزيع حالات المياه خلال فترة طويلة، وعادةً ما تُحدد بفحص سجل إمداد المياه.",
+      "DEFINITION_EN": "The middle precipitation and runoff condition within a distribution of water conditions over a long period, usually determined by examining the water supply record.",
+      "RELATIONS": [
+        "Average Water Conditions",
+        "Minimum Streamflow"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0034",
+      "AR_TERM": "أقل تصريف جري",
+      "EN_TERM": "Minimum streamflow",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "أدنى معدل لتدفق المياه عند نقطة معينة خلال فترة محددة.",
+      "DEFINITION_EN": "The lowest rate of water flow past a given point during a specified period.",
+      "RELATIONS": [
+        "Regulated Streamflow",
+        "Median Water Condition"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0035",
+      "AR_TERM": "الخزان متعدد الأغراض",
+      "EN_TERM": "Multiple purpose reservoir",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مياه مخزَّنة واستخداماتها التي تخضع لممارسات ترشيد الموارد المائية المتقدمة لتحقيق أكثر من هدف من أهداف إدارة المياه، مثل التحكم في الفيضانات وتوليد الكهرباء والري والترفيه.",
+      "DEFINITION_EN": "Stored water and its uses governed by advanced water resource conservation practices to achieve more than one water control objective, such as flood control, power, irrigation, and recreation.",
+      "RELATIONS": [
+        "Dam",
+        "Pondage"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0036",
+      "AR_TERM": "النفايات الصلبة البلدية",
+      "EN_TERM": "Municipal solid waste (MSW)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مخلفات تجمعها البلديات، وتشمل خليطًا من المواد السكنية والتجارية ذات الأجزاء الحيوية وغير الحيوية، وهي تُطرح عادةً في المكبات أو تُحرق.",
+      "DEFINITION_EN": "Waste collected from municipalities, including a mix of residential and commercial material with biogenic and non-biogenic fractions, typically landfilled or incinerated.",
+      "RELATIONS": [
+        "Mass Burn Facility",
+        "Biomass Waste"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0037",
+      "AR_TERM": "النفايات البلدية",
+      "EN_TERM": "Municipal waste",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كما يعرّفها قانون أمن الطاقة الأمريكي: أي مادة عضوية تشمل مياه الصرف الصحي والحمأة والمخلفات الصناعية أو التجارية، وخلائط هذه المواد مع الفضلات غير العضوية.",
+      "DEFINITION_EN": "As defined in the U.S. Energy Security Act, any organic matter including sewage, sewage sludge, and industrial or commercial waste, and mixtures of such matter with inorganic refuse.",
+      "RELATIONS": [
+        "Municipal Solid Waste (MSW)",
+        "Non-biomass Waste"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0038",
+      "AR_TERM": "السقوط الصافي",
+      "EN_TERM": "Net head",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الفارق الإجمالي في المنسوب مطروحًا منه جميع الفواقد المائية عدا الفواقد المنسوبة إلى التوربين.",
+      "DEFINITION_EN": "Gross head minus all hydraulic losses except those chargeable to the turbine.",
+      "RELATIONS": [
+        "Hydraulic Head",
+        "Water Turbine"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0039",
+      "AR_TERM": "النفايات غير الحيوية",
+      "EN_TERM": "Non-biomass waste",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مادة ذات أصل غير بيولوجي تنتج كمنتج ثانوي أو كمنتج متخلَّى عنه، وتشمل النفايات الصلبة البلدية غير الحيوية مثل البلاستيك والوقود المشتق من الإطارات.",
+      "DEFINITION_EN": "Material of non-biological origin that is a byproduct or a discarded product, including non-biogenic municipal solid waste such as plastics and tire-derived fuels.",
+      "RELATIONS": [
+        "Biomass Waste",
+        "Municipal Solid Waste (MSW)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0040",
+      "AR_TERM": "أنظمة طاقة المحيطات",
+      "EN_TERM": "Ocean energy systems",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تقنيات تحويل الطاقة التي تستثمر طاقة المدّ والأمواج وفروق الحرارة في المحيطات.",
+      "DEFINITION_EN": "Energy conversion technologies that harness the energy in tides, waves, and thermal gradients in the oceans.",
+      "RELATIONS": [
+        "Ocean Thermal Energy Conversion (OTEC)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0041",
+      "AR_TERM": "تحويل الطاقة الحرارية للمحيطات",
+      "EN_TERM": "Ocean thermal energy conversion (OTEC)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تقنية تستثمر فرق درجة الحرارة بين المياه السطحية الدافئة والمياه العميقة الباردة، حيث تُبخّر المياه الدافئة سائلًا عاملًا يدير توربينًا مولِّدًا للكهرباء.",
+      "DEFINITION_EN": "Technology that harnesses temperature differences between warm surface water and cold deep water; warm water vaporizes a working fluid that drives a turbine-generator.",
+      "RELATIONS": [
+        "Ocean Energy Systems"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0042",
+      "AR_TERM": "المجرى المقعّر",
+      "EN_TERM": "Parabolic trough",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مُركِّز حراري شمسي عالي الحرارة فوق مئة وثمانين درجة فهرنهايت، قادر على تتبّع الشمس باستخدام محور دوران واحد.",
+      "DEFINITION_EN": "A high-temperature (above 180 degrees Fahrenheit) solar thermal concentrator with the capacity to track the sun using one axis of rotation.",
+      "RELATIONS": [
+        "Concentrating Solar Power",
+        "Concentrator"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0043",
+      "AR_TERM": "التسخين الشمسي السلبي",
+      "EN_TERM": "Passive solar heating",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "نظام تسخين شمسي لا يستخدم طاقة ميكانيكية خارجية، مثل المضخات أو المنفاخات، لنقل الحرارة الشمسية المجموعة.",
+      "DEFINITION_EN": "A solar heating system that uses no external mechanical power, such as pumps or blowers, to move the collected solar heat.",
+      "RELATIONS": [
+        "Active Solar",
+        "Solar Thermal Collector"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0044",
+      "AR_TERM": "الوحدة الكهروضوئية",
+      "EN_TERM": "Photovoltaic module",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "تجميعة متكاملة من خلايا كهروضوئية مترابطة مصممة لتوفير مستوى محدد من الجهد والتيار، ومغلفة لحماية الخلايا من التدهور البيئي.",
+      "DEFINITION_EN": "An integrated assembly of interconnected photovoltaic cells designed to deliver a selected level of voltage and current, packaged for protection against environmental degradation.",
+      "RELATIONS": [
+        "Photovoltaic Cell (PVC)"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0045",
+      "AR_TERM": "التخزين المائي المؤقت",
+      "EN_TERM": "Pondage",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "كمية المياه المخزَّنة خلف سد كهرومائي ذي سعة تخزين صغيرة نسبيًا، وتُستخدم عادةً لضبط تدفق النهر يوميًا أو أسبوعيًا.",
+      "DEFINITION_EN": "The amount of water stored behind a hydroelectric dam of relatively small storage capacity, usually used for daily or weekly control of river flow.",
+      "RELATIONS": [
+        "Dam",
+        "Multiple Purpose Reservoir"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0046",
+      "AR_TERM": "رقائق خشب اللب",
+      "EN_TERM": "Pulp chips",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "الأخشاب أو المخلفات التي تُعالج لتصبح قطعًا خشبية صغيرة ذات أبعاد متقاربة بدرجة عالية مع نسبة ضئيلة من اللحاء.",
+      "DEFINITION_EN": "Timber or residues processed into small pieces of wood of more or less uniform dimensions with minimal amounts of bark.",
+      "RELATIONS": [
+        "Black Liquor",
+        "Fuel Wood"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0047",
+      "AR_TERM": "التصريف المنظَّم",
+      "EN_TERM": "Regulated streamflow",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "معدل التدفق عند نقطة معينة خلال فترة محددة، تتحكم فيه عمليات تصريف المياه من الخزان.",
+      "DEFINITION_EN": "The rate of flow past a given point during a specified period that is controlled by reservoir water release operations.",
+      "RELATIONS": [
+        "Minimum Streamflow",
+        "Pondage"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0048",
+      "AR_TERM": "وقود الديزيل المتجدد",
+      "EN_TERM": "Renewable diesel fuel",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود هيدروكربوني متجدد ينتج من المعالجة بالهيدروجين للدهون الحيوانية والزيوت النباتية والشحوم المعاد تدويرها، ويُستخدم كبديل مباشر للديزل النفطي دون تعديل المحرك.",
+      "DEFINITION_EN": "A renewable hydrocarbon fuel produced by hydrotreating animal fats, vegetable oils, and recycled grease; a drop-in replacement for petroleum diesel.",
+      "RELATIONS": [
+        "Biomass-based Diesel Fuel",
+        "Renewable Naphtha"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0049",
+      "AR_TERM": "مصادر الطاقة المتجددة",
+      "EN_TERM": "Renewable energy resources",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "مصادر طاقة تُجدَّد طبيعيًا لكنها محدودة بمعدل التدفق، تكاد لا تنفد من حيث الزمن إلا أنها محدودة في الطاقة المتاحة لكل وحدة زمنية.",
+      "DEFINITION_EN": "Energy resources that are naturally replenishing but flow-limited; virtually inexhaustible in duration yet limited in the amount available per unit of time.",
+      "RELATIONS": [
+        "Green Pricing",
+        "Intermittent Electric Generator"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0050",
+      "AR_TERM": "معيار الوقود المتجدد",
+      "EN_TERM": "Renewable Fuel Standard (RFS)",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "برنامج لمكتب حماية البيئة الأمريكي يُنفَّذ بالتعاون مع وزارتي الزراعة والطاقة، ويشترط حد أدنى من كميات الوقود المتجدد في وقود النقل المباع في الولايات المتحدة مع زيادتها سنويًا.",
+      "DEFINITION_EN": "A U.S. Environmental Protection Agency program, implemented with the U.S. Department of Agriculture and Energy, requiring a minimum volume of renewable fuels in transportation fuel sold in the United States, increasing annually.",
+      "RELATIONS": [
+        "Biofuels",
+        "Renewable Energy Resources"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0051",
+      "AR_TERM": "البنزين المتجدد",
+      "EN_TERM": "Renewable gasoline",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود هيدروكربوني متجدد يُعد بديلًا لبنزين المحركات النفطي، ويمكن استخدامه في محركات البنزين دون تعديل.",
+      "DEFINITION_EN": "A renewable hydrocarbon fuel considered a replacement for petroleum motor gasoline that can be used in motor gasoline engines without modification.",
+      "RELATIONS": [
+        "Renewable Diesel Fuel",
+        "Renewable Naphtha"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0052",
+      "AR_TERM": "وقود الطائرات المتجدد",
+      "EN_TERM": "Renewable jet fuel",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود هيدروكربوني متجدد يُخلط عادةً بوقود نفاث قائم على الكيروسين النفطي، ويُعرف أيضًا بوقود الطيران المستدام.",
+      "DEFINITION_EN": "A renewable hydrocarbon fuel typically blended with petroleum-based kerosene jet fuel; also known as sustainable aviation fuel.",
+      "RELATIONS": [
+        "Renewable Naphtha",
+        "Biofuels"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0053",
+      "AR_TERM": "النافثا المتجددة",
+      "EN_TERM": "Renewable naphtha",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "وقود متجدد يتكوّن من جزيئات هيدروكربونية ويُعد بديلًا عن مواد التغذية البتروكيماوية في مدى النافثا.",
+      "DEFINITION_EN": "A renewable fuel consisting of hydrocarbon molecules and considered a replacement for naphtha-range petrochemical feedstocks.",
+      "RELATIONS": [
+        "Renewable Gasoline",
+        "Biobutanol"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0054",
+      "AR_TERM": "تحديث القدرة التوليدية",
+      "EN_TERM": "Repowering",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "استبدال تقنية توليد الطاقة أو مصدر الطاقة في محطة قائمة بتقنية أحدث، بما يحسن الكفاءة أو يقلل الانبعاثات أو يزيد القدرة مع إعادة استخدام البنية التحتية القائمة.",
+      "DEFINITION_EN": "Replacing the power-generating technology or energy source of an existing plant with newer technology, improving efficiency, reducing emissions, or increasing capacity while reusing existing infrastructure.",
+      "RELATIONS": [
+        "Wind Power Plant",
+        "Renewable Energy Resources"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-RES-0055",
+      "AR_TERM": "التوربين العكسي",
+      "EN_TERM": "Reversible turbine",
+      "DOMAIN": "Renewable Energy and Sustainability",
+      "DEFINITION_AR": "توربين مائي، يُركَّب عادةً في محطة ضخ وتخزين، ويمكن استخدامه بدلًا من ذلك كمضخة أو محرك أو عجلة مائية لتشغيل مولد كهربائي.",
+      "DEFINITION_EN": "A hydraulic turbine, normally installed in a pumped-storage plant, that can alternatively be used as a pump, an engine, or a water wheel to drive an electrical generator.",
+      "RELATIONS": [
+        "Water Turbine",
+        "Kaplan Turbine"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "U.S. Energy Information Administration (EIA) Glossary",
+      "VERSION": "1.0"
     }
   ]
 }

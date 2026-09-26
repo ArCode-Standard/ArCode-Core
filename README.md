@@ -65,7 +65,7 @@ Example structure:
 
 ## 📈 Current Coverage
 
-- **18000 terms** in the dictionary (`dictionary.json`)
+- **18065 terms** in the dictionary (`dictionary.json`)
 - **1000 Computer Science terms** (ACS-CS-0001 → ACS-CS-1000) — a complete, dedicated dictionary covering theory of computation, data structures, algorithms, programming paradigms, software engineering, operating systems, concurrency, databases, computer architecture, hardware, networking basics, security and more
 - **1000 Artificial Intelligence terms** (ACS-AI-0001 → ACS-AI-1000) — a complete, dedicated dictionary covering machine learning, classical ML algorithms, deep learning, neural networks, NLP, computer vision, reinforcement learning, robotics, generative AI, large language models, AI ethics and governance
 - **1000 Networking terms** (ACS-NET-0001 → ACS-NET-1000) — a complete, dedicated dictionary covering network fundamentals, OSI/TCP/IP layers, protocols, routing and switching, network devices, wireless networks, network security, cloud networking, network management and emerging concepts
@@ -84,7 +84,7 @@ Example structure:
 - **1000 Astronomy terms** (ACS-ASTR-0001 → ACS-ASTR-1000) — a complete, dedicated dictionary covering observational astronomy, the solar system, stellar evolution, galaxies, cosmology, telescopes and instruments, celestial mechanics, space exploration, radio astronomy and black holes
 - **1000 Geology terms** (ACS-GEO-0001 → ACS-GEO-1000) — a complete, dedicated dictionary covering petrology, mineralogy, stratigraphy, structural geology, faults and folds, earthquakes, volcanoes, plate tectonics, geomorphology, paleontology, economic geology, groundwater and geological time
 - **1000 Statistics terms** (ACS-STAT-0001 → ACS-STAT-1000) — a complete, dedicated dictionary covering descriptive statistics, probability and probability distributions, statistical inference, parameter estimation, hypothesis testing, regression and correlation analysis, sampling, experimental design, biostatistics, time series and big data
-- 18 registered domains with official codes, all covered
+- 19 registered domains with official codes (18 complete, `RES` in progress)
 
 | Domain | Code | Terms |
 |--------|------|-------|
@@ -106,6 +106,7 @@ Example structure:
 | Astronomy | ASTR | 1000 |
 | Geology | GEO | 1000 |
 | Statistics | STAT | 1000 |
+| Renewable Energy and Sustainability | RES | 55 (in progress, target 1000) |
 
 ---
 

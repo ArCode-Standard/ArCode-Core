@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- New domain `RES` — Renewable Energy and Sustainability / الطاقة المتجددة والاستدامة
+- First sourced batch of 55 real terms (`ACS-RES-0001` … `ACS-RES-0055`) defined by the
+  U.S. Energy Information Administration (EIA) glossary, each with an Arabic term,
+  Arabic definition, and English definition: <https://www.eia.gov/tools/glossary/>
+- `test.js` now pins the expected term/domain counts and asserts the RES domain exists
+  and only grows
+
+### Changed
+
+- `standard.json` and `domain_list.json` updated with the `RES` domain code
+- `docs/i18n.js`: added the RES domain label (Arabic + English) and removed leftover
+  `Renewable Energy` / `Quantum Computing` keys from the reverted placeholder domains
+- Regenerated `docs/api/stats.json`, `docs/api/domains.json`, and `docs/api/search-index.json`
+  (18,010 → 18,065 terms, 18 → 19 domains)
+- Dictionary now totals 18,065 terms across 19 domains
+
 ## [1.2.0] - 2026-08-01
 
 ### Added

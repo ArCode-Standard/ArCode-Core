@@ -17,6 +17,7 @@
     { "code": "AGR",  "name": "Agriculture" },
     { "code": "ASTR", "name": "Astronomy" },
     { "code": "GEO",  "name": "Geology" },
-    { "code": "STAT", "name": "Statistics" }
+    { "code": "STAT", "name": "Statistics" },
+    { "code": "RES",  "name": "Renewable Energy and Sustainability" }
   ]
 }
