@@ -56,6 +56,7 @@ async function loadDictionary() {
     const indexData = await indexRes.json();
     allTerms = indexData.terms || [];
     document.getElementById("statTerms").textContent = allTerms.length.toLocaleString("en-US");
+    document.getElementById("statDomains").textContent = domainList().length.toLocaleString("en-US");
     renderFilters();
     renderResults();
 
