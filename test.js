@@ -1,8 +1,8 @@
 const assert = require("assert");
 const api = require("./index.js");
 
-assert.strictEqual(api.meta.termCount, 18000, "termCount should be 18000");
-assert.strictEqual(api.terms.length, 18000);
+assert.strictEqual(api.meta.termCount, 18010, "termCount should be 18010");
+assert.strictEqual(api.terms.length, 18010);
 
 const cs1 = api.byId("ACS-CS-0001");
 assert(cs1 && cs1.DOMAIN === "Computer Science", "byId should find ACS-CS-0001");

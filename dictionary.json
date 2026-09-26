@@ -180004,6 +180004,156 @@
       "DEFINITION_EN": "A kriging applied to binary indicator variables estimating spatial threshold-exceedance probabilities.",
       "STATUS": "Approved",
       "SOURCE": "الجمعية الإحصائية الملكية"
+    },
+    {
+      "ACS_ID": "ACS-AI-1010",
+      "AR_TERM": "التكيف منخفض الرتبة",
+      "EN_TERM": "LoRA",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقنية كفؤة لضبط نماذج اللغات الكبيرة عبر تثبيت أوزان النموذج الأصلي وتدريب مصفوفات تحليل منخفضة الرتبة فقط.",
+      "DEFINITION_EN": "An efficient fine-tuning technique for large language models that freezes original weights and trains low-rank decomposition matrices.",
+      "RELATIONS": [
+        "Fine-tuning",
+        "Large Language Models"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "ICLR Research",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1011",
+      "AR_TERM": "التكيف منخفض الرتبة الكمومي",
+      "EN_TERM": "QLoRA",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقنية متقدمة تدمج التكميم الكمومي مع التكيف منخفض الرتبة لتقليل استهلاك الذاكرة أثناء ضبط النماذج الكبيرة.",
+      "DEFINITION_EN": "An advanced technique combining quantization with low-rank adaptation to significantly reduce memory footprint during model fine-tuning.",
+      "RELATIONS": [
+        "LoRA",
+        "Model Quantization"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "NeurIPS Proceedings",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1012",
+      "AR_TERM": "تحسين التفضيل المباشر",
+      "EN_TERM": "Direct Preference Optimization",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خوارزمية محاذاة لنماذج اللغات الكبيرة توفر تفضيلات البشر مباشرة دون الحاجة لتدريب نموذج مكافأة منفصل.",
+      "DEFINITION_EN": "An alignment algorithm for large language models that optimizes human preferences directly without training a separate reward model.",
+      "RELATIONS": [
+        "AI Alignment",
+        "Reinforcement Learning"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "NeurIPS Proceedings",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1013",
+      "AR_TERM": "التدريب الواعي بالتكميم",
+      "EN_TERM": "Quantization-Aware Training",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "محاكاة أخطاء التكميم أثناء مرحلة تدريب النموذج لتقليل فقدان الدقة عند تحويل الأوزان إلى دقة منخفضة.",
+      "DEFINITION_EN": "Simulating quantization errors during model training to minimize accuracy loss when converting weights to low precision.",
+      "RELATIONS": [
+        "Model Quantization",
+        "Deep Learning"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IEEE Neural Networks",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1014",
+      "AR_TERM": "الاستدلال التنبؤي",
+      "EN_TERM": "Speculative Decoding",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تقنية تسريع استدلال نماذج اللغات باستخدام نموذج أصغر وأسرع لاقتراح الرموز ثم التحقق منها بالنموذج الكبير دفعة واحدة.",
+      "DEFINITION_EN": "An inference acceleration technique using a smaller, faster model to draft tokens followed by verification with the large model.",
+      "RELATIONS": [
+        "Model Inference",
+        "Large Language Models"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "ICML Proceedings",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1015",
+      "AR_TERM": "الانتباه السريع",
+      "EN_TERM": "FlashAttention",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "خوارزمية محسنة لحساب الانتباه في المحولات تزيد السرعة وتقلل استهلاك الذاكرة عبر تسريع الوصول لذاكرة التخزين المؤقت.",
+      "DEFINITION_EN": "An optimized attention algorithm for Transformers that accelerates speed and reduces memory usage via IO-aware GPU memory management.",
+      "RELATIONS": [
+        "Transformer",
+        "Deep Learning"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "Stanford DAWN Lab",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1016",
+      "AR_TERM": "الضبط الدقيق المعزز بالاسترجاع",
+      "EN_TERM": "Retrieval-Augmented Fine-Tuning",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "دمج عمليات استرجاع المعلومات الخارجية مع الضبط الدقيق للنموذج لتحسين اكتساب المعرفة وتحديثها.",
+      "DEFINITION_EN": "Integrating external information retrieval with model fine-tuning to improve knowledge acquisition and updating.",
+      "RELATIONS": [
+        "Fine-tuning",
+        "Retrieval-Augmented Generation"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "ACL Anthology",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1017",
+      "AR_TERM": "مزيج الوكلاء",
+      "EN_TERM": "Mixture-of-Agents",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "معمارية تجمع عدة وكلاء ذكاء اصطناعي يعملون بشكل تعاوني وتتابعي لتحسين جودة الحلول والمخرجات المعقدة.",
+      "DEFINITION_EN": "An architecture combining multiple AI agents working collaboratively and iteratively to enhance complex problem-solving.",
+      "RELATIONS": [
+        "AI Agent",
+        "Generative AI"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "arXiv Research Papers",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1018",
+      "AR_TERM": "الحوسبة وقت الاستدلال",
+      "EN_TERM": "Test-Time Compute",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "تخصيص طاقة وقدرة حسابية إضافية أثناء مرحلة الاستدلال مثل البحث والتفكير والتصحيح الذاتي لتعزيز أداء النموذج.",
+      "DEFINITION_EN": "Allocating additional computational power during the inference phase such as search, reasoning, and self-correction to boost model performance.",
+      "RELATIONS": [
+        "Model Inference",
+        "Reasoning"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "OpenAI Research",
+      "VERSION": "1.0"
+    },
+    {
+      "ACS_ID": "ACS-AI-1019",
+      "AR_TERM": "تكميم التنشيط",
+      "EN_TERM": "Activation Quantization",
+      "DOMAIN": "Artificial Intelligence",
+      "DEFINITION_AR": "عملية ضغط قيم التنشيط الناتجة عن طبقات الشبكة العصبية لتقليل استهلاك الذاكرة وتسريع التشغيل.",
+      "DEFINITION_EN": "The process of compressing activation values produced by neural network layers to reduce memory usage and accelerate execution.",
+      "RELATIONS": [
+        "Model Quantization",
+        "Neural Networks"
+      ],
+      "STATUS": "Approved",
+      "SOURCE": "IEEE Transactions on AI",
+      "VERSION": "1.0"
     }
   ]
 }
