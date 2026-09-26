@@ -1,9 +1,9 @@
 const assert = require("assert");
 const api = require("./index.js");
 
-const EXPECTED_TERM_COUNT = 18168;
+const EXPECTED_TERM_COUNT = 18237;
 const EXPECTED_DOMAIN_COUNT = 19;
-const RES_MIN_TERMS = 158;
+const RES_MIN_TERMS = 227;
 
 assert.strictEqual(api.meta.termCount, EXPECTED_TERM_COUNT, `termCount should be ${EXPECTED_TERM_COUNT}`);
 assert.strictEqual(api.terms.length, EXPECTED_TERM_COUNT);
